@@ -1,0 +1,651 @@
+[0.002s][info][gc] Min heap equals to max heap, disabling ShenandoahUncommit
+[0.002s][info][gc] Consider -XX:+ClassUnloadingWithConcurrentMark if large pause times are observed on class-unloading sensitive workloads
+[0.004s][info][gc,init] Regions: 2048 x 4096K
+[0.004s][info][gc,init] Humongous object threshold: 4096K
+[0.004s][info][gc,init] Max TLAB size: 4096K
+[0.004s][info][gc,init] GC threads: 4 parallel, 2 concurrent
+[0.004s][info][gc     ] Heuristics ergonomically sets -XX:+ExplicitGCInvokesConcurrent
+[0.004s][info][gc     ] Heuristics ergonomically sets -XX:+ShenandoahImplicitGCInvokesConcurrent
+[0.004s][info][gc,init] Shenandoah GC mode: Normal
+[0.004s][info][gc,init] Shenandoah heuristics: adaptive
+[0.004s][info][gc,ergo] Pacer for Idle. Initial: 163M, Alloc Tax Rate: 1.0x
+[0.004s][info][gc,init] Initialize Shenandoah heap: 8192M initial, 8192M min, 8192M max
+[0.004s][info][gc,init] Safepointing mechanism: global-page poll
+[0.004s][info][gc     ] Using Shenandoah
+[0.004s][info][gc,heap,coops] Heap address: 0x0000000600000000, size: 8192 MB, Compressed Oops mode: Zero based, Oop shift amount: 3
+[0.013s][info][gc,init      ] Reference processing: parallel discovery, parallel processing
+[0.876s][info][gc           ] Trigger: Metadata GC Threshold
+[0.876s][info][gc,ergo      ] Free: 7724M, Max: 4096K regular, 7724M humongous, Frag: 0% external, 0% internal; Reserve: 412M, Max: 4096K
+[0.876s][info][gc,start     ] GC(0) Concurrent reset
+[0.876s][info][gc,task      ] GC(0) Using 2 of 4 workers for concurrent reset
+[0.876s][info][gc,ergo      ] GC(0) Pacer for Reset. Non-Taxable: 8192M
+[0.876s][info][gc           ] GC(0) Concurrent reset 0.252ms
+[0.877s][info][gc,start     ] GC(0) Pause Init Mark (process weakrefs) (unload classes)
+[0.877s][info][gc,task      ] GC(0) Using 4 of 4 workers for init marking
+[0.878s][info][gc,ergo      ] GC(0) Pacer for Mark. Expected Live: 819M, Free: 7724M, Non-Taxable: 772M, Alloc Tax Rate: 0.4x
+[0.878s][info][gc           ] GC(0) Pause Init Mark (process weakrefs) (unload classes) 1.692ms
+[0.878s][info][gc,start     ] GC(0) Concurrent marking (process weakrefs) (unload classes)
+[0.878s][info][gc,task      ] GC(0) Using 2 of 4 workers for concurrent marking
+[0.883s][info][gc           ] GC(0) Concurrent marking (process weakrefs) (unload classes) 4.315ms
+[0.883s][info][gc,start     ] GC(0) Concurrent precleaning
+[0.883s][info][gc,task      ] GC(0) Using 1 of 4 workers for concurrent preclean
+[0.883s][info][gc,ergo      ] GC(0) Pacer for Precleaning. Non-Taxable: 8192M
+[0.883s][info][gc           ] GC(0) Concurrent precleaning 0.232ms
+[0.883s][info][gc,start     ] GC(0) Pause Final Mark (process weakrefs) (unload classes)
+[0.883s][info][gc,task      ] GC(0) Using 4 of 4 workers for final marking
+[0.885s][info][gc,stringtable] GC(0) Cleaned string and symbol table, strings: 9281 processed, 0 removed, symbols: 68910 processed, 23 removed
+[0.886s][info][gc,ergo       ] GC(0) Adaptive CSet Selection. Target Free: 1160M, Actual Free: 8128M, Max CSet: 341M, Min Garbage: 0B
+[0.886s][info][gc,ergo       ] GC(0) Collectable Garbage: 48448K (100%), Immediate: 0B (0%), CSet: 48448K (100%)
+[0.886s][info][gc,ergo       ] GC(0) Pacer for Evacuation. Used CSet: 57344K, Free: 7716M, Non-Taxable: 771M, Alloc Tax Rate: 1.1x
+[0.886s][info][gc            ] GC(0) Pause Final Mark (process weakrefs) (unload classes) 3.175ms
+[0.886s][info][gc,start      ] GC(0) Concurrent cleanup
+[0.886s][info][gc            ] GC(0) Concurrent cleanup 64M->68M(8192M) 0.045ms
+[0.886s][info][gc,ergo       ] GC(0) Free: 7712M, Max: 4096K regular, 7712M humongous, Frag: 0% external, 0% internal; Reserve: 411M, Max: 4096K
+[0.886s][info][gc,start      ] GC(0) Concurrent evacuation
+[0.886s][info][gc,task       ] GC(0) Using 2 of 4 workers for concurrent evacuation
+[0.891s][info][gc            ] GC(0) Concurrent evacuation 4.539ms
+[0.891s][info][gc,start      ] GC(0) Pause Init Update Refs
+[0.891s][info][gc,ergo       ] GC(0) Pacer for Update Refs. Used: 81920K, Free: 7712M, Non-Taxable: 771M, Alloc Tax Rate: 1.1x
+[0.891s][info][gc            ] GC(0) Pause Init Update Refs 0.033ms
+[0.891s][info][gc,start      ] GC(0) Concurrent update references
+[0.891s][info][gc,task       ] GC(0) Using 2 of 4 workers for concurrent reference update
+[0.895s][info][gc            ] GC(0) Concurrent update references 4.072ms
+[0.895s][info][gc,start      ] GC(0) Pause Final Update Refs
+[0.895s][info][gc,task       ] GC(0) Using 4 of 4 workers for final reference update
+[0.896s][info][gc            ] GC(0) Pause Final Update Refs 0.271ms
+[0.896s][info][gc,start      ] GC(0) Concurrent cleanup
+[0.896s][info][gc            ] GC(0) Concurrent cleanup 84M->28M(8192M) 0.039ms
+[0.896s][info][gc,ergo       ] Free: 7752M, Max: 4096K regular, 7696M humongous, Frag: 1% external, 0% internal; Reserve: 412M, Max: 4096K
+[0.896s][info][gc,metaspace  ] Metaspace: 20546K->20754K(1069056K)
+[0.896s][info][gc,ergo       ] Pacer for Idle. Initial: 163M, Alloc Tax Rate: 1.0x
+[2.815s][info][gc            ] Trigger: Metadata GC Threshold
+[2.815s][info][gc,ergo       ] Free: 6784M, Max: 4096K regular, 6784M humongous, Frag: 0% external, 0% internal; Reserve: 412M, Max: 4096K
+[2.815s][info][gc,start      ] GC(1) Concurrent reset
+[2.815s][info][gc,task       ] GC(1) Using 2 of 4 workers for concurrent reset
+[2.815s][info][gc,ergo       ] GC(1) Pacer for Reset. Non-Taxable: 8192M
+[2.815s][info][gc            ] GC(1) Concurrent reset 0.322ms
+[2.816s][info][gc,start      ] GC(1) Pause Init Mark (unload classes)
+[2.816s][info][gc,task       ] GC(1) Using 4 of 4 workers for init marking
+[2.817s][info][gc,ergo       ] GC(1) Pacer for Mark. Expected Live: 8895K, Free: 6784M, Non-Taxable: 678M, Alloc Tax Rate: 0.0x
+[2.817s][info][gc            ] GC(1) Pause Init Mark (unload classes) 1.378ms
+[2.817s][info][gc,start      ] GC(1) Concurrent marking (unload classes)
+[2.817s][info][gc,task       ] GC(1) Using 2 of 4 workers for concurrent marking
+[2.841s][info][gc            ] GC(1) Concurrent marking (unload classes) 23.670ms
+[2.841s][info][gc,start      ] GC(1) Pause Final Mark (unload classes)
+[2.841s][info][gc,task       ] GC(1) Using 4 of 4 workers for final marking
+[2.846s][info][gc,stringtable] GC(1) Cleaned string and symbol table, strings: 14024 processed, 0 removed, symbols: 93596 processed, 91 removed
+[2.846s][info][gc,ergo       ] GC(1) Adaptive CSet Selection. Target Free: 1160M, Actual Free: 7208M, Max CSet: 341M, Min Garbage: 0B
+[2.846s][info][gc,ergo       ] GC(1) Collectable Garbage: 957M (99%), Immediate: 24576K (2%), CSet: 933M (97%)
+[2.848s][info][gc,ergo       ] GC(1) Pacer for Evacuation. Used CSet: 960M, Free: 6796M, Non-Taxable: 679M, Alloc Tax Rate: 1.1x
+[2.848s][info][gc            ] GC(1) Pause Final Mark (unload classes) 6.230ms
+[2.848s][info][gc,start      ] GC(1) Concurrent cleanup
+[2.848s][info][gc            ] GC(1) Concurrent cleanup 1008M->992M(8192M) 0.062ms
+[2.848s][info][gc,ergo       ] GC(1) Free: 6788M, Max: 4096K regular, 6772M humongous, Frag: 1% external, 0% internal; Reserve: 411M, Max: 4096K
+[2.848s][info][gc,start      ] GC(1) Concurrent evacuation
+[2.848s][info][gc,task       ] GC(1) Using 2 of 4 workers for concurrent evacuation
+[2.864s][info][gc            ] GC(1) Concurrent evacuation 16.742ms
+[2.865s][info][gc,start      ] GC(1) Pause Init Update Refs
+[2.865s][info][gc,ergo       ] GC(1) Pacer for Update Refs. Used: 1035M, Free: 6780M, Non-Taxable: 678M, Alloc Tax Rate: 1.1x
+[2.865s][info][gc            ] GC(1) Pause Init Update Refs 0.082ms
+[2.865s][info][gc,start      ] GC(1) Concurrent update references
+[2.865s][info][gc,task       ] GC(1) Using 2 of 4 workers for concurrent reference update
+[2.881s][info][gc            ] GC(1) Concurrent update references 16.023ms
+[2.881s][info][gc,start      ] GC(1) Pause Final Update Refs
+[2.881s][info][gc,task       ] GC(1) Using 4 of 4 workers for final reference update
+[2.882s][info][gc            ] GC(1) Pause Final Update Refs 0.298ms
+[2.882s][info][gc,start      ] GC(1) Concurrent cleanup
+[2.882s][info][gc            ] GC(1) Concurrent cleanup 1043M->83M(8192M) 0.060ms
+[2.882s][info][gc,ergo       ] Free: 7696M, Max: 4096K regular, 6740M humongous, Frag: 13% external, 0% internal; Reserve: 412M, Max: 4096K
+[2.882s][info][gc,metaspace  ] Metaspace: 34791K->35058K(1081344K)
+[2.882s][info][gc,ergo       ] Pacer for Idle. Initial: 163M, Alloc Tax Rate: 1.0x
+[6.370s][info][gc            ] Trigger: Learning 3 of 5. Free (5725M) is below initial threshold (5734M)
+[6.370s][info][gc,ergo       ] Free: 5725M, Max: 4096K regular, 5724M humongous, Frag: 0% external, 0% internal; Reserve: 412M, Max: 4096K
+[6.370s][info][gc,start      ] GC(2) Concurrent reset
+[6.370s][info][gc,task       ] GC(2) Using 2 of 4 workers for concurrent reset
+[6.370s][info][gc,ergo       ] GC(2) Pacer for Reset. Non-Taxable: 8192M
+[6.376s][info][gc            ] GC(2) Concurrent reset 5.365ms
+[6.376s][info][gc,start      ] GC(2) Pause Init Mark
+[6.376s][info][gc,task       ] GC(2) Using 4 of 4 workers for init marking
+[6.377s][info][gc,ergo       ] GC(2) Pacer for Mark. Expected Live: 23898K, Free: 5725M, Non-Taxable: 572M, Alloc Tax Rate: 0.0x
+[6.377s][info][gc            ] GC(2) Pause Init Mark 0.751ms
+[6.377s][info][gc,start      ] GC(2) Concurrent marking
+[6.377s][info][gc,task       ] GC(2) Using 2 of 4 workers for concurrent marking
+[6.398s][info][gc            ] GC(2) Concurrent marking 21.270ms
+[6.399s][info][gc,start      ] GC(2) Pause Final Mark
+[6.399s][info][gc,task       ] GC(2) Using 4 of 4 workers for final marking
+[6.399s][info][gc,ergo       ] GC(2) Adaptive CSet Selection. Target Free: 1160M, Actual Free: 6861M, Max CSet: 341M, Min Garbage: 0B
+[6.399s][info][gc,ergo       ] GC(2) Collectable Garbage: 1636M (99%), Immediate: 741M (45%), CSet: 895M (54%)
+[6.400s][info][gc,ergo       ] GC(2) Pacer for Evacuation. Used CSet: 907M, Free: 6504M, Non-Taxable: 650M, Alloc Tax Rate: 1.1x
+[6.400s][info][gc            ] GC(2) Pause Final Mark 1.397ms
+[6.400s][info][gc,start      ] GC(2) Concurrent cleanup
+[6.400s][info][gc            ] GC(2) Concurrent cleanup 1986M->1248M(8192M) 0.052ms
+[6.400s][info][gc,ergo       ] GC(2) Free: 6500M, Max: 4096K regular, 5708M humongous, Frag: 13% external, 0% internal; Reserve: 410M, Max: 4096K
+[6.400s][info][gc,start      ] GC(2) Concurrent evacuation
+[6.400s][info][gc,task       ] GC(2) Using 2 of 4 workers for concurrent evacuation
+[6.409s][info][gc            ] GC(2) Concurrent evacuation 9.020ms
+[6.410s][info][gc,start      ] GC(2) Pause Init Update Refs
+[6.410s][info][gc,ergo       ] GC(2) Pacer for Update Refs. Used: 1267M, Free: 6496M, Non-Taxable: 649M, Alloc Tax Rate: 1.1x
+[6.410s][info][gc            ] GC(2) Pause Init Update Refs 0.051ms
+[6.410s][info][gc,start      ] GC(2) Concurrent update references
+[6.410s][info][gc,task       ] GC(2) Using 2 of 4 workers for concurrent reference update
+[6.425s][info][gc            ] GC(2) Concurrent update references 15.488ms
+[6.426s][info][gc,start      ] GC(2) Pause Final Update Refs
+[6.426s][info][gc,task       ] GC(2) Using 4 of 4 workers for final reference update
+[6.426s][info][gc            ] GC(2) Pause Final Update Refs 0.365ms
+[6.426s][info][gc,start      ] GC(2) Concurrent cleanup
+[6.426s][info][gc            ] GC(2) Concurrent cleanup 1275M->367M(8192M) 0.049ms
+[6.426s][info][gc,ergo       ] Free: 7380M, Max: 4096K regular, 5704M humongous, Frag: 23% external, 0% internal; Reserve: 412M, Max: 4096K
+[6.426s][info][gc,metaspace  ] Metaspace: 51324K->51612K(1095680K)
+[6.426s][info][gc,ergo       ] Pacer for Idle. Initial: 163M, Alloc Tax Rate: 1.0x
+[10.075s][info][gc            ] Trigger: Learning 4 of 5. Free (5732M) is below initial threshold (5734M)
+[10.075s][info][gc,ergo       ] Free: 5732M, Max: 4096K regular, 5704M humongous, Frag: 1% external, 0% internal; Reserve: 412M, Max: 4096K
+[10.075s][info][gc,start      ] GC(3) Concurrent reset
+[10.075s][info][gc,task       ] GC(3) Using 2 of 4 workers for concurrent reset
+[10.075s][info][gc,ergo       ] GC(3) Pacer for Reset. Non-Taxable: 8192M
+[10.077s][info][gc            ] GC(3) Concurrent reset 1.961ms
+[10.078s][info][gc,start      ] GC(3) Pause Init Mark
+[10.078s][info][gc,task       ] GC(3) Using 4 of 4 workers for init marking
+[10.079s][info][gc,ergo       ] GC(3) Pacer for Mark. Expected Live: 126M, Free: 5732M, Non-Taxable: 573M, Alloc Tax Rate: 0.1x
+[10.079s][info][gc            ] GC(3) Pause Init Mark 0.562ms
+[10.079s][info][gc,start      ] GC(3) Concurrent marking
+[10.079s][info][gc,task       ] GC(3) Using 2 of 4 workers for concurrent marking
+[10.481s][info][gc            ] GC(3) Concurrent marking 401.972ms
+[10.481s][info][gc,start      ] GC(3) Pause Final Mark
+[10.482s][info][gc,task       ] GC(3) Using 4 of 4 workers for final marking
+[10.482s][info][gc,ergo       ] GC(3) Adaptive CSet Selection. Target Free: 1160M, Actual Free: 6104M, Max CSet: 341M, Min Garbage: 0B
+[10.482s][info][gc,ergo       ] GC(3) Collectable Garbage: 1346M (99%), Immediate: 140M (10%), CSet: 1206M (89%)
+[10.482s][info][gc,ergo       ] GC(3) Pacer for Evacuation. Used CSet: 1368M, Free: 5744M, Non-Taxable: 574M, Alloc Tax Rate: 1.1x
+[10.482s][info][gc            ] GC(3) Pause Final Mark 1.342ms
+[10.482s][info][gc,start      ] GC(3) Concurrent cleanup
+[10.483s][info][gc            ] GC(3) Concurrent cleanup 2147M->2011M(8192M) 0.045ms
+[10.483s][info][gc,ergo       ] GC(3) Free: 5740M, Max: 4096K regular, 5552M humongous, Frag: 4% external, 0% internal; Reserve: 411M, Max: 4096K
+[10.483s][info][gc,start      ] GC(3) Concurrent evacuation
+[10.483s][info][gc,task       ] GC(3) Using 2 of 4 workers for concurrent evacuation
+[10.617s][info][gc            ] GC(3) Concurrent evacuation 134.354ms
+[10.617s][info][gc,start      ] GC(3) Pause Init Update Refs
+[10.617s][info][gc,ergo       ] GC(3) Pacer for Update Refs. Used: 2199M, Free: 5720M, Non-Taxable: 572M, Alloc Tax Rate: 1.1x
+[10.617s][info][gc            ] GC(3) Pause Init Update Refs 0.062ms
+[10.617s][info][gc,start      ] GC(3) Concurrent update references
+[10.618s][info][gc,task       ] GC(3) Using 2 of 4 workers for concurrent reference update
+[10.826s][info][gc            ] GC(3) Concurrent update references 208.984ms
+[10.827s][info][gc,start      ] GC(3) Pause Final Update Refs
+[10.827s][info][gc,task       ] GC(3) Using 4 of 4 workers for final reference update
+[10.827s][info][gc            ] GC(3) Pause Final Update Refs 0.387ms
+[10.827s][info][gc,start      ] GC(3) Concurrent cleanup
+[10.827s][info][gc            ] GC(3) Concurrent cleanup 2303M->935M(8192M) 0.065ms
+[10.827s][info][gc,ergo       ] Free: 6812M, Max: 4096K regular, 5392M humongous, Frag: 21% external, 0% internal; Reserve: 412M, Max: 4096K
+[10.827s][info][gc,metaspace  ] Metaspace: 51635K->51648K(1095680K)
+[10.827s][info][gc,ergo       ] Pacer for Idle. Initial: 163M, Alloc Tax Rate: 1.0x
+[12.665s][info][gc            ] Trigger: Learning 5 of 5. Free (5732M) is below initial threshold (5734M)
+[12.665s][info][gc,ergo       ] Free: 5732M, Max: 4096K regular, 5392M humongous, Frag: 6% external, 0% internal; Reserve: 412M, Max: 4096K
+[12.665s][info][gc,start      ] GC(4) Concurrent reset
+[12.665s][info][gc,task       ] GC(4) Using 2 of 4 workers for concurrent reset
+[12.665s][info][gc,ergo       ] GC(4) Pacer for Reset. Non-Taxable: 8192M
+[12.668s][info][gc            ] GC(4) Concurrent reset 2.157ms
+[12.668s][info][gc,start      ] GC(4) Pause Init Mark
+[12.668s][info][gc,task       ] GC(4) Using 4 of 4 workers for init marking
+[12.669s][info][gc,ergo       ] GC(4) Pacer for Mark. Expected Live: 249M, Free: 5732M, Non-Taxable: 573M, Alloc Tax Rate: 0.2x
+[12.669s][info][gc            ] GC(4) Pause Init Mark 0.673ms
+[12.669s][info][gc,start      ] GC(4) Concurrent marking
+[12.669s][info][gc,task       ] GC(4) Using 2 of 4 workers for concurrent marking
+[13.488s][info][gc            ] GC(4) Concurrent marking 818.771ms
+[13.488s][info][gc,start      ] GC(4) Pause Final Mark
+[13.488s][info][gc,task       ] GC(4) Using 4 of 4 workers for final marking
+[13.488s][info][gc,ergo       ] GC(4) Adaptive CSet Selection. Target Free: 1160M, Actual Free: 5503M, Max CSet: 341M, Min Garbage: 0B
+[13.489s][info][gc,ergo       ] GC(4) Collectable Garbage: 1199M (99%), Immediate: 57133K (4%), CSet: 1143M (95%)
+[13.489s][info][gc,ergo       ] GC(4) Pacer for Evacuation. Used CSet: 1292M, Free: 5100M, Non-Taxable: 510M, Alloc Tax Rate: 1.1x
+[13.489s][info][gc            ] GC(4) Pause Final Mark 1.102ms
+[13.489s][info][gc,start      ] GC(4) Concurrent cleanup
+[13.489s][info][gc            ] GC(4) Concurrent cleanup 2687M->2635M(8192M) 0.053ms
+[13.489s][info][gc,ergo       ] GC(4) Free: 5096M, Max: 4096K regular, 5036M humongous, Frag: 2% external, 0% internal; Reserve: 411M, Max: 4096K
+[13.489s][info][gc,start      ] GC(4) Concurrent evacuation
+[13.489s][info][gc,task       ] GC(4) Using 2 of 4 workers for concurrent evacuation
+[13.616s][info][gc            ] GC(4) Concurrent evacuation 127.252ms
+[13.617s][info][gc,start      ] GC(4) Pause Init Update Refs
+[13.617s][info][gc,ergo       ] GC(4) Pacer for Update Refs. Used: 2815M, Free: 5068M, Non-Taxable: 506M, Alloc Tax Rate: 1.1x
+[13.617s][info][gc            ] GC(4) Pause Init Update Refs 0.040ms
+[13.617s][info][gc,start      ] GC(4) Concurrent update references
+[13.617s][info][gc,task       ] GC(4) Using 2 of 4 workers for concurrent reference update
+[13.906s][info][gc            ] GC(4) Concurrent update references 289.367ms
+[13.907s][info][gc,start      ] GC(4) Pause Final Update Refs
+[13.907s][info][gc,task       ] GC(4) Using 4 of 4 workers for final reference update
+[13.907s][info][gc            ] GC(4) Pause Final Update Refs 0.346ms
+[13.907s][info][gc,start      ] GC(4) Concurrent cleanup
+[13.907s][info][gc            ] GC(4) Concurrent cleanup 2884M->1592M(8192M) 0.073ms
+[13.907s][info][gc,ergo       ] Free: 6140M, Max: 4096K regular, 4856M humongous, Frag: 21% external, 0% internal; Reserve: 412M, Max: 4096K
+[13.907s][info][gc,metaspace  ] Metaspace: 51650K->51678K(1095680K)
+[13.907s][info][gc,ergo       ] Pacer for Idle. Initial: 163M, Alloc Tax Rate: 1.0x
+[19.388s][info][gc            ] Trigger: Free (816M) is below minimum threshold (819M)
+[19.416s][info][gc,ergo       ] Free: 812M, Max: 4096K regular, 812M humongous, Frag: 0% external, 0% internal; Reserve: 412M, Max: 4096K
+[19.438s][info][gc,start      ] GC(5) Concurrent reset
+[19.469s][info][gc,task       ] GC(5) Using 2 of 4 workers for concurrent reset
+[19.471s][info][gc,ergo       ] GC(5) Pacer for Reset. Non-Taxable: 8192M
+[19.489s][info][gc            ] GC(5) Concurrent reset 50.389ms
+[19.533s][info][gc,start      ] GC(5) Pause Init Mark (process weakrefs)
+[19.534s][info][gc,task       ] GC(5) Using 4 of 4 workers for init marking
+[19.542s][info][gc,ergo       ] GC(5) Pacer for Mark. Expected Live: 360M, Free: 788M, Non-Taxable: 80742K, Alloc Tax Rate: 1.7x
+[19.542s][info][gc            ] GC(5) Pause Init Mark (process weakrefs) 8.436ms
+[19.542s][info][gc,start      ] GC(5) Concurrent marking (process weakrefs)
+[19.542s][info][gc,task       ] GC(5) Using 2 of 4 workers for concurrent marking
+[22.726s][info][gc            ] Failed to allocate TLAB, 4096K
+[22.741s][info][gc            ] Cancelling GC: Allocation Failure
+[22.765s][info][gc            ] GC(5) Concurrent marking (process weakrefs) 3217.031ms
+[22.777s][info][gc,ergo       ] Free: 0B, Max: 0B regular, 0B humongous, Frag: 0% external, 0% internal; Reserve: 412M, Max: 4096K
+[22.778s][info][gc,metaspace  ] Metaspace: 51681K->51688K(1095680K)
+[22.779s][info][gc,ergo       ] Pacer for Idle. Initial: 163M, Alloc Tax Rate: 1.0x
+[22.780s][info][gc            ] Trigger: Handle Allocation Failure
+[22.780s][info][gc,ergo       ] Free: 0B, Max: 0B regular, 0B humongous, Frag: 0% external, 0% internal; Reserve: 412M, Max: 4096K
+[22.794s][info][gc,start      ] GC(6) Pause Degenerated GC (Mark)
+[22.795s][info][gc,task       ] GC(6) Using 4 of 4 workers for stw degenerated gc
+[26.156s][info][gc,ergo       ] GC(6) Adaptive CSet Selection. Target Free: 1160M, Actual Free: 1236M, Max CSet: 341M, Min Garbage: 0B
+[26.156s][info][gc,ergo       ] GC(6) Collectable Garbage: 1530M (42%), Immediate: 824M (22%), CSet: 706M (19%)
+[26.156s][info][gc,ergo       ] GC(6) Pacer for Evacuation. Used CSet: 1047M, Free: 876M, Non-Taxable: 89804K, Alloc Tax Rate: 2.9x
+[27.464s][info][gc,ergo       ] GC(6) Pacer for Update Refs. Used: 7206M, Free: 876M, Non-Taxable: 89804K, Alloc Tax Rate: 10.0x
+[28.408s][info][gc,ergo       ] GC(6) Good progress for free space: 1580M, need 83886K
+[28.409s][info][gc,ergo       ] GC(6) Good progress for used space: 1527M, need 4096K
+[28.414s][info][gc            ] GC(6) Pause Degenerated GC (Mark) 7686M->6159M(8192M) 5619.337ms
+[28.425s][info][gc,ergo       ] Free: 1580M, Max: 4096K regular, 260M humongous, Frag: 84% external, 0% internal; Reserve: 412M, Max: 4096K
+[28.425s][info][gc,metaspace  ] Metaspace: 51688K->51688K(1095680K)
+[28.425s][info][gc,ergo       ] Pacer for Idle. Initial: 163M, Alloc Tax Rate: 1.0x
+[31.816s][info][gc            ] Trigger: Average GC time (427.18 ms) is above the time for allocation rate (38194 KB/s) to deplete free headroom (15564K)
+[31.817s][info][gc,ergo       ] Free headroom: 1244M (free) - 409M (spike) - 819M (penalties) = 15564K
+[31.817s][info][gc,ergo       ] Free: 1244M, Max: 4096K regular, 260M humongous, Frag: 80% external, 0% internal; Reserve: 412M, Max: 4096K
+[31.818s][info][gc,start      ] GC(7) Concurrent reset
+[31.818s][info][gc,task       ] GC(7) Using 2 of 4 workers for concurrent reset
+[31.818s][info][gc,ergo       ] GC(7) Pacer for Reset. Non-Taxable: 8192M
+[31.953s][info][gc            ] GC(7) Concurrent reset 134.638ms
+[31.954s][info][gc,start      ] GC(7) Pause Init Mark
+[31.955s][info][gc,task       ] GC(7) Using 4 of 4 workers for init marking
+[31.960s][info][gc,ergo       ] GC(7) Pacer for Mark. Expected Live: 1014M, Free: 1244M, Non-Taxable: 124M, Alloc Tax Rate: 3.0x
+[31.960s][info][gc            ] GC(7) Pause Init Mark 5.454ms
+[31.960s][info][gc,start      ] GC(7) Concurrent marking
+[31.960s][info][gc,task       ] GC(7) Using 2 of 4 workers for concurrent marking
+[35.488s][info][gc            ] GC(7) Concurrent marking 3526.876ms
+[35.492s][info][gc,start      ] GC(7) Pause Final Mark
+[35.492s][info][gc,task       ] GC(7) Using 4 of 4 workers for final marking
+[35.494s][info][gc,ergo       ] GC(7) Adaptive CSet Selection. Target Free: 1160M, Actual Free: 1544M, Max CSet: 341M, Min Garbage: 0B
+[35.494s][info][gc,ergo       ] GC(7) Collectable Garbage: 488M (17%), Immediate: 40960K (1%), CSet: 448M (16%)
+[35.496s][info][gc,ergo       ] GC(7) Pacer for Evacuation. Used CSet: 788M, Free: 1132M, Non-Taxable: 113M, Alloc Tax Rate: 1.7x
+[35.496s][info][gc            ] GC(7) Pause Final Mark 4.257ms
+[35.497s][info][gc,start      ] GC(7) Concurrent cleanup
+[35.497s][info][gc            ] GC(7) Concurrent cleanup 6652M->6612M(8192M) 0.056ms
+[35.497s][info][gc,ergo       ] GC(7) Free: 1127M, Max: 4096K regular, 260M humongous, Frag: 77% external, 0% internal; Reserve: 411M, Max: 4096K
+[35.497s][info][gc,start      ] GC(7) Concurrent evacuation
+[35.498s][info][gc,task       ] GC(7) Using 2 of 4 workers for concurrent evacuation
+[35.970s][info][gc            ] GC(7) Concurrent evacuation 464.639ms
+[35.996s][info][gc,start      ] GC(7) Pause Init Update Refs
+[35.999s][info][gc,ergo       ] GC(7) Pacer for Update Refs. Used: 6956M, Free: 1127M, Non-Taxable: 112M, Alloc Tax Rate: 7.5x
+[35.999s][info][gc            ] GC(7) Pause Init Update Refs 2.569ms
+[35.999s][info][gc,start      ] GC(7) Concurrent update references
+[35.999s][info][gc,task       ] GC(7) Using 2 of 4 workers for concurrent reference update
+[36.589s][info][gc            ] GC(7) Concurrent update references 589.570ms
+[36.589s][info][gc,start      ] GC(7) Pause Final Update Refs
+[36.589s][info][gc,task       ] GC(7) Using 4 of 4 workers for final reference update
+[36.591s][info][gc            ] GC(7) Pause Final Update Refs 1.685ms
+[36.591s][info][gc,start      ] GC(7) Concurrent cleanup
+[36.591s][info][gc            ] GC(7) Concurrent cleanup 6991M->6203M(8192M) 0.068ms
+[36.592s][info][gc,ergo       ] Free: 1536M, Max: 4096K regular, 260M humongous, Frag: 84% external, 1% internal; Reserve: 412M, Max: 4096K
+[36.592s][info][gc,metaspace  ] Metaspace: 51709K->51724K(1095680K)
+[36.592s][info][gc,ergo       ] Pacer for Idle. Initial: 163M, Alloc Tax Rate: 1.0x
+[37.857s][info][gc            ] Trigger: Average GC time (1377.92 ms) is above the time for allocation rate (80715 KB/s) to deplete free headroom (105M)
+[37.857s][info][gc,ergo       ] Free headroom: 1252M (free) - 409M (spike) - 737M (penalties) = 105M
+[37.857s][info][gc,ergo       ] Free: 1252M, Max: 4096K regular, 260M humongous, Frag: 80% external, 0% internal; Reserve: 412M, Max: 4096K
+[37.857s][info][gc,start      ] GC(8) Concurrent reset
+[37.857s][info][gc,task       ] GC(8) Using 2 of 4 workers for concurrent reset
+[37.857s][info][gc,ergo       ] GC(8) Pacer for Reset. Non-Taxable: 8192M
+[37.862s][info][gc            ] GC(8) Concurrent reset 5.553ms
+[37.863s][info][gc,start      ] GC(8) Pause Init Mark
+[37.863s][info][gc,task       ] GC(8) Using 4 of 4 workers for init marking
+[37.865s][info][gc,ergo       ] GC(8) Pacer for Mark. Expected Live: 1757M, Free: 1252M, Non-Taxable: 125M, Alloc Tax Rate: 5.1x
+[37.865s][info][gc            ] GC(8) Pause Init Mark 2.605ms
+[37.865s][info][gc,start      ] GC(8) Concurrent marking
+[37.865s][info][gc,task       ] GC(8) Using 2 of 4 workers for concurrent marking
+[40.322s][info][gc            ] GC(8) Concurrent marking 2455.139ms
+[40.328s][info][gc,start      ] GC(8) Pause Final Mark
+[40.328s][info][gc,task       ] GC(8) Using 4 of 4 workers for final marking
+[40.330s][info][gc,ergo       ] GC(8) Adaptive CSet Selection. Target Free: 1160M, Actual Free: 1547M, Max CSet: 341M, Min Garbage: 0B
+[40.331s][info][gc,ergo       ] GC(8) Collectable Garbage: 426M (16%), Immediate: 12285K (0%), CSet: 414M (16%)
+[40.333s][info][gc,ergo       ] GC(8) Pacer for Evacuation. Used CSet: 755M, Free: 1136M, Non-Taxable: 113M, Alloc Tax Rate: 1.6x
+[40.333s][info][gc            ] GC(8) Pause Final Mark 4.663ms
+[40.333s][info][gc,start      ] GC(8) Concurrent cleanup
+[40.333s][info][gc            ] GC(8) Concurrent cleanup 6615M->6607M(8192M) 0.047ms
+[40.333s][info][gc,ergo       ] GC(8) Free: 1132M, Max: 4096K regular, 260M humongous, Frag: 78% external, 0% internal; Reserve: 411M, Max: 4096K
+[40.333s][info][gc,start      ] GC(8) Concurrent evacuation
+[40.333s][info][gc,task       ] GC(8) Using 2 of 4 workers for concurrent evacuation
+[40.440s][info][gc            ] GC(8) Concurrent evacuation 107.588ms
+[40.441s][info][gc,start      ] GC(8) Pause Init Update Refs
+[40.441s][info][gc,ergo       ] GC(8) Pacer for Update Refs. Used: 6958M, Free: 1129M, Non-Taxable: 112M, Alloc Tax Rate: 7.5x
+[40.441s][info][gc            ] GC(8) Pause Init Update Refs 0.137ms
+[40.441s][info][gc,start      ] GC(8) Concurrent update references
+[40.441s][info][gc,task       ] GC(8) Using 2 of 4 workers for concurrent reference update
+[40.911s][info][gc            ] GC(8) Concurrent update references 468.482ms
+[40.913s][info][gc,start      ] GC(8) Pause Final Update Refs
+[40.913s][info][gc,task       ] GC(8) Using 4 of 4 workers for final reference update
+[40.914s][info][gc            ] GC(8) Pause Final Update Refs 1.446ms
+[40.914s][info][gc,start      ] GC(8) Concurrent cleanup
+[40.914s][info][gc            ] GC(8) Concurrent cleanup 7019M->6264M(8192M) 0.054ms
+[40.917s][info][gc,ergo       ] Free: 1472M, Max: 4096K regular, 260M humongous, Frag: 83% external, 0% internal; Reserve: 412M, Max: 4096K
+[40.918s][info][gc,metaspace  ] Metaspace: 51731K->51731K(1095680K)
+[40.918s][info][gc,ergo       ] Pacer for Idle. Initial: 163M, Alloc Tax Rate: 1.0x
+[41.086s][info][gc            ] Trigger: Average GC time (1976.26 ms) is above the time for allocation rate (118 MB/s) to deplete free headroom (227M)
+[41.088s][info][gc,ergo       ] Free headroom: 1292M (free) - 409M (spike) - 655M (penalties) = 227M
+[41.090s][info][gc,ergo       ] Free: 1288M, Max: 4096K regular, 260M humongous, Frag: 80% external, 0% internal; Reserve: 412M, Max: 4096K
+[41.093s][info][gc,start      ] GC(9) Concurrent reset
+[41.094s][info][gc,task       ] GC(9) Using 2 of 4 workers for concurrent reset
+[41.095s][info][gc,ergo       ] GC(9) Pacer for Reset. Non-Taxable: 8192M
+[41.102s][info][gc            ] GC(9) Concurrent reset 8.071ms
+[41.107s][info][gc,start      ] GC(9) Pause Init Mark
+[41.107s][info][gc,task       ] GC(9) Using 4 of 4 workers for init marking
+[41.111s][info][gc,ergo       ] GC(9) Pacer for Mark. Expected Live: 2482M, Free: 1284M, Non-Taxable: 128M, Alloc Tax Rate: 7.1x
+[41.111s][info][gc            ] GC(9) Pause Init Mark 4.068ms
+[41.111s][info][gc,start      ] GC(9) Concurrent marking
+[41.111s][info][gc,task       ] GC(9) Using 2 of 4 workers for concurrent marking
+[53.857s][info][gc            ] GC(9) Concurrent marking 12743.441ms
+[53.862s][info][gc,start      ] GC(9) Pause Final Mark
+[53.862s][info][gc,task       ] GC(9) Using 4 of 4 workers for final marking
+[53.873s][info][gc,ergo       ] GC(9) Adaptive CSet Selection. Target Free: 1160M, Actual Free: 1280M, Max CSet: 341M, Min Garbage: 0B
+[53.874s][info][gc,ergo       ] GC(9) Collectable Garbage: 424M (18%), Immediate: 4096K (0%), CSet: 420M (18%)
+[53.881s][info][gc,ergo       ] GC(9) Pacer for Evacuation. Used CSet: 760M, Free: 868M, Non-Taxable: 88908K, Alloc Tax Rate: 2.1x
+[53.881s][info][gc            ] GC(9) Pause Final Mark 18.700ms
+[53.881s][info][gc,start      ] GC(9) Concurrent cleanup
+[53.881s][info][gc            ] GC(9) Concurrent cleanup 6875M->6872M(8192M) 0.051ms
+[53.881s][info][gc,ergo       ] GC(9) Free: 867M, Max: 4096K regular, 248M humongous, Frag: 72% external, 0% internal; Reserve: 412M, Max: 4096K
+[53.881s][info][gc,start      ] GC(9) Concurrent evacuation
+[53.881s][info][gc,task       ] GC(9) Using 2 of 4 workers for concurrent evacuation
+[57.324s][info][gc            ] GC(9) Concurrent evacuation 3442.834ms
+[57.325s][info][gc,start      ] GC(9) Pause Init Update Refs
+[57.325s][info][gc,ergo       ] GC(9) Pacer for Update Refs. Used: 7228M, Free: 855M, Non-Taxable: 87562K, Alloc Tax Rate: 10.3x
+[57.325s][info][gc            ] GC(9) Pause Init Update Refs 0.290ms
+[57.325s][info][gc,start      ] GC(9) Concurrent update references
+[57.326s][info][gc,task       ] GC(9) Using 2 of 4 workers for concurrent reference update
+[64.764s][info][gc            ] GC(9) Concurrent update references 7432.629ms
+[64.779s][info][gc,start      ] GC(9) Pause Final Update Refs
+[64.781s][info][gc,task       ] GC(9) Using 4 of 4 workers for final reference update
+[64.785s][info][gc            ] GC(9) Pause Final Update Refs 6.542ms
+[64.785s][info][gc,start      ] GC(9) Concurrent cleanup
+[64.786s][info][gc            ] GC(9) Concurrent cleanup 7242M->6482M(8192M) 0.058ms
+[64.786s][info][gc,ergo       ] Free: 1257M, Max: 4096K regular, 248M humongous, Frag: 81% external, 0% internal; Reserve: 412M, Max: 4096K
+[64.786s][info][gc,metaspace  ] Metaspace: 51731K->58357K(1101824K)
+[64.786s][info][gc,ergo       ] Pacer for Idle. Initial: 163M, Alloc Tax Rate: 1.0x
+[235.303s][info][gc            ] Trigger: Metadata GC Threshold
+[235.303s][info][gc,ergo       ] Free: 1251M, Max: 4096K regular, 248M humongous, Frag: 81% external, 0% internal; Reserve: 412M, Max: 4096K
+[235.304s][info][gc,start      ] GC(10) Concurrent reset
+[235.304s][info][gc,task       ] GC(10) Using 2 of 4 workers for concurrent reset
+[235.304s][info][gc,ergo       ] GC(10) Pacer for Reset. Non-Taxable: 8192M
+[235.500s][info][gc            ] GC(10) Concurrent reset 196.571ms
+[235.501s][info][gc,start      ] GC(10) Pause Init Mark (process weakrefs) (unload classes)
+[235.501s][info][gc,task       ] GC(10) Using 4 of 4 workers for init marking
+[235.518s][info][gc,ergo       ] GC(10) Pacer for Mark. Expected Live: 3183M, Free: 1251M, Non-Taxable: 125M, Alloc Tax Rate: 9.3x
+[235.518s][info][gc            ] GC(10) Pause Init Mark (process weakrefs) (unload classes) 16.651ms
+[235.518s][info][gc,start      ] GC(10) Concurrent marking (process weakrefs) (unload classes)
+[235.518s][info][gc,task       ] GC(10) Using 2 of 4 workers for concurrent marking
+[247.310s][info][gc            ] GC(10) Concurrent marking (process weakrefs) (unload classes) 11791.811ms
+[247.311s][info][gc,start      ] GC(10) Concurrent precleaning
+[247.311s][info][gc,task       ] GC(10) Using 1 of 4 workers for concurrent preclean
+[247.311s][info][gc,ergo       ] GC(10) Pacer for Precleaning. Non-Taxable: 8192M
+[247.312s][info][gc            ] GC(10) Concurrent precleaning 0.891ms
+[247.314s][info][gc,start      ] GC(10) Pause Final Mark (process weakrefs) (unload classes)
+[247.314s][info][gc,task       ] GC(10) Using 4 of 4 workers for final marking
+[247.515s][info][gc,stringtable] GC(10) Cleaned string and symbol table, strings: 24353 processed, 0 removed, symbols: 159796 processed, 107 removed
+[247.517s][info][gc,ergo       ] GC(10) Adaptive CSet Selection. Target Free: 1160M, Actual Free: 1656M, Max CSet: 341M, Min Garbage: 0B
+[247.517s][info][gc,ergo       ] GC(10) Collectable Garbage: 585M (26%), Immediate: 8192K (0%), CSet: 577M (25%)
+[247.525s][info][gc,ergo       ] GC(10) Pacer for Evacuation. Used CSet: 918M, Free: 1246M, Non-Taxable: 124M, Alloc Tax Rate: 1.8x
+[247.526s][info][gc            ] GC(10) Pause Final Mark (process weakrefs) (unload classes) 212.007ms
+[247.527s][info][gc,start      ] GC(10) Concurrent cleanup
+[247.528s][info][gc            ] GC(10) Concurrent cleanup 6500M->6492M(8192M) 0.097ms
+[247.529s][info][gc,ergo       ] GC(10) Free: 1245M, Max: 4096K regular, 248M humongous, Frag: 81% external, 0% internal; Reserve: 411M, Max: 4096K
+[247.529s][info][gc,start      ] GC(10) Concurrent evacuation
+[247.529s][info][gc,task       ] GC(10) Using 2 of 4 workers for concurrent evacuation
+[249.708s][info][gc            ] GC(10) Concurrent evacuation 2174.689ms
+[249.715s][info][gc,start      ] GC(10) Pause Init Update Refs
+[249.716s][info][gc,ergo       ] GC(10) Pacer for Update Refs. Used: 6847M, Free: 1234M, Non-Taxable: 123M, Alloc Tax Rate: 6.8x
+[249.716s][info][gc            ] GC(10) Pause Init Update Refs 1.280ms
+[249.717s][info][gc,start      ] GC(10) Concurrent update references
+[249.718s][info][gc,task       ] GC(10) Using 2 of 4 workers for concurrent reference update
+[252.184s][info][gc            ] GC(10) Concurrent update references 2465.496ms
+[252.189s][info][gc,start      ] GC(10) Pause Final Update Refs
+[252.189s][info][gc,task       ] GC(10) Using 4 of 4 workers for final reference update
+[252.190s][info][gc            ] GC(10) Pause Final Update Refs 1.408ms
+[252.191s][info][gc,start      ] GC(10) Concurrent cleanup
+[252.191s][info][gc            ] GC(10) Concurrent cleanup 6858M->5940M(8192M) 0.047ms
+[252.192s][info][gc,ergo       ] Free: 1800M, Max: 4096K regular, 248M humongous, Frag: 87% external, 0% internal; Reserve: 412M, Max: 4096K
+[252.192s][info][gc,metaspace  ] Metaspace: 58705K->58706K(1101824K)
+[252.192s][info][gc,ergo       ] Pacer for Idle. Initial: 163M, Alloc Tax Rate: 1.0x
+[552.200s][info][gc            ] Trigger: Time since last GC (300008 ms) is larger than guaranteed interval (300000 ms)
+[552.201s][info][gc,ergo       ] Free: 1795M, Max: 4096K regular, 248M humongous, Frag: 87% external, 0% internal; Reserve: 412M, Max: 4096K
+[552.201s][info][gc,start      ] GC(11) Concurrent reset
+[552.201s][info][gc,task       ] GC(11) Using 2 of 4 workers for concurrent reset
+[552.201s][info][gc,ergo       ] GC(11) Pacer for Reset. Non-Taxable: 8192M
+[552.241s][info][gc            ] GC(11) Concurrent reset 39.665ms
+[552.241s][info][gc,start      ] GC(11) Pause Init Mark
+[552.241s][info][gc,task       ] GC(11) Using 4 of 4 workers for init marking
+[552.249s][info][gc,ergo       ] GC(11) Pacer for Mark. Expected Live: 3871M, Free: 1795M, Non-Taxable: 179M, Alloc Tax Rate: 7.9x
+[552.249s][info][gc            ] GC(11) Pause Init Mark 7.503ms
+[552.249s][info][gc,start      ] GC(11) Concurrent marking
+[552.249s][info][gc,task       ] GC(11) Using 2 of 4 workers for concurrent marking
+[555.322s][info][gc            ] GC(11) Concurrent marking 3073.040ms
+[555.323s][info][gc,start      ] GC(11) Pause Final Mark
+[555.323s][info][gc,task       ] GC(11) Using 4 of 4 workers for final marking
+[555.324s][info][gc,ergo       ] GC(11) Adaptive CSet Selection. Target Free: 1160M, Actual Free: 2204M, Max CSet: 341M, Min Garbage: 0B
+[555.324s][info][gc,ergo       ] GC(11) Collectable Garbage: 426M (25%), Immediate: 16384K (0%), CSet: 410M (24%)
+[555.325s][info][gc,ergo       ] GC(11) Pacer for Evacuation. Used CSet: 752M, Free: 1795M, Non-Taxable: 179M, Alloc Tax Rate: 1.1x
+[555.325s][info][gc            ] GC(11) Pause Final Mark 2.355ms
+[555.325s][info][gc,start      ] GC(11) Concurrent cleanup
+[555.325s][info][gc            ] GC(11) Concurrent cleanup 5956M->5944M(8192M) 0.062ms
+[555.325s][info][gc,ergo       ] GC(11) Free: 1795M, Max: 4096K regular, 248M humongous, Frag: 87% external, 0% internal; Reserve: 411M, Max: 4096K
+[555.325s][info][gc,start      ] GC(11) Concurrent evacuation
+[555.325s][info][gc,task       ] GC(11) Using 2 of 4 workers for concurrent evacuation
+[556.692s][info][gc            ] GC(11) Concurrent evacuation 1363.845ms
+[556.701s][info][gc,start      ] GC(11) Pause Init Update Refs
+[556.701s][info][gc,ergo       ] GC(11) Pacer for Update Refs. Used: 6299M, Free: 1788M, Non-Taxable: 178M, Alloc Tax Rate: 4.3x
+[556.701s][info][gc            ] GC(11) Pause Init Update Refs 0.200ms
+[556.701s][info][gc,start      ] GC(11) Concurrent update references
+[556.702s][info][gc,task       ] GC(11) Using 2 of 4 workers for concurrent reference update
+[557.206s][info][gc            ] GC(11) Concurrent update references 501.735ms
+[557.212s][info][gc,start      ] GC(11) Pause Final Update Refs
+[557.213s][info][gc,task       ] GC(11) Using 4 of 4 workers for final reference update
+[557.214s][info][gc            ] GC(11) Pause Final Update Refs 1.557ms
+[557.215s][info][gc,start      ] GC(11) Concurrent cleanup
+[557.215s][info][gc            ] GC(11) Concurrent cleanup 6308M->5556M(8192M) 0.052ms
+[557.215s][info][gc,ergo       ] Free: 2183M, Max: 4096K regular, 336M humongous, Frag: 85% external, 0% internal; Reserve: 412M, Max: 4096K
+[557.215s][info][gc,metaspace  ] Metaspace: 58768K->58768K(1101824K)
+[557.216s][info][gc,ergo       ] Pacer for Idle. Initial: 163M, Alloc Tax Rate: 1.0x
+[857.223s][info][gc            ] Trigger: Time since last GC (300007 ms) is larger than guaranteed interval (300000 ms)
+[857.224s][info][gc,ergo       ] Free: 2167M, Max: 4096K regular, 336M humongous, Frag: 85% external, 0% internal; Reserve: 412M, Max: 4096K
+[857.224s][info][gc,start      ] GC(12) Concurrent reset
+[857.224s][info][gc,task       ] GC(12) Using 2 of 4 workers for concurrent reset
+[857.224s][info][gc,ergo       ] GC(12) Pacer for Reset. Non-Taxable: 8192M
+[857.234s][info][gc            ] GC(12) Concurrent reset 10.419ms
+[857.235s][info][gc,start      ] GC(12) Pause Init Mark
+[857.235s][info][gc,task       ] GC(12) Using 4 of 4 workers for init marking
+[857.237s][info][gc,ergo       ] GC(12) Pacer for Mark. Expected Live: 4065M, Free: 2167M, Non-Taxable: 216M, Alloc Tax Rate: 6.9x
+[857.237s][info][gc            ] GC(12) Pause Init Mark 2.054ms
+[857.237s][info][gc,start      ] GC(12) Concurrent marking
+[857.237s][info][gc,task       ] GC(12) Using 2 of 4 workers for concurrent marking
+[860.294s][info][gc            ] GC(12) Concurrent marking 3057.182ms
+[860.295s][info][gc,start      ] GC(12) Pause Final Mark
+[860.295s][info][gc,task       ] GC(12) Using 4 of 4 workers for final marking
+[860.296s][info][gc,ergo       ] GC(12) Adaptive CSet Selection. Target Free: 1160M, Actual Free: 2576M, Max CSet: 341M, Min Garbage: 0B
+[860.296s][info][gc,ergo       ] GC(12) Collectable Garbage: 443M (33%), Immediate: 16384K (1%), CSet: 427M (32%)
+[860.297s][info][gc,ergo       ] GC(12) Pacer for Evacuation. Used CSet: 767M, Free: 2164M, Non-Taxable: 216M, Alloc Tax Rate: 1.1x
+[860.297s][info][gc            ] GC(12) Pause Final Mark 2.142ms
+[860.297s][info][gc,start      ] GC(12) Concurrent cleanup
+[860.297s][info][gc            ] GC(12) Concurrent cleanup 5587M->5575M(8192M) 0.047ms
+[860.297s][info][gc,ergo       ] GC(12) Free: 2164M, Max: 4096K regular, 336M humongous, Frag: 85% external, 0% internal; Reserve: 411M, Max: 4096K
+[860.297s][info][gc,start      ] GC(12) Concurrent evacuation
+[860.297s][info][gc,task       ] GC(12) Using 2 of 4 workers for concurrent evacuation
+[860.443s][info][gc            ] GC(12) Concurrent evacuation 146.400ms
+[860.444s][info][gc,start      ] GC(12) Pause Init Update Refs
+[860.444s][info][gc,ergo       ] GC(12) Pacer for Update Refs. Used: 5920M, Free: 2163M, Non-Taxable: 216M, Alloc Tax Rate: 3.3x
+[860.444s][info][gc            ] GC(12) Pause Init Update Refs 0.091ms
+[860.444s][info][gc,start      ] GC(12) Concurrent update references
+[860.444s][info][gc,task       ] GC(12) Using 2 of 4 workers for concurrent reference update
+[860.884s][info][gc            ] GC(12) Concurrent update references 440.154ms
+[860.885s][info][gc,start      ] GC(12) Pause Final Update Refs
+[860.885s][info][gc,task       ] GC(12) Using 4 of 4 workers for final reference update
+[860.885s][info][gc            ] GC(12) Pause Final Update Refs 0.251ms
+[860.885s][info][gc,start      ] GC(12) Concurrent cleanup
+[860.885s][info][gc            ] GC(12) Concurrent cleanup 5938M->5170M(8192M) 0.057ms
+[860.885s][info][gc,ergo       ] Free: 2569M, Max: 4096K regular, 344M humongous, Frag: 87% external, 0% internal; Reserve: 412M, Max: 4096K
+[860.885s][info][gc,metaspace  ] Metaspace: 59083K->59084K(1101824K)
+[860.885s][info][gc,ergo       ] Pacer for Idle. Initial: 163M, Alloc Tax Rate: 1.0x
+[1160.887s][info][gc            ] Trigger: Time since last GC (300001 ms) is larger than guaranteed interval (300000 ms)
+[1160.887s][info][gc,ergo       ] Free: 2564M, Max: 4096K regular, 344M humongous, Frag: 87% external, 0% internal; Reserve: 412M, Max: 4096K
+[1160.887s][info][gc,start      ] GC(13) Concurrent reset
+[1160.887s][info][gc,task       ] GC(13) Using 2 of 4 workers for concurrent reset
+[1160.887s][info][gc,ergo       ] GC(13) Pacer for Reset. Non-Taxable: 8192M
+[1160.896s][info][gc            ] GC(13) Concurrent reset 9.171ms
+[1160.898s][info][gc,start      ] GC(13) Pause Init Mark
+[1160.898s][info][gc,task       ] GC(13) Using 4 of 4 workers for init marking
+[1160.900s][info][gc,ergo       ] GC(13) Pacer for Mark. Expected Live: 4164M, Free: 2564M, Non-Taxable: 256M, Alloc Tax Rate: 6.0x
+[1160.900s][info][gc            ] GC(13) Pause Init Mark 1.993ms
+[1160.900s][info][gc,start      ] GC(13) Concurrent marking
+[1160.900s][info][gc,task       ] GC(13) Using 2 of 4 workers for concurrent marking
+[1163.272s][info][gc            ] GC(13) Concurrent marking 2371.542ms
+[1163.272s][info][gc,start      ] GC(13) Pause Final Mark
+[1163.272s][info][gc,task       ] GC(13) Using 4 of 4 workers for final marking
+[1163.273s][info][gc,ergo       ] GC(13) Adaptive CSet Selection. Target Free: 1160M, Actual Free: 2964M, Max CSet: 341M, Min Garbage: 0B
+[1163.273s][info][gc,ergo       ] GC(13) Collectable Garbage: 430M (46%), Immediate: 12288K (1%), CSet: 418M (45%)
+[1163.273s][info][gc,ergo       ] GC(13) Pacer for Evacuation. Used CSet: 760M, Free: 2554M, Non-Taxable: 255M, Alloc Tax Rate: 1.1x
+[1163.273s][info][gc            ] GC(13) Pause Final Mark 1.192ms
+[1163.273s][info][gc,start      ] GC(13) Concurrent cleanup
+[1163.273s][info][gc            ] GC(13) Concurrent cleanup 5197M->5185M(8192M) 0.057ms
+[1163.274s][info][gc,ergo       ] GC(13) Free: 2554M, Max: 4096K regular, 344M humongous, Frag: 87% external, 0% internal; Reserve: 411M, Max: 4096K
+[1163.274s][info][gc,start      ] GC(13) Concurrent evacuation
+[1163.274s][info][gc,task       ] GC(13) Using 2 of 4 workers for concurrent evacuation
+[1163.397s][info][gc            ] GC(13) Concurrent evacuation 123.386ms
+[1163.397s][info][gc,start      ] GC(13) Pause Init Update Refs
+[1163.398s][info][gc,ergo       ] GC(13) Pacer for Update Refs. Used: 5530M, Free: 2553M, Non-Taxable: 255M, Alloc Tax Rate: 2.6x
+[1163.398s][info][gc            ] GC(13) Pause Init Update Refs 0.154ms
+[1163.398s][info][gc,start      ] GC(13) Concurrent update references
+[1163.398s][info][gc,task       ] GC(13) Using 2 of 4 workers for concurrent reference update
+[1163.824s][info][gc            ] GC(13) Concurrent update references 426.676ms
+[1163.825s][info][gc,start      ] GC(13) Pause Final Update Refs
+[1163.825s][info][gc,task       ] GC(13) Using 4 of 4 workers for final reference update
+[1163.825s][info][gc            ] GC(13) Pause Final Update Refs 0.255ms
+[1163.825s][info][gc,start      ] GC(13) Concurrent cleanup
+[1163.825s][info][gc            ] GC(13) Concurrent cleanup 5532M->4772M(8192M) 0.060ms
+[1163.825s][info][gc,ergo       ] Free: 2967M, Max: 4096K regular, 376M humongous, Frag: 88% external, 0% internal; Reserve: 412M, Max: 4096K
+[1163.825s][info][gc,metaspace  ] Metaspace: 59216K->59216K(1101824K)
+[1163.825s][info][gc,ergo       ] Pacer for Idle. Initial: 163M, Alloc Tax Rate: 1.0x
+[1463.831s][info][gc            ] Trigger: Time since last GC (300006 ms) is larger than guaranteed interval (300000 ms)
+[1463.831s][info][gc,ergo       ] Free: 2941M, Max: 4096K regular, 376M humongous, Frag: 88% external, 0% internal; Reserve: 412M, Max: 4096K
+[1463.831s][info][gc,start      ] GC(14) Concurrent reset
+[1463.831s][info][gc,task       ] GC(14) Using 2 of 4 workers for concurrent reset
+[1463.831s][info][gc,ergo       ] GC(14) Pacer for Reset. Non-Taxable: 8192M
+[1463.838s][info][gc            ] GC(14) Concurrent reset 6.939ms
+[1463.838s][info][gc,start      ] GC(14) Pause Init Mark
+[1463.839s][info][gc,task       ] GC(14) Using 4 of 4 workers for init marking
+[1463.840s][info][gc,ergo       ] GC(14) Pacer for Mark. Expected Live: 4221M, Free: 2941M, Non-Taxable: 294M, Alloc Tax Rate: 5.3x
+[1463.840s][info][gc            ] GC(14) Pause Init Mark 1.150ms
+[1463.840s][info][gc,start      ] GC(14) Concurrent marking
+[1463.840s][info][gc,task       ] GC(14) Using 2 of 4 workers for concurrent marking
+[1466.169s][info][gc            ] GC(14) Concurrent marking 2329.736ms
+[1466.170s][info][gc,start      ] GC(14) Pause Final Mark
+[1466.170s][info][gc,task       ] GC(14) Using 4 of 4 workers for final marking
+[1466.170s][info][gc,ergo       ] GC(14) Adaptive CSet Selection. Target Free: 1160M, Actual Free: 3346M, Max CSet: 341M, Min Garbage: 0B
+[1466.171s][info][gc,ergo       ] GC(14) Collectable Garbage: 441M (80%), Immediate: 22587K (3%), CSet: 419M (76%)
+[1466.171s][info][gc,ergo       ] GC(14) Pacer for Evacuation. Used CSet: 760M, Free: 2938M, Non-Taxable: 293M, Alloc Tax Rate: 1.1x
+[1466.171s][info][gc            ] GC(14) Pause Final Mark 1.326ms
+[1466.171s][info][gc,start      ] GC(14) Concurrent cleanup
+[1466.171s][info][gc            ] GC(14) Concurrent cleanup 4819M->4801M(8192M) 0.044ms
+[1466.171s][info][gc,ergo       ] GC(14) Free: 2938M, Max: 4096K regular, 376M humongous, Frag: 88% external, 0% internal; Reserve: 411M, Max: 4096K
+[1466.171s][info][gc,start      ] GC(14) Concurrent evacuation
+[1466.171s][info][gc,task       ] GC(14) Using 2 of 4 workers for concurrent evacuation
+[1466.397s][info][gc            ] GC(14) Concurrent evacuation 225.626ms
+[1466.397s][info][gc,start      ] GC(14) Pause Init Update Refs
+[1466.398s][info][gc,ergo       ] GC(14) Pacer for Update Refs. Used: 5146M, Free: 2937M, Non-Taxable: 293M, Alloc Tax Rate: 2.1x
+[1466.398s][info][gc            ] GC(14) Pause Init Update Refs 0.104ms
+[1466.398s][info][gc,start      ] GC(14) Concurrent update references
+[1466.398s][info][gc,task       ] GC(14) Using 2 of 4 workers for concurrent reference update
+[1466.829s][info][gc            ] GC(14) Concurrent update references 431.557ms
+[1466.829s][info][gc,start      ] GC(14) Pause Final Update Refs
+[1466.830s][info][gc,task       ] GC(14) Using 4 of 4 workers for final reference update
+[1466.830s][info][gc            ] GC(14) Pause Final Update Refs 0.305ms
+[1466.830s][info][gc,start      ] GC(14) Concurrent cleanup
+[1466.830s][info][gc            ] GC(14) Concurrent cleanup 5170M->4410M(8192M) 0.043ms
+[1466.830s][info][gc,ergo       ] Free: 3329M, Max: 4096K regular, 1080M humongous, Frag: 68% external, 0% internal; Reserve: 412M, Max: 4096K
+[1466.830s][info][gc,metaspace  ] Metaspace: 59238K->59238K(1101824K)
+[1466.830s][info][gc,ergo       ] Pacer for Idle. Initial: 163M, Alloc Tax Rate: 1.0x
+[1766.833s][info][gc            ] Trigger: Time since last GC (300003 ms) is larger than guaranteed interval (300000 ms)
+[1766.834s][info][gc,ergo       ] Free: 3323M, Max: 4096K regular, 1080M humongous, Frag: 68% external, 0% internal; Reserve: 412M, Max: 4096K
+[1766.834s][info][gc,start      ] GC(15) Concurrent reset
+[1766.834s][info][gc,task       ] GC(15) Using 2 of 4 workers for concurrent reset
+[1766.834s][info][gc,ergo       ] GC(15) Pacer for Reset. Non-Taxable: 8192M
+[1766.838s][info][gc            ] GC(15) Concurrent reset 4.077ms
+[1766.838s][info][gc,start      ] GC(15) Pause Init Mark (process weakrefs)
+[1766.838s][info][gc,task       ] GC(15) Using 4 of 4 workers for init marking
+[1766.839s][info][gc,ergo       ] GC(15) Pacer for Mark. Expected Live: 4246M, Free: 3323M, Non-Taxable: 332M, Alloc Tax Rate: 4.7x
+[1766.839s][info][gc            ] GC(15) Pause Init Mark (process weakrefs) 0.677ms
+[1766.839s][info][gc,start      ] GC(15) Concurrent marking (process weakrefs)
+[1766.839s][info][gc,task       ] GC(15) Using 2 of 4 workers for concurrent marking
+[1769.177s][info][gc            ] GC(15) Concurrent marking (process weakrefs) 2338.118ms
+[1769.177s][info][gc,start      ] GC(15) Concurrent precleaning
+[1769.177s][info][gc,task       ] GC(15) Using 1 of 4 workers for concurrent preclean
+[1769.177s][info][gc,ergo       ] GC(15) Pacer for Precleaning. Non-Taxable: 8192M
+[1769.178s][info][gc            ] GC(15) Concurrent precleaning 0.733ms
+[1769.178s][info][gc,start      ] GC(15) Pause Final Mark (process weakrefs)
+[1769.178s][info][gc,task       ] GC(15) Using 4 of 4 workers for final marking
+[1769.180s][info][gc,ergo       ] GC(15) Adaptive CSet Selection. Target Free: 1160M, Actual Free: 3724M, Max CSet: 341M, Min Garbage: 0B
+[1769.180s][info][gc,ergo       ] GC(15) Collectable Garbage: 161M (94%), Immediate: 20480K (11%), CSet: 141M (83%)
+[1769.181s][info][gc,ergo       ] GC(15) Pacer for Evacuation. Used CSet: 242M, Free: 3313M, Non-Taxable: 331M, Alloc Tax Rate: 1.1x
+[1769.181s][info][gc            ] GC(15) Pause Final Mark (process weakrefs) 2.449ms
+[1769.181s][info][gc,start      ] GC(15) Concurrent cleanup
+[1769.181s][info][gc            ] GC(15) Concurrent cleanup 4441M->4425M(8192M) 0.044ms
+[1769.181s][info][gc,ergo       ] GC(15) Free: 3312M, Max: 4096K regular, 1080M humongous, Frag: 68% external, 0% internal; Reserve: 411M, Max: 4096K
+[1769.181s][info][gc,start      ] GC(15) Concurrent evacuation
+[1769.181s][info][gc,task       ] GC(15) Using 2 of 4 workers for concurrent evacuation
+[1769.215s][info][gc            ] GC(15) Concurrent evacuation 34.066ms
+[1769.216s][info][gc,start      ] GC(15) Pause Init Update Refs
+[1769.216s][info][gc,ergo       ] GC(15) Pacer for Update Refs. Used: 4529M, Free: 3312M, Non-Taxable: 331M, Alloc Tax Rate: 1.7x
+[1769.216s][info][gc            ] GC(15) Pause Init Update Refs 0.084ms
+[1769.216s][info][gc,start      ] GC(15) Concurrent update references
+[1769.216s][info][gc,task       ] GC(15) Using 2 of 4 workers for concurrent reference update
+[1769.574s][info][gc            ] GC(15) Concurrent update references 358.049ms
+[1769.574s][info][gc,start      ] GC(15) Pause Final Update Refs
+[1769.574s][info][gc,task       ] GC(15) Using 4 of 4 workers for final reference update
+[1769.575s][info][gc            ] GC(15) Pause Final Update Refs 0.269ms
+[1769.575s][info][gc,start      ] GC(15) Concurrent cleanup
+[1769.575s][info][gc            ] GC(15) Concurrent cleanup 4531M->4289M(8192M) 0.045ms
+[1769.575s][info][gc,ergo       ] Free: 3450M, Max: 4096K regular, 1780M humongous, Frag: 49% external, 0% internal; Reserve: 412M, Max: 4096K
+[1769.575s][info][gc,metaspace  ] Metaspace: 59254K->59254K(1101824K)
+[1769.575s][info][gc,ergo       ] Pacer for Idle. Initial: 163M, Alloc Tax Rate: 1.0x
+[2069.583s][info][gc            ] Trigger: Time since last GC (300008 ms) is larger than guaranteed interval (300000 ms)
+[2069.583s][info][gc,ergo       ] Free: 3417M, Max: 4096K regular, 1780M humongous, Frag: 48% external, 0% internal; Reserve: 412M, Max: 4096K
+[2069.584s][info][gc,start      ] GC(16) Concurrent reset
+[2069.584s][info][gc,task       ] GC(16) Using 2 of 4 workers for concurrent reset
+[2069.584s][info][gc,ergo       ] GC(16) Pacer for Reset. Non-Taxable: 8192M
+[2069.591s][info][gc            ] GC(16) Concurrent reset 6.950ms
+[2069.592s][info][gc,start      ] GC(16) Pause Init Mark
+[2069.592s][info][gc,task       ] GC(16) Using 4 of 4 workers for init marking
+[2069.593s][info][gc,ergo       ] GC(16) Pacer for Mark. Expected Live: 4246M, Free: 3417M, Non-Taxable: 341M, Alloc Tax Rate: 4.6x
+[2069.593s][info][gc            ] GC(16) Pause Init Mark 1.437ms
+[2069.593s][info][gc,start      ] GC(16) Concurrent marking
+[2069.593s][info][gc,task       ] GC(16) Using 2 of 4 workers for concurrent marking
+[2071.901s][info][gc            ] GC(16) Concurrent marking 2307.860ms
+[2071.901s][info][gc,start      ] GC(16) Pause Final Mark
+[2071.901s][info][gc,task       ] GC(16) Using 4 of 4 workers for final marking
+[2071.902s][info][gc,ergo       ] GC(16) Adaptive CSet Selection. Target Free: 1160M, Actual Free: 3816M, Max CSet: 341M, Min Garbage: 0B
+[2071.902s][info][gc,ergo       ] GC(16) Collectable Garbage: 69047K (88%), Immediate: 20480K (26%), CSet: 48567K (61%)
+[2071.903s][info][gc,ergo       ] GC(16) Pacer for Evacuation. Used CSet: 53248K, Free: 3407M, Non-Taxable: 340M, Alloc Tax Rate: 1.1x
+[2071.903s][info][gc            ] GC(16) Pause Final Mark 1.233ms
+[2071.903s][info][gc,start      ] GC(16) Concurrent cleanup
+[2071.903s][info][gc            ] GC(16) Concurrent cleanup 4348M->4332M(8192M) 0.042ms
+[2071.903s][info][gc,ergo       ] GC(16) Free: 3407M, Max: 4096K regular, 1780M humongous, Frag: 48% external, 0% internal; Reserve: 411M, Max: 4096K
+[2071.903s][info][gc,start      ] GC(16) Concurrent evacuation
+[2071.903s][info][gc,task       ] GC(16) Using 2 of 4 workers for concurrent evacuation
+[2071.904s][info][gc            ] GC(16) Concurrent evacuation 1.090ms
+[2071.904s][info][gc,start      ] GC(16) Pause Init Update Refs
+[2071.904s][info][gc,ergo       ] GC(16) Pacer for Update Refs. Used: 4340M, Free: 3407M, Non-Taxable: 340M, Alloc Tax Rate: 1.6x
+[2071.904s][info][gc            ] GC(16) Pause Init Update Refs 0.066ms
+[2071.904s][info][gc,start      ] GC(16) Concurrent update references
+[2071.904s][info][gc,task       ] GC(16) Using 2 of 4 workers for concurrent reference update
+[2072.226s][info][gc            ] GC(16) Concurrent update references 321.831ms
+[2072.227s][info][gc,start      ] GC(16) Pause Final Update Refs
+[2072.227s][info][gc,task       ] GC(16) Using 4 of 4 workers for final reference update
+[2072.227s][info][gc            ] GC(16) Pause Final Update Refs 0.234ms
+[2072.227s][info][gc,start      ] GC(16) Concurrent cleanup
+[2072.227s][info][gc            ] GC(16) Concurrent cleanup 4342M->4290M(8192M) 0.045ms
+[2072.227s][info][gc,ergo       ] Free: 3449M, Max: 4096K regular, 1780M humongous, Frag: 49% external, 0% internal; Reserve: 412M, Max: 4096K
+[2072.227s][info][gc,metaspace  ] Metaspace: 59261K->59261K(1101824K)
+[2072.227s][info][gc,ergo       ] Pacer for Idle. Initial: 163M, Alloc Tax Rate: 1.0x

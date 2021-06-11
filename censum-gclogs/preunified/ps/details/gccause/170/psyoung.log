@@ -1,0 +1,852 @@
+0.925: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 19838K->4025K(76800K)] 19838K->4097K(251392K), 0.0047450 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+0.930: [Full GC (System.gc()) [PSYoungGen: 4025K->0K(76800K)] [ParOldGen: 72K->3758K(174592K)] 4097K->3758K(251392K) [PSPermGen: 9472K->9434K(21504K)], 0.0247970 secs] [Times: user=0.06 sys=0.01, real=0.02 secs] 
+0.955: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1320K->32K(76800K)] 5079K->3790K(251392K), 0.0005830 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+0.956: [Full GC (System.gc()) [PSYoungGen: 32K->0K(76800K)] [ParOldGen: 3758K->3758K(174592K)] 3790K->3758K(251392K) [PSPermGen: 9434K->9434K(21504K)], 0.0081450 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+25.905: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 7926K->544K(76800K)] 11684K->4302K(251392K), 0.0022490 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+25.907: [Full GC (System.gc()) [PSYoungGen: 544K->0K(76800K)] [ParOldGen: 3758K->2084K(174592K)] 4302K->2084K(251392K) [PSPermGen: 9792K->9792K(21504K)], 0.0274830 secs] [Times: user=0.07 sys=0.00, real=0.02 secs] 
+25.937: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 3082K->256K(76800K)] 5167K->2340K(251392K), 0.0007600 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+25.938: [Full GC (System.gc()) [PSYoungGen: 256K->0K(76800K)] [ParOldGen: 2084K->2052K(174592K)] 2340K->2052K(251392K) [PSPermGen: 9803K->9803K(21504K)], 0.0232160 secs] [Times: user=0.12 sys=0.00, real=0.02 secs] 
+26.242: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1761K->128K(76800K)] 3814K->2180K(251392K), 0.0015280 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+26.243: [Full GC (System.gc()) [PSYoungGen: 128K->0K(76800K)] [ParOldGen: 2052K->2089K(174592K)] 2180K->2089K(251392K) [PSPermGen: 9814K->9814K(21504K)], 0.0117970 secs] [Times: user=0.03 sys=0.00, real=0.02 secs] 
+26.394: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1761K->128K(76800K)] 3850K->2217K(251392K), 0.0006300 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+26.395: [Full GC (System.gc()) [PSYoungGen: 128K->0K(76800K)] [ParOldGen: 2089K->2081K(174592K)] 2217K->2081K(251392K) [PSPermGen: 9814K->9814K(21504K)], 0.0113650 secs] [Times: user=0.04 sys=0.00, real=0.02 secs] 
+26.615: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 440K->96K(76800K)] 2521K->2177K(251392K), 0.0009730 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+26.616: [Full GC (System.gc()) [PSYoungGen: 96K->0K(76800K)] [ParOldGen: 2081K->2081K(174592K)] 2177K->2081K(251392K) [PSPermGen: 9814K->9814K(21504K)], 0.0103820 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+26.874: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 440K->128K(76800K)] 2521K->2209K(251392K), 0.0009630 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+26.875: [Full GC (System.gc()) [PSYoungGen: 128K->0K(76800K)] [ParOldGen: 2081K->2081K(174592K)] 2209K->2081K(251392K) [PSPermGen: 9814K->9814K(21504K)], 0.0096260 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+26.991: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 440K->64K(76800K)] 2521K->2145K(251392K), 0.0010780 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+26.992: [Full GC (System.gc()) [PSYoungGen: 64K->0K(76800K)] [ParOldGen: 2081K->2081K(174592K)] 2145K->2081K(251392K) [PSPermGen: 9814K->9814K(21504K)], 0.0123830 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+27.354: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1761K->64K(76800K)] 3842K->2145K(251392K), 0.0011680 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+27.355: [Full GC (System.gc()) [PSYoungGen: 64K->0K(76800K)] [ParOldGen: 2081K->2081K(174592K)] 2145K->2081K(251392K) [PSPermGen: 9815K->9815K(21504K)], 0.0104740 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+27.367: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1761K->128K(76800K)] 3842K->2209K(251392K), 0.0004390 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+27.368: [Full GC (System.gc()) [PSYoungGen: 128K->0K(76800K)] [ParOldGen: 2081K->2081K(174592K)] 2209K->2081K(251392K) [PSPermGen: 9815K->9815K(21504K)], 0.0071890 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+27.744: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1321K->96K(76800K)] 3402K->2177K(251392K), 0.0010160 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+27.745: [Full GC (System.gc()) [PSYoungGen: 96K->0K(76800K)] [ParOldGen: 2081K->2081K(174592K)] 2177K->2081K(251392K) [PSPermGen: 9815K->9815K(21504K)], 0.0092700 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+27.833: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1321K->96K(76800K)] 3402K->2177K(251392K), 0.0008330 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+27.834: [Full GC (System.gc()) [PSYoungGen: 96K->0K(76800K)] [ParOldGen: 2081K->2081K(174592K)] 2177K->2081K(251392K) [PSPermGen: 9815K->9815K(21504K)], 0.0112610 secs] [Times: user=0.02 sys=0.00, real=0.02 secs] 
+28.120: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1321K->64K(76800K)] 3402K->2145K(251392K), 0.0012760 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+28.121: [Full GC (System.gc()) [PSYoungGen: 64K->0K(76800K)] [ParOldGen: 2081K->2081K(174592K)] 2145K->2081K(251392K) [PSPermGen: 9815K->9815K(21504K)], 0.0095600 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+28.313: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1321K->64K(76800K)] 3402K->2145K(251392K), 0.0009630 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+28.314: [Full GC (System.gc()) [PSYoungGen: 64K->0K(76800K)] [ParOldGen: 2081K->2081K(174592K)] 2145K->2081K(251392K) [PSPermGen: 9815K->9815K(21504K)], 0.0083090 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+28.495: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 2642K->128K(76800K)] 4723K->2209K(251392K), 0.0009950 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+28.496: [Full GC (System.gc()) [PSYoungGen: 128K->0K(76800K)] [ParOldGen: 2081K->2081K(174592K)] 2209K->2081K(251392K) [PSPermGen: 9815K->9815K(21504K)], 0.0095050 secs] [Times: user=0.03 sys=0.01, real=0.01 secs] 
+28.792: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 3082K->800K(76800K)] 5163K->2881K(251392K), 0.0010680 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+28.794: [Full GC (System.gc()) [PSYoungGen: 800K->0K(76800K)] [ParOldGen: 2081K->2771K(174592K)] 2881K->2771K(251392K) [PSPermGen: 9980K->9980K(21504K)], 0.0238070 secs] [Times: user=0.08 sys=0.00, real=0.03 secs] 
+28.870: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 7045K->1872K(76800K)] 9817K->4644K(251392K), 0.0017350 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+28.872: [Full GC (System.gc()) [PSYoungGen: 1872K->0K(76800K)] [ParOldGen: 2771K->4429K(174592K)] 4644K->4429K(251392K) [PSPermGen: 9984K->9984K(21504K)], 0.0157820 secs] [Times: user=0.06 sys=0.01, real=0.02 secs] 
+28.970: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 18936K->4088K(76800K)] 23366K->8518K(251392K), 0.0029770 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+28.973: [Full GC (System.gc()) [PSYoungGen: 4088K->0K(76800K)] [ParOldGen: 4429K->7913K(174592K)] 8518K->7913K(251392K) [PSPermGen: 10009K->10009K(21504K)], 0.0318140 secs] [Times: user=0.18 sys=0.00, real=0.03 secs] 
+29.219: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 18495K->3616K(76800K)] 26408K->11529K(251392K), 0.0042400 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+29.224: [Full GC (System.gc()) [PSYoungGen: 3616K->0K(76800K)] [ParOldGen: 7913K->10938K(174592K)] 11529K->10938K(251392K) [PSPermGen: 10009K->10009K(21504K)], 0.0588820 secs] [Times: user=0.39 sys=0.00, real=0.06 secs] 
+29.283: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 3742K->160K(76800K)] 14681K->11098K(251392K), 0.0005260 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+29.284: [Full GC (System.gc()) [PSYoungGen: 160K->0K(76800K)] [ParOldGen: 10938K->10940K(174592K)] 11098K->10940K(251392K) [PSPermGen: 10009K->10009K(21504K)], 0.0300570 secs] [Times: user=0.18 sys=0.00, real=0.03 secs] 
+29.315: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 2422K->128K(76800K)] 13362K->11068K(251392K), 0.0006120 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+29.315: [Full GC (System.gc()) [PSYoungGen: 128K->0K(76800K)] [ParOldGen: 10940K->10959K(174592K)] 11068K->10959K(251392K) [PSPermGen: 10010K->10010K(21504K)], 0.0156700 secs] [Times: user=0.08 sys=0.00, real=0.01 secs] 
+29.347: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 5284K->1264K(76800K)] 16244K->12223K(251392K), 0.0019230 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+29.349: [Full GC (System.gc()) [PSYoungGen: 1264K->0K(76800K)] [ParOldGen: 10959K->11909K(174592K)] 12223K->11909K(251392K) [PSPermGen: 10317K->10317K(21504K)], 0.0953390 secs] [Times: user=0.66 sys=0.00, real=0.09 secs] 
+29.482: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 32148K->5824K(76800K)] 44058K->17733K(251392K), 0.0050230 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+29.487: [Full GC (System.gc()) [PSYoungGen: 5824K->0K(76800K)] [ParOldGen: 11909K->16531K(174592K)] 17733K->16531K(251392K) [PSPermGen: 10318K->10318K(21504K)], 0.0963750 secs] [Times: user=0.67 sys=0.00, real=0.09 secs] 
+29.593: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 5505K->576K(76800K)] 22037K->17107K(251392K), 0.0014960 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+29.594: [Full GC (System.gc()) [PSYoungGen: 576K->0K(76800K)] [ParOldGen: 16531K->16514K(174592K)] 17107K->16514K(251392K) [PSPermGen: 10330K->10330K(21504K)], 0.1526820 secs] [Times: user=1.08 sys=0.01, real=0.16 secs] 
+29.747: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1100K->64K(76800K)] 17614K->16578K(251392K), 0.0006590 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+29.748: [Full GC (System.gc()) [PSYoungGen: 64K->0K(76800K)] [ParOldGen: 16514K->16513K(174592K)] 16578K->16513K(251392K) [PSPermGen: 10330K->10330K(21504K)], 0.0258600 secs] [Times: user=0.15 sys=0.00, real=0.02 secs] 
+29.774: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1100K->64K(76800K)] 17614K->16577K(251392K), 0.0006310 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+29.775: [Full GC (System.gc()) [PSYoungGen: 64K->0K(76800K)] [ParOldGen: 16513K->16513K(174592K)] 16577K->16513K(251392K) [PSPermGen: 10330K->10330K(21504K)], 0.0608530 secs] [Times: user=0.41 sys=0.00, real=0.06 secs] 
+29.998: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 440K->64K(76800K)] 16954K->16577K(251392K), 0.0011190 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+30.000: [Full GC (System.gc()) [PSYoungGen: 64K->0K(76800K)] [ParOldGen: 16513K->16513K(174592K)] 16577K->16513K(251392K) [PSPermGen: 10330K->10330K(21504K)], 0.0196270 secs] [Times: user=0.10 sys=0.00, real=0.02 secs] 
+30.229: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 21592K->3360K(76800K)] 38106K->19873K(251392K), 0.0042820 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+30.233: [Full GC (System.gc()) [PSYoungGen: 3360K->0K(76800K)] [ParOldGen: 16513K->19124K(174592K)] 19873K->19124K(251392K) [PSPermGen: 10331K->10331K(21504K)], 0.1251830 secs] [Times: user=0.82 sys=0.01, real=0.13 secs] 
+30.359: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 5063K->128K(76800K)] 24188K->19252K(251392K), 0.0006650 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+30.359: [Full GC (System.gc()) [PSYoungGen: 128K->0K(76800K)] [ParOldGen: 19124K->19127K(174592K)] 19252K->19127K(251392K) [PSPermGen: 10331K->10331K(21504K)], 0.0555550 secs] [Times: user=0.34 sys=0.01, real=0.06 secs] 
+30.415: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 2421K->160K(76800K)] 21549K->19287K(251392K), 0.0010010 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+30.416: [Full GC (System.gc()) [PSYoungGen: 160K->0K(76800K)] [ParOldGen: 19127K->19128K(174592K)] 19287K->19128K(251392K) [PSPermGen: 10331K->10331K(21504K)], 0.0205970 secs] [Times: user=0.11 sys=0.00, real=0.02 secs] 
+30.438: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1761K->160K(76800K)] 20890K->19288K(251392K), 0.0005430 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+30.438: [Full GC (System.gc()) [PSYoungGen: 160K->0K(76800K)] [ParOldGen: 19128K->19126K(174592K)] 19288K->19126K(251392K) [PSPermGen: 10331K->10331K(21504K)], 0.0479140 secs] [Times: user=0.31 sys=0.00, real=0.05 secs] 
+30.638: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 2642K->128K(76800K)] 21769K->19254K(251392K), 0.0010560 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+30.639: [Full GC (System.gc()) [PSYoungGen: 128K->0K(76800K)] [ParOldGen: 19126K->19126K(174592K)] 19254K->19126K(251392K) [PSPermGen: 10331K->10331K(21504K)], 0.0218910 secs] [Times: user=0.12 sys=0.00, real=0.02 secs] 
+30.689: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 2642K->96K(76800K)] 21768K->19222K(251392K), 0.0007070 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+30.689: [Full GC (System.gc()) [PSYoungGen: 96K->0K(76800K)] [ParOldGen: 19126K->19126K(174592K)] 19222K->19126K(251392K) [PSPermGen: 10333K->10333K(21504K)], 0.0197300 secs] [Times: user=0.10 sys=0.00, real=0.02 secs] 
+30.710: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 3082K->128K(76800K)] 22209K->19254K(251392K), 0.0005840 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+30.710: [Full GC (System.gc()) [PSYoungGen: 128K->0K(76800K)] [ParOldGen: 19126K->19126K(174592K)] 19254K->19126K(251392K) [PSPermGen: 10333K->10333K(21504K)], 0.0191460 secs] [Times: user=0.11 sys=0.00, real=0.02 secs] 
+30.750: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 440K->96K(76800K)] 19566K->19222K(251392K), 0.0010260 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+30.751: [Full GC (System.gc()) [PSYoungGen: 96K->0K(76800K)] [ParOldGen: 19126K->19126K(174592K)] 19222K->19126K(251392K) [PSPermGen: 10333K->10333K(21504K)], 0.0215660 secs] [Times: user=0.11 sys=0.00, real=0.02 secs] 
+30.946: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1761K->160K(76800K)] 20887K->19286K(251392K), 0.0007730 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+30.946: [Full GC (System.gc()) [PSYoungGen: 160K->0K(76800K)] [ParOldGen: 19126K->19127K(174592K)] 19286K->19127K(251392K) [PSPermGen: 10338K->10338K(21504K)], 0.0243890 secs] [Times: user=0.12 sys=0.00, real=0.02 secs] 
+31.024: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 22463K->3296K(76800K)] 41590K->22423K(251392K), 0.0043480 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+31.029: [Full GC (System.gc()) [PSYoungGen: 3296K->0K(76800K)] [ParOldGen: 19127K->21667K(174592K)] 22423K->21667K(251392K) [PSPermGen: 10339K->10339K(21504K)], 0.1485600 secs] [Times: user=1.08 sys=0.01, real=0.15 secs] 
+31.178: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1761K->128K(76800K)] 23429K->21795K(251392K), 0.0006430 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+31.178: [Full GC (System.gc()) [PSYoungGen: 128K->0K(76800K)] [ParOldGen: 21667K->21667K(174592K)] 21795K->21667K(251392K) [PSPermGen: 10339K->10339K(21504K)], 0.0226600 secs] [Times: user=0.13 sys=0.00, real=0.02 secs] 
+31.201: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1761K->96K(76800K)] 23429K->21763K(251392K), 0.0006050 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+31.202: [Full GC (System.gc()) [PSYoungGen: 96K->0K(76800K)] [ParOldGen: 21667K->21667K(174592K)] 21763K->21667K(251392K) [PSPermGen: 10339K->10339K(21504K)], 0.0219330 secs] [Times: user=0.13 sys=0.00, real=0.02 secs] 
+31.352: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 21454K->3264K(76800K)] 43122K->24931K(251392K), 0.0042920 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+31.357: [Full GC (System.gc()) [PSYoungGen: 3264K->0K(76800K)] [ParOldGen: 21667K->24165K(174592K)] 24931K->24165K(251392K) [PSPermGen: 10339K->10339K(21504K)], 0.1684990 secs] [Times: user=1.23 sys=0.00, real=0.17 secs] 
+31.526: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 2421K->96K(76800K)] 26587K->24261K(251392K), 0.0006540 secs] [Times: user=0.00 sys=0.01, real=0.00 secs] 
+31.526: [Full GC (System.gc()) [PSYoungGen: 96K->0K(76800K)] [ParOldGen: 24165K->24166K(174592K)] 24261K->24166K(251392K) [PSPermGen: 10339K->10339K(21504K)], 0.0266030 secs] [Times: user=0.14 sys=0.00, real=0.02 secs] 
+31.589: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 19156K->3552K(76800K)] 43322K->27718K(251392K), 0.0054090 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+31.595: [Full GC (System.gc()) [PSYoungGen: 3552K->0K(76800K)] [ParOldGen: 24166K->26659K(174592K)] 27718K->26659K(251392K) [PSPermGen: 10339K->10339K(21504K)], 0.1846440 secs] [Times: user=1.30 sys=0.01, real=0.19 secs] 
+31.780: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 2421K->160K(76800K)] 29081K->26819K(251392K), 0.0006170 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+31.780: [Full GC (System.gc()) [PSYoungGen: 160K->0K(76800K)] [ParOldGen: 26659K->26660K(174592K)] 26819K->26660K(251392K) [PSPermGen: 10339K->10339K(21504K)], 0.0337050 secs] [Times: user=0.18 sys=0.00, real=0.03 secs] 
+31.815: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1101K->96K(76800K)] 27761K->26756K(251392K), 0.0006590 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+31.816: [Full GC (System.gc()) [PSYoungGen: 96K->0K(76800K)] [ParOldGen: 26660K->26660K(174592K)] 26756K->26660K(251392K) [PSPermGen: 10339K->10339K(21504K)], 0.0372240 secs] [Times: user=0.22 sys=0.00, real=0.03 secs] 
+31.878: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1981K->96K(76800K)] 28641K->26756K(251392K), 0.0011030 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+31.879: [Full GC (System.gc()) [PSYoungGen: 96K->0K(76800K)] [ParOldGen: 26660K->26659K(174592K)] 26756K->26659K(251392K) [PSPermGen: 10339K->10339K(21504K)], 0.0348960 secs] [Times: user=0.22 sys=0.00, real=0.03 secs] 
+32.081: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 18499K->3264K(76800K)] 45158K->29923K(251392K), 0.0048600 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+32.085: [Full GC (System.gc()) [PSYoungGen: 3264K->0K(76800K)] [ParOldGen: 26659K->29108K(174592K)] 29923K->29108K(251392K) [PSPermGen: 10339K->10339K(21504K)], 0.2035670 secs] [Times: user=1.44 sys=0.01, real=0.20 secs] 
+32.290: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 2421K->128K(76800K)] 31530K->29236K(251392K), 0.0005980 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+32.290: [Full GC (System.gc()) [PSYoungGen: 128K->0K(76800K)] [ParOldGen: 29108K->29108K(174592K)] 29236K->29108K(251392K) [PSPermGen: 10339K->10339K(21504K)], 0.0373960 secs] [Times: user=0.21 sys=0.01, real=0.04 secs] 
+32.369: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 24222K->3200K(76800K)] 53330K->32308K(251392K), 0.0044300 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+32.373: [Full GC (System.gc()) [PSYoungGen: 3200K->0K(76800K)] [ParOldGen: 29108K->31538K(174592K)] 32308K->31538K(251392K) [PSPermGen: 10339K->10339K(21504K)], 0.2303000 secs] [Times: user=1.67 sys=0.00, real=0.23 secs] 
+32.628: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 8146K->1632K(76800K)] 39684K->33170K(251392K), 0.0035510 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+32.632: [Full GC (System.gc()) [PSYoungGen: 1632K->0K(76800K)] [ParOldGen: 31538K->32801K(174592K)] 33170K->32801K(251392K) [PSPermGen: 10340K->10340K(21504K)], 0.2579050 secs] [Times: user=1.86 sys=0.01, real=0.26 secs] 
+32.930: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 31491K->5120K(76800K)] 64292K->37921K(251392K), 0.0061580 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+32.937: [Full GC (System.gc()) [PSYoungGen: 5120K->0K(76800K)] [ParOldGen: 32801K->36610K(174592K)] 37921K->36610K(251392K) [PSPermGen: 10340K->10340K(21504K)], 0.2501010 secs] [Times: user=1.82 sys=0.01, real=0.25 secs] 
+33.188: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 2421K->128K(76800K)] 39032K->36738K(251392K), 0.0005910 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+33.188: [Full GC (System.gc()) [PSYoungGen: 128K->0K(76800K)] [ParOldGen: 36610K->36611K(174592K)] 36738K->36611K(251392K) [PSPermGen: 10341K->10341K(21504K)], 0.0415670 secs] [Times: user=0.27 sys=0.00, real=0.04 secs] 
+33.233: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 5946K->320K(76800K)] 42557K->36931K(251392K), 0.0010920 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+33.234: [Full GC (System.gc()) [PSYoungGen: 320K->0K(76800K)] [ParOldGen: 36611K->36514K(174592K)] 36931K->36514K(251392K) [PSPermGen: 10341K->10341K(21504K)], 0.2544820 secs] [Times: user=1.86 sys=0.01, real=0.26 secs] 
+33.528: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 37437K->6400K(76800K)] 73952K->42914K(251392K), 0.0085570 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+33.537: [Full GC (System.gc()) [PSYoungGen: 6400K->0K(76800K)] [ParOldGen: 36514K->41361K(174592K)] 42914K->41361K(251392K) [PSPermGen: 10341K->10341K(21504K)], 0.2653500 secs] [Times: user=1.77 sys=0.02, real=0.26 secs] 
+33.810: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 11105K->656K(76800K)] 52467K->42017K(251392K), 0.0018800 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+33.812: [Full GC (System.gc()) [PSYoungGen: 656K->0K(76800K)] [ParOldGen: 41361K->41548K(174592K)] 42017K->41548K(251392K) [PSPermGen: 10341K->10341K(21504K)], 0.3304260 secs] [Times: user=2.43 sys=0.02, real=0.33 secs] 
+34.177: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 31871K->6016K(76800K)] 73419K->47564K(251392K), 0.0067260 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+34.184: [Full GC (System.gc()) [PSYoungGen: 6016K->0K(76800K)] [ParOldGen: 41548K->46056K(174592K)] 47564K->46056K(251392K) [PSPermGen: 10341K->10341K(21504K)], 0.2815520 secs] [Times: user=2.08 sys=0.01, real=0.29 secs] 
+34.475: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 12611K->1104K(76800K)] 58667K->47160K(251392K), 0.0025280 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+34.477: [Full GC (System.gc()) [PSYoungGen: 1104K->0K(76800K)] [ParOldGen: 46056K->46455K(174592K)] 47160K->46455K(251392K) [PSPermGen: 10341K->10341K(21504K)], 0.3752480 secs] [Times: user=2.57 sys=0.03, real=0.37 secs] 
+34.853: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1848K->128K(76800K)] 48303K->46583K(251392K), 0.0006980 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+34.854: [Full GC (System.gc()) [PSYoungGen: 128K->0K(76800K)] [ParOldGen: 46455K->46465K(174592K)] 46583K->46465K(251392K) [PSPermGen: 10341K->10341K(21504K)], 0.1414850 secs] [Times: user=0.99 sys=0.01, real=0.15 secs] 
+34.996: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1848K->128K(76800K)] 48313K->46593K(251392K), 0.0009600 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+34.997: [Full GC (System.gc()) [PSYoungGen: 128K->0K(76800K)] [ParOldGen: 46465K->46474K(174592K)] 46593K->46474K(251392K) [PSPermGen: 10341K->10341K(21504K)], 0.1346930 secs] [Times: user=0.94 sys=0.01, real=0.13 secs] 
+35.132: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1848K->128K(76800K)] 48323K->46602K(251392K), 0.0006660 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+35.132: [Full GC (System.gc()) [PSYoungGen: 128K->0K(76800K)] [ParOldGen: 46474K->46483K(174592K)] 46602K->46483K(251392K) [PSPermGen: 10341K->10341K(21504K)], 0.1358760 secs] [Times: user=0.97 sys=0.00, real=0.14 secs] 
+35.269: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1848K->128K(76800K)] 48331K->46611K(251392K), 0.0008530 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+35.270: [Full GC (System.gc()) [PSYoungGen: 128K->0K(76800K)] [ParOldGen: 46483K->46495K(174592K)] 46611K->46495K(251392K) [PSPermGen: 10341K->10341K(21504K)], 0.1635690 secs] [Times: user=1.16 sys=0.01, real=0.16 secs] 
+35.469: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 41652K->5664K(76800K)] 88147K->52159K(251392K), 0.0090550 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+35.478: [Full GC (System.gc()) [PSYoungGen: 5664K->0K(76800K)] [ParOldGen: 46495K->50660K(174592K)] 52159K->50660K(251392K) [PSPermGen: 10344K->10344K(21504K)], 0.3342580 secs] [Times: user=2.38 sys=0.02, real=0.33 secs] 
+35.813: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1610K->160K(76800K)] 52270K->50820K(251392K), 0.0009840 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+35.814: [Full GC (System.gc()) [PSYoungGen: 160K->0K(76800K)] [ParOldGen: 50660K->50670K(174592K)] 50820K->50670K(251392K) [PSPermGen: 10344K->10344K(21504K)], 0.1679580 secs] [Times: user=1.19 sys=0.01, real=0.17 secs] 
+35.987: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 5626K->800K(76800K)] 56296K->51470K(251392K), 0.0026120 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+35.990: [Full GC (System.gc()) [PSYoungGen: 800K->0K(76800K)] [ParOldGen: 50670K->51167K(174592K)] 51470K->51167K(251392K) [PSPermGen: 10344K->10344K(21504K)], 0.4121220 secs] [Times: user=3.00 sys=0.02, real=0.41 secs] 
+36.404: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 4279K->224K(76800K)] 55446K->51391K(251392K), 0.0012370 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+36.406: [Full GC (System.gc()) [PSYoungGen: 224K->0K(76800K)] [ParOldGen: 51167K->50976K(174592K)] 51391K->50976K(251392K) [PSPermGen: 10344K->10344K(21504K)], 0.3327980 secs] [Times: user=2.44 sys=0.01, real=0.33 secs] 
+36.739: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1610K->96K(76800K)] 52587K->51072K(251392K), 0.0008270 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+36.740: [Full GC (System.gc()) [PSYoungGen: 96K->0K(76800K)] [ParOldGen: 50976K->50987K(174592K)] 51072K->50987K(251392K) [PSPermGen: 10344K->10344K(21504K)], 0.1481070 secs] [Times: user=1.02 sys=0.01, real=0.15 secs] 
+36.889: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1610K->192K(76800K)] 52597K->51179K(251392K), 0.0009500 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+36.890: [Full GC (System.gc()) [PSYoungGen: 192K->0K(76800K)] [ParOldGen: 50987K->51008K(174592K)] 51179K->51008K(251392K) [PSPermGen: 10344K->10344K(21504K)], 0.1984320 secs] [Times: user=1.34 sys=0.03, real=0.20 secs] 
+37.089: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1610K->128K(76800K)] 52618K->51136K(251392K), 0.0006790 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+37.089: [Full GC (System.gc()) [PSYoungGen: 128K->0K(76800K)] [ParOldGen: 51008K->51016K(174592K)] 51136K->51016K(251392K) [PSPermGen: 10344K->10344K(21504K)], 0.1485330 secs] [Times: user=1.02 sys=0.01, real=0.15 secs] 
+37.238: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1610K->160K(76800K)] 52626K->51176K(251392K), 0.0007300 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+37.239: [Full GC (System.gc()) [PSYoungGen: 160K->0K(76800K)] [ParOldGen: 51016K->51028K(174592K)] 51176K->51028K(251392K) [PSPermGen: 10344K->10344K(21504K)], 0.1415960 secs] [Times: user=0.98 sys=0.01, real=0.14 secs] 
+37.426: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 63937K->3053K(76800K)] 114965K->54081K(251392K), 0.0049110 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+37.431: [Full GC (System.gc()) [PSYoungGen: 3053K->0K(76800K)] [ParOldGen: 51028K->53128K(174592K)] 54081K->53128K(251392K) [PSPermGen: 10344K->10344K(21504K)], 0.4143110 secs] [Times: user=3.02 sys=0.02, real=0.42 secs] 
+37.846: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 2924K->254K(76800K)] 56052K->53383K(251392K), 0.0006650 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+37.847: [Full GC (System.gc()) [PSYoungGen: 254K->0K(76800K)] [ParOldGen: 53128K->53082K(174592K)] 53383K->53082K(251392K) [PSPermGen: 10344K->10344K(21504K)], 0.0398090 secs] [Times: user=0.24 sys=0.00, real=0.04 secs] 
+37.887: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 3672K->314K(76800K)] 56755K->53396K(251392K), 0.0005970 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+37.888: [Full GC (System.gc()) [PSYoungGen: 314K->0K(76800K)] [ParOldGen: 53082K->53142K(174592K)] 53396K->53142K(251392K) [PSPermGen: 10344K->10344K(21504K)], 0.0395530 secs] [Times: user=0.24 sys=0.00, real=0.04 secs] 
+37.927: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 2670K->295K(76800K)] 55812K->53437K(251392K), 0.0005920 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+37.928: [Full GC (System.gc()) [PSYoungGen: 295K->0K(76800K)] [ParOldGen: 53142K->53090K(174592K)] 53437K->53090K(251392K) [PSPermGen: 10344K->10344K(21504K)], 0.0360170 secs] [Times: user=0.24 sys=0.01, real=0.03 secs] 
+37.969: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 51646K->0K(76800K)] 104737K->53090K(251392K), 0.0006230 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+37.970: [Full GC (System.gc()) [PSYoungGen: 0K->0K(76800K)] [ParOldGen: 53090K->52837K(174592K)] 53090K->52837K(251392K) [PSPermGen: 10344K->10344K(21504K)], 0.0412440 secs] [Times: user=0.27 sys=0.00, real=0.04 secs] 
+38.054: [GC (Allocation Failure)
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 65957K->3338K(76800K)] 118794K->56176K(251392K), 0.0056670 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+38.066: [GC (Allocation Failure)
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 69274K->3308K(142848K)] 122112K->56145K(317440K), 0.0046710 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+38.074: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 44785K->3008K(142848K)] 97622K->55845K(317440K), 0.0036950 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+38.078: [Full GC (System.gc()) [PSYoungGen: 3008K->0K(142848K)] [ParOldGen: 52837K->55160K(174592K)] 55845K->55160K(317440K) [PSPermGen: 10344K->10344K(21504K)], 0.4284290 secs] [Times: user=3.13 sys=0.02, real=0.43 secs] 
+38.507: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 2112K->160K(142848K)] 57273K->55320K(317440K), 0.0006830 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+38.508: [Full GC (System.gc()) [PSYoungGen: 160K->0K(142848K)] [ParOldGen: 55160K->55161K(174592K)] 55320K->55161K(317440K) [PSPermGen: 10344K->10344K(21504K)], 0.0432180 secs] [Times: user=0.27 sys=0.00, real=0.04 secs] 
+38.589: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 19812K->3408K(142848K)] 74974K->58569K(317440K), 0.0050330 secs] [Times: user=0.03 sys=0.01, real=0.00 secs] 
+38.594: [Full GC (System.gc()) [PSYoungGen: 3408K->0K(142848K)] [ParOldGen: 55161K->57474K(174592K)] 58569K->57474K(317440K) [PSPermGen: 10345K->10345K(21504K)], 0.4368670 secs] [Times: user=3.18 sys=0.02, real=0.44 secs] 
+39.031: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1518K->192K(142848K)] 58993K->57666K(317440K), 0.0007540 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+39.032: [Full GC (System.gc()) [PSYoungGen: 192K->0K(142848K)] [ParOldGen: 57474K->57538K(174592K)] 57666K->57538K(317440K) [PSPermGen: 10345K->10345K(21504K)], 0.0442230 secs] [Times: user=0.29 sys=0.00, real=0.05 secs] 
+39.076: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 601K->0K(142848K)] 58140K->57538K(317440K), 0.0006250 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+39.077: [Full GC (System.gc()) [PSYoungGen: 0K->0K(142848K)] [ParOldGen: 57538K->57538K(174592K)] 57538K->57538K(317440K) [PSPermGen: 10345K->10345K(21504K)], 0.0590040 secs] [Times: user=0.39 sys=0.00, real=0.06 secs] 
+39.137: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1518K->160K(142848K)] 59057K->57698K(317440K), 0.0007160 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+39.138: [Full GC (System.gc()) [PSYoungGen: 160K->0K(142848K)] [ParOldGen: 57538K->57539K(174592K)] 57698K->57539K(317440K) [PSPermGen: 10345K->10345K(21504K)], 0.0424810 secs] [Times: user=0.26 sys=0.00, real=0.04 secs] 
+39.345: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 3164K->64K(142848K)] 60703K->57603K(317440K), 0.0011250 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+39.347: [Full GC (System.gc()) [PSYoungGen: 64K->0K(142848K)] [ParOldGen: 57539K->57538K(174592K)] 57603K->57538K(317440K) [PSPermGen: 10345K->10345K(21504K)], 0.0476000 secs] [Times: user=0.30 sys=0.00, real=0.04 secs] 
+39.395: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1511K->96K(142848K)] 59049K->57634K(317440K), 0.0007010 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+39.395: [Full GC (System.gc()) [PSYoungGen: 96K->0K(142848K)] [ParOldGen: 57538K->57539K(174592K)] 57634K->57539K(317440K) [PSPermGen: 10345K->10345K(21504K)], 0.0448670 secs] [Times: user=0.29 sys=0.00, real=0.04 secs] 
+39.766: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 988K->64K(142848K)] 58527K->57603K(317440K), 0.0010870 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+39.767: [Full GC (System.gc()) [PSYoungGen: 64K->0K(142848K)] [ParOldGen: 57539K->57538K(174592K)] 57603K->57538K(317440K) [PSPermGen: 10345K->10345K(21504K)], 0.0487060 secs] [Times: user=0.28 sys=0.01, real=0.05 secs] 
+39.822: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 394K->64K(142848K)] 57932K->57602K(317440K), 0.0007480 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+39.823: [Full GC (System.gc()) [PSYoungGen: 64K->0K(142848K)] [ParOldGen: 57538K->57538K(174592K)] 57602K->57538K(317440K) [PSPermGen: 10345K->10345K(21504K)], 0.0465750 secs] [Times: user=0.29 sys=0.00, real=0.05 secs] 
+39.908: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 394K->160K(142848K)] 57932K->57698K(317440K), 0.0011330 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+39.909: [Full GC (System.gc()) [PSYoungGen: 160K->0K(142848K)] [ParOldGen: 57538K->57539K(174592K)] 57698K->57539K(317440K) [PSPermGen: 10345K->10345K(21504K)], 0.0471840 secs] [Times: user=0.32 sys=0.00, real=0.05 secs] 
+39.957: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 3558K->96K(142848K)] 61097K->57635K(317440K), 0.0007090 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+39.958: [Full GC (System.gc()) [PSYoungGen: 96K->0K(142848K)] [ParOldGen: 57539K->57539K(174592K)] 57635K->57539K(317440K) [PSPermGen: 10345K->10345K(21504K)], 0.0452370 secs] [Times: user=0.28 sys=0.00, real=0.04 secs] 
+40.141: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 3164K->64K(142848K)] 60703K->57603K(317440K), 0.0007650 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+40.142: [Full GC (System.gc()) [PSYoungGen: 64K->0K(142848K)] [ParOldGen: 57539K->57538K(174592K)] 57603K->57538K(317440K) [PSPermGen: 10345K->10345K(21504K)], 0.0456560 secs] [Times: user=0.31 sys=0.00, real=0.05 secs] 
+40.305: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 522K->64K(142848K)] 58061K->57602K(317440K), 0.0010190 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+40.306: [Full GC (System.gc()) [PSYoungGen: 64K->0K(142848K)] [ParOldGen: 57538K->57538K(174592K)] 57602K->57538K(317440K) [PSPermGen: 10345K->10345K(21504K)], 0.0467450 secs] [Times: user=0.31 sys=0.00, real=0.04 secs] 
+40.398: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 10393K->2112K(142848K)] 67932K->59650K(317440K), 0.0044940 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+40.403: [Full GC (System.gc()) [PSYoungGen: 2112K->0K(142848K)] [ParOldGen: 57538K->59186K(174592K)] 59650K->59186K(317440K) [PSPermGen: 10345K->10345K(21504K)], 0.4766670 secs] [Times: user=3.48 sys=0.02, real=0.48 secs] 
+40.880: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 4160K->224K(142848K)] 63346K->59410K(317440K), 0.0009400 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+40.881: [Full GC (System.gc()) [PSYoungGen: 224K->0K(142848K)] [ParOldGen: 59186K->59202K(174592K)] 59410K->59202K(317440K) [PSPermGen: 10345K->10345K(21504K)], 0.1681940 secs] [Times: user=1.19 sys=0.01, real=0.17 secs] 
+41.050: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 4160K->160K(142848K)] 63363K->59362K(317440K), 0.0006860 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+41.051: [Full GC (System.gc()) [PSYoungGen: 160K->0K(142848K)] [ParOldGen: 59202K->59205K(174592K)] 59362K->59205K(317440K) [PSPermGen: 10345K->10345K(21504K)], 0.0666400 secs] [Times: user=0.44 sys=0.00, real=0.07 secs] 
+41.145: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 9807K->1440K(142848K)] 69012K->60645K(317440K), 0.0036920 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+41.149: [Full GC (System.gc()) [PSYoungGen: 1440K->0K(142848K)] [ParOldGen: 59205K->59843K(174592K)] 60645K->59843K(317440K) [PSPermGen: 10346K->10346K(21504K)], 0.4669270 secs] [Times: user=3.47 sys=0.02, real=0.47 secs] 
+41.616: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 2112K->160K(142848K)] 61956K->60003K(317440K), 0.0007130 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+41.617: [Full GC (System.gc()) [PSYoungGen: 160K->0K(142848K)] [ParOldGen: 59843K->59843K(174592K)] 60003K->59843K(317440K) [PSPermGen: 10346K->10346K(21504K)], 0.0588600 secs] [Times: user=0.39 sys=0.00, real=0.06 secs] 
+41.676: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1518K->128K(142848K)] 61362K->59971K(317440K), 0.0005680 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+41.677: [Full GC (System.gc()) [PSYoungGen: 128K->0K(142848K)] [ParOldGen: 59843K->59844K(174592K)] 59971K->59844K(317440K) [PSPermGen: 10346K->10346K(21504K)], 0.0532430 secs] [Times: user=0.32 sys=0.00, real=0.05 secs] 
+41.742: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 5650K->1248K(142848K)] 65494K->61092K(317440K), 0.0032590 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+41.746: [Full GC (System.gc()) [PSYoungGen: 1248K->0K(142848K)] [ParOldGen: 59844K->60769K(174592K)] 61092K->60769K(317440K) [PSPermGen: 10346K->10346K(21504K)], 0.4862370 secs] [Times: user=3.61 sys=0.02, real=0.48 secs] 
+42.233: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1518K->256K(142848K)] 62287K->61025K(317440K), 0.0009760 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+42.234: [Full GC (System.gc()) [PSYoungGen: 256K->0K(142848K)] [ParOldGen: 60769K->60803K(174592K)] 61025K->60803K(317440K) [PSPermGen: 10346K->10346K(21504K)], 0.2976480 secs] [Times: user=2.21 sys=0.01, real=0.30 secs] 
+42.532: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 4754K->224K(142848K)] 65558K->61027K(317440K), 0.0006450 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+42.532: [Full GC (System.gc()) [PSYoungGen: 224K->0K(142848K)] [ParOldGen: 60803K->60808K(174592K)] 61027K->60808K(317440K) [PSPermGen: 10346K->10346K(21504K)], 0.1515870 secs] [Times: user=1.11 sys=0.00, real=0.15 secs] 
+42.699: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 5848K->1184K(142848K)] 66657K->61992K(317440K), 0.0031470 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+42.702: [Full GC (System.gc()) [PSYoungGen: 1184K->0K(142848K)] [ParOldGen: 60808K->61650K(174592K)] 61992K->61650K(317440K) [PSPermGen: 10346K->10346K(21504K)], 0.4839900 secs] [Times: user=3.60 sys=0.01, real=0.49 secs] 
+43.187: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 4160K->128K(142848K)] 65810K->61778K(317440K), 0.0009590 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+43.188: [Full GC (System.gc()) [PSYoungGen: 128K->0K(142848K)] [ParOldGen: 61650K->61656K(174592K)] 61778K->61656K(317440K) [PSPermGen: 10346K->10346K(21504K)], 0.1149770 secs] [Times: user=0.82 sys=0.01, real=0.11 secs] 
+43.303: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1518K->256K(142848K)] 63175K->61912K(317440K), 0.0007920 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+43.304: [Full GC (System.gc()) [PSYoungGen: 256K->0K(142848K)] [ParOldGen: 61656K->61676K(174592K)] 61912K->61676K(317440K) [PSPermGen: 10346K->10346K(21504K)], 0.2106890 secs] [Times: user=1.53 sys=0.01, real=0.22 secs] 
+43.520: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 6746K->736K(142848K)] 68423K->62412K(317440K), 0.0025720 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+43.522: [Full GC (System.gc()) [PSYoungGen: 736K->0K(142848K)] [ParOldGen: 61676K->62169K(174592K)] 62412K->62169K(317440K) [PSPermGen: 10346K->10346K(21504K)], 0.4931440 secs] [Times: user=3.54 sys=0.03, real=0.50 secs] 
+44.040: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 22104K->2912K(142848K)] 84273K->65081K(317440K), 0.0062950 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+44.046: [Full GC (System.gc()) [PSYoungGen: 2912K->0K(142848K)] [ParOldGen: 62169K->64135K(174592K)] 65081K->64135K(317440K) [PSPermGen: 10346K->10346K(21504K)], 0.4839480 secs] [Times: user=3.60 sys=0.01, real=0.48 secs] 
+44.531: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 2112K->160K(142848K)] 66248K->64295K(317440K), 0.0007280 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+44.531: [Full GC (System.gc()) [PSYoungGen: 160K->0K(142848K)] [ParOldGen: 64135K->64147K(174592K)] 64295K->64147K(317440K) [PSPermGen: 10346K->10346K(21504K)], 0.2132600 secs] [Times: user=1.53 sys=0.01, real=0.21 secs] 
+44.745: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 2112K->160K(142848K)] 66260K->64307K(317440K), 0.0006780 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+44.746: [Full GC (System.gc()) [PSYoungGen: 160K->0K(142848K)] [ParOldGen: 64147K->64153K(174592K)] 64307K->64153K(317440K) [PSPermGen: 10346K->10346K(21504K)], 0.2322150 secs] [Times: user=1.72 sys=0.01, real=0.23 secs] 
+44.991: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 10705K->896K(142848K)] 74858K->65049K(317440K), 0.0031750 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+44.994: [Full GC (System.gc()) [PSYoungGen: 896K->0K(142848K)] [ParOldGen: 64153K->64425K(174592K)] 65049K->64425K(317440K) [PSPermGen: 10346K->10346K(21504K)], 0.4912690 secs] [Times: user=3.66 sys=0.02, real=0.50 secs] 
+45.486: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 2112K->128K(142848K)] 66537K->64553K(317440K), 0.0006450 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+45.487: [Full GC (System.gc()) [PSYoungGen: 128K->0K(142848K)] [ParOldGen: 64425K->64425K(174592K)] 64553K->64425K(317440K) [PSPermGen: 10346K->10346K(21504K)], 0.1893920 secs] [Times: user=1.38 sys=0.00, real=0.19 secs] 
+45.677: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1518K->96K(142848K)] 65943K->64521K(317440K), 0.0009130 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+45.678: [Full GC (System.gc()) [PSYoungGen: 96K->0K(142848K)] [ParOldGen: 64425K->64424K(174592K)] 64521K->64424K(317440K) [PSPermGen: 10347K->10347K(21504K)], 0.0572620 secs] [Times: user=0.39 sys=0.01, real=0.05 secs] 
+45.775: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 601K->96K(142848K)] 65026K->64520K(317440K), 0.0007940 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+45.775: [Full GC (System.gc()) [PSYoungGen: 96K->0K(142848K)] [ParOldGen: 64424K->64424K(174592K)] 64520K->64424K(317440K) [PSPermGen: 10347K->10347K(21504K)], 0.0573050 secs] [Times: user=0.35 sys=0.00, real=0.05 secs] 
+46.060: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 14831K->3280K(142848K)] 79256K->67704K(317440K), 0.0044930 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+46.064: [Full GC (System.gc()) [PSYoungGen: 3280K->0K(142848K)] [ParOldGen: 64424K->67030K(174592K)] 67704K->67030K(317440K) [PSPermGen: 10348K->10348K(21504K)], 0.5107920 secs] [Times: user=3.81 sys=0.02, real=0.52 secs] 
+46.575: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 2112K->160K(142848K)] 69143K->67190K(317440K), 0.0008560 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+46.576: [Full GC (System.gc()) [PSYoungGen: 160K->0K(142848K)] [ParOldGen: 67030K->67037K(174592K)] 67190K->67037K(317440K) [PSPermGen: 10348K->10348K(21504K)], 0.1538990 secs] [Times: user=1.07 sys=0.00, real=0.15 secs] 
+46.763: [GC (Allocation Failure)
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 132057K->2828K(142848K)] 199095K->69866K(317440K), 0.0060700 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+46.769: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 5082K->2560K(274944K)] 72120K->69597K(449536K), 0.0039850 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+46.773: [Full GC (System.gc()) [PSYoungGen: 2560K->0K(274944K)] [ParOldGen: 67037K->68625K(174592K)] 69597K->68625K(449536K) [PSPermGen: 10348K->10348K(21504K)], 0.5314920 secs] [Times: user=3.96 sys=0.02, real=0.54 secs] 
+47.305: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 2306K->128K(274944K)] 70932K->68753K(449536K), 0.0006820 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+47.306: [Full GC (System.gc()) [PSYoungGen: 128K->0K(274944K)] [ParOldGen: 68625K->68630K(174592K)] 68753K->68630K(449536K) [PSPermGen: 10348K->10348K(21504K)], 0.1680160 secs] [Times: user=1.22 sys=0.01, real=0.16 secs] 
+47.475: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 3088K->256K(274944K)] 71719K->68886K(449536K), 0.0007800 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+47.476: [Full GC (System.gc()) [PSYoungGen: 256K->0K(274944K)] [ParOldGen: 68630K->68646K(174592K)] 68886K->68646K(449536K) [PSPermGen: 10348K->10348K(21504K)], 0.2188690 secs] [Times: user=1.57 sys=0.01, real=0.21 secs] 
+47.695: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 7590K->128K(274944K)] 76237K->68774K(449536K), 0.0008630 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+47.696: [Full GC (System.gc()) [PSYoungGen: 128K->0K(274944K)] [ParOldGen: 68646K->68652K(174592K)] 68774K->68652K(449536K) [PSPermGen: 10348K->10348K(21504K)], 0.1882590 secs] [Times: user=1.37 sys=0.00, real=0.18 secs] 
+47.899: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 8632K->1056K(274944K)] 77285K->69708K(449536K), 0.0026320 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+47.901: [Full GC (System.gc()) [PSYoungGen: 1056K->0K(274944K)] [ParOldGen: 68652K->69023K(174592K)] 69708K->69023K(449536K) [PSPermGen: 10348K->10348K(21504K)], 0.5495190 secs] [Times: user=4.11 sys=0.02, real=0.55 secs] 
+48.451: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 3087K->192K(274944K)] 72111K->69215K(449536K), 0.0008310 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+48.452: [Full GC (System.gc()) [PSYoungGen: 192K->0K(274944K)] [ParOldGen: 69023K->69023K(174592K)] 69215K->69023K(449536K) [PSPermGen: 10348K->10348K(21504K)], 0.0494310 secs] [Times: user=0.32 sys=0.00, real=0.05 secs] 
+48.502: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 3087K->96K(274944K)] 72111K->69119K(449536K), 0.0006460 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+48.503: [Full GC (System.gc()) [PSYoungGen: 96K->0K(274944K)] [ParOldGen: 69023K->69023K(174592K)] 69119K->69023K(449536K) [PSPermGen: 10348K->10348K(21504K)], 0.0489800 secs] [Times: user=0.34 sys=0.00, real=0.05 secs] 
+48.780: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 661K->96K(274944K)] 69685K->69119K(449536K), 0.0012210 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+48.782: [Full GC (System.gc()) [PSYoungGen: 96K->0K(274944K)] [ParOldGen: 69023K->69023K(174592K)] 69119K->69023K(449536K) [PSPermGen: 10348K->10348K(21504K)], 0.0493980 secs] [Times: user=0.32 sys=0.00, real=0.05 secs] 
+49.155: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 661K->128K(274944K)] 69684K->69151K(449536K), 0.0009350 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+49.156: [Full GC (System.gc()) [PSYoungGen: 128K->0K(274944K)] [ParOldGen: 69023K->69023K(174592K)] 69151K->69023K(449536K) [PSPermGen: 10348K->10348K(21504K)], 0.0470090 secs] [Times: user=0.30 sys=0.01, real=0.04 secs] 
+49.340: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 17867K->3104K(274944K)] 86890K->72127K(449536K), 0.0051940 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+49.345: [Full GC (System.gc()) [PSYoungGen: 3104K->0K(274944K)] [ParOldGen: 69023K->71331K(174592K)] 72127K->71331K(449536K) [PSPermGen: 10348K->10348K(21504K)], 0.5522080 secs] [Times: user=4.07 sys=0.02, real=0.55 secs] 
+49.898: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 3087K->160K(274944K)] 74419K->71491K(449536K), 0.0008090 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+49.899: [Full GC (System.gc()) [PSYoungGen: 160K->0K(274944K)] [ParOldGen: 71331K->71331K(174592K)] 71491K->71331K(449536K) [PSPermGen: 10348K->10348K(21504K)], 0.0513780 secs] [Times: user=0.33 sys=0.00, real=0.05 secs] 
+49.951: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 3088K->192K(274944K)] 74419K->71523K(449536K), 0.0006800 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+49.951: [Full GC (System.gc()) [PSYoungGen: 192K->0K(274944K)] [ParOldGen: 71331K->71360K(174592K)] 71523K->71360K(449536K) [PSPermGen: 10348K->10348K(21504K)], 0.1053160 secs] [Times: user=0.73 sys=0.01, real=0.11 secs] 
+50.072: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 6840K->1568K(274944K)] 78200K->72928K(449536K), 0.0038840 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+50.076: [Full GC (System.gc()) [PSYoungGen: 1568K->0K(274944K)] [ParOldGen: 71360K->72483K(174592K)] 72928K->72483K(449536K) [PSPermGen: 10349K->10349K(21504K)], 0.5818940 secs] [Times: user=4.35 sys=0.01, real=0.58 secs] 
+50.659: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 8371K->160K(274944K)] 80854K->72643K(449536K), 0.0008540 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+50.660: [Full GC (System.gc()) [PSYoungGen: 160K->0K(274944K)] [ParOldGen: 72483K->72488K(174592K)] 72643K->72488K(449536K) [PSPermGen: 10349K->10349K(21504K)], 0.1512120 secs] [Times: user=1.05 sys=0.01, real=0.15 secs] 
+50.812: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 3087K->224K(274944K)] 75575K->72712K(449536K), 0.0008970 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+50.813: [Full GC (System.gc()) [PSYoungGen: 224K->0K(274944K)] [ParOldGen: 72488K->72514K(174592K)] 72712K->72514K(449536K) [PSPermGen: 10349K->10349K(21504K)], 0.3158030 secs] [Times: user=2.37 sys=0.01, real=0.32 secs] 
+51.157: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 37194K->5472K(274944K)] 109708K->77986K(449536K), 0.0081140 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+51.165: [Full GC (System.gc()) [PSYoungGen: 5472K->0K(274944K)] [ParOldGen: 72514K->76538K(174592K)] 77986K->76538K(449536K) [PSPermGen: 10349K->10349K(21504K)], 0.5001230 secs] [Times: user=3.73 sys=0.02, real=0.50 secs] 
+51.684: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 13473K->2144K(274944K)] 90012K->78682K(449536K), 0.0056200 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+51.689: [Full GC (System.gc()) [PSYoungGen: 2144K->0K(274944K)] [ParOldGen: 76538K->77784K(174592K)] 78682K->77784K(449536K) [PSPermGen: 10349K->10349K(21504K)], 0.6220370 secs] [Times: user=4.63 sys=0.02, real=0.62 secs] 
+52.312: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 2306K->160K(274944K)] 80091K->77944K(449536K), 0.0006870 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+52.313: [Full GC (System.gc()) [PSYoungGen: 160K->0K(274944K)] [ParOldGen: 77784K->77792K(174592K)] 77944K->77792K(449536K) [PSPermGen: 10349K->10349K(21504K)], 0.2149140 secs] [Times: user=1.56 sys=0.01, real=0.22 secs] 
+52.535: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 6990K->1344K(274944K)] 84783K->79136K(449536K), 0.0034290 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+52.538: [Full GC (System.gc()) [PSYoungGen: 1344K->0K(274944K)] [ParOldGen: 77792K->78748K(174592K)] 79136K->78748K(449536K) [PSPermGen: 10349K->10349K(21504K)], 0.6182080 secs] [Times: user=4.57 sys=0.02, real=0.62 secs] 
+53.170: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 11147K->1504K(274944K)] 89895K->80252K(449536K), 0.0040940 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+53.174: [Full GC (System.gc()) [PSYoungGen: 1504K->0K(274944K)] [ParOldGen: 78748K->79444K(174592K)] 80252K->79444K(449536K) [PSPermGen: 10349K->10349K(21504K)], 0.6199060 secs] [Times: user=4.65 sys=0.02, real=0.62 secs] 
+53.822: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 23933K->4416K(274944K)] 103377K->83860K(449536K), 0.0071930 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+53.829: [Full GC (System.gc()) [PSYoungGen: 4416K->0K(274944K)] [ParOldGen: 79444K->82559K(174592K)] 83860K->82559K(449536K) [PSPermGen: 10349K->10349K(21504K)], 0.6143000 secs] [Times: user=4.66 sys=0.01, real=0.61 secs] 
+54.460: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 15909K->2448K(274944K)] 98468K->85007K(449536K), 0.0050470 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+54.465: [Full GC (System.gc()) [PSYoungGen: 2448K->0K(274944K)] [ParOldGen: 82559K->84053K(174592K)] 85007K->84053K(449536K) [PSPermGen: 10349K->10349K(21504K)], 0.6713090 secs] [Times: user=4.92 sys=0.03, real=0.67 secs] 
+55.169: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 31982K->4752K(274944K)] 116036K->88805K(449536K), 0.0055710 secs] [Times: user=0.04 sys=0.01, real=0.00 secs] 
+55.174: [Full GC (System.gc()) [PSYoungGen: 4752K->0K(274944K)] [ParOldGen: 84053K->87493K(174592K)] 88805K->87493K(449536K) [PSPermGen: 10349K->10349K(21504K)], 0.6402900 secs] [Times: user=4.78 sys=0.02, real=0.64 secs] 
+55.829: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 17501K->1824K(274944K)] 104995K->89317K(449536K), 0.0040800 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+55.833: [Full GC (System.gc()) [PSYoungGen: 1824K->0K(274944K)] [ParOldGen: 87493K->88491K(174592K)] 89317K->88491K(449536K) [PSPermGen: 10349K->10349K(21504K)], 0.7043890 secs] [Times: user=5.29 sys=0.02, real=0.71 secs] 
+56.575: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 34175K->5168K(274944K)] 122666K->93659K(449536K), 0.0074850 secs] [Times: user=0.04 sys=0.00, real=0.00 secs] 
+56.583: [Full GC (System.gc()) [PSYoungGen: 5168K->0K(274944K)] [ParOldGen: 88491K->92227K(174592K)] 93659K->92227K(449536K) [PSPermGen: 10350K->10350K(21504K)], 0.6608160 secs] [Times: user=5.01 sys=0.02, real=0.66 secs] 
+57.254: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 10884K->1120K(274944K)] 103111K->93347K(449536K), 0.0031300 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+57.258: [Full GC (System.gc()) [PSYoungGen: 1120K->0K(274944K)] [ParOldGen: 92227K->92631K(174592K)] 93347K->92631K(449536K) [PSPermGen: 10351K->10351K(21504K)], 0.7374890 secs] [Times: user=5.55 sys=0.02, real=0.74 secs] 
+58.030: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 34436K->5648K(274944K)] 127068K->98279K(449536K), 0.0088060 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+58.039: [Full GC (System.gc()) [PSYoungGen: 5648K->0K(274944K)] [ParOldGen: 92631K->96838K(174592K)] 98279K->96838K(449536K) [PSPermGen: 10351K->10351K(21504K)], 0.6347240 secs] [Times: user=4.74 sys=0.03, real=0.63 secs] 
+58.684: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 13263K->1168K(274944K)] 110102K->98006K(449536K), 0.0044370 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+58.688: [Full GC (System.gc()) [PSYoungGen: 1168K->0K(274944K)] [ParOldGen: 96838K->97275K(174592K)] 98006K->97275K(449536K) [PSPermGen: 10351K->10351K(21504K)], 0.7504420 secs] [Times: user=5.65 sys=0.02, real=0.75 secs] 
+59.472: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 29455K->5456K(274944K)] 126731K->102731K(449536K), 0.0085260 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+59.481: [Full GC (System.gc()) [PSYoungGen: 5456K->0K(274944K)] [ParOldGen: 97275K->101303K(174592K)] 102731K->101303K(449536K) [PSPermGen: 10351K->10351K(21504K)], 0.7037480 secs] [Times: user=5.31 sys=0.03, real=0.70 secs] 
+60.194: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 6419K->544K(274944K)] 107722K->101847K(449536K), 0.0025470 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+60.196: [Full GC (System.gc()) [PSYoungGen: 544K->0K(274944K)] [ParOldGen: 101303K->101233K(174592K)] 101847K->101233K(449536K) [PSPermGen: 10351K->10351K(21504K)], 0.6990640 secs] [Times: user=5.21 sys=0.02, real=0.70 secs] 
+60.947: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 38130K->5760K(274944K)] 139363K->106993K(449536K), 0.0106120 secs] [Times: user=0.07 sys=0.00, real=0.01 secs] 
+60.957: [Full GC (System.gc()) [PSYoungGen: 5760K->0K(274944K)] [ParOldGen: 101233K->105783K(174592K)] 106993K->105783K(449536K) [PSPermGen: 10351K->10351K(21504K)], 0.6931860 secs] [Times: user=5.26 sys=0.02, real=0.69 secs] 
+61.651: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 2821K->96K(274944K)] 108604K->105879K(449536K), 0.0007160 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+61.652: [Full GC (System.gc()) [PSYoungGen: 96K->0K(274944K)] [ParOldGen: 105783K->105755K(174592K)] 105879K->105755K(449536K) [PSPermGen: 10351K->10351K(21504K)], 0.0727730 secs] [Times: user=0.48 sys=0.00, real=0.07 secs] 
+61.769: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 22135K->2976K(274944K)] 127890K->108731K(449536K), 0.0047940 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+61.774: [Full GC (System.gc()) [PSYoungGen: 2976K->0K(274944K)] [ParOldGen: 105755K->107996K(174592K)] 108731K->107996K(449536K) [PSPermGen: 10351K->10351K(21504K)], 0.8377660 secs] [Times: user=6.29 sys=0.03, real=0.84 secs] 
+63.291: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 18631K->3008K(274944K)] 126628K->111004K(449536K), 0.0059440 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+63.297: [Full GC (System.gc()) [PSYoungGen: 3008K->0K(274944K)] [ParOldGen: 107996K->110244K(174592K)] 111004K->110244K(449536K) [PSPermGen: 10352K->10352K(21504K)], 0.8911380 secs] [Times: user=6.63 sys=0.04, real=0.89 secs] 
+64.230: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 38225K->5792K(274944K)] 148470K->116036K(449536K), 0.0093430 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+64.240: [Full GC (System.gc()) [PSYoungGen: 5792K->0K(274944K)] [ParOldGen: 110244K->114774K(174592K)] 116036K->114774K(449536K) [PSPermGen: 10354K->10354K(21504K)], 0.7789240 secs] [Times: user=5.86 sys=0.03, real=0.78 secs] 
+65.019: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 4455K->160K(274944K)] 119229K->114934K(449536K), 0.0008700 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+65.020: [Full GC (System.gc()) [PSYoungGen: 160K->0K(274944K)] [ParOldGen: 114774K->114787K(174592K)] 114934K->114787K(449536K) [PSPermGen: 10354K->10354K(21504K)], 0.1215350 secs] [Times: user=0.84 sys=0.00, real=0.12 secs] 
+65.183: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 27807K->5040K(274944K)] 142595K->119827K(449536K), 0.0101150 secs] [Times: user=0.07 sys=0.00, real=0.01 secs] 
+65.193: [Full GC (System.gc()) [PSYoungGen: 5040K->0K(274944K)] [ParOldGen: 114787K->118588K(174592K)] 119827K->118588K(449536K) [PSPermGen: 10354K->10354K(21504K)], 0.8809540 secs] [Times: user=6.48 sys=0.05, real=0.88 secs] 
+66.093: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 12771K->1472K(274944K)] 131360K->120060K(449536K), 0.0050150 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+66.098: [Full GC (System.gc()) [PSYoungGen: 1472K->0K(274944K)] [ParOldGen: 118588K->119267K(174592K)] 120060K->119267K(449536K) [PSPermGen: 10354K->10354K(21504K)], 0.9098730 secs] [Times: user=6.84 sys=0.03, real=0.91 secs] 
+67.421: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 21961K->3008K(274944K)] 141228K->122275K(449536K), 0.0068050 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+67.428: [Full GC (System.gc()) [PSYoungGen: 3008K->0K(274944K)] [ParOldGen: 119267K->121513K(174592K)] 122275K->121513K(449536K) [PSPermGen: 10354K->10354K(21504K)], 0.9654440 secs] [Times: user=7.21 sys=0.04, real=0.96 secs] 
+68.440: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 44108K->5875K(274944K)] 165622K->127389K(449536K), 0.0107650 secs] [Times: user=0.07 sys=0.00, real=0.01 secs] 
+68.451: [Full GC (System.gc()) [PSYoungGen: 5875K->0K(274944K)] [ParOldGen: 121513K->126100K(174592K)] 127389K->126100K(449536K) [PSPermGen: 10362K->10362K(21504K)], 0.8184890 secs] [Times: user=6.17 sys=0.02, real=0.82 secs] 
+69.270: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 2657K->32K(274944K)] 128758K->126132K(449536K), 0.0007420 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+69.270: [Full GC (System.gc()) [PSYoungGen: 32K->0K(274944K)] [ParOldGen: 126100K->126055K(174592K)] 126132K->126055K(449536K) [PSPermGen: 10362K->10362K(21504K)], 0.0834660 secs] [Times: user=0.58 sys=0.01, real=0.08 secs] 
+69.701: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 21878K->3008K(274944K)] 147933K->129063K(449536K), 0.0073820 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+69.709: [Full GC (System.gc()) [PSYoungGen: 3008K->0K(274944K)] [ParOldGen: 126055K->128313K(174592K)] 129063K->128313K(449536K) [PSPermGen: 10362K->10362K(21504K)], 1.0124200 secs] [Times: user=7.56 sys=0.03, real=1.01 secs] 
+70.722: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 3087K->288K(274944K)] 131401K->128601K(449536K), 0.0009920 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+70.723: [Full GC (System.gc()) [PSYoungGen: 288K->0K(274944K)] [ParOldGen: 128313K->128370K(174592K)] 128601K->128370K(449536K) [PSPermGen: 10362K->10362K(21504K)], 0.3589470 secs] [Times: user=2.66 sys=0.02, real=0.36 secs] 
+71.124: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 42022K->6496K(274944K)] 170392K->134866K(449536K), 0.0091500 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+71.134: [Full GC (System.gc()) [PSYoungGen: 6496K->0K(274944K)] [ParOldGen: 128370K->133191K(174592K)] 134866K->133191K(449536K) [PSPermGen: 10363K->10363K(21504K)], 0.8785270 secs] [Times: user=6.63 sys=0.02, real=0.88 secs] 
+72.013: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 6984K->224K(274944K)] 140175K->133415K(449536K), 0.0008380 secs] [Times: user=0.00 sys=0.01, real=0.00 secs] 
+72.014: [Full GC (System.gc()) [PSYoungGen: 224K->0K(274944K)] [ParOldGen: 133191K->132901K(174592K)] 133415K->132901K(449536K) [PSPermGen: 10363K->10363K(21504K)], 0.0932240 secs] [Times: user=0.66 sys=0.00, real=0.10 secs] 
+72.107: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 661K->0K(274944K)] 133563K->132901K(449536K), 0.0007510 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+72.108: [Full GC (System.gc()) [PSYoungGen: 0K->0K(274944K)] [ParOldGen: 132901K->132887K(174592K)] 132901K->132887K(449536K) [PSPermGen: 10363K->10363K(21504K)], 0.0789740 secs] [Times: user=0.58 sys=0.00, real=0.08 secs] 
+72.233: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 28189K->3200K(274944K)] 161076K->136087K(449536K), 0.0051310 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+72.238: [Full GC (System.gc()) [PSYoungGen: 3200K->0K(274944K)] [ParOldGen: 132887K->135184K(174592K)] 136087K->135184K(449536K) [PSPermGen: 10363K->10363K(21504K)], 1.0670780 secs] [Times: user=8.00 sys=0.04, real=1.07 secs] 
+73.306: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 3087K->224K(274944K)] 138272K->135408K(449536K), 0.0010090 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+73.307: [Full GC (System.gc()) [PSYoungGen: 224K->0K(274944K)] [ParOldGen: 135184K->135221K(174592K)] 135408K->135221K(449536K) [PSPermGen: 10363K->10363K(21504K)], 0.1976100 secs] [Times: user=1.43 sys=0.00, real=0.19 secs] 
+73.550: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 49490K->6208K(274944K)] 184712K->141429K(449536K), 0.0078300 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+73.558: [Full GC (System.gc()) [PSYoungGen: 6208K->0K(274944K)] [ParOldGen: 135221K->139750K(174592K)] 141429K->139750K(449536K) [PSPermGen: 10363K->10363K(21504K)], 0.8705640 secs] [Times: user=6.53 sys=0.04, real=0.87 secs] 
+74.429: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 1442K->96K(274944K)] 141192K->139846K(449536K), 0.0007880 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+74.430: [Full GC (System.gc()) [PSYoungGen: 96K->0K(274944K)] [ParOldGen: 139750K->139750K(174592K)] 139846K->139750K(449536K) [PSPermGen: 10363K->10363K(21504K)], 0.0902670 secs] [Times: user=0.64 sys=0.00, real=0.09 secs] 
+74.563: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 40255K->7552K(274944K)] 180006K->147302K(449536K), 0.0101770 secs] [Times: user=0.07 sys=0.00, real=0.01 secs] 
+74.573: [Full GC (System.gc()) [PSYoungGen: 7552K->0K(274944K)] [ParOldGen: 139750K->145652K(174592K)] 147302K->145652K(449536K) [PSPermGen: 10364K->10364K(21504K)], 0.8191210 secs] [Times: user=6.16 sys=0.03, real=0.82 secs] 
+75.404: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 11916K->1568K(274944K)] 157569K->147220K(449536K), 0.0047810 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+75.409: [Full GC (System.gc()) [PSYoungGen: 1568K->0K(274944K)] [ParOldGen: 145652K->146426K(174592K)] 147220K->146426K(449536K) [PSPermGen: 10364K->10364K(21504K)], 1.1220410 secs] [Times: user=8.37 sys=0.04, real=1.12 secs] 
+76.552: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 22671K->2672K(274944K)] 169097K->149098K(449536K), 0.0057060 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+76.557: [Full GC (System.gc()) [PSYoungGen: 2672K->0K(274944K)] [ParOldGen: 146426K->148098K(174592K)] 149098K->148098K(449536K) [PSPermGen: 10367K->10367K(21504K)], 1.2628890 secs] [Times: user=9.38 sys=0.05, real=1.26 secs] 
+77.843: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 26815K->3568K(274944K)] 174914K->151666K(449536K), 0.0079670 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+77.851: [Full GC (System.gc()) [PSYoungGen: 3568K->0K(274944K)] [ParOldGen: 148098K->150504K(174592K)] 151666K->150504K(449536K) [PSPermGen: 10368K->10368K(21504K)], 1.1882370 secs] [Times: user=8.94 sys=0.03, real=1.19 secs] 
+79.058: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 19291K->3104K(274944K)] 169795K->153608K(449536K), 0.0073690 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+79.066: [Full GC (System.gc()) [PSYoungGen: 3104K->0K(274944K)] [ParOldGen: 150504K->152585K(174592K)] 153608K->152585K(449536K) [PSPermGen: 10368K->10368K(21504K)], 1.1919690 secs] [Times: user=8.79 sys=0.06, real=1.19 secs] 
+80.281: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 21372K->3664K(274944K)] 173957K->156249K(449536K), 0.0055240 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+80.287: [Full GC (System.gc()) [PSYoungGen: 3664K->0K(274944K)] [ParOldGen: 152585K->155055K(174592K)] 156249K->155055K(449536K) [PSPermGen: 10368K->10368K(21504K)], 1.2345680 secs] [Times: user=9.34 sys=0.03, real=1.23 secs] 
+81.522: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 3087K->288K(274944K)] 158143K->155343K(449536K), 0.0011940 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+81.523: [Full GC (System.gc()) [PSYoungGen: 288K->0K(274944K)] [ParOldGen: 155055K->155078K(174592K)] 155343K->155078K(449536K) [PSPermGen: 10368K->10368K(21504K)], 0.4129960 secs] [Times: user=2.99 sys=0.02, real=0.42 secs] 
+81.965: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 31237K->3632K(274944K)] 186315K->158710K(449536K), 0.0076130 secs] [Times: user=0.04 sys=0.01, real=0.00 secs] 
+81.973: [Full GC (System.gc()) [PSYoungGen: 3632K->0K(274944K)] [ParOldGen: 155078K->157581K(174592K)] 158710K->157581K(449536K) [PSPermGen: 10368K->10368K(21504K)], 1.2283680 secs] [Times: user=9.25 sys=0.04, real=1.23 secs] 
+83.218: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 16545K->2640K(274944K)] 174127K->160221K(449536K), 0.0064730 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+83.225: [Full GC (System.gc()) [PSYoungGen: 2640K->0K(274944K)] [ParOldGen: 157581K->159237K(174592K)] 160221K->159237K(449536K) [PSPermGen: 10368K->10368K(21504K)], 1.2444040 secs] [Times: user=9.40 sys=0.03, real=1.25 secs] 
+84.495: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 22702K->4144K(274944K)] 181939K->163381K(449536K), 0.0080990 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+84.503: [Full GC (System.gc()) [PSYoungGen: 4144K->0K(274944K)] [ParOldGen: 159237K->162071K(174592K)] 163381K->162071K(449536K) [PSPermGen: 10368K->10368K(21504K)], 1.2290680 secs] [Times: user=8.89 sys=0.09, real=1.23 secs] 
+85.758: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 25150K->3328K(274944K)] 187221K->165399K(449536K), 0.0076880 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+85.765: [Full GC (System.gc()) [PSYoungGen: 3328K->0K(274944K)] [ParOldGen: 162071K->164291K(174592K)] 165399K->164291K(449536K) [PSPermGen: 10368K->10368K(21504K)], 1.4195530 secs] [Times: user=9.19 sys=0.20, real=1.41 secs] 
+87.207: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 19913K->3216K(274944K)] 184205K->167507K(449536K), 0.0080560 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+87.215: [Full GC (System.gc()) [PSYoungGen: 3216K->0K(274944K)] [ParOldGen: 164291K->166414K(174592K)] 167507K->166414K(449536K) [PSPermGen: 10368K->10368K(21504K)], 1.3580610 secs] [Times: user=9.83 sys=0.08, real=1.36 secs] 
+88.598: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 41904K->3744K(274944K)] 208318K->170158K(449536K), 0.0114270 secs] [Times: user=0.06 sys=0.01, real=0.01 secs] 
+88.610: [Full GC (System.gc()) [PSYoungGen: 3744K->0K(274944K)] [ParOldGen: 166414K->168927K(174592K)] 170158K->168927K(449536K) [PSPermGen: 10369K->10369K(21504K)], 1.3146830 secs] [Times: user=9.89 sys=0.04, real=1.31 secs] 
+89.950: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 26077K->3216K(274944K)] 195005K->172143K(449536K), 0.0093750 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+89.960: [Full GC (System.gc()) [PSYoungGen: 3216K->0K(274944K)] [ParOldGen: 168927K->171117K(174592K)] 172143K->171117K(449536K) [PSPermGen: 10369K->10369K(21504K)], 1.3956580 secs] [Times: user=10.03 sys=0.10, real=1.40 secs] 
+91.377: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 18936K->1376K(274944K)] 190053K->172493K(449536K), 0.0060080 secs] [Times: user=0.04 sys=0.00, real=0.00 secs] 
+91.383: [Full GC (System.gc()) [PSYoungGen: 1376K->0K(274944K)] [ParOldGen: 171117K->171749K(174592K)] 172493K->171749K(449536K) [PSPermGen: 10371K->10371K(21504K)], 1.3447830 secs] [Times: user=9.43 sys=0.12, real=1.35 secs] 
+92.792: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 37943K->6208K(274944K)] 209693K->177957K(449536K), 0.0124260 secs] [Times: user=0.09 sys=0.00, real=0.01 secs] 
+92.805: [Full GC (System.gc()) [PSYoungGen: 6208K->2457K(274944K)] [ParOldGen: 171749K->174149K(174592K)] 177957K->176607K(449536K) [PSPermGen: 10371K->10371K(21504K)], 1.2064780 secs] [Times: user=7.82 sys=0.17, real=1.21 secs] 
+94.022: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 13946K->3008K(274944K)] 188096K->177157K(449536K), 0.0259650 secs] [Times: user=0.17 sys=0.00, real=0.03 secs] 
+94.048: [Full GC (System.gc()) [PSYoungGen: 3008K->2293K(274944K)] [ParOldGen: 174149K->174553K(174592K)] 177157K->176847K(449536K) [PSPermGen: 10371K->10371K(21504K)], 1.3560210 secs] [Times: user=8.76 sys=0.19, real=1.35 secs] 
+95.438: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 32992K->7488K(274944K)] 207546K->182041K(449536K), 0.0269360 secs] [Times: user=0.19 sys=0.00, real=0.03 secs] 
+95.465: [Full GC (System.gc()) [PSYoungGen: 7488K->6786K(274944K)] [ParOldGen: 174553K->174151K(174592K)] 182041K->180937K(449536K) [PSPermGen: 10371K->10371K(21504K)], 1.4759920 secs] [Times: user=9.52 sys=0.22, real=1.47 secs] 
+96.951: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 15912K->7584K(274944K)] 190063K->181735K(449536K), 0.0227630 secs] [Times: user=0.16 sys=0.00, real=0.02 secs] 
+96.974: [Full GC (System.gc()) [PSYoungGen: 7584K->6819K(274944K)] [ParOldGen: 174151K->174532K(174592K)] 181735K->181352K(449536K) [PSPermGen: 10371K->10371K(21504K)], 1.4137860 secs] [Times: user=9.14 sys=0.19, real=1.42 secs] 
+98.422: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 24598K->9328K(274944K)] 199130K->183860K(449536K), 0.0213140 secs] [Times: user=0.15 sys=0.00, real=0.02 secs] 
+98.443: [Full GC (System.gc()) [PSYoungGen: 9328K->8558K(274944K)] [ParOldGen: 174532K->174560K(174592K)] 183860K->183119K(449536K) [PSPermGen: 10372K->10372K(21504K)], 1.6064560 secs] [Times: user=10.35 sys=0.23, real=1.61 secs] 
+100.104: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 31587K->10720K(274944K)] 206148K->186072K(450560K), 0.0253920 secs] [Times: user=0.17 sys=0.00, real=0.03 secs] 
+100.129: [Full GC (System.gc()) [PSYoungGen: 10720K->10070K(274944K)] [ParOldGen: 175352K->175317K(175616K)] 186072K->185387K(450560K) [PSPermGen: 10372K->10372K(21504K)], 1.6132130 secs] [Times: user=10.47 sys=0.23, real=1.61 secs] 
+101.788: [GC (System.gc())
+Desired survivor size 11010048 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 56054K->10752K(274944K)] 231372K->191634K(456192K), 0.0328870 secs] [Times: user=0.20 sys=0.01, real=0.03 secs] 
+101.821: [Full GC (System.gc()) [PSYoungGen: 10752K->9625K(274944K)] [ParOldGen: 180882K->180885K(181248K)] 191634K->190511K(456192K) [PSPermGen: 10372K->10372K(21504K)], 1.3179140 secs] [Times: user=8.61 sys=0.17, real=1.32 secs] 
+103.143: [Full GC (System.gc()) [PSYoungGen: 18229K->9616K(274944K)] [ParOldGen: 180885K->180778K(181248K)] 199115K->190395K(456192K) [PSPermGen: 10372K->10372K(21504K)], 0.9945470 secs] [Times: user=6.46 sys=0.13, real=1.00 secs] 
+104.177: [Full GC (System.gc()) [PSYoungGen: 50368K->15119K(274944K)] [ParOldGen: 180778K->181206K(181248K)] 231147K->196325K(456192K) [PSPermGen: 10373K->10373K(21504K)], 1.2480610 secs] [Times: user=8.18 sys=0.17, real=1.24 secs] 
+105.435: [Full GC (System.gc()) [PSYoungGen: 25054K->15739K(274944K)] [ParOldGen: 181206K->180993K(181248K)] 206261K->196733K(456192K) [PSPermGen: 10373K->10373K(21504K)], 1.3908220 secs] [Times: user=9.26 sys=0.15, real=1.39 secs] 
+106.840: [Full GC (System.gc()) [PSYoungGen: 32274K->16875K(274944K)] [ParOldGen: 180993K->180760K(181248K)] 213268K->197636K(456192K) [PSPermGen: 10373K->10373K(21504K)], 1.4068180 secs] [Times: user=10.52 sys=0.05, real=1.41 secs] 
+108.279: [Full GC (System.gc()) [PSYoungGen: 46981K->20012K(274944K)] [ParOldGen: 180760K->181166K(181248K)] 227742K->201178K(456192K) [PSPermGen: 10373K->10373K(21504K)], 1.5236120 secs] [Times: user=11.56 sys=0.04, real=1.52 secs] 
+109.849: [Full GC (System.gc()) [PSYoungGen: 40113K->21365K(274944K)] [ParOldGen: 181166K->180933K(181248K)] 221279K->202299K(456192K) [PSPermGen: 10373K->10373K(21504K)], 1.4340520 secs] [Times: user=10.81 sys=0.04, real=1.43 secs] 
+111.312: [Full GC (System.gc()) [PSYoungGen: 46257K->24448K(274944K)] [ParOldGen: 180933K->180939K(181248K)] 227190K->205387K(456192K) [PSPermGen: 10373K->10373K(21504K)], 1.6825870 secs] [Times: user=12.71 sys=0.05, real=1.68 secs] 
+113.014: [Full GC (System.gc()) [PSYoungGen: 51747K->25870K(274944K)] [ParOldGen: 180939K->181136K(181248K)] 232687K->207006K(456192K) [PSPermGen: 10373K->10373K(21504K)], 1.6154250 secs] [Times: user=12.18 sys=0.04, real=1.62 secs] 
+114.656: [Full GC (System.gc()) [PSYoungGen: 52456K->28478K(274944K)] [ParOldGen: 181136K->181245K(181248K)] 233592K->209723K(456192K) [PSPermGen: 10373K->10373K(21504K)], 1.6570810 secs] [Times: user=12.48 sys=0.06, real=1.65 secs] 
+116.355: [Full GC (System.gc()) [PSYoungGen: 86570K->31879K(274944K)] [ParOldGen: 181245K->180799K(181248K)] 267816K->212678K(456192K) [PSPermGen: 10373K->10373K(21504K)], 1.4461760 secs] [Times: user=10.82 sys=0.05, real=1.44 secs] 
+117.806: [Full GC (System.gc()) [PSYoungGen: 39168K->31942K(274944K)] [ParOldGen: 180799K->180763K(181248K)] 219968K->212705K(456192K) [PSPermGen: 10374K->10374K(21504K)], 0.9694700 secs] [Times: user=7.19 sys=0.04, real=0.97 secs] 
+118.814: [Full GC (System.gc()) [PSYoungGen: 66012K->36069K(274944K)] [ParOldGen: 180763K->181090K(181248K)] 246776K->217160K(456192K) [PSPermGen: 10375K->10375K(21504K)], 1.4781860 secs] [Times: user=11.27 sys=0.04, real=1.48 secs] 
+120.296: [Full GC (System.gc()) [PSYoungGen: 41646K->35780K(274944K)] [ParOldGen: 181090K->181090K(181248K)] 222737K->216871K(456192K) [PSPermGen: 10375K->10375K(21504K)], 0.1406820 secs] [Times: user=1.02 sys=0.00, real=0.14 secs] 
+120.661: [Full GC (System.gc()) [PSYoungGen: 55103K->37869K(274944K)] [ParOldGen: 181090K->181241K(181248K)] 236194K->219111K(456192K) [PSPermGen: 10375K->10375K(21504K)], 1.7246570 secs] [Times: user=13.04 sys=0.06, real=1.73 secs] 
+123.546: [Full GC (System.gc()) [PSYoungGen: 56501K->40478K(274944K)] [ParOldGen: 181241K->180875K(181248K)] 237743K->221353K(456192K) [PSPermGen: 10375K->10375K(21504K)], 1.4075890 secs] [Times: user=10.65 sys=0.03, real=1.40 secs] 
+126.001: [Full GC (System.gc()) [PSYoungGen: 60516K->42517K(274944K)] [ParOldGen: 180875K->181060K(181248K)] 241391K->223577K(456192K) [PSPermGen: 10375K->10375K(21504K)], 1.7640070 secs] [Times: user=13.36 sys=0.05, real=1.76 secs] 
+127.767: [Full GC (System.gc()) [PSYoungGen: 50888K->42541K(274944K)] [ParOldGen: 181060K->181038K(181248K)] 231948K->223579K(456192K) [PSPermGen: 10375K->10375K(21504K)], 0.3177800 secs] [Times: user=2.33 sys=0.01, real=0.31 secs] 
+130.632: [Full GC (System.gc()) [PSYoungGen: 53102K->43330K(274944K)] [ParOldGen: 181038K->180948K(181248K)] 234140K->224278K(456192K) [PSPermGen: 10375K->10375K(21504K)], 1.2645550 secs] [Times: user=9.41 sys=0.05, real=1.27 secs] 
+131.898: [Full GC (System.gc()) [PSYoungGen: 51701K->43352K(274944K)] [ParOldGen: 180948K->180945K(181248K)] 232650K->224297K(456192K) [PSPermGen: 10375K->10375K(21504K)], 0.3633540 secs] [Times: user=2.69 sys=0.01, real=0.36 secs] 
+132.299: [Full GC (System.gc()) [PSYoungGen: 84018K->47482K(274944K)] [ParOldGen: 180945K->180837K(181248K)] 264963K->228319K(456192K) [PSPermGen: 10375K->10375K(21504K)], 1.7714020 secs] [Times: user=13.38 sys=0.06, real=1.77 secs] 
+134.078: [Full GC (System.gc()) [PSYoungGen: 55941K->47743K(274944K)] [ParOldGen: 180837K->180789K(181248K)] 236779K->228533K(456192K) [PSPermGen: 10375K->10375K(21504K)], 1.1019520 secs] [Times: user=8.30 sys=0.03, real=1.10 secs] 
+135.215: [Full GC (System.gc()) [PSYoungGen: 78672K->51568K(274944K)] [ParOldGen: 180789K->181164K(181248K)] 259461K->232733K(456192K) [PSPermGen: 10375K->10375K(21504K)], 1.6215840 secs] [Times: user=12.29 sys=0.05, real=1.62 secs] 
+136.849: [Full GC (System.gc()) [PSYoungGen: 68219K->52355K(274944K)] [ParOldGen: 181164K->181036K(181248K)] 249384K->233392K(456192K) [PSPermGen: 10375K->10375K(21504K)], 1.2732390 secs] [Times: user=9.63 sys=0.04, real=1.27 secs] 
+138.155: [Full GC (System.gc()) [PSYoungGen: 79687K->55996K(274944K)] [ParOldGen: 181036K->180986K(181248K)] 260723K->236983K(456192K) [PSPermGen: 10375K->10375K(21504K)], 1.8745840 secs] [Times: user=14.19 sys=0.05, real=1.87 secs] 
+140.042: [Full GC (System.gc()) [PSYoungGen: 68417K->57049K(274944K)] [ParOldGen: 180986K->180847K(181248K)] 249403K->237896K(456192K) [PSPermGen: 10375K->10375K(21504K)], 1.3329890 secs] [Times: user=9.96 sys=0.05, real=1.34 secs] 
+141.407: [Full GC (System.gc()) [PSYoungGen: 83859K->60230K(274944K)] [ParOldGen: 180847K->181244K(181248K)] 264707K->241474K(456192K) [PSPermGen: 10377K->10377K(21504K)], 1.6604430 secs] [Times: user=12.57 sys=0.05, real=1.66 secs] 
+143.080: [Full GC (System.gc()) [PSYoungGen: 75416K->61394K(274944K)] [ParOldGen: 181244K->181066K(181248K)] 256660K->242461K(456192K) [PSPermGen: 10377K->10377K(21504K)], 1.3215430 secs] [Times: user=9.97 sys=0.04, real=1.32 secs] 
+144.432: [Full GC (System.gc()) [PSYoungGen: 89496K->64908K(274944K)] [ParOldGen: 181066K->181016K(181248K)] 270563K->245925K(456192K) [PSPermGen: 10377K->10377K(21504K)], 1.9448290 secs] [Times: user=14.79 sys=0.05, real=1.95 secs] 
+146.392: [Full GC (System.gc()) [PSYoungGen: 81975K->66299K(274944K)] [ParOldGen: 181016K->180808K(181248K)] 262991K->247108K(456192K) [PSPermGen: 10377K->10377K(21504K)], 1.3513360 secs] [Times: user=10.16 sys=0.04, real=1.35 secs] 
+147.772: [Full GC (System.gc()) [PSYoungGen: 83318K->67310K(274944K)] [ParOldGen: 180808K->181088K(181248K)] 264127K->248399K(456192K) [PSPermGen: 10377K->10377K(21504K)], 1.9305870 secs] [Times: user=14.65 sys=0.05, real=1.93 secs] 
+150.933: [Full GC (System.gc()) [PSYoungGen: 86623K->69480K(274944K)] [ParOldGen: 181088K->181203K(181248K)] 267712K->250683K(456192K) [PSPermGen: 10377K->10377K(21504K)], 1.9871790 secs] [Times: user=15.07 sys=0.06, real=1.99 secs] 
+152.921: [Full GC (System.gc()) [PSYoungGen: 76893K->69491K(274944K)] [ParOldGen: 181203K->181192K(181248K)] 258096K->250684K(456192K) [PSPermGen: 10377K->10377K(21504K)], 0.7100850 secs] [Times: user=5.33 sys=0.02, real=0.71 secs] 
+155.928: [Full GC (System.gc()) [PSYoungGen: 70959K->69491K(274944K)] [ParOldGen: 181192K->181192K(181248K)] 252151K->250684K(456192K) [PSPermGen: 10377K->10377K(21504K)], 0.3218180 secs] [Times: user=2.38 sys=0.01, real=0.32 secs] 
+156.381: [Full GC (System.gc()) [PSYoungGen: 82485K->69493K(274944K)] [ParOldGen: 181192K->181190K(181248K)] 263677K->250684K(456192K) [PSPermGen: 10378K->10378K(21504K)], 0.1825110 secs] [Times: user=1.34 sys=0.00, real=0.18 secs] 
+158.446: [Full GC (System.gc()) [PSYoungGen: 76517K->69493K(274944K)] [ParOldGen: 181190K->181190K(181248K)] 257707K->250684K(456192K) [PSPermGen: 10378K->10378K(21504K)], 0.2209410 secs] [Times: user=1.62 sys=0.00, real=0.22 secs] 
+160.278: [Full GC (System.gc()) [PSYoungGen: 95708K->72122K(274944K)] [ParOldGen: 181190K->180826K(181248K)] 276898K->252949K(456192K) [PSPermGen: 10378K->10378K(21504K)], 2.1949810 secs] [Times: user=16.41 sys=0.08, real=2.19 secs] 
+162.474: [Full GC (System.gc()) [PSYoungGen: 80494K->72173K(274944K)] [ParOldGen: 180826K->180825K(181248K)] 261320K->252998K(456192K) [PSPermGen: 10378K->10378K(21504K)], 0.3434090 secs] [Times: user=2.50 sys=0.02, real=0.35 secs] 
+162.860: [Full GC (System.gc()) [PSYoungGen: 114192K->76740K(274944K)] [ParOldGen: 180825K->181068K(181248K)] 295017K->257808K(456192K) [PSPermGen: 10378K->10378K(21504K)], 1.7815300 secs] [Times: user=13.52 sys=0.05, real=1.78 secs] 
+164.644: [Full GC (System.gc()) [PSYoungGen: 83237K->76677K(274944K)] [ParOldGen: 181068K->181045K(181248K)] 264305K->257723K(456192K) [PSPermGen: 10378K->10378K(21504K)], 0.7835180 secs] [Times: user=5.84 sys=0.03, real=0.79 secs] 
+165.469: [Full GC (System.gc()) [PSYoungGen: 111650K->81231K(274944K)] [ParOldGen: 181045K->181212K(181248K)] 292695K->262444K(456192K) [PSPermGen: 10378K->10378K(21504K)], 1.5262130 secs] [Times: user=11.55 sys=0.05, real=1.53 secs] 
+166.996: [Full GC (System.gc()) [PSYoungGen: 84319K->81232K(274944K)] [ParOldGen: 181212K->181212K(181248K)] 265531K->262444K(456192K) [PSPermGen: 10378K->10378K(21504K)], 0.1997110 secs] [Times: user=1.24 sys=0.00, real=0.20 secs] 
+167.202: [Full GC (System.gc()) [PSYoungGen: 92962K->80941K(274944K)] [ParOldGen: 181212K->181212K(181248K)] 274175K->262153K(456192K) [PSPermGen: 10378K->10378K(21504K)], 0.3719530 secs] [Times: user=2.76 sys=0.01, real=0.37 secs] 
+167.619: [Full GC (System.gc()) [PSYoungGen: 104663K->83672K(274944K)] [ParOldGen: 181212K->180791K(181248K)] 285875K->264464K(456192K) [PSPermGen: 10378K->10378K(21504K)], 1.4332110 secs] [Times: user=10.73 sys=0.05, real=1.43 secs] 
+169.096: [Full GC (System.gc()) [PSYoungGen: 124888K->88278K(274944K)] [ParOldGen: 180791K->181052K(181248K)] 305680K->269331K(456192K) [PSPermGen: 10378K->10378K(21504K)], 1.6256240 secs] [Times: user=12.35 sys=0.04, real=1.62 secs] 
+170.727: [Full GC (System.gc()) [PSYoungGen: 102971K->88390K(274944K)] [ParOldGen: 181052K->180999K(181248K)] 284023K->269390K(456192K) [PSPermGen: 10378K->10378K(21504K)], 0.9942650 secs] [Times: user=7.43 sys=0.03, real=0.99 secs] 
+171.765: [Full GC (System.gc()) [PSYoungGen: 131984K->92891K(274944K)] [ParOldGen: 180999K->180790K(181248K)] 312983K->273681K(456192K) [PSPermGen: 10378K->10378K(21504K)], 2.8409230 secs] [Times: user=21.50 sys=0.10, real=2.85 secs] 
+174.607: [Full GC (System.gc()) [PSYoungGen: 103739K->92900K(274944K)] [ParOldGen: 180790K->180785K(181248K)] 284530K->273686K(456192K) [PSPermGen: 10378K->10378K(21504K)], 0.4181640 secs] [Times: user=3.11 sys=0.01, real=0.42 secs] 
+175.065: [Full GC (System.gc()) [PSYoungGen: 112759K->94917K(274944K)] [ParOldGen: 180785K->180960K(181248K)] 293545K->275877K(456192K) [PSPermGen: 10378K->10378K(21504K)], 2.2066540 secs] [Times: user=16.77 sys=0.06, real=2.20 secs] 
+177.316: [Full GC (System.gc()) [PSYoungGen: 114531K->97072K(274944K)] [ParOldGen: 180960K->181094K(181248K)] 295492K->278167K(456192K) [PSPermGen: 10378K->10378K(21504K)], 2.2238970 secs] [Times: user=16.91 sys=0.06, real=2.22 secs] 
+179.590: [Full GC (System.gc()) [PSYoungGen: 122486K->99285K(274944K)] [ParOldGen: 181094K->181194K(181248K)] 303581K->280479K(456192K) [PSPermGen: 10379K->10379K(21504K)], 2.3014760 secs] [Times: user=17.44 sys=0.07, real=2.30 secs] 
+182.478: [Full GC (System.gc()) [PSYoungGen: 106995K->99285K(274944K)] [ParOldGen: 181194K->181194K(181248K)] 288189K->280479K(456192K) [PSPermGen: 10379K->10379K(21504K)], 0.2354500 secs] [Times: user=1.71 sys=0.01, real=0.23 secs] 
+185.725: [Full GC (System.gc()) [PSYoungGen: 124102K->101868K(274944K)] [ParOldGen: 181194K->180868K(181248K)] 305297K->282736K(456192K) [PSPermGen: 10379K->10379K(21504K)], 1.3666870 secs] [Times: user=10.14 sys=0.05, real=1.37 secs] 
+187.480: [Full GC (System.gc()) [PSYoungGen: 110240K->101906K(274944K)] [ParOldGen: 180868K->180867K(181248K)] 291108K->282774K(456192K) [PSPermGen: 10380K->10380K(21504K)], 0.2944260 secs] [Times: user=2.17 sys=0.01, real=0.29 secs] 
+187.825: [Full GC (System.gc()) [PSYoungGen: 126015K->104067K(274944K)] [ParOldGen: 180867K->180976K(181248K)] 306883K->285044K(456192K) [PSPermGen: 10380K->10380K(21504K)], 2.2262460 secs] [Times: user=16.85 sys=0.07, real=2.23 secs] 
+190.499: [Full GC (System.gc()) [PSYoungGen: 122717K->106212K(274944K)] [ParOldGen: 180976K->181117K(181248K)] 303694K->287330K(456192K) [PSPermGen: 10380K->10380K(21504K)], 2.2305890 secs] [Times: user=16.97 sys=0.06, real=2.23 secs] 
+192.780: [Full GC (System.gc()) [PSYoungGen: 155785K->112377K(274944K)] [ParOldGen: 181117K->180809K(181248K)] 336903K->293187K(456192K) [PSPermGen: 10380K->10380K(21504K)], 1.9966950 secs] [Times: user=15.17 sys=0.06, real=2.00 secs] 
+194.779: [Full GC (System.gc()) [PSYoungGen: 117165K->112275K(274944K)] [ParOldGen: 180809K->180767K(181248K)] 297975K->293042K(456192K) [PSPermGen: 10380K->10380K(21504K)], 1.0372450 secs] [Times: user=7.75 sys=0.04, real=1.04 secs] 
+195.845: [Full GC (System.gc()) [PSYoungGen: 136698K->115166K(274944K)] [ParOldGen: 180767K->180804K(181248K)] 317465K->295971K(456192K) [PSPermGen: 10380K->10380K(21504K)], 2.3100200 secs] [Times: user=17.65 sys=0.06, real=2.31 secs] 
+198.175: [Full GC (System.gc()) [PSYoungGen: 127425K->115249K(274944K)] [ParOldGen: 180804K->181218K(181248K)] 308230K->296468K(456192K) [PSPermGen: 10380K->10380K(21504K)], 2.1473400 secs] [Times: user=16.37 sys=0.06, real=2.15 secs] 
+200.368: [Full GC (System.gc()) [PSYoungGen: 139857K->117958K(274944K)] [ParOldGen: 181218K->180820K(181248K)] 321075K->298779K(456192K) [PSPermGen: 10380K->10380K(21504K)], 1.3774450 secs] [Times: user=10.37 sys=0.04, real=1.38 secs] 
+201.790: [Full GC (System.gc()) [PSYoungGen: 157465K->120010K(274944K)] [ParOldGen: 180820K->181021K(181248K)] 338286K->301031K(456192K) [PSPermGen: 10380K->10380K(21504K)], 2.3909520 secs] [Times: user=18.18 sys=0.07, real=2.39 secs] 
+204.182: [Full GC (System.gc()) [PSYoungGen: 126942K->120042K(274944K)] [ParOldGen: 181021K->181021K(181248K)] 307963K->301063K(456192K) [PSPermGen: 10380K->10380K(21504K)], 0.2849690 secs] [Times: user=2.07 sys=0.00, real=0.29 secs] 
+204.509: [Full GC (System.gc()) [PSYoungGen: 138911K->122134K(274944K)] [ParOldGen: 181021K->181178K(181248K)] 319932K->303313K(456192K) [PSPermGen: 10380K->10380K(21504K)], 2.3408980 secs] [Times: user=17.81 sys=0.07, real=2.34 secs] 
+206.871: [Full GC (System.gc()) [PSYoungGen: 130993K->123737K(274944K)] [ParOldGen: 181178K->181026K(181248K)] 312172K->304764K(456192K) [PSPermGen: 10380K->10380K(21504K)], 1.3327540 secs] [Times: user=10.04 sys=0.04, real=1.33 secs] 
+208.226: [Full GC (System.gc()) [PSYoungGen: 140176K->124731K(274944K)] [ParOldGen: 181026K->180849K(181248K)] 321203K->305581K(456192K) [PSPermGen: 10380K->10380K(21504K)], 1.3443870 secs] [Times: user=10.22 sys=0.03, real=1.34 secs] 
+211.333: [Full GC (System.gc()) [PSYoungGen: 125179K->124732K(274944K)] [ParOldGen: 180849K->180849K(181248K)] 306029K->305581K(456192K) [PSPermGen: 10380K->10380K(21504K)], 0.1967530 secs] [Times: user=1.46 sys=0.00, real=0.20 secs] 
+212.736: [Full GC (System.gc()) [PSYoungGen: 133716K->124731K(274944K)] [ParOldGen: 180849K->180849K(181248K)] 314566K->305581K(456192K) [PSPermGen: 10380K->10380K(21504K)], 0.2498540 secs] [Times: user=1.87 sys=0.01, real=0.25 secs] 
+213.094: [Full GC (System.gc()) [PSYoungGen: 143088K->126916K(274944K)] [ParOldGen: 180849K->180973K(181248K)] 323938K->307890K(456192K) [PSPermGen: 10380K->10380K(21504K)], 2.3636190 secs] [Times: user=17.93 sys=0.07, real=2.37 secs] 
+215.503: [Full GC (System.gc()) [PSYoungGen: 145168K->129055K(274944K)] [ParOldGen: 180973K->181126K(181248K)] 326142K->310181K(456192K) [PSPermGen: 10380K->10380K(21504K)], 2.3695690 secs] [Times: user=17.81 sys=0.09, real=2.37 secs] 
+217.873: [Full GC (System.gc()) [PSYoungGen: 132867K->129056K(274944K)] [ParOldGen: 181126K->181126K(181248K)] 313993K->310182K(456192K) [PSPermGen: 10380K->10380K(21504K)], 0.2386410 secs] [Times: user=1.78 sys=0.00, real=0.24 secs] 
+218.162: [Full GC (System.gc()) [PSYoungGen: 153333K->131320K(274944K)] [ParOldGen: 181126K->181206K(181248K)] 334459K->312526K(456192K) [PSPermGen: 10380K->10380K(21504K)], 2.3226890 secs] [Times: user=17.72 sys=0.06, real=2.32 secs] 
+220.939: [Full GC (System.gc()) [PSYoungGen: 131766K->131321K(274944K)] [ParOldGen: 181206K->181206K(181248K)] 312972K->312527K(456192K) [PSPermGen: 10380K->10380K(21504K)], 0.2029840 secs] [Times: user=1.50 sys=0.00, real=0.20 secs] 
+222.587: [Full GC (System.gc()) [PSYoungGen: 157095K->133820K(274944K)] [ParOldGen: 181206K->180935K(181248K)] 338301K->314756K(456192K) [PSPermGen: 10380K->10380K(21504K)], 1.4836940 secs] [Times: user=11.18 sys=0.04, real=1.48 secs] 
+224.072: [Full GC (System.gc()) [PSYoungGen: 136616K->133859K(274944K)] [ParOldGen: 180935K->180934K(181248K)] 317552K->314794K(456192K) [PSPermGen: 10380K->10380K(21504K)], 0.4022190 secs] [Times: user=3.02 sys=0.00, real=0.40 secs] 
+224.519: [Full GC (System.gc()) [PSYoungGen: 157037K->135945K(274944K)] [ParOldGen: 180934K->181097K(181248K)] 337972K->317043K(456192K) [PSPermGen: 10380K->10380K(21504K)], 2.4264290 secs] [Times: user=18.30 sys=0.07, real=2.43 secs] 
+226.993: [Full GC (System.gc()) [PSYoungGen: 171975K->140660K(274944K)] [ParOldGen: 181097K->180958K(181248K)] 353073K->321619K(456192K) [PSPermGen: 10380K->10380K(21504K)], 2.2798230 secs] [Times: user=17.36 sys=0.07, real=2.28 secs] 
+229.274: [Full GC (System.gc()) [PSYoungGen: 145535K->140685K(274944K)] [ParOldGen: 180958K->180958K(181248K)] 326494K->321644K(456192K) [PSPermGen: 10380K->10380K(21504K)], 0.2119720 secs] [Times: user=1.58 sys=0.00, real=0.22 secs] 
+229.487: [Full GC (System.gc()) [PSYoungGen: 146831K->140631K(274944K)] [ParOldGen: 180958K->180958K(181248K)] 327789K->321589K(456192K) [PSPermGen: 10380K->10380K(21504K)], 0.2101940 secs] [Times: user=1.55 sys=0.00, real=0.21 secs] 
+230.903: [Full GC (System.gc()) [PSYoungGen: 158259K->142699K(274944K)] [ParOldGen: 180958K->181157K(181248K)] 339218K->323857K(456192K) [PSPermGen: 10380K->10380K(21504K)], 2.5113790 secs] [Times: user=19.21 sys=0.07, real=2.51 secs] 
+233.459: [Full GC (System.gc()) [PSYoungGen: 178354K->147290K(274944K)] [ParOldGen: 181157K->181079K(181248K)] 359511K->328369K(456192K) [PSPermGen: 10380K->10380K(21504K)], 2.4247720 secs] [Times: user=18.49 sys=0.07, real=2.42 secs] 
+235.884: [Full GC (System.gc()) [PSYoungGen: 147533K->147290K(274944K)] [ParOldGen: 181079K->181079K(181248K)] 328612K->328369K(456192K) [PSPermGen: 10380K->10380K(21504K)], 0.2027730 secs] [Times: user=1.53 sys=0.00, real=0.21 secs] 
+236.132: [Full GC (System.gc()) [PSYoungGen: 165734K->149871K(274944K)] [ParOldGen: 181079K->180765K(181248K)] 346814K->330637K(456192K) [PSPermGen: 10380K->10380K(21504K)], 1.6658280 secs] [Times: user=12.50 sys=0.05, real=1.67 secs] 
+239.575: [Full GC (System.gc()) [PSYoungGen: 171247K->151977K(274944K)] [ParOldGen: 180765K->180943K(181248K)] 352012K->332921K(456192K) [PSPermGen: 10380K->10380K(21504K)], 2.5555990 secs] [Times: user=19.53 sys=0.07, real=2.56 secs] 
+242.175: [Full GC (System.gc()) [PSYoungGen: 182635K->153993K(274944K)] [ParOldGen: 180943K->181178K(181248K)] 363578K->335171K(456192K) [PSPermGen: 10385K->10385K(21504K)], 2.5588620 secs] [Times: user=19.55 sys=0.07, real=2.56 secs] 
+244.734: [Full GC (System.gc()) [PSYoungGen: 155648K->153993K(274944K)] [ParOldGen: 181178K->181178K(181248K)] 336826K->335171K(456192K) [PSPermGen: 10385K->10385K(21504K)], 0.2363190 secs] [Times: user=1.76 sys=0.00, real=0.24 secs] 
+245.015: [Full GC (System.gc()) [PSYoungGen: 174274K->156765K(274944K)] [ParOldGen: 181178K->180758K(181248K)] 355452K->337523K(456192K) [PSPermGen: 10385K->10385K(21504K)], 1.7567320 secs] [Times: user=13.07 sys=0.07, real=1.75 secs] 
+248.467: [Full GC (System.gc()) [PSYoungGen: 185827K->158827K(274944K)] [ParOldGen: 180758K->180966K(181248K)] 366586K->339794K(456192K) [PSPermGen: 10385K->10385K(21504K)], 2.5611640 secs] [Times: user=19.52 sys=0.08, real=2.56 secs] 
+251.073: [Full GC (System.gc()) [PSYoungGen: 182159K->160860K(274944K)] [ParOldGen: 180966K->181189K(181248K)] 363126K->342049K(456192K) [PSPermGen: 10385K->10385K(21504K)], 2.6549040 secs] [Times: user=20.28 sys=0.06, real=2.66 secs] 
+253.790: [Full GC (System.gc()) [PSYoungGen: 218944K->163407K(274944K)] [ParOldGen: 181189K->180901K(181248K)] 400133K->344308K(456192K) [PSPermGen: 10385K->10385K(21504K)], 1.8558940 secs] [Times: user=12.98 sys=0.15, real=1.86 secs] 
+255.696: [Full GC (System.gc()) [PSYoungGen: 184385K->165414K(274944K)] [ParOldGen: 180901K->181141K(181248K)] 365287K->346555K(456192K) [PSPermGen: 10385K->10385K(21504K)], 2.6510530 secs] [Times: user=20.09 sys=0.08, real=2.65 secs] 
+258.397: [Full GC (System.gc()) [PSYoungGen: 186413K->167985K(274944K)] [ParOldGen: 181141K->180842K(181248K)] 367555K->348828K(456192K) [PSPermGen: 10386K->10386K(21504K)], 1.8787930 secs] [Times: user=14.19 sys=0.05, real=1.88 secs] 
+260.321: [Full GC (System.gc()) [PSYoungGen: 211548K->172865K(274944K)] [ParOldGen: 180842K->180778K(181248K)] 392390K->353644K(456192K) [PSPermGen: 10386K->10386K(21504K)], 2.4643880 secs] [Times: user=18.80 sys=0.06, real=2.47 secs] 
+262.788: [Full GC (System.gc()) [PSYoungGen: 176731K->172735K(274944K)] [ParOldGen: 180778K->180771K(181248K)] 357509K->353507K(456192K) [PSPermGen: 10386K->10386K(21504K)], 0.8050690 secs] [Times: user=6.05 sys=0.02, real=0.80 secs] 
+263.636: [Full GC (System.gc()) [PSYoungGen: 190765K->174609K(274944K)] [ParOldGen: 180771K->181008K(181248K)] 371536K->355617K(456192K) [PSPermGen: 10386K->10386K(21504K)], 2.6658700 secs] [Times: user=19.67 sys=0.16, real=2.66 secs] 
+266.389: [Full GC (System.gc()) [PSYoungGen: 192406K->176623K(274944K)] [ParOldGen: 181008K->181247K(181248K)] 373414K->357870K(456192K) [PSPermGen: 10386K->10386K(21504K)], 2.7643060 secs] [Times: user=19.96 sys=0.16, real=2.76 secs] 
+269.154: [Full GC (System.gc()) [PSYoungGen: 177590K->176652K(274944K)] [ParOldGen: 181247K->181247K(181248K)] 358837K->357899K(456192K) [PSPermGen: 10386K->10386K(21504K)], 0.2625460 secs] [Times: user=1.91 sys=0.01, real=0.27 secs] 
+269.463: [Full GC (System.gc()) [PSYoungGen: 219013K->181152K(274944K)] [ParOldGen: 181247K->181247K(181248K)] 400261K->362400K(456192K) [PSPermGen: 10386K->10386K(21504K)], 2.5681520 secs] [Times: user=19.43 sys=0.09, real=2.57 secs] 
+272.031: [Full GC (System.gc()) [PSYoungGen: 182323K->181113K(274944K)] [ParOldGen: 181247K->181247K(181248K)] 363571K->362361K(456192K) [PSPermGen: 10386K->10386K(21504K)], 0.2437240 secs] [Times: user=1.84 sys=0.00, real=0.24 secs] 
+272.276: [Full GC (System.gc()) [PSYoungGen: 181389K->181113K(274944K)] [ParOldGen: 181247K->181247K(181248K)] 362636K->362361K(456192K) [PSPermGen: 10386K->10386K(21504K)], 0.2954430 secs] [Times: user=2.18 sys=0.01, real=0.29 secs] 
+272.618: [Full GC (System.gc()) [PSYoungGen: 220539K->183664K(274944K)] [ParOldGen: 181247K->180968K(181248K)] 401787K->364632K(456192K) [PSPermGen: 10386K->10386K(21504K)], 2.0561950 secs] [Times: user=15.35 sys=0.08, real=2.05 secs] 
+274.832: [Full GC (System.gc()) [PSYoungGen: 183903K->183664K(274944K)] [ParOldGen: 180968K->180968K(181248K)] 364871K->364633K(456192K) [PSPermGen: 10386K->10386K(21504K)], 0.2492840 secs] [Times: user=1.87 sys=0.00, real=0.25 secs] 
+277.717: [Full GC (System.gc()) [PSYoungGen: 208022K->185696K(274944K)] [ParOldGen: 180968K->181201K(181248K)] 388990K->366898K(456192K) [PSPermGen: 10386K->10386K(21504K)], 2.7358750 secs] [Times: user=20.68 sys=0.10, real=2.73 secs] 
+280.454: [Full GC (System.gc()) [PSYoungGen: 186566K->185743K(274944K)] [ParOldGen: 181201K->181200K(181248K)] 367767K->366944K(456192K) [PSPermGen: 10386K->10386K(21504K)], 0.5961060 secs] [Times: user=3.94 sys=0.03, real=0.60 secs] 
+281.097: [Full GC (System.gc()) [PSYoungGen: 204181K->188226K(274944K)] [ParOldGen: 181200K->180932K(181248K)] 385382K->369158K(456192K) [PSPermGen: 10386K->10386K(21504K)], 2.0991970 secs] [Times: user=15.82 sys=0.06, real=2.10 secs] 
+285.456: [Full GC (System.gc()) [PSYoungGen: 188738K->188226K(274944K)] [ParOldGen: 180932K->180932K(181248K)] 369671K->369158K(456192K) [PSPermGen: 10386K->10386K(21504K)], 0.3145010 secs] [Times: user=2.32 sys=0.01, real=0.31 secs] 
+287.539: [Full GC (System.gc()) [PSYoungGen: 197896K->188208K(274944K)] [ParOldGen: 180932K->180842K(181248K)] 378828K->369050K(456192K) [PSPermGen: 10419K->10419K(21504K)], 0.4252350 secs] [Times: user=3.11 sys=0.01, real=0.42 secs] 
+Heap
+ PSYoungGen      total 274944K, used 195118K [0x00000007aaa80000, 0x00000007bc180000, 0x0000000800000000)
+  eden space 264192K, 73% used [0x00000007aaa80000,0x00000007b690b950,0x00000007bac80000)
+  from space 10752K, 0% used [0x00000007bac80000,0x00000007bac80000,0x00000007bb700000)
+  to   space 10752K, 0% used [0x00000007bb700000,0x00000007bb700000,0x00000007bc180000)
+ ParOldGen       total 181248K, used 180842K [0x0000000700000000, 0x000000070b100000, 0x00000007aaa80000)
+  object space 181248K, 99% used [0x0000000700000000,0x000000070b09a920,0x000000070b100000)
+ PSPermGen       total 21504K, used 10423K [0x00000006fae00000, 0x00000006fc300000, 0x0000000700000000)
+  object space 21504K, 48% used [0x00000006fae00000,0x00000006fb82dd48,0x00000006fc300000)

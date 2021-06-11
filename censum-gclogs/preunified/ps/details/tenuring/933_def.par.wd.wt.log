@@ -1,0 +1,705 @@
+0.948: [GC
+Desired survivor size 2097152 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 12288K->1634K(14336K)] 12288K->1634K(47104K), 0.0094201 secs] [Times: user=0.02 sys=0.01, real=0.06 secs] 
+1.230: [GC
+Desired survivor size 2097152 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 8134K->1728K(14336K)] 8134K->1728K(47104K), 0.0062038 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+1.236: [Full GC (System) [PSYoungGen: 1728K->0K(14336K)] [PSOldGen: 0K->1619K(32768K)] 1728K->1619K(47104K) [PSPermGen: 10118K->10118K(21248K)], 0.0502299 secs] [Times: user=0.04 sys=0.01, real=0.05 secs] 
+1.287: [GC
+Desired survivor size 2097152 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 0K->0K(14336K)] 1619K->1619K(47104K), 0.0004458 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+1.287: [Full GC (System) [PSYoungGen: 0K->0K(14336K)] [PSOldGen: 1619K->1619K(32768K)] 1619K->1619K(47104K) [PSPermGen: 10118K->10118K(23296K)], 0.0514473 secs] [Times: user=0.05 sys=0.00, real=0.05 secs] 
+8.509: [GC
+Desired survivor size 2097152 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 12288K->2024K(14336K)] 13907K->4508K(47104K), 0.0179985 secs] [Times: user=0.03 sys=0.00, real=0.02 secs] 
+10.931: [GC
+Desired survivor size 2097152 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 14300K->2016K(14336K)] 16783K->6534K(47104K), 0.0281793 secs] [Times: user=0.03 sys=0.00, real=0.03 secs] 
+10.973: [GC
+Desired survivor size 2097152 bytes, new threshold 7 (max 15)
+ [PSYoungGen: 14254K->2043K(14336K)] 18772K->6622K(47104K), 0.0063980 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+10.989: [GC
+Desired survivor size 4194304 bytes, new threshold 6 (max 15)
+ [PSYoungGen: 14323K->2016K(14336K)] 18901K->6709K(47104K), 0.0105434 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+11.010: [GC
+Desired survivor size 3997696 bytes, new threshold 5 (max 15)
+ [PSYoungGen: 14263K->2229K(28288K)] 18956K->6922K(61056K), 0.0087623 secs] [Times: user=0.01 sys=0.01, real=0.01 secs] 
+11.074: [GC
+Desired survivor size 3932160 bytes, new threshold 4 (max 15)
+ [PSYoungGen: 26780K->1331K(28480K)] 31473K->7048K(61248K), 0.0283897 secs] [Times: user=0.03 sys=0.00, real=0.02 secs] 
+11.124: [GC
+Desired survivor size 4063232 bytes, new threshold 3 (max 15)
+ [PSYoungGen: 25861K->193K(52864K)] 31578K->6935K(85632K), 0.0045950 secs] [Times: user=0.00 sys=0.01, real=0.00 secs] 
+11.203: [GC
+Desired survivor size 4128768 bytes, new threshold 2 (max 15)
+ [PSYoungGen: 49178K->150K(52992K)] 55919K->6973K(85760K), 0.0010833 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+11.246: [GC
+Desired survivor size 4194304 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 49112K->139K(82432K)] 55935K->6963K(115200K), 0.0006621 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+11.367: [GC
+Desired survivor size 4128768 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 78502K->177K(82496K)] 85325K->7001K(115264K), 0.0011059 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+11.449: [GC
+Desired survivor size 4063232 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 78518K->129K(129344K)] 85342K->6953K(162112K), 0.0008940 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+11.616: [GC
+Desired survivor size 3932160 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 125512K->404K(129408K)] 132335K->7252K(162176K), 0.0017718 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+11.753: [GC
+Desired survivor size 3866624 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 125782K->289K(204416K)] 132630K->7152K(237184K), 0.0045502 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+14.546: [GC
+Desired survivor size 3735552 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 200993K->1603K(204480K)] 207856K->8490K(237248K), 0.0043638 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+14.772: [GC
+Desired survivor size 3538944 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 202307K->1169K(258048K)] 209194K->8393K(290816K), 0.0238268 secs] [Times: user=0.01 sys=0.00, real=0.03 secs] 
+15.572: [GC
+Desired survivor size 3997696 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 255876K->2939K(258176K)] 263100K->10249K(290944K), 0.3905734 secs] [Times: user=0.01 sys=0.01, real=0.39 secs] 
+16.176: [GC
+Desired survivor size 4194304 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257603K->2628K(257856K)] 264913K->10030K(290624K), 0.0065832 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+16.393: [GC
+Desired survivor size 4587520 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 256552K->3217K(257216K)] 263954K->10627K(289984K), 0.0045785 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+16.598: [GC
+Desired survivor size 5046272 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257144K->3540K(256768K)] 264554K->10966K(289536K), 0.0055520 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+16.799: [GC
+Desired survivor size 5439488 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 255817K->3690K(256000K)] 263243K->11132K(288768K), 0.0045027 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+17.015: [GC
+Desired survivor size 5767168 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 255978K->3764K(256192K)] 263420K->11238K(288960K), 0.0065777 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+17.241: [GC
+Desired survivor size 5570560 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 254613K->2598K(256512K)] 262087K->10104K(289280K), 0.0044023 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+17.456: [GC
+Desired survivor size 5242880 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 253442K->2172K(255744K)] 260948K->9766K(288512K), 0.0049746 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+17.665: [GC
+Desired survivor size 5177344 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 253242K->2839K(256192K)] 260836K->10497K(288960K), 0.0035335 secs] [Times: user=0.00 sys=0.01, real=0.00 secs] 
+17.869: [GC
+Desired survivor size 5242880 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 253870K->3080K(256960K)] 261528K->10778K(289728K), 0.0036606 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+18.067: [GC
+Desired survivor size 5373952 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 254910K->3491K(255424K)] 262609K->11229K(288192K), 0.0046131 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+18.270: [GC
+Desired survivor size 5570560 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 255371K->3714K(256512K)] 263109K->11461K(289280K), 0.0054691 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+18.471: [GC
+Desired survivor size 5570560 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 254974K->3381K(256704K)] 262721K->11151K(289472K), 0.0045675 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+18.678: [GC
+Desired survivor size 5701632 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 254540K->3722K(256448K)] 262311K->11516K(289216K), 0.0040012 secs] [Times: user=0.00 sys=0.01, real=0.00 secs] 
+18.908: [GC
+Desired survivor size 5505024 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 254729K->2300K(253312K)] 262523K->10446K(286080K), 0.0041148 secs] [Times: user=0.00 sys=0.01, real=0.00 secs] 
+19.127: [GC
+Desired survivor size 5242880 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 253306K->2684K(256768K)] 261452K->10911K(289536K), 0.0031359 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+19.333: [GC
+Desired survivor size 5046272 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 253944K->2828K(256512K)] 262171K->11094K(289280K), 0.0028327 secs] [Times: user=0.01 sys=0.01, real=0.01 secs] 
+19.536: [GC
+Desired survivor size 4915200 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 254180K->3071K(256704K)] 262446K->11362K(289472K), 0.0053273 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+19.751: [GC
+Desired survivor size 4718592 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 254847K->2744K(256576K)] 263138K->12047K(289344K), 0.0059859 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+19.956: [GC
+Desired survivor size 4784128 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 254464K->3382K(256960K)] 263767K->12692K(289728K), 0.0045292 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+20.169: [GC
+Desired survivor size 4718592 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 255696K->3168K(257024K)] 265007K->12503K(289792K), 0.0068282 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+20.383: [GC
+Desired survivor size 4587520 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 255469K->2815K(257216K)] 264804K->12182K(289984K), 0.0035419 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+20.580: [GC
+Desired survivor size 4456448 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 255576K->3028K(257344K)] 264943K->12451K(290112K), 0.0045675 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+20.797: [GC
+Desired survivor size 4456448 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 255872K->1931K(257664K)] 265294K->11378K(290432K), 0.0036780 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+21.014: [GC
+Desired survivor size 4390912 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 255225K->2207K(257664K)] 264672K->11709K(290432K), 0.0037512 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+21.210: [GC
+Desired survivor size 4325376 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 255493K->2452K(257728K)] 264995K->11995K(290496K), 0.0036639 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+21.414: [GC
+Desired survivor size 4194304 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 255941K->2602K(257728K)] 265483K->12153K(290496K), 0.0025708 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+21.616: [GC
+Desired survivor size 4063232 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 256077K->2535K(257792K)] 265628K->12101K(290560K), 0.0029383 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+21.833: [GC
+Desired survivor size 3932160 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 256342K->2486K(257792K)] 265909K->12076K(290560K), 0.0030847 secs] [Times: user=0.00 sys=0.01, real=0.00 secs] 
+22.053: [GC
+Desired survivor size 3997696 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 256296K->1848K(257984K)] 265887K->11487K(290752K), 0.0021882 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+22.265: [GC
+Desired survivor size 3932160 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 255979K->2000K(258048K)] 265617K->11679K(290816K), 0.0030954 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+22.474: [GC
+Desired survivor size 3866624 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 256144K->2087K(258112K)] 265823K->11798K(290880K), 0.0022834 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+22.681: [GC
+Desired survivor size 3866624 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 256387K->1782K(258176K)] 266098K->11517K(290944K), 0.0026586 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+22.876: [GC
+Desired survivor size 3735552 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 256150K->2254K(258112K)] 265885K->12020K(290880K), 0.0038563 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+23.094: [GC
+Desired survivor size 3866624 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 256818K->1139K(258240K)] 266585K->10914K(291008K), 0.0014188 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+23.358: [GC
+Desired survivor size 3997696 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 255727K->719K(258112K)] 265501K->10502K(290880K), 0.0051813 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+23.600: [GC
+Desired survivor size 4063232 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 255052K->632K(254976K)] 264835K->10469K(287744K), 0.0018864 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+23.815: [GC
+Desired survivor size 3997696 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 254968K->959K(258240K)] 264805K->10944K(291008K), 0.0027988 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+24.014: [GC
+Desired survivor size 3866624 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 255213K->1746K(256064K)] 265197K->11807K(288832K), 0.0020255 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+24.264: [GC
+Desired survivor size 3670016 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 255968K->1852K(258240K)] 266029K->11945K(291008K), 0.0026923 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+24.502: [GC
+Desired survivor size 3604480 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 256305K->2186K(258048K)] 266398K->12303K(290816K), 0.0036312 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+24.742: [GC
+Desired survivor size 3538944 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 256642K->1391K(258368K)] 266759K->11548K(291136K), 0.0021940 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+24.963: [GC
+Desired survivor size 3407872 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 256197K->1896K(258304K)] 266354K->12133K(291072K), 0.0031071 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+25.186: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 256737K->1847K(258496K)] 266974K->12100K(291264K), 0.0031586 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+25.402: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257204K->2041K(258496K)] 267457K->12358K(291264K), 0.0025509 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+25.600: [GC
+Desired survivor size 3276800 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257387K->2359K(258880K)] 267704K->12790K(291648K), 0.0027846 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+25.811: [GC
+Desired survivor size 3407872 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258093K->2669K(258432K)] 268524K->13108K(291200K), 0.0058354 secs] [Times: user=0.00 sys=0.00, real=0.03 secs] 
+26.102: [GC
+Desired survivor size 3342336 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258387K->1587K(258880K)] 268826K->12198K(291648K), 0.0023378 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+26.308: [GC
+Desired survivor size 3342336 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257118K->2245K(258816K)] 267729K->12904K(291584K), 0.0041626 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+26.517: [GC
+Desired survivor size 3538944 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257757K->2867K(258496K)] 268417K->13566K(291264K), 0.0041179 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+26.747: [GC
+Desired survivor size 3670016 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258087K->2801K(258048K)] 268786K->13525K(290816K), 0.0041266 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+27.013: [GC
+Desired survivor size 3538944 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257953K->1984K(258688K)] 268676K->12739K(291456K), 0.0058448 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+27.246: [GC
+Desired survivor size 3473408 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257037K->2252K(257408K)] 267793K->13072K(290176K), 0.0047531 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+27.475: [GC
+Desired survivor size 3473408 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257281K->2507K(258496K)] 268100K->13350K(291264K), 0.0035716 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+27.700: [GC
+Desired survivor size 3407872 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257530K->2216K(258496K)] 268373K->13083K(291264K), 0.0095675 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+27.949: [GC
+Desired survivor size 3342336 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257319K->1806K(258688K)] 268186K->12698K(291456K), 0.0026652 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+28.168: [GC
+Desired survivor size 3407872 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257229K->2657K(258688K)] 268120K->13604K(291456K), 0.0027476 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+28.364: [GC
+Desired survivor size 3342336 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258073K->2036K(258816K)] 269020K->13170K(291584K), 0.0039249 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+28.608: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257467K->2147K(257728K)] 268600K->13296K(290496K), 0.0025383 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+28.820: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257672K->1887K(258752K)] 268821K->13101K(291520K), 0.0053607 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+29.028: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257488K->2316K(258752K)] 268702K->13570K(291520K), 0.0035148 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+29.235: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257927K->2457K(258944K)] 269181K->13734K(291712K), 0.0036366 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+29.463: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258291K->1868K(258944K)] 269569K->13161K(291712K), 0.0032539 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+29.689: [GC
+Desired survivor size 3080192 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257739K->2200K(258944K)] 269033K->13526K(291712K), 0.0066094 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+29.895: [GC
+Desired survivor size 3014656 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258149K->2114K(259008K)] 269474K->13495K(291776K), 0.0028685 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+30.109: [GC
+Desired survivor size 2949120 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258092K->2259K(259008K)] 269473K->13680K(291776K), 0.0665693 secs] [Times: user=0.00 sys=0.00, real=0.07 secs] 
+30.369: [GC
+Desired survivor size 2949120 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258447K->2299K(259072K)] 269868K->13834K(291840K), 0.0030683 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+30.590: [GC
+Desired survivor size 2949120 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258489K->2420K(259264K)] 270025K->13979K(292032K), 0.0029075 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+30.791: [GC
+Desired survivor size 2883584 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258796K->2111K(258496K)] 270355K->13882K(291264K), 0.0036583 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+30.997: [GC
+Desired survivor size 2883584 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258474K->2274K(259200K)] 270246K->14053K(291968K), 0.0023488 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+31.208: [GC
+Desired survivor size 2949120 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258643K->1292K(259200K)] 270422K->13079K(291968K), 0.0020044 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+31.456: [GC
+Desired survivor size 3014656 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257653K->1460K(259136K)] 269440K->13263K(291904K), 0.6856888 secs] [Times: user=0.00 sys=0.01, real=0.68 secs] 
+32.375: [GC
+Desired survivor size 3080192 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257666K->1021K(257280K)] 269470K->12929K(290048K), 0.0020222 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+32.585: [GC
+Desired survivor size 3080192 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257277K->1325K(259136K)] 269185K->13294K(291904K), 0.0028328 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+32.806: [GC
+Desired survivor size 3014656 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257440K->1869K(258048K)] 269410K->13915K(290816K), 0.0023528 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+33.021: [GC
+Desired survivor size 2949120 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257977K->1980K(259136K)] 270022K->14049K(291904K), 0.1190114 secs] [Times: user=0.01 sys=0.00, real=0.12 secs] 
+33.361: [GC
+Desired survivor size 2818048 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258154K->1852K(259072K)] 270224K->13938K(291840K), 0.0023444 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+33.596: [GC
+Desired survivor size 2818048 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258022K->1627K(259072K)] 270107K->13753K(291840K), 0.0042723 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+33.821: [GC
+Desired survivor size 2752512 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257931K->1586K(259072K)] 270057K->13774K(291840K), 0.0030716 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+34.027: [GC
+Desired survivor size 2686976 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257890K->1893K(259328K)] 270077K->14173K(292096K), 0.0029962 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+34.231: [GC
+Desired survivor size 2686976 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258593K->1994K(259328K)] 270872K->14298K(292096K), 0.0035239 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+34.438: [GC
+Desired survivor size 2883584 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258675K->2539K(259136K)] 270978K->14875K(291904K), 0.0029970 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+34.647: [GC
+Desired survivor size 2949120 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 259043K->2319K(258880K)] 271378K->14695K(291648K), 0.0032133 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+34.852: [GC
+Desired survivor size 3080192 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258808K->2653K(259008K)] 271184K->15061K(291776K), 0.0034080 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+35.067: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258754K->2545K(258688K)] 271161K->14984K(291456K), 0.0049537 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+35.287: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258663K->2334K(259008K)] 271103K->14805K(291776K), 0.0037156 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+35.495: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258201K->1866K(257792K)] 270673K->14402K(290560K), 0.0027750 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+35.704: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257725K->2372K(258944K)] 270260K->14948K(291712K), 0.0032160 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+35.906: [GC
+Desired survivor size 3080192 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258203K->2151K(258944K)] 270779K->14750K(291712K), 0.0028533 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+36.111: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258005K->2500K(258944K)] 270605K->15131K(291712K), 0.0031145 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+36.319: [GC
+Desired survivor size 3276800 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258431K->2780K(258752K)] 271062K->15428K(291520K), 0.0040603 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+36.523: [GC
+Desired survivor size 3407872 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258716K->2806K(258688K)] 271364K->15478K(291456K), 0.0039080 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+36.741: [GC
+Desired survivor size 3407872 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258279K->1742K(258816K)] 270951K->14437K(291584K), 0.0050972 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+36.965: [GC
+Desired survivor size 3276800 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257194K->2189K(258560K)] 269890K->14941K(291328K), 0.0026131 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+37.179: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257658K->2241K(258688K)] 270410K->15056K(291456K), 0.0037706 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+37.385: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257653K->2434K(258880K)] 270468K->15281K(291648K), 0.0025494 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+37.656: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258242K->2118K(258944K)] 271089K->14989K(291712K), 0.0050467 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+37.880: [GC
+Desired survivor size 3080192 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257865K->2407K(258880K)] 270737K->15318K(291648K), 0.0076595 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+38.092: [GC
+Desired survivor size 3276800 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258341K->2957K(258944K)] 271252K->15969K(291712K), 0.0032471 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+38.323: [GC
+Desired survivor size 3407872 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258866K->2773K(258688K)] 271878K->15809K(291456K), 0.0025558 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+38.553: [GC
+Desired survivor size 3473408 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258228K->1465K(256960K)] 271264K->14517K(289728K), 0.0022714 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+38.758: [GC
+Desired survivor size 3407872 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 256901K->1937K(258816K)] 269954K->15069K(291584K), 0.0038468 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+38.966: [GC
+Desired survivor size 3342336 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257330K->2082K(257536K)] 270462K->15247K(290304K), 0.0022393 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+39.181: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257465K->2274K(258816K)] 270630K->15463K(291584K), 0.0033945 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+39.384: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257808K->2000K(258688K)] 270996K->15229K(291456K), 0.0033456 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+39.584: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257541K->2469K(258880K)] 270770K->15721K(291648K), 0.0033171 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+39.793: [GC
+Desired survivor size 3276800 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258206K->2734K(258880K)] 271458K->15994K(291648K), 0.0041142 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+40.019: [GC
+Desired survivor size 3342336 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258406K->1387K(258816K)] 271667K->14655K(291584K), 0.0027918 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+40.243: [GC
+Desired survivor size 3342336 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257001K->1502K(258880K)] 270269K->14827K(291648K), 0.0028707 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+40.455: [GC
+Desired survivor size 3407872 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257081K->1354K(258752K)] 270406K->14754K(291520K), 0.0024205 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+40.652: [GC
+Desired survivor size 3342336 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 256789K->1416K(258816K)] 270189K->14879K(291584K), 0.0017756 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+40.859: [GC
+Desired survivor size 3276800 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 256895K->1960K(258688K)] 270358K->15439K(291456K), 0.0022414 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+41.066: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257417K->2027K(258752K)] 270895K->15513K(291520K), 0.0031190 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+41.340: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257572K->1131K(258816K)] 271059K->14673K(291584K), 0.0027143 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+41.626: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 256875K->1246K(258880K)] 270417K->14878K(291648K), 0.0063736 secs] [Times: user=0.01 sys=0.01, real=0.00 secs] 
+41.839: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 256985K->1274K(258880K)] 270617K->15005K(291648K), 0.0059188 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+42.060: [GC
+Desired survivor size 3014656 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257139K->1783K(258944K)] 270870K->15538K(291712K), 0.0029359 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+42.275: [GC
+Desired survivor size 3014656 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257619K->1335K(259008K)] 271373K->15128K(291776K), 0.0045790 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+42.477: [GC
+Desired survivor size 2883584 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257399K->1654K(259008K)] 271192K->15479K(291776K), 0.0032200 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+42.702: [GC
+Desired survivor size 2818048 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257710K->1471K(259136K)] 271535K->15327K(291904K), 0.0020654 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+42.910: [GC
+Desired survivor size 2752512 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257788K->1744K(259072K)] 271645K->15664K(291840K), 0.0025601 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+43.115: [GC
+Desired survivor size 2621440 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258054K->1688K(259264K)] 271975K->15665K(292032K), 0.0032042 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+43.334: [GC
+Desired survivor size 2555904 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258382K->1705K(259264K)] 272359K->15706K(292032K), 0.0031520 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+43.534: [GC
+Desired survivor size 2621440 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258404K->2118K(259456K)] 272405K->16167K(292224K), 0.0029507 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+43.734: [GC
+Desired survivor size 2883584 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 259078K->2554K(259520K)] 273127K->17027K(292288K), 0.0039168 secs] [Times: user=0.00 sys=0.01, real=0.00 secs] 
+43.953: [GC
+Desired survivor size 2752512 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 259471K->1889K(259392K)] 273944K->16379K(292160K), 0.0048813 secs] [Times: user=0.00 sys=0.01, real=0.01 secs] 
+44.167: [GC
+Desired survivor size 2883584 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258657K->2268K(259072K)] 273147K->16813K(291840K), 0.0056834 secs] [Times: user=0.00 sys=0.01, real=0.00 secs] 
+44.390: [GC
+Desired survivor size 2949120 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 259031K->2275K(259200K)] 273576K->16861K(291968K), 0.0024114 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+44.591: [GC
+Desired survivor size 2883584 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258599K->2094K(259264K)] 273185K->16727K(292032K), 0.0024149 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+44.808: [GC
+Desired survivor size 2949120 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258432K->2379K(259200K)] 273066K->17036K(291968K), 0.0037120 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+45.015: [GC
+Desired survivor size 3014656 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258717K->2243K(258688K)] 273375K->16948K(291456K), 0.0027214 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+45.219: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258581K->2733K(258944K)] 273286K->17462K(291712K), 0.0038410 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+45.436: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258712K->2330K(259072K)] 273442K->17084K(291840K), 0.0039298 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+45.644: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258318K->2358K(259072K)] 273072K->17160K(291840K), 0.0032041 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+45.852: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258251K->2269K(259072K)] 273053K->17110K(291840K), 0.0040295 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+46.056: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258267K->2418K(259072K)] 273109K->17284K(291840K), 0.0027986 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+46.279: [GC
+Desired survivor size 3080192 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258418K->1911K(257920K)] 273283K->16816K(290688K), 0.0022167 secs] [Times: user=0.00 sys=0.00, real=0.06 secs] 
+46.542: [GC
+Desired survivor size 3014656 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257883K->1947K(259072K)] 272788K->16900K(291840K), 0.0023139 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+46.733: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257979K->2546K(259008K)] 272932K->17532K(291776K), 0.0026224 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+46.940: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258594K->2621K(258944K)] 273580K->17631K(291712K), 0.0027533 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+47.162: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258477K->2150K(259008K)] 273487K->17184K(291776K), 0.0039114 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+47.364: [GC
+Desired survivor size 3080192 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257921K->2126K(258880K)] 272954K->17216K(291648K), 0.0030183 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+47.568: [GC
+Desired survivor size 3014656 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258060K->2078K(258944K)] 273150K->17200K(291712K), 0.0024128 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+47.788: [GC
+Desired survivor size 2949120 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257983K->1921K(259008K)] 273105K->17051K(291776K), 0.0019516 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+47.989: [GC
+Desired survivor size 2949120 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258010K->1810K(259072K)] 273139K->16979K(291840K), 0.0025005 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+48.206: [GC
+Desired survivor size 2883584 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257951K->2136K(259136K)] 273120K->17338K(291904K), 0.0022155 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+48.434: [GC
+Desired survivor size 3014656 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258491K->1196K(259200K)] 273693K->16421K(291968K), 0.0043634 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+48.656: [GC
+Desired survivor size 3014656 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257517K->1433K(259200K)] 272743K->16719K(291968K), 0.0024434 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+48.873: [GC
+Desired survivor size 2949120 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257557K->1625K(257920K)] 272842K->16995K(290688K), 0.0026164 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+49.078: [GC
+Desired survivor size 2949120 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257823K->1503K(259136K)] 273192K->16925K(291904K), 0.0018546 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+49.300: [GC
+Desired survivor size 2883584 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257665K->1580K(259136K)] 273087K->17048K(291904K), 0.0027097 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+49.510: [GC
+Desired survivor size 2883584 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257836K->1480K(259200K)] 273304K->17003K(291968K), 0.0027531 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+49.720: [GC
+Desired survivor size 2818048 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257864K->1770K(259200K)] 273387K->17340K(291968K), 0.0030119 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+49.926: [GC
+Desired survivor size 2752512 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258087K->1961K(259264K)] 273657K->17578K(292032K), 0.0028888 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+50.131: [GC
+Desired survivor size 2686976 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258442K->1868K(259264K)] 274059K->17518K(292032K), 0.0023115 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+50.345: [GC
+Desired survivor size 2621440 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258444K->1967K(259392K)] 274094K->17625K(292160K), 0.0025676 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+50.561: [GC
+Desired survivor size 2555904 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258791K->1850K(259392K)] 274449K->17556K(292160K), 0.0028480 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+50.785: [GC
+Desired survivor size 2555904 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258580K->1898K(259520K)] 274286K->17668K(292288K), 0.0032031 secs] [Times: user=0.00 sys=0.00, real=0.03 secs] 
+51.025: [GC
+Desired survivor size 2621440 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258898K->1091K(259520K)] 274668K->17310K(292288K), 0.0022978 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+51.234: [GC
+Desired survivor size 2621440 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258074K->1981K(259584K)] 274292K->18264K(292352K), 0.0027277 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+51.436: [GC
+Desired survivor size 2686976 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258941K->2119K(259200K)] 275223K->18494K(291968K), 0.0029139 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+51.643: [GC
+Desired survivor size 2621440 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 259131K->2007K(259584K)] 275506K->18398K(292352K), 0.0021921 secs] [Times: user=0.00 sys=0.01, real=0.01 secs] 
+51.839: [GC
+Desired survivor size 2686976 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258915K->2168K(259520K)] 275306K->18818K(292288K), 0.0035522 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+52.056: [GC
+Desired survivor size 2686976 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 259099K->2098K(259520K)] 275750K->18772K(292288K), 0.0024454 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+52.260: [GC
+Desired survivor size 2686976 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258963K->2036K(259520K)] 275637K->18750K(292288K), 0.0029653 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+52.480: [GC
+Desired survivor size 2621440 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258922K->1946K(259392K)] 275637K->18684K(292160K), 0.0040050 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+52.699: [GC
+Desired survivor size 2621440 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258826K->1543K(259456K)] 275564K->18352K(292224K), 0.0027470 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+52.900: [GC
+Desired survivor size 2686976 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258387K->2261K(259456K)] 275195K->19141K(292224K), 0.0027324 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+53.107: [GC
+Desired survivor size 2752512 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 259155K->2238K(259136K)] 276035K->19134K(291904K), 0.0023313 secs] [Times: user=0.01 sys=0.01, real=0.00 secs] 
+53.311: [GC
+Desired survivor size 2883584 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 259094K->2479K(259200K)] 275990K->19399K(291968K), 0.0038949 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+53.520: [GC
+Desired survivor size 2883584 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258991K->1679K(259328K)] 275911K->18623K(292096K), 0.0021150 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+53.728: [GC
+Desired survivor size 3014656 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258167K->2558K(259072K)] 275111K->19518K(291840K), 0.0040123 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+53.943: [GC
+Desired survivor size 2949120 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258805K->1822K(259200K)] 275766K->18830K(291968K), 0.0024778 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+54.166: [GC
+Desired survivor size 2883584 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258065K->2060K(259008K)] 275073K->19116K(291776K), 0.0037701 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+54.370: [GC
+Desired survivor size 2818048 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258358K->1884K(259136K)] 275414K->18997K(291904K), 0.0026341 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+54.570: [GC
+Desired survivor size 2883584 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258144K->2339K(259264K)] 275256K->19491K(292032K), 0.0032041 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+54.777: [GC
+Desired survivor size 2883584 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258766K->2319K(259328K)] 275918K->19487K(292096K), 0.0028414 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+54.976: [GC
+Desired survivor size 3014656 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258763K->2566K(259072K)] 275931K->19767K(291840K), 0.0030323 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+55.189: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258766K->2780K(259072K)] 275966K->19996K(291840K), 0.0045024 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+55.405: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 259032K->2458K(258944K)] 276248K->19706K(291712K), 0.0031814 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+55.616: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258299K->2130K(259008K)] 275547K->19410K(291776K), 0.0025458 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+55.825: [GC
+Desired survivor size 3080192 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257974K->1826K(258880K)] 275254K->19138K(291648K), 0.0024759 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+56.040: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257760K->1427K(258944K)] 275072K->18771K(291712K), 0.0020464 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+56.248: [GC
+Desired survivor size 3080192 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257327K->2055K(259072K)] 274672K->19447K(291840K), 0.0034190 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+56.463: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 258102K->1266K(259072K)] 275494K->18688K(291840K), 0.0108678 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+56.678: [GC
+Desired survivor size 3080192 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257294K->1775K(259072K)] 274716K->19257K(291840K), 0.0025462 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+56.903: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257806K->987K(259072K)] 275289K->18501K(291840K), 0.0016379 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+57.116: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257038K->1274K(259072K)] 274552K->18828K(291840K), 0.0017089 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+57.319: [GC
+Desired survivor size 3080192 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257260K->1496K(257536K)] 274814K->19082K(290304K), 0.0018380 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+57.540: [GC
+Desired survivor size 3080192 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 257461K->769K(259008K)] 275048K->18355K(291776K), 0.0014468 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+57.750: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 256769K->771K(259008K)] 274355K->18405K(291776K), 0.0024880 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+57.967: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 256732K->387K(244288K)] 274366K->18037K(277056K), 0.0023441 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+58.183: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 244218K->654K(232960K)] 261868K->18336K(265728K), 0.0024410 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+58.377: [GC
+Desired survivor size 3080192 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 232887K->1026K(256128K)] 250569K->18748K(288896K), 0.0025405 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+58.585: [GC
+Desired survivor size 3080192 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 254062K->478K(241536K)] 271784K->18216K(274304K), 0.0041321 secs] [Times: user=0.00 sys=0.01, real=0.00 secs] 
+58.790: [GC
+Desired survivor size 3014656 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 241475K->666K(230272K)] 259213K->18444K(263040K), 0.0020454 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+58.990: [GC
+Desired survivor size 2949120 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 230181K->382K(219072K)] 247959K->18192K(251840K), 0.0019120 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+59.177: [GC
+Desired survivor size 2883584 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 219053K->669K(209088K)] 236863K->18519K(241856K), 0.0039034 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+59.350: [GC
+Desired survivor size 2752512 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 209013K->588K(199232K)] 226864K->18470K(232000K), 0.0017031 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+59.510: [GC
+Desired survivor size 2686976 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 199161K->684K(189952K)] 217043K->18567K(222720K), 0.0023923 secs] [Times: user=0.01 sys=0.01, real=0.00 secs] 
+59.677: [GC
+Desired survivor size 2621440 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 189910K->414K(180864K)] 207793K->18321K(213632K), 0.0015823 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+59.824: [GC
+Desired survivor size 2490368 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 180823K->517K(172608K)] 198729K->18463K(205376K), 0.0024762 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+59.985: [GC
+Desired survivor size 2424832 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 172539K->480K(164544K)] 190486K->18451K(197312K), 0.0017676 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+60.119: [GC
+Desired survivor size 2359296 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 164460K->502K(156928K)] 182430K->18504K(189696K), 0.0024137 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+60.251: [GC
+Desired survivor size 2228224 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 156901K->541K(149760K)] 174903K->18575K(182528K), 0.0018073 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+60.376: [GC
+Desired survivor size 2162688 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 149716K->397K(179520K)] 167751K->18455K(212288K), 0.0028446 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+60.523: [GC
+Desired survivor size 2097152 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 179469K->353K(171136K)] 197527K->18443K(203904K), 0.0013641 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+60.679: [GC
+Desired survivor size 2097152 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 171069K->161K(163008K)] 189159K->18251K(195776K), 0.0018029 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+60.821: [GC
+Desired survivor size 2031616 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 162911K->252K(155520K)] 181001K->18359K(188288K), 0.0011593 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+60.950: [GC
+Desired survivor size 1966080 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 155481K->189K(148288K)] 173587K->18320K(181056K), 0.0019061 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+61.073: [GC
+Desired survivor size 1835008 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 148275K->282K(143232K)] 166405K->18429K(176000K), 0.0012660 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+61.198: [GC
+Desired survivor size 1835008 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 141547K->104K(134976K)] 159694K->18250K(167744K), 0.0019558 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+63.710: [GC
+Desired survivor size 1769472 bytes, new threshold 1 (max 15)
+ [PSYoungGen: 85125K->96K(136640K)] 103271K->18250K(169408K), 0.0015271 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+63.712: [Full GC (System) [PSYoungGen: 96K->0K(136640K)] [PSOldGen: 18154K->7649K(32768K)] 18250K->7649K(169408K) [PSPermGen: 10816K->10816K(22720K)], 0.0798971 secs] [Times: user=0.08 sys=0.00, real=0.08 secs] 
+Heap
+ PSYoungGen      total 136640K, used 1914K [0x000000012a410000, 0x0000000138a30000, 0x000000013a410000)
+  eden space 134848K, 1% used [0x000000012a410000,0x000000012a5ee838,0x00000001327c0000)
+  from space 1792K, 0% used [0x00000001386c0000,0x00000001386c0000,0x0000000138880000)
+  to   space 1728K, 0% used [0x0000000138880000,0x0000000138880000,0x0000000138a30000)
+ PSOldGen        total 32768K, used 7649K [0x000000010a410000, 0x000000010c410000, 0x000000012a410000)
+  object space 32768K, 23% used [0x000000010a410000,0x000000010ab88448,0x000000010c410000)
+ PSPermGen       total 22720K, used 10816K [0x0000000105010000, 0x0000000106640000, 0x000000010a410000)
+  object space 22720K, 47% used [0x0000000105010000,0x0000000105aa0130,0x0000000106640000)

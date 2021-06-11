@@ -1,0 +1,36 @@
+2014-06-18T11:24:16.819+0200: 215646,793: Application time: 0,0001290 seconds
+17464 total
+- age   4:    1925176 bytes,    9642640 total
+- age   5:    1323192 bytes,   10965832 total
+- age   6:    1708136 bytes,   12673968 total
+- age   7:    1425952 bytes,   14099920 total
+- age   8:    1440720 bytes,   15540640 total
+- age   9:     639840 bytes,   16180480 total
+- age  10:     898416 bytes,   17078896 total
+- age  11:    1440776 bytes,   18519672 total
+- age  12:     903376 bytes,   19423048 total
+- age  13:    1818312 bytes,   21241360 total
+- age  14:    1636112 bytes,   22877472 total
+- age  15:    1130520 bytes,   24007992 total
+, 0,0854230 secs]
+   [Parallel Time: 66,4 ms, GC Workers: 13]
+      [GC Worker Start (ms): Min: 212442415,1, Avg: 212442415,4, Max: 212442415,6, Diff: 0,5]
+      [Ext Root Scanning (ms): Min: 19,4, Avg: 24,5, Max: 51,0, Diff: 31,6, Sum: 318,8]
+      [Update RS (ms): Min: 0,0, Avg: 9,0, Max: 12,5, Diff: 12,5, Sum: 116,7]
+         [Processed Buffers: Min: 0, Avg: 19,0, Max: 26, Diff: 26, Sum: 247]
+      [Scan RS (ms): Min: 0,1, Avg: 0,5, Max: 0,7, Diff: 0,6, Sum: 7,1]
+      [Object Copy (ms): Min: 13,6, Avg: 14,9, Max: 16,2, Diff: 2,5, Sum: 193,1]
+      [Termination (ms): Min: 0,0, Avg: 16,5, Max: 17,8, Diff: 17,8, Sum: 213,9]
+      [GC Worker Other (ms): Min: 0,0, Avg: 0,2, Max: 0,4, Diff: 0,4, Sum: 2,3]
+      [GC Worker Total (ms): Min: 65,2, Avg: 65,5, Max: 65,9, Diff: 0,7, Sum: 851,9]
+      [GC Worker End (ms): Min: 212442480,8, Avg: 212442480,9, Max: 212442481,1, Diff: 0,4]
+   [Code Root Fixup: 0,0 ms]
+   [Clear CT: 1,8 ms]
+   [Other: 17,2 ms]
+      [Choose CSet: 0,0 ms]
+      [Ref Proc: 13,5 ms]
+      [Ref Enq: 0,4 ms]
+      [Free CSet: 2,7 ms]
+   [Eden: 2486,0M(2486,0M)->0,0B(320,0M) Survivors: 36,0M->36,0M Heap: 4982,3M(5704,0M)->2498,4M(5704,0M)]
+ [Times: user=0,87 sys=0,00, real=0,08 secs]
+2014-06-18T10:33:12.190+0200: 212442,501: Total time for which application threads were stopped: 0,0905300 seconds

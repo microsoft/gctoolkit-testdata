@@ -1,0 +1,42 @@
+Java HotSpot(TM) 64-Bit Server VM (25.65-b01) for bsd-amd64 JRE (1.8.0_65-b17), built on Oct  6 2015 15:36:46 by "java_re" with gcc 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)
+Memory: 4k page, physical 16777216k(488192k free)
+
+/proc/meminfo:
+
+CommandLine flags: -XX:+CMSScavengeBeforeRemark -XX:InitialHeapSize=268435456 -XX:MaxHeapSize=4294967296 -XX:MaxNewSize=697933824 -XX:MaxTenuringThreshold=6 -XX:OldPLABSize=16 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC 
+2016-03-22T09:38:01.161-0100: 13.653: [GC (Allocation Failure) 2016-03-22T09:38:01.161-0100: 13.653: [ParNew: 69952K->8704K(78656K), 0.0095091 secs] 69952K->11338K(253440K), 0.0095689 secs] [Times: user=0.05 sys=0.01, real=0.01 secs] 
+2016-03-22T09:38:04.747-0100: 17.239: [GC (Allocation Failure) 2016-03-22T09:38:04.747-0100: 17.239: [ParNew: 78656K->8704K(78656K), 0.0285158 secs] 81290K->20671K(253440K), 0.0285672 secs] [Times: user=0.10 sys=0.03, real=0.03 secs] 
+2016-03-22T09:38:06.027-0100: 18.519: [GC (Allocation Failure) 2016-03-22T09:38:06.027-0100: 18.519: [ParNew: 78656K->8704K(78656K), 0.0155659 secs] 90623K->29459K(253440K), 0.0156128 secs] [Times: user=0.09 sys=0.01, real=0.02 secs] 
+2016-03-22T09:38:08.266-0100: 20.758: [GC (Allocation Failure) 2016-03-22T09:38:08.266-0100: 20.758: [ParNew: 78656K->8704K(78656K), 0.0189463 secs] 99411K->39019K(253440K), 0.0189955 secs] [Times: user=0.11 sys=0.01, real=0.02 secs] 
+2016-03-22T09:38:09.287-0100: 21.779: [GC (Allocation Failure) 2016-03-22T09:38:09.287-0100: 21.779: [ParNew: 78656K->8704K(78656K), 0.0227028 secs] 108971K->50592K(253440K), 0.0227657 secs] [Times: user=0.14 sys=0.01, real=0.03 secs] 
+2016-03-22T09:38:09.752-0100: 22.244: [GC (Allocation Failure) 2016-03-22T09:38:09.752-0100: 22.244: [ParNew: 78644K->8704K(78656K), 0.0178689 secs] 120533K->59170K(253440K), 0.0179218 secs] [Times: user=0.11 sys=0.01, real=0.02 secs] 
+2016-03-22T09:38:10.879-0100: 23.371: [GC (Allocation Failure) 2016-03-22T09:38:10.879-0100: 23.371: [ParNew: 78629K->7603K(78656K), 0.0151027 secs] 129095K->65153K(253440K), 0.0151511 secs] [Times: user=0.10 sys=0.01, real=0.02 secs] 
+2016-03-22T09:38:11.721-0100: 24.213: [GC (Allocation Failure) 2016-03-22T09:38:11.721-0100: 24.213: [ParNew: 77555K->8704K(78656K), 0.0195571 secs] 135105K->72895K(253440K), 0.0196132 secs] [Times: user=0.13 sys=0.00, real=0.02 secs] 
+2016-03-22T09:38:13.036-0100: 25.528: [GC (Allocation Failure) 2016-03-22T09:38:13.036-0100: 25.528: [ParNew: 78656K->8704K(78656K), 0.0198342 secs] 142847K->80535K(253440K), 0.0198968 secs] [Times: user=0.12 sys=0.00, real=0.02 secs] 
+2016-03-22T09:38:13.300-0100: 25.792: [GC (Allocation Failure) 2016-03-22T09:38:13.301-0100: 25.792: [ParNew: 78656K->6830K(78656K), 0.0157393 secs] 150487K->85071K(253440K), 0.0157875 secs] [Times: user=0.10 sys=0.00, real=0.01 secs] 
+2016-03-22T09:38:13.477-0100: 25.969: [GC (Allocation Failure) 2016-03-22T09:38:13.477-0100: 25.969: [ParNew: 76782K->8020K(78656K), 0.0138024 secs] 155023K->91338K(253440K), 0.0138506 secs] [Times: user=0.09 sys=0.00, real=0.02 secs] 
+2016-03-22T09:38:13.958-0100: 26.450: [GC (Allocation Failure) 2016-03-22T09:38:13.958-0100: 26.450: [ParNew: 77911K->5531K(78656K), 0.0185731 secs] 161228K->93862K(253440K), 0.0186221 secs] [Times: user=0.10 sys=0.00, real=0.02 secs] 
+2016-03-22T09:38:13.977-0100: 26.468: [GC (CMS Initial Mark) [1 CMS-initial-mark: 88330K(174784K)] 94879K(253440K), 0.0013312 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+2016-03-22T09:38:13.978-0100: 26.470: [CMS-concurrent-mark-start]
+2016-03-22T09:38:14.033-0100: 26.525: [CMS-concurrent-mark: 0.053/0.055 secs] [Times: user=0.11 sys=0.00, real=0.06 secs] 
+2016-03-22T09:38:14.033-0100: 26.525: [CMS-concurrent-preclean-start]
+2016-03-22T09:38:14.034-0100: 26.525: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2016-03-22T09:38:14.034-0100: 26.526: [CMS-concurrent-abortable-preclean-start]
+2016-03-22T09:38:14.104-0100: 26.596: [GC (Allocation Failure) 2016-03-22T09:38:14.104-0100: 26.596: [ParNew: 75483K->6910K(78656K), 0.0072512 secs] 163814K->95241K(253440K), 0.0073035 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+2016-03-22T09:38:15.010-0100: 27.501: [CMS-concurrent-abortable-preclean: 0.285/0.976 secs] [Times: user=0.48 sys=0.01, real=0.98 secs] 
+2016-03-22T09:38:15.010-0100: 27.502: [GC (CMS Final Remark) [YG occupancy: 56903 K (78656 K)]2016-03-22T09:38:15.010-0100: 27.502: [GC (CMS Final Remark) 2016-03-22T09:38:15.010-0100: 27.502: [ParNew: 56903K->8704K(78656K), 0.0149706 secs] 145234K->100206K(253440K), 0.0150024 secs] [Times: user=0.11 sys=0.00, real=0.01 secs] 
+2016-03-22T09:38:15.025-0100: 27.517: [Rescan (parallel) , 0.0106498 secs]2016-03-22T09:38:15.035-0100: 27.527: [weak refs processing, 0.0001070 secs]2016-03-22T09:38:15.036-0100: 27.527: [class unloading, 0.0017502 secs]2016-03-22T09:38:15.037-0100: 27.529: [scrub symbol table, 0.0009356 secs]2016-03-22T09:38:15.038-0100: 27.530: [scrub string table, 0.0002072 secs][1 CMS-remark: 91502K(174784K)] 100206K(253440K), 0.0290615 secs] [Times: user=0.20 sys=0.00, real=0.02 secs] 
+2016-03-22T09:38:15.039-0100: 27.531: [CMS-concurrent-sweep-start]
+2016-03-22T09:38:15.071-0100: 27.563: [CMS-concurrent-sweep: 0.032/0.032 secs] [Times: user=0.03 sys=0.00, real=0.04 secs] 
+2016-03-22T09:38:15.071-0100: 27.563: [CMS-concurrent-reset-start]
+2016-03-22T09:38:15.093-0100: 27.585: [CMS-concurrent-reset: 0.022/0.022 secs] [Times: user=0.01 sys=0.01, real=0.02 secs] 
+2016-03-22T09:38:15.389-0100: 27.881: [GC (Allocation Failure) 2016-03-22T09:38:15.389-0100: 27.881: [ParNew: 78656K->8372K(78656K), 0.0178961 secs] 155826K->93995K(253440K), 0.0179454 secs] [Times: user=0.12 sys=0.00, real=0.02 secs] 
+2016-03-22T09:38:16.219-0100: 28.711: [GC (Allocation Failure) 2016-03-22T09:38:16.219-0100: 28.711: [ParNew: 78300K->7463K(78656K), 0.0154947 secs] 163922K->98147K(253440K), 0.0155472 secs] [Times: user=0.10 sys=0.00, real=0.02 secs] 
+Heap
+ par new generation   total 78656K, used 31285K [0x00000006c0000000, 0x00000006c5550000, 0x00000006e9990000)
+  eden space 69952K,  32% used [0x00000006c0000000, 0x00000006c1625ff8, 0x00000006c4450000)
+  from space 8704K,  98% used [0x00000006c4450000, 0x00000006c4cb74a0, 0x00000006c4cd0000)
+  to   space 8704K,   0% used [0x00000006c4cd0000, 0x00000006c4cd0000, 0x00000006c5550000)
+ concurrent mark-sweep generation total 382624K, used 229572K [0x00000006e9990000, 0x0000000700f38000, 0x00000007c0000000)
+ Metaspace       used 11313K, capacity 11522K, committed 11648K, reserved 1058816K
+  class space    used 1252K, capacity 1310K, committed 1408K, reserved 1048576K

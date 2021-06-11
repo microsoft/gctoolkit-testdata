@@ -1,0 +1,38 @@
+21306.443: [GC pause (G1 Evacuation Pause) (young) (initial-mark)
+Desired survivor size 1105199104 bytes, new threshold 15 (max 15)
+- age   1:     457288 bytes,     457288 total
+- age   2:     296992 bytes,     754280 total
+- age   3:  176442784 bytes,  177197064 total
+- age   4:      45472 bytes,  177242536 total
+- age   5:    2731928 bytes,  179974464 total
+, 0.2237250 secs]
+   [Parallel Time: 212.3 ms, GC Workers: 8]
+      [GC Worker Start (ms): Min: 21306444.4, Avg: 21306444.5, Max: 21306444.7, Diff: 0.3]
+      [Ext Root Scanning (ms): Min: 18.8, Avg: 20.5, Max: 26.2, Diff: 7.3, Sum: 163.6]
+      [Code Root Marking (ms): Min: 47.8, Avg: 63.5, Max: 110.5, Diff: 62.7, Sum: 507.6]
+      [Update RS (ms): Min: 8.8, Avg: 53.6, Max: 65.3, Diff: 56.5, Sum: 428.5]
+         [Processed Buffers: Min: 15, Avg: 73.2, Max: 94, Diff: 79, Sum: 586]
+      [Scan RS (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.2]
+      [Code Root Scanning (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.0]
+      [Object Copy (ms): Min: 73.3, Avg: 74.4, Max: 76.4, Diff: 3.1, Sum: 595.3]
+      [Termination (ms): Min: 0.0, Avg: 0.0, Max: 0.1, Diff: 0.1, Sum: 0.4]
+      [GC Worker Other (ms): Min: 0.1, Avg: 0.1, Max: 0.1, Diff: 0.0, Sum: 1.0]
+      [GC Worker Total (ms): Min: 211.9, Avg: 212.1, Max: 212.2, Diff: 0.3, Sum: 1696.6]
+      [GC Worker End (ms): Min: 21306656.6, Avg: 21306656.6, Max: 21306656.6, Diff: 0.0]
+   [Code Root Fixup: 2.4 ms]
+   [Code Root Migration: 0.0 ms]
+   [Clear CT: 0.8 ms]
+   [Other: 8.2 ms]
+      [Choose CSet: 0.0 ms]
+      [Ref Proc: 1.2 ms]
+      [Ref Enq: 0.0 ms]
+      [Free CSet: 0.6 ms]
+   [Eden: 8192.0K(16.3G)->0.0B(16.0G) Survivors: 188.0M->148.0M Heap: 9260.1M(29.9G)->9212.2M(29.9G)]
+ [Times: user=1.70 sys=0.00, real=0.23 secs]21306.667: [GC concurrent-root-region-scan-start]
+21306.670: [Full GC (Allocation Failure)21306.681: [GC concurrent-root-region-scan-end, 0.0136760 secs]
+21306.681: [GC concurrent-mark-start]
+ 9212M->4852M(27G), 18.1959410 secs]
+   [Eden: 4096.0K(16.0G)->0.0B(16.7G) Survivors: 148.0M->0.0B Heap: 9212.3M(29.9G)->4852.6M(27.8G)]
+ [Times: user=25.37 sys=0.27, real=18.19 secs]
+21324.870: [GC concurrent-mark-abort]
+

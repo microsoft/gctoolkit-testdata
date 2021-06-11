@@ -1,0 +1,162 @@
+0.265: [GC (Allocation Failure) 0.265: [DefNew
+Desired survivor size 557056 bytes, new threshold 1 (max 15)
+- age   1:    1114112 bytes,    1114112 total
+: 8704K->1088K(9792K), 0.0039555 secs] 8704K->1634K(31680K), 0.0041700 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+1.291: [GC (Allocation Failure) 1.291: [DefNew
+Desired survivor size 557056 bytes, new threshold 1 (max 15)
+- age   1:    1114112 bytes,    1114112 total
+: 9792K->1088K(9792K), 0.0076700 secs] 10338K->3192K(31680K), 0.0077391 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+1.569: [GC (Allocation Failure) 1.569: [DefNew
+Desired survivor size 557056 bytes, new threshold 1 (max 15)
+- age   1:    1114112 bytes,    1114112 total
+: 9792K->1088K(9792K), 0.0063404 secs] 11896K->4502K(31680K), 0.0063993 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+1.952: [GC (Allocation Failure) 1.952: [DefNew
+Desired survivor size 557056 bytes, new threshold 1 (max 15)
+- age   1:    1114112 bytes,    1114112 total
+: 9792K->1088K(9792K), 0.0067505 secs] 13206K->6741K(31680K), 0.0068003 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+2.054: [GC (Allocation Failure) 2.054: [DefNew
+Desired survivor size 557056 bytes, new threshold 1 (max 15)
+- age   1:    1034776 bytes,    1034776 total
+: 9792K->1010K(9792K), 0.0046655 secs] 15445K->7694K(31680K), 0.0047197 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2.276: [GC (Allocation Failure) 2.276: [DefNew
+Desired survivor size 557056 bytes, new threshold 1 (max 15)
+- age   1:     902928 bytes,     902928 total
+: 9714K->881K(9792K), 0.0030463 secs] 16398K->7621K(31680K), 0.0031092 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2.386: [GC (Allocation Failure) 2.386: [DefNew
+Desired survivor size 557056 bytes, new threshold 1 (max 15)
+- age   1:    1114112 bytes,    1114112 total
+: 9526K->1088K(9792K), 0.0077213 secs] 16265K->14487K(31680K), 0.0078067 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+2.416: [GC (Allocation Failure) 2.416: [DefNew
+Desired survivor size 557056 bytes, new threshold 1 (max 15)
+- age   1:    1059888 bytes,    1059888 total
+: 9789K->1035K(9792K), 0.0065372 secs] 23189K->22041K(31680K), 0.0066126 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+3.299: [Full GC (Metadata GC Threshold) 3.299: [Tenured: 21006K->20933K(21888K), 0.0230475 secs] 29003K->20933K(31680K), [Metaspace: 12111K->12111K(12672K)], 0.0231557 secs] [Times: user=0.02 sys=0.00, real=0.02 secs] 
+6.769: [GC (Allocation Failure) 6.769: [DefNew
+Desired survivor size 884736 bytes, new threshold 1 (max 15)
+- age   1:    1769472 bytes,    1769472 total
+: 14016K->1728K(15744K), 0.0124829 secs] 34949K->23528K(50636K), 0.0125528 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+7.588: [GC (Allocation Failure) 7.588: [DefNew
+Desired survivor size 884736 bytes, new threshold 1 (max 15)
+- age   1:    1769472 bytes,    1769472 total
+: 15744K->1728K(15744K), 0.0091951 secs] 37544K->25903K(50636K), 0.0092524 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+8.034: [GC (Allocation Failure) 8.035: [DefNew
+Desired survivor size 884736 bytes, new threshold 1 (max 15)
+- age   1:    1769472 bytes,    1769472 total
+: 15744K->1728K(15744K), 0.0100189 secs] 39919K->27981K(50636K), 0.0100964 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+14.309: [Full GC (System.gc()) 14.309: [Tenured: 26253K->23150K(34892K), 0.0413638 secs] 31660K->23150K(50636K), [Metaspace: 18513K->18513K(18816K)], 0.0414665 secs] [Times: user=0.05 sys=0.00, real=0.04 secs] 
+26.321: [Full GC (System.gc()) 26.321: [Tenured: 23150K->23152K(38588K), 0.0309968 secs] 23447K->23152K(55996K), [Metaspace: 18518K->18518K(18816K)], 0.0310746 secs] [Times: user=0.03 sys=0.00, real=0.03 secs] 
+38.332: [Full GC (System.gc()) 38.332: [Tenured: 23152K->21692K(38588K), 0.0440174 secs] 26615K->21692K(55996K), [Metaspace: 18518K->18518K(18816K)], 0.0441020 secs] [Times: user=0.05 sys=0.00, real=0.04 secs] 
+43.520: [GC (Allocation Failure) 43.520: [DefNew
+Desired survivor size 983040 bytes, new threshold 1 (max 15)
+- age   1:    1849232 bytes,    1849232 total
+: 15488K->1805K(17408K), 0.0054613 secs] 37180K->23498K(55996K), 0.0055146 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+44.194: [GC (Allocation Failure) 44.194: [DefNew
+Desired survivor size 983040 bytes, new threshold 1 (max 15)
+- age   1:    1966080 bytes,    1966080 total
+: 17293K->1920K(17408K), 0.0095037 secs] 38986K->26153K(55996K), 0.0095713 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+46.420: [GC (Allocation Failure) 46.420: [DefNew
+Desired survivor size 983040 bytes, new threshold 1 (max 15)
+- age   1:    1966080 bytes,    1966080 total
+: 17408K->1920K(17408K), 0.0097281 secs] 41641K->28481K(55996K), 0.0097894 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+50.341: [Full GC (System.gc()) 50.342: [Tenured: 26561K->21020K(38588K), 0.0518525 secs] 39525K->21020K(55996K), [Metaspace: 21110K->21110K(21888K)], 0.0519335 secs] [Times: user=0.06 sys=0.00, real=0.05 secs] 
+55.117: [GC (Allocation Failure) 55.117: [DefNew
+Desired survivor size 983040 bytes, new threshold 1 (max 15)
+- age   1:    1881648 bytes,    1881648 total
+: 15488K->1837K(17408K), 0.0063574 secs] 36508K->22858K(55996K), 0.0064175 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+55.545: [GC (Allocation Failure) 55.545: [DefNew
+Desired survivor size 983040 bytes, new threshold 1 (max 15)
+- age   1:    1966072 bytes,    1966072 total
+: 17325K->1919K(17408K), 0.0080726 secs] 38346K->24535K(55996K), 0.0081323 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+59.280: [GC (Allocation Failure) 59.280: [DefNew
+Desired survivor size 983040 bytes, new threshold 1 (max 15)
+- age   1:    1736816 bytes,    1736816 total
+: 17407K->1696K(17408K), 0.0064510 secs] 40023K->25079K(55996K), 0.0065174 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+62.351: [Full GC (System.gc()) 62.351: [Tenured: 23383K->25517K(38588K), 0.0550593 secs] 34546K->25517K(55996K), [Metaspace: 23740K->23740K(24960K)], 0.0552122 secs] [Times: user=0.06 sys=0.00, real=0.06 secs] 
+79.363: [Full GC (System.gc()) 79.363: [Tenured: 25517K->27505K(42532K), 0.0645654 secs] 38166K->27505K(61732K), [Metaspace: 23967K->23967K(24960K)], 0.0647021 secs] [Times: user=0.06 sys=0.00, real=0.07 secs] 
+80.130: [GC (Allocation Failure) 80.130: [DefNew
+Desired survivor size 1146880 bytes, new threshold 1 (max 15)
+- age   1:    2293760 bytes,    2293760 total
+: 18496K->2240K(20736K), 0.0254596 secs] 46001K->37127K(66580K), 0.0255236 secs] [Times: user=0.02 sys=0.00, real=0.03 secs] 
+80.249: [GC (Allocation Failure) 80.249: [DefNew
+Desired survivor size 1146880 bytes, new threshold 1 (max 15)
+- age   1:    2293760 bytes,    2293760 total
+: 20736K->2240K(20736K), 0.0249116 secs] 55623K->44300K(66580K), 0.0249788 secs] [Times: user=0.02 sys=0.02, real=0.03 secs] 
+80.506: [GC (Allocation Failure) 80.506: [DefNew
+Desired survivor size 1146880 bytes, new threshold 1 (max 15)
+- age   1:    2293752 bytes,    2293752 total
+: 20736K->2239K(20736K), 0.0083634 secs] 62796K->46727K(66580K), 0.0084274 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+80.904: [GC (Allocation Failure) 80.904: [DefNew
+Desired survivor size 1146880 bytes, new threshold 1 (max 15)
+- age   1:    2293760 bytes,    2293760 total
+: 20735K->2240K(20736K), 0.0226551 secs]80.927: [Tenured: 50879K->34432K(50964K), 0.0897662 secs] 65223K->34432K(71700K), [Metaspace: 24104K->24104K(24960K)], 0.1126070 secs] [Times: user=0.12 sys=0.00, real=0.11 secs] 
+81.121: [GC (Allocation Failure) 81.121: [DefNew
+Desired survivor size 1441792 bytes, new threshold 1 (max 15)
+- age   1:    2883576 bytes,    2883576 total
+: 23104K->2815K(25920K), 0.0245299 secs] 57536K->43573K(83312K), 0.0246493 secs] [Times: user=0.03 sys=0.00, real=0.03 secs] 
+82.267: [GC (Allocation Failure) 82.267: [DefNew
+Desired survivor size 1441792 bytes, new threshold 15 (max 15)
+- age   1:    1189920 bytes,    1189920 total
+: 25919K->1162K(25920K), 0.0075277 secs] 66677K->44735K(83312K), 0.0076024 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+83.449: [GC (Allocation Failure) 83.449: [DefNew
+Desired survivor size 1441792 bytes, new threshold 1 (max 15)
+- age   1:    2864144 bytes,    2864144 total
+- age   2:      19440 bytes,    2883584 total
+: 24266K->2816K(25920K), 0.0305191 secs] 67839K->55611K(83312K), 0.0305823 secs] [Times: user=0.02 sys=0.00, real=0.03 secs] 
+83.692: [GC (Allocation Failure) 83.692: [DefNew
+Desired survivor size 1441792 bytes, new threshold 1 (max 15)
+- age   1:    2883584 bytes,    2883584 total
+: 25920K->2816K(25920K), 0.0226508 secs]83.715: [Tenured: 59555K->38074K(59568K), 0.0852370 secs] 78715K->38074K(85488K), [Metaspace: 24144K->24144K(24960K)], 0.1080106 secs] [Times: user=0.11 sys=0.00, real=0.11 secs] 
+84.465: [GC (Allocation Failure) 84.465: [DefNew
+Desired survivor size 1605632 bytes, new threshold 1 (max 15)
+- age   1:    3211264 bytes,    3211264 total
+: 25472K->3136K(28608K), 0.0215010 secs] 63546K->46850K(92068K), 0.0215654 secs] [Times: user=0.02 sys=0.00, real=0.02 secs] 
+84.643: [GC (Allocation Failure) 84.643: [DefNew
+Desired survivor size 1605632 bytes, new threshold 1 (max 15)
+- age   1:    3211256 bytes,    3211256 total
+: 28608K->3135K(28608K), 0.0313698 secs] 72322K->55665K(92068K), 0.0314464 secs] [Times: user=0.03 sys=0.00, real=0.03 secs] 
+86.661: [GC (Allocation Failure) 86.661: [DefNew
+Desired survivor size 1605632 bytes, new threshold 1 (max 15)
+- age   1:    1736272 bytes,    1736272 total
+: 28607K->1695K(28608K), 0.0070927 secs] 81137K->54225K(92068K), 0.0071595 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+86.822: [GC (Allocation Failure) 86.822: [DefNew
+Desired survivor size 1605632 bytes, new threshold 1 (max 15)
+- age   1:    3211264 bytes,    3211264 total
+: 27167K->3136K(28608K), 0.0347555 secs]86.857: [Tenured: 64725K->44068K(64740K), 0.0914043 secs] 79697K->44068K(93348K), [Metaspace: 24192K->24192K(24960K)], 0.1262958 secs] [Times: user=0.13 sys=0.00, real=0.13 secs] 
+87.497: [GC (Allocation Failure) 87.497: [DefNew
+Desired survivor size 1867776 bytes, new threshold 1 (max 15)
+- age   1:    2077032 bytes,    2077032 total
+: 29440K->2028K(33088K), 0.0062167 secs] 73508K->46096K(106536K), 0.0062811 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+87.858: [GC (Allocation Failure) 87.858: [DefNew
+Desired survivor size 1867776 bytes, new threshold 1 (max 15)
+- age   1:    3735552 bytes,    3735552 total
+: 31468K->3648K(33088K), 0.0357587 secs] 75536K->60045K(106536K), 0.0358227 secs] [Times: user=0.03 sys=0.00, real=0.04 secs] 
+89.541: [GC (Allocation Failure) 89.541: [DefNew
+Desired survivor size 1867776 bytes, new threshold 15 (max 15)
+- age   1:    1810848 bytes,    1810848 total
+: 33088K->1768K(33088K), 0.0057454 secs] 89485K->58166K(106536K), 0.0058125 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+89.872: [GC (Allocation Failure) 89.872: [DefNew
+Desired survivor size 1867776 bytes, new threshold 1 (max 15)
+- age   1:    3197080 bytes,    3197080 total
+- age   2:     538472 bytes,    3735552 total
+: 31208K->3648K(33088K), 0.0371464 secs] 87606K->72269K(106536K), 0.0372171 secs] [Times: user=0.05 sys=0.00, real=0.04 secs] 
+90.469: [GC (Allocation Failure) 90.470: [DefNew
+Desired survivor size 1867776 bytes, new threshold 1 (max 15)
+- age   1:    2504216 bytes,    2504216 total
+: 33088K->2445K(33088K), 0.0076143 secs] 101709K->71070K(106536K), 0.0076810 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+90.811: [GC (Allocation Failure) 90.811: [DefNew
+Desired survivor size 1867776 bytes, new threshold 1 (max 15)
+- age   1:    3735552 bytes,    3735552 total
+: 31885K->3648K(33088K), 0.0394503 secs]90.850: [Tenured: 81439K->45739K(81512K), 0.0975780 secs] 100510K->45739K(114600K), [Metaspace: 24192K->24192K(24960K)], 0.1376949 secs] [Times: user=0.14 sys=0.00, real=0.14 secs] 
+92.374: [Full GC (System.gc()) 92.374: [Tenured: 45739K->25872K(76236K), 0.0713728 secs] 70738K->25872K(110604K), [Metaspace: 24192K->24192K(24960K)], 0.0715210 secs] [Times: user=0.06 sys=0.00, real=0.07 secs] 
+103.923: [Full GC (System.gc()) 103.923: [Tenured: 25872K->29345K(76236K), 0.0666682 secs] 51335K->29345K(110604K), [Metaspace: 25502K->25502K(25984K)], 0.0667460 secs] [Times: user=0.06 sys=0.00, real=0.07 secs] 
+104.385: [Full GC (System.gc()) 104.385: [Tenured: 29345K->29346K(76236K), 0.0575620 secs] 29932K->29346K(110604K), [Metaspace: 25502K->25502K(25984K)], 0.0576394 secs] [Times: user=0.05 sys=0.00, real=0.06 secs] 
+112.098: [Full GC (System.gc()) 112.098: [Tenured: 29346K->29757K(76236K), 0.0589741 secs] 37184K->29757K(110604K), [Metaspace: 25503K->25503K(25984K)], 0.0590511 secs] [Times: user=0.06 sys=0.00, real=0.06 secs] 
+116.395: [Full GC (System.gc()) 116.395: [Tenured: 29757K->27104K(76236K), 0.0686074 secs] 33279K->27104K(110604K), [Metaspace: 25503K->25503K(25984K)], 0.0686789 secs] [Times: user=0.08 sys=0.00, real=0.07 secs] 
+Heap
+ def new generation   total 34368K, used 6646K [0x04800000, 0x06d40000, 0x19d50000)
+  eden space 30592K,  21% used [0x04800000, 0x04e7d870, 0x065e0000)
+  from space 3776K,   0% used [0x065e0000, 0x065e0000, 0x06990000)
+  to   space 3776K,   0% used [0x06990000, 0x06990000, 0x06d40000)
+ tenured generation   total 76236K, used 27104K [0x19d50000, 0x1e7c3000, 0x44800000)
+   the space 76236K,  35% used [0x19d50000, 0x1b7c8350, 0x1b7c8400, 0x1e7c3000)
+ Metaspace       used 25559K, capacity 25710K, committed 25984K, reserved 25984K

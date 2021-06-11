@@ -1,0 +1,12 @@
+Java HotSpot(TM) 64-Bit Server VM (25.0-b70) for bsd-amd64 JRE (1.8.0-b132), built on Mar  4 2014 03:11:43 by "java_re" with gcc 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)
+Memory: 4k page, physical 16777216k(427340k free)
+
+/proc/meminfo:
+
+CommandLine flags: -XX:InitialHeapSize=268435456 -XX:MaxHeapSize=2147483648 -XX:+PrintGC -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+PrintTenuringDistribution -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseParallelGC 
+0.051: [GC (Allocation Failure) 
+Desired survivor size 524288 bytes, new threshold 7 (max 15)
+[PSYoungGen: 512K->480K(1024K)] 512K->496K(261632K), 0.0007660 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+559.051: [GC (Allocation Failure) 
+Desired survivor size 524288 bytes, new threshold 7 (max 15)
+[PSYoungGen: 512K->480K(1024K)] 512K->496K(261632K), 0.0007660 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 

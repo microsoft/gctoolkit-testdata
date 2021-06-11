@@ -1,6 +1,86 @@
-# Project
+# censum-testdata
 
-> This repo has been populated by an initial template to help get you started. Please
+# Introduction
+Test assets for [Censum](https://github.com/microsoft/censum). These files are unlikely to change, other than an occasional
+addition. The child packages are deployed as zip files. 
+
+# Getting Started
+In the top-level pom file, you will see that the project has a dependency on several other test data projects, 
+each of which is contained in a subdirectory of the censum-testdata project.
+The pom file of the [censum](https://github.com/microsoft/censum) project contains the following dependency:
+```xml
+            <dependency>
+                <groupId>com.microsoft.censum</groupId>
+                <artifactId>censum-testdata</artifactId>
+                <version>1.0.0</version>
+                <type>zip</type>
+                <scope>test</scope>
+            </dependency>
+```
+When the Maven test phase is run, the dependencies of censum-testdata are downloaded. The test data assets are downloaded as 
+zip files, which must then be unzipped to be used in the Censum unit tests. This is done in the build with the
+maven-dependency-plugin:
+```xml
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>3.1.1</version>
+                <inherited>false</inherited>
+                <executions>
+                    <execution>
+                        <id>download-test-logs</id>
+                        <phase>process-test-resources</phase>
+                        <goals>
+                            <goal>unpack</goal>
+                        </goals>
+                        <configuration>
+                            <skip>${skipUnpack}</skip>
+                            <artifactItems>
+                                <artifactItem>
+                                    <groupId>com.microsoft.censum</groupId>
+                                    <artifactId>censum-gclogs</artifactId>
+                                    <version>1.0.0</version>
+                                    <type>zip</type>
+                                </artifactItem>
+                                <artifactItem>
+                                    <groupId>com.microsoft.censum</groupId>
+                                    <artifactId>censum-gclogs-rolling</artifactId>
+                                    <version>1.0.0</version>
+                                    <type>zip</type>
+                                </artifactItem>
+                                <artifactItem>
+                                    <groupId>com.microsoft.censum</groupId>
+                                    <artifactId>censum-shenandoah-logs</artifactId>
+                                    <version>1.0.0</version>
+                                    <type>zip</type>
+                                </artifactItem>
+                                <artifactItem>
+                                    <groupId>com.microsoft.censum</groupId>
+                                    <artifactId>censum-zgc-logs</artifactId>
+                                    <version>1.0.0</version>
+                                    <type>zip</type>
+                                </artifactItem>
+                            </artifactItems>
+                            <includes>**/*</includes>
+                            <outputDirectory>${project.basedir}/gclogs
+                            </outputDirectory>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+```
+If one of the test data dependencies changes versions, then the pom file in the Censum project will need to be updated.
+
+# Build and Test
+Because the top-level pom file treats each set of logs as a dependency, each set of log files &mdash; censum-gclogs, censum-gclogs-rolling, 
+censum-shenandoah-logs, censum-zgc-logs &mdash; must be in its own package. About all one can do with these log files
+is release them to github packages. For each package, 
+
+`mvn package deploy`
+
+# Contribute
+If more logs are added, they should probably be in their own child package.> This repo has been populated by an initial template to help get you started. Please
 > make sure to update the content to build a great experience for community-building.
 
 As the maintainer of this project, please make a few updates:

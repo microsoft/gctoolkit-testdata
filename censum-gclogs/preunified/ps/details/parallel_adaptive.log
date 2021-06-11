@@ -1,0 +1,180 @@
+Java HotSpot(TM) 64-Bit Server VM (25.121-b13) for bsd-amd64 JRE (1.8.0_121-b13), built on Dec 12 2016 20:39:32 by "java_re" with gcc 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)
+Memory: 4k page, physical 16777216k(2770412k free)
+
+/proc/meminfo:
+
+CommandLine flags: -XX:InitialHeapSize=268435456 -XX:MaxHeapSize=2147483648 -XX:+PrintAdaptiveSizePolicy -XX:+PrintFlagsFinal -XX:+PrintGC -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:SurvivorRatio=1000000000 -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseParallelGC 
+11.663: [GC (Allocation Failure) AdaptiveSizePolicy::update_averages:  survived: 524288  promoted: 6518464  overflow: true
+AdaptiveSizeStart: 11.669 collection: 1 
+PSAdaptiveSizePolicy::compute_eden_space_size: costs minor_time: 0.000524 major_cost: 0.000000 mutator_cost: 0.999476 throughput_goal: 0.990000 live_space: 268959744 free_space: 176160768 old_eden_size: 88080384 desired_eden_size: 88080384
+AdaptiveSizeStop: collection: 1 
+[PSYoungGen: 86016K->512K(86528K)] 86016K->6877K(261632K), 0.0065109 secs] [Times: user=0.03 sys=0.01, real=0.01 secs] 
+11.763: [GC (Allocation Failure) AdaptiveSizePolicy::update_averages:  survived: 524288  promoted: 376064  overflow: true
+AdaptiveSizeStart: 11.765 collection: 2 
+PSAdaptiveSizePolicy::compute_eden_space_size: costs minor_time: 0.008663 major_cost: 0.000000 mutator_cost: 0.991337 throughput_goal: 0.990000 live_space: 268959744 free_space: 176160768 old_eden_size: 88080384 desired_eden_size: 88080384
+AdaptiveSizeStop: collection: 2 
+[PSYoungGen: 86528K->512K(86528K)] 92893K->7244K(261632K), 0.0018364 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+11.863: [GC (Allocation Failure) AdaptiveSizePolicy::update_averages:  survived: 524288  promoted: 548864  overflow: true
+AdaptiveSizeStart: 11.865 collection: 3 
+PSAdaptiveSizePolicy::compute_eden_space_size: costs minor_time: 0.011398 major_cost: 0.000000 mutator_cost: 0.988602 throughput_goal: 0.990000 live_space: 268959744 free_space: 176160768 old_eden_size: 88080384 desired_eden_size: 176160768
+AdaptiveSizePolicy::survivor space sizes: collection: 3 (524288, 524288) -> (524288, 524288) 
+AdaptiveSizeStop: collection: 3 
+[PSYoungGen: 86528K->512K(86528K)] 93260K->7780K(261632K), 0.0020331 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+11.944: [GC (Allocation Failure) AdaptiveSizePolicy::update_averages:  survived: 524288  promoted: 696608  overflow: true
+AdaptiveSizeStart: 11.947 collection: 4 
+PSAdaptiveSizePolicy::compute_eden_space_size: costs minor_time: 0.015484 major_cost: 0.000000 mutator_cost: 0.984516 throughput_goal: 0.990000 live_space: 268959744 free_space: 264241152 old_eden_size: 176160768 desired_eden_size: 176160768
+AdaptiveSizePolicy::survivor space sizes: collection: 4 (524288, 524288) -> (524288, 524288) 
+AdaptiveSizeStop: collection: 4 
+[PSYoungGen: 86528K->512K(172544K)] 93796K->8461K(347648K), 0.0025587 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+12.112: [GC (Allocation Failure) AdaptiveSizePolicy::update_averages:  survived: 516520  promoted: 1294760  overflow: true
+AdaptiveSizeStart: 12.115 collection: 5 
+  avg_survived_padded_avg: 6590827.000000  avg_promoted_padded_avg: 6064364.000000  avg_pretenured_padded_avg: 0.000000  tenuring_thresh: 6  target_size: 524288
+PSAdaptiveSizePolicy::compute_eden_space_size: costs minor_time: 0.015873 major_cost: 0.000000 mutator_cost: 0.984127 throughput_goal: 0.990000 live_space: 268958176 free_space: 264241152 old_eden_size: 176160768 desired_eden_size: 352321536
+AdaptiveSizePolicy::survivor space sizes: collection: 5 (524288, 524288) -> (524288, 524288) 
+AdaptiveSizeStop: collection: 5 
+[PSYoungGen: 172544K->504K(172544K)] 180493K->9718K(347648K), 0.0033161 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+12.268: [GC (Allocation Failure) AdaptiveSizePolicy::update_averages:  survived: 516520  promoted: 1433600  overflow: true
+AdaptiveSizeStart: 12.271 collection: 6 
+  avg_survived_padded_avg: 6035947.500000  avg_promoted_padded_avg: 5508570.500000  avg_pretenured_padded_avg: 0.000000  tenuring_thresh: 5  target_size: 524288
+PSAdaptiveSizePolicy::compute_eden_space_size: costs minor_time: 0.016830 major_cost: 0.000000 mutator_cost: 0.983170 throughput_goal: 0.990000 live_space: 268957184 free_space: 440401920 old_eden_size: 352321536 desired_eden_size: 352321536
+AdaptiveSizePolicy::survivor space sizes: collection: 6 (524288, 524288) -> (524288, 524288) 
+AdaptiveSizeStop: collection: 6 
+[PSYoungGen: 172536K->504K(344576K)] 181750K->11118K(519680K), 0.0034780 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+12.582: [GC (Allocation Failure) AdaptiveSizePolicy::update_averages:  survived: 496248  promoted: 2674264  overflow: true
+AdaptiveSizeStart: 12.585 collection: 7 
+  avg_survived_padded_avg: 5934397.000000  avg_promoted_padded_avg: 5420586.000000  avg_pretenured_padded_avg: 0.000000  tenuring_thresh: 4  target_size: 524288
+PSAdaptiveSizePolicy::compute_eden_space_size: costs minor_time: 0.015123 major_cost: 0.000000 mutator_cost: 0.984877 throughput_goal: 0.990000 live_space: 268953632 free_space: 440401920 old_eden_size: 352321536 desired_eden_size: 704643072
+AdaptiveSizePolicy::survivor space sizes: collection: 7 (524288, 524288) -> (524288, 524288) 
+AdaptiveSizeStop: collection: 7 
+[PSYoungGen: 344568K->484K(344576K)] 355182K->13709K(519680K), 0.0038717 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+12.870: [GC (GCLocker Initiated GC) AdaptiveSizePolicy::update_averages:  survived: 514984  promoted: 2929424  overflow: true
+AdaptiveSizeStart: 12.873 collection: 8 
+  avg_survived_padded_avg: 5948361.000000  avg_promoted_padded_avg: 5435441.500000  avg_pretenured_padded_avg: 53.233345  tenuring_thresh: 3  target_size: 524288
+PSAdaptiveSizePolicy::compute_eden_space_size: costs minor_time: 0.014156 major_cost: 0.000000 mutator_cost: 0.985844 throughput_goal: 0.990000 live_space: 268953248 free_space: 792723456 old_eden_size: 704643072 desired_eden_size: 704643072
+AdaptiveSizePolicy::survivor space sizes: collection: 8 (524288, 524288) -> (524288, 524288) 
+AdaptiveSizeStop: collection: 8 
+[PSYoungGen: 344548K->502K(688640K)] 357774K->16589K(863744K), 0.0033304 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+13.467: [GC (Allocation Failure) AdaptiveSizePolicy::update_averages:  survived: 514984  promoted: 5723144  overflow: true
+AdaptiveSizeStart: 13.472 collection: 9 
+  avg_survived_padded_avg: 7055913.000000  avg_promoted_padded_avg: 6543604.000000  avg_pretenured_padded_avg: 40.148567  tenuring_thresh: 2  target_size: 524288
+PSAdaptiveSizePolicy::compute_eden_space_size limits: desired_eden_size: 1127743488 old_eden_size: 704643072 eden_limit: 714604544 cur_eden: 704643072 max_eden_size: 714604544 avg_young_live: 517480
+PSAdaptiveSizePolicy::compute_eden_space_size: costs minor_time: 0.012347 major_cost: 0.000000 mutator_cost: 0.987653 throughput_goal: 0.990000 live_space: 268952928 free_space: 792723456 old_eden_size: 704643072 desired_eden_size: 714604544
+AdaptiveSizePolicy::survivor space sizes: collection: 9 (524288, 524288) -> (524288, 524288) 
+AdaptiveSizeStop: collection: 9 
+[PSYoungGen: 688630K->502K(688640K)] 704752K->22213K(863744K), 0.0042429 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+14.006: [GC (Allocation Failure) AdaptiveSizePolicy::update_averages:  survived: 510320  promoted: 5855648  overflow: true
+AdaptiveSizeStart: 14.012 collection: 10 
+  avg_survived_padded_avg: 7901535.000000  avg_promoted_padded_avg: 7391370.000000  avg_pretenured_padded_avg: 40.148567  tenuring_thresh: 1  target_size: 524288
+PSAdaptiveSizePolicy::compute_eden_space_size limits: desired_eden_size: 1127743488 old_eden_size: 714604544 eden_limit: 714604544 cur_eden: 704643072 max_eden_size: 714604544 avg_young_live: 516764
+PSAdaptiveSizePolicy::compute_eden_space_size: costs minor_time: 0.011930 major_cost: 0.000000 mutator_cost: 0.988070 throughput_goal: 0.990000 live_space: 268952224 free_space: 802684928 old_eden_size: 714604544 desired_eden_size: 714604544
+AdaptiveSizePolicy::survivor space sizes: collection: 10 (524288, 524288) -> (524288, 524288) 
+AdaptiveSizeStop: collection: 10 
+[PSYoungGen: 688630K->498K(698368K)] 710341K->27927K(873472K), 0.0058509 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+14.625: [GC (Allocation Failure) AdaptiveSizePolicy::update_averages:  survived: 524288  promoted: 4983160  overflow: true
+AdaptiveSizeStart: 14.629 collection: 11 
+  avg_survived_padded_avg: 8253480.000000  avg_promoted_padded_avg: 7739883.000000  avg_pretenured_padded_avg: 40.148567  tenuring_thresh: 1  target_size: 524288
+PSAdaptiveSizePolicy::compute_eden_space_size limits: desired_eden_size: 1143472128 old_eden_size: 714604544 eden_limit: 714604544 cur_eden: 714604544 max_eden_size: 714604544 avg_young_live: 517516
+PSAdaptiveSizePolicy::compute_eden_space_size: costs minor_time: 0.010788 major_cost: 0.000000 mutator_cost: 0.989212 throughput_goal: 0.990000 live_space: 268952960 free_space: 802684928 old_eden_size: 714604544 desired_eden_size: 714604544
+AdaptiveSizeStop: collection: 11 
+[PSYoungGen: 698354K->512K(698368K)] 725783K->32807K(873472K), 0.0046180 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+15.174: [GC (Allocation Failure) AdaptiveSizePolicy::update_averages:  survived: 508768  promoted: 5761824  overflow: true
+AdaptiveSizeStart: 15.178 collection: 12 
+  avg_survived_padded_avg: 8793460.000000  avg_promoted_padded_avg: 8282718.000000  avg_pretenured_padded_avg: 40.148567  tenuring_thresh: 1  target_size: 524288
+PSAdaptiveSizePolicy::compute_eden_space_size limits: desired_eden_size: 1143472128 old_eden_size: 714604544 eden_limit: 714604544 cur_eden: 714604544 max_eden_size: 714604544 avg_young_live: 516641
+PSAdaptiveSizePolicy::compute_eden_space_size: costs minor_time: 0.010286 major_cost: 0.000000 mutator_cost: 0.989714 throughput_goal: 0.990000 live_space: 268952096 free_space: 802684928 old_eden_size: 714604544 desired_eden_size: 714604544
+AdaptiveSizeStop: collection: 12 
+[PSYoungGen: 698368K->496K(698368K)] 730663K->38418K(873472K), 0.0048968 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+15.727: [GC (Allocation Failure) AdaptiveSizePolicy::update_averages:  survived: 524288  promoted: 5847832  overflow: true
+AdaptiveSizeStart: 15.732 collection: 13 
+  avg_survived_padded_avg: 9243180.000000  avg_promoted_padded_avg: 8729028.000000  avg_pretenured_padded_avg: 40.148567  tenuring_thresh: 1  target_size: 524288
+PSAdaptiveSizePolicy::compute_eden_space_size: costs minor_time: 0.009732 major_cost: 0.000000 mutator_cost: 0.990268 throughput_goal: 0.990000 live_space: 268952864 free_space: 802684928 old_eden_size: 714604544 desired_eden_size: 683147264
+AdaptiveSizePolicy::survivor space sizes: collection: 13 (524288, 524288) -> (524288, 524288) 
+AdaptiveSizeStop: collection: 13 
+[PSYoungGen: 698352K->512K(667648K)] 736274K->44144K(842752K), 0.0045412 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+16.349: [GC (Allocation Failure) AdaptiveSizePolicy::update_averages:  survived: 524288  promoted: 6314984  overflow: true
+AdaptiveSizeStart: 16.354 collection: 14 
+  avg_survived_padded_avg: 9751588.000000  avg_promoted_padded_avg: 9234574.000000  avg_pretenured_padded_avg: 40.148567  tenuring_thresh: 1  target_size: 524288
+PSAdaptiveSizePolicy::compute_eden_space_size: costs minor_time: 0.009442 major_cost: 0.000000 mutator_cost: 0.990558 throughput_goal: 0.990000 live_space: 268953536 free_space: 771227648 old_eden_size: 683147264 desired_eden_size: 653262848
+AdaptiveSizePolicy::survivor space sizes: collection: 14 (524288, 524288) -> (524288, 524288) 
+AdaptiveSizeStop: collection: 14 
+[PSYoungGen: 667648K->512K(638464K)] 711280K->50311K(813568K), 0.0054102 secs] [Times: user=0.03 sys=0.01, real=0.00 secs] 
+18.128: [GC (Metadata GC Threshold) AdaptiveSizePolicy::update_averages:  survived: 524288  promoted: 5331496  overflow: true
+AdaptiveSizeStart: 18.133 collection: 15 
+  avg_survived_padded_avg: 9770386.000000  avg_promoted_padded_avg: 9250980.000000  avg_pretenured_padded_avg: 40.148567  tenuring_thresh: 1  target_size: 524288
+PSAdaptiveSizePolicy::compute_eden_space_size: costs minor_time: 0.007811 major_cost: 0.000000 mutator_cost: 0.992189 throughput_goal: 0.990000 live_space: 268954176 free_space: 741343232 old_eden_size: 653262848 desired_eden_size: 624951296
+AdaptiveSizePolicy::survivor space sizes: collection: 15 (524288, 524288) -> (524288, 524288) 
+AdaptiveSizeStop: collection: 15 
+[PSYoungGen: 501405K->512K(610816K)] 551205K->55518K(785920K), 0.0053242 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+18.133: [Full GC (Metadata GC Threshold) AdaptiveSizeStart: 18.259 collection: 16 
+PSAdaptiveSizePolicy::compute_eden_space_size limits: desired_eden_size: 824742410 old_eden_size: 624951296 eden_limit: 714604544 cur_eden: 624951296 max_eden_size: 714604544 avg_young_live: 466842
+PSAdaptiveSizePolicy::compute_eden_space_size: costs minor_time: 0.007811 major_cost: 0.006865 mutator_cost: 0.985323 throughput_goal: 0.990000 live_space: 268902304 free_space: 713031680 old_eden_size: 624951296 desired_eden_size: 714604544
+PSAdaptiveSizePolicy::compute_old_gen_free_space: costs minor_time: 0.007811 major_cost: 0.006865 mutator_cost: 0.985323 throughput_goal: 0.990000 live_space: 318139584 free_space: 802684928 old_promo_size: 88080384 desired_promo_size: 129499136
+AdaptiveSizePolicy::old generation size: collection: 16 (179306496) -> (188219392) 
+AdaptiveSizeStop: collection: 16 
+[PSYoungGen: 512K->0K(610816K)] [ParOldGen: 55006K->48083K(183808K)] 55518K->48083K(794624K), [Metaspace: 20898K->20898K(1067008K)], 0.1253660 secs] [Times: user=0.85 sys=0.01, real=0.13 secs] 
+48.477: [GC (Allocation Failure) AdaptiveSizePolicy::update_averages:  survived: 499152  promoted: 50189432  overflow: true
+AdaptiveSizeStart: 48.506 collection: 17 
+  avg_survived_padded_avg: 26334602.000000  avg_promoted_padded_avg: 25822512.000000  avg_pretenured_padded_avg: 40.148567  tenuring_thresh: 1  target_size: 524288
+PSAdaptiveSizePolicy::compute_eden_space_size limits: desired_eden_size: 801457549 old_eden_size: 714604544 eden_limit: 714604544 cur_eden: 624951296 max_eden_size: 714604544 avg_young_live: 470073
+PSAdaptiveSizePolicy::compute_eden_space_size: costs minor_time: 0.006093 major_cost: 0.006865 mutator_cost: 0.987042 throughput_goal: 0.990000 live_space: 318142816 free_space: 844103680 old_eden_size: 714604544 desired_eden_size: 714604544
+AdaptiveSizePolicy::survivor space sizes: collection: 17 (524288, 524288) -> (524288, 524288) 
+AdaptiveSizeStop: collection: 17 
+[PSYoungGen: 610304K->487K(698368K)] 658387K->97583K(882176K), 0.0286813 secs] [Times: user=0.17 sys=0.03, real=0.03 secs] 
+49.012: [GC (Allocation Failure) AdaptiveSizePolicy::update_averages:  survived: 496248  promoted: 5241616  overflow: true
+AdaptiveSizeStart: 49.016 collection: 18 
+  avg_survived_padded_avg: 25186464.000000  avg_promoted_padded_avg: 24670422.000000  avg_pretenured_padded_avg: 40.148567  tenuring_thresh: 1  target_size: 524288
+PSAdaptiveSizePolicy::compute_eden_space_size limits: desired_eden_size: 854776133 old_eden_size: 714604544 eden_limit: 714604544 cur_eden: 714604544 max_eden_size: 714604544 avg_young_live: 472690
+PSAdaptiveSizePolicy::compute_eden_space_size: costs minor_time: 0.006587 major_cost: 0.006865 mutator_cost: 0.986547 throughput_goal: 0.990000 live_space: 318145440 free_space: 844103680 old_eden_size: 714604544 desired_eden_size: 714604544
+AdaptiveSizeStop: collection: 18 
+[PSYoungGen: 698343K->484K(698368K)] 795439K->102699K(882176K), 0.0042323 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+49.508: [GC (Allocation Failure) AdaptiveSizePolicy::update_averages:  survived: 514984  promoted: 5747728  overflow: true
+AdaptiveSizeStart: 49.513 collection: 19 
+  avg_survived_padded_avg: 23972766.000000  avg_promoted_padded_avg: 23456906.000000  avg_pretenured_padded_avg: 40.148567  tenuring_thresh: 1  target_size: 524288
+PSAdaptiveSizePolicy::compute_eden_space_size limits: desired_eden_size: 859484809 old_eden_size: 714604544 eden_limit: 714604544 cur_eden: 714604544 max_eden_size: 714604544 avg_young_live: 476920
+PSAdaptiveSizePolicy::compute_eden_space_size: costs minor_time: 0.007035 major_cost: 0.006865 mutator_cost: 0.986099 throughput_goal: 0.990000 live_space: 318149664 free_space: 844103680 old_eden_size: 714604544 desired_eden_size: 714604544
+AdaptiveSizeStop: collection: 19 
+[PSYoungGen: 698340K->502K(698368K)] 800555K->108331K(882176K), 0.0042399 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+50.098: [GC (Allocation Failure) AdaptiveSizePolicy::update_averages:  survived: 524288  promoted: 5808448  overflow: true
+AdaptiveSizeStart: 50.103 collection: 20 
+  avg_survived_padded_avg: 22800664.000000  avg_promoted_padded_avg: 22286540.000000  avg_pretenured_padded_avg: 40.148567  tenuring_thresh: 1  target_size: 524288
+PSAdaptiveSizePolicy::compute_eden_space_size limits: desired_eden_size: 860496210 old_eden_size: 714604544 eden_limit: 714604544 cur_eden: 714604544 max_eden_size: 714604544 avg_young_live: 481657
+PSAdaptiveSizePolicy::compute_eden_space_size: costs minor_time: 0.007135 major_cost: 0.006865 mutator_cost: 0.985999 throughput_goal: 0.990000 live_space: 318154400 free_space: 844103680 old_eden_size: 714604544 desired_eden_size: 714604544
+AdaptiveSizeStop: collection: 20 
+[PSYoungGen: 698358K->512K(698368K)] 806187K->114012K(882176K), 0.0044628 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+50.631: [GC (Allocation Failure) AdaptiveSizePolicy::update_averages:  survived: 516520  promoted: 5057648  overflow: true
+AdaptiveSizeStart: 50.635 collection: 21 
+  avg_survived_padded_avg: 21815540.000000  avg_promoted_padded_avg: 21301402.000000  avg_pretenured_padded_avg: 40.148567  tenuring_thresh: 1  target_size: 524288
+PSAdaptiveSizePolicy::compute_eden_space_size limits: desired_eden_size: 859836607 old_eden_size: 714604544 eden_limit: 714604544 cur_eden: 714604544 max_eden_size: 714604544 avg_young_live: 485143
+PSAdaptiveSizePolicy::compute_eden_space_size: costs minor_time: 0.007070 major_cost: 0.006865 mutator_cost: 0.986065 throughput_goal: 0.990000 live_space: 318157888 free_space: 844103680 old_eden_size: 714604544 desired_eden_size: 714604544
+AdaptiveSizeStop: collection: 21 
+[PSYoungGen: 698368K->504K(698368K)] 811868K->118944K(882176K), 0.0037314 secs] [Times: user=0.02 sys=0.01, real=0.00 secs] 
+51.156: [GC (Allocation Failure) AdaptiveSizePolicy::update_averages:  survived: 492096  promoted: 5979600  overflow: true
+AdaptiveSizeStart: 51.161 collection: 22 
+  avg_survived_padded_avg: 20702594.000000  avg_promoted_padded_avg: 20184268.000000  avg_pretenured_padded_avg: 40.148567  tenuring_thresh: 1  target_size: 524288
+PSAdaptiveSizePolicy::compute_eden_space_size limits: desired_eden_size: 862110557 old_eden_size: 714604544 eden_limit: 714604544 cur_eden: 714604544 max_eden_size: 714604544 avg_young_live: 485838
+PSAdaptiveSizePolicy::compute_eden_space_size: costs minor_time: 0.007298 major_cost: 0.006865 mutator_cost: 0.985836 throughput_goal: 0.990000 live_space: 318158560 free_space: 844103680 old_eden_size: 714604544 desired_eden_size: 714604544
+AdaptiveSizeStop: collection: 22 
+[PSYoungGen: 698360K->480K(698368K)] 816800K->124759K(882176K), 0.0042711 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+51.650: [GC (Allocation Failure) AdaptiveSizePolicy::update_averages:  survived: 500976  promoted: 5739920  overflow: true
+AdaptiveSizeStart: 51.655 collection: 23 
+  avg_survived_padded_avg: 19698036.000000  avg_promoted_padded_avg: 19178092.000000  avg_pretenured_padded_avg: 40.148567  tenuring_thresh: 1  target_size: 524288
+PSAdaptiveSizePolicy::compute_eden_space_size limits: desired_eden_size: 867313822 old_eden_size: 714604544 eden_limit: 714604544 cur_eden: 714604544 max_eden_size: 714604544 avg_young_live: 487352
+PSAdaptiveSizePolicy::compute_eden_space_size: costs minor_time: 0.007850 major_cost: 0.006865 mutator_cost: 0.985284 throughput_goal: 0.990000 live_space: 318160096 free_space: 844103680 old_eden_size: 714604544 desired_eden_size: 714604544
+AdaptiveSizeStop: collection: 23 
+[PSYoungGen: 698336K->489K(698368K)] 822615K->130373K(882176K), 0.0047753 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+52.165: [GC (Allocation Failure) AdaptiveSizePolicy::update_averages:  survived: 524288  promoted: 5454240  overflow: true
+AdaptiveSizeStart: 52.169 collection: 24 
+  avg_survived_padded_avg: 18794376.000000  avg_promoted_padded_avg: 18277272.000000  avg_pretenured_padded_avg: 40.148567  tenuring_thresh: 1  target_size: 524288
+PSAdaptiveSizePolicy::compute_eden_space_size limits: desired_eden_size: 868802089 old_eden_size: 714604544 eden_limit: 714604544 cur_eden: 714604544 max_eden_size: 714604544 avg_young_live: 491045
+PSAdaptiveSizePolicy::compute_eden_space_size: costs minor_time: 0.008016 major_cost: 0.006865 mutator_cost: 0.985119 throughput_goal: 0.990000 live_space: 318163776 free_space: 844103680 old_eden_size: 714604544 desired_eden_size: 714604544
+AdaptiveSizeStop: collection: 24 
+[PSYoungGen: 698345K->512K(698368K)] 828229K->135722K(882176K), 0.0044535 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+Heap
+ PSYoungGen      total 698368K, used 667727K [0x0000000795580000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 697856K, 95% used [0x0000000795580000,0x00000007be113f70,0x00000007bff00000)
+  from space 512K, 100% used [0x00000007bff00000,0x00000007bff80000,0x00000007bff80000)
+  to   space 512K, 0% used [0x00000007bff80000,0x00000007bff80000,0x00000007c0000000)
+ ParOldGen       total 183808K, used 135210K [0x0000000740000000, 0x000000074b380000, 0x0000000795580000)
+  object space 183808K, 73% used [0x0000000740000000,0x000000074840ab68,0x000000074b380000)
+ Metaspace       used 25332K, capacity 25594K, committed 25728K, reserved 1071104K
+  class space    used 3125K, capacity 3191K, committed 3200K, reserved 1048576K

@@ -1,0 +1,70 @@
+2014-03-29T10:03:45.431+1030: 19.732: [GC 19.732: [ParNew
+Desired survivor size 71565312 bytes, new threshold 4 (max 4)
+- age   1:   30002272 bytes,   30002272 total
+: 1118528K->29434K(1258304K), 0.0677760 secs] 1118528K->29434K(4054528K), 0.0679170 secs] [Times: user=0.31 sys=0.08, real=0.08 secs] 
+2014-03-29T10:04:07.731+1030: 42.032: [GC 42.032: [ParNew
+Desired survivor size 71565312 bytes, new threshold 4 (max 4)
+- age   1:   31629408 bytes,   31629408 total
+- age   2:   21880232 bytes,   53509640 total
+: 1147962K->64295K(1258304K), 0.1053020 secs] 1147962K->64295K(4054528K), 0.1054430 secs] [Times: user=0.70 sys=0.09, real=0.10 secs] 
+2014-03-29T10:06:10.665+1030: 164.966: [GC 164.966: [ParNew
+Desired survivor size 71565312 bytes, new threshold 2 (max 4)
+- age   1:   42816632 bytes,   42816632 total
+- age   2:   31145248 bytes,   73961880 total
+- age   3:   21043336 bytes,   95005216 total
+: 1182823K->118770K(1258304K), 0.0915580 secs] 1182823K->118770K(4054528K), 0.0917500 secs] [Times: user=0.54 sys=0.04, real=0.09 secs] 
+2014-03-29T10:08:54.750+1030: 329.051: [GC 329.051: [ParNew
+Desired survivor size 71565312 bytes, new threshold 4 (max 4)
+- age   1:   29602136 bytes,   29602136 total
+- age   2:   29322256 bytes,   58924392 total
+: 1237298K->110951K(1258304K), 1.0227540 secs] 1237298K->166230K(4054528K), 1.0228860 secs] [Times: user=1.89 sys=0.44, real=1.03 secs] 
+2014-03-29T10:13:38.979+1030: 613.280: [GC 613.280: [ParNew
+Desired survivor size 71565312 bytes, new threshold 3 (max 4)
+- age   1:   24308176 bytes,   24308176 total
+- age   2:   19568904 bytes,   43877080 total
+- age   3:   27954216 bytes,   71831296 total
+: 1229479K->85179K(1258304K), 0.0418730 secs] 1284758K->140458K(4054528K), 0.0420120 secs] [Times: user=0.21 sys=0.00, real=0.04 secs] 
+2014-03-29T10:17:11.109+1030: 825.410: [GC 825.410: [ParNew
+Desired survivor size 71565312 bytes, new threshold 4 (max 4)
+- age   1:   27870384 bytes,   27870384 total
+- age   2:   10131400 bytes,   38001784 total
+- age   3:   17223264 bytes,   55225048 total
+: 1203707K->86050K(1258304K), 0.1109180 secs] 1258986K->166447K(4054528K), 0.1111290 secs] [Times: user=0.50 sys=0.05, real=0.10 secs] 
+2014-03-29T10:20:11.717+1030: 1006.018: [GC 1006.018: [ParNew
+Desired survivor size 71565312 bytes, new threshold 4 (max 4)
+- age   1:   34923288 bytes,   34923288 total
+- age   2:   20464496 bytes,   55387784 total
+- age   3:    9016616 bytes,   64404400 total
+- age   4:   15535088 bytes,   79939488 total
+: 1204578K->102622K(1258304K), 0.0502250 secs] 1284975K->183019K(4054528K), 0.0503650 secs] [Times: user=0.20 sys=0.00, real=0.06 secs] 
+2014-03-29T10:22:41.144+1030: 1155.444: [GC 1155.445: [ParNew
+Desired survivor size 71565312 bytes, new threshold 3 (max 4)
+- age   1:   37501576 bytes,   37501576 total
+- age   2:   24499376 bytes,   62000952 total
+- age   3:   20041360 bytes,   82042312 total
+- age   4:    8605064 bytes,   90647376 total
+: 1221150K->114969K(1258304K), 0.8042580 secs] 1301547K->210328K(4054528K), 0.8044800 secs] [Times: user=0.61 sys=0.06, real=0.80 secs] 
+2014-03-29T10:25:28.770+1030: 1323.070: [GC 1323.070: [ParNew
+Desired survivor size 71565312 bytes, new threshold 3 (max 4)
+- age   1:   27572784 bytes,   27572784 total
+- age   2:   25691416 bytes,   53264200 total
+- age   3:   23626176 bytes,   76890376 total
+: 1233497K->104446K(1258304K), 0.1371790 secs] 1328856K->227104K(4054528K), 0.1373580 secs] [Times: user=0.58 sys=0.08, real=0.13 secs] 
+2014-03-29T10:27:54.457+1030: 1468.757: [GC 1468.757: [ParNew
+Desired survivor size 71565312 bytes, new threshold 3 (max 4)
+- age   1:   42867928 bytes,   42867928 total
+- age   2:   22081832 bytes,   64949760 total
+- age   3:   25417112 bytes,   90366872 total
+: 1222974K->122344K(1258304K), 0.1225750 secs] 1345632K->267992K(4054528K), 0.1227520 secs] [Times: user=0.52 sys=0.02, real=0.12 secs] 
+2014-03-29T10:30:34.115+1030: 1628.416: [GC 1628.416: [ParNew
+Desired survivor size 71565312 bytes, new threshold 3 (max 4)
+- age   1:   28892336 bytes,   28892336 total
+- age   2:   37657136 bytes,   66549472 total
+- age   3:   21426296 bytes,   87975768 total
+: 1240872K->127403K(1258304K), 0.1246400 secs] 1386520K->297824K(4054528K), 0.1248110 secs] [Times: user=0.55 sys=0.05, real=0.13 secs] 
+2014-03-29T10:33:10.270+1030: 1784.571: [GC 1784.571: [ParNew
+Desired survivor size 71565312 bytes, new threshold 3 (max 4)
+- age   1:   20179520 bytes,   20179520 total
+- age   2:   18816704 bytes,   38996224 total
+- age   3:   36519800 bytes,   75516024 total
+: 1245931K->115577K(1258304K), 0.2392690 secs] 1416352K->306835K(4054528K), 0.2395130 secs]

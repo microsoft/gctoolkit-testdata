@@ -1,0 +1,76 @@
+Java HotSpot(TM) 64-Bit Server VM (25.0-b70) for linux-amd64 JRE (1.8.0-b132), built on Mar  4 2014 03:07:25 by "java_re" with gcc 4.3.0 20080428 (Red Hat 4.3.0-8)
+Memory: 4k page, physical 7629456k(54252k free), swap 0k(0k free)
+CommandLine flags: -XX:+CMSClassUnloadingEnabled -XX:+DisableExplicitGC -XX:InitialHeapSize=5905580032 -XX:MaxHeapSize=5905580032 -XX:+PrintGC -XX:+PrintGCApplicationStoppedTime -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+PrintPromotionFailure -XX:+PrintTenuringDistribution -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseG1GC 
+2014-06-25T00:10:58.039+0000: 0.488: Total time for which application threads were stopped: 0.0001250 seconds
+2014-06-25T00:10:58.058+0000: 0.507: Total time for which application threads were stopped: 0.0000719 seconds
+2014-06-25T00:10:58.434+0000: 0.883: Total time for which application threads were stopped: 0.0001387 seconds
+2014-06-25T00:11:00.943+0000: 3.392: [Full GC (Metadata GC Threshold)  165M->72M(5632M), 0.2983033 secs]
+   [Eden: 110.0M(280.0M)->0.0B(280.0M) Survivors: 0.0B->0.0B Heap: 165.7M(5632.0M)->72.1M(5632.0M)], [Metaspace: 21030K->21029K(1067008K)]
+ [Times: user=0.20 sys=0.10, real=0.30 secs] 
+2014-06-25T00:11:01.241+0000: 3.690: Total time for which application threads were stopped: 0.2986705 seconds
+2014-06-25T00:11:01.768+0000: 4.217: Total time for which application threads were stopped: 0.0004143 seconds
+2014-06-25T00:11:02.385+0000: 4.834: Total time for which application threads were stopped: 0.0001795 seconds
+2014-06-25T00:11:21.528+0000: 23.977: Total time for which application threads were stopped: 0.0032767 seconds
+2014-06-25T00:11:21.529+0000: 23.979: [Full GC (Metadata GC Threshold)  239M->81M(5632M), 0.1993454 secs]
+   [Eden: 168.0M(280.0M)->0.0B(280.0M) Survivors: 0.0B->0.0B Heap: 239.4M(5632.0M)->81.6M(5632.0M)], [Metaspace: 34979K->34979K(1079296K)]
+ [Times: user=0.28 sys=0.01, real=0.20 secs] 
+2014-06-25T00:11:21.729+0000: 24.178: Total time for which application threads were stopped: 0.1997509 seconds
+2014-06-25T00:11:21.781+0000: 24.230: Total time for which application threads were stopped: 0.0005583 seconds
+2014-06-25T00:11:21.914+0000: 24.363: Total time for which application threads were stopped: 0.0007827 seconds
+2014-06-25T00:11:32.273+0000: 34.722: [GC pause (G1 Evacuation Pause) (young)
+Desired survivor size 18874368 bytes, new threshold 15 (max 15)
+, 0.0067459 secs]
+   [Parallel Time: 3.8 ms, GC Workers: 2]
+      [GC Worker Start (ms): Min: 34722.1, Avg: 34722.1, Max: 34722.1, Diff: 0.0]
+      [Ext Root Scanning (ms): Min: 1.3, Avg: 1.3, Max: 1.4, Diff: 0.1, Sum: 2.7]
+      [Update RS (ms): Min: 0.8, Avg: 0.9, Max: 1.0, Diff: 0.1, Sum: 1.8]
+         [Processed Buffers: Min: 13, Avg: 15.0, Max: 17, Diff: 4, Sum: 30]
+      [Scan RS (ms): Min: 0.1, Avg: 0.2, Max: 0.3, Diff: 0.1, Sum: 0.4]
+      [Code Root Scanning (ms): Min: 0.1, Avg: 0.1, Max: 0.1, Diff: 0.1, Sum: 0.2]
+      [Object Copy (ms): Min: 1.2, Avg: 1.2, Max: 1.2, Diff: 0.0, Sum: 2.4]
+      [Termination (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.0]
+      [GC Worker Other (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.1]
+      [GC Worker Total (ms): Min: 3.8, Avg: 3.8, Max: 3.8, Diff: 0.0, Sum: 7.5]
+      [GC Worker End (ms): Min: 34725.9, Avg: 34725.9, Max: 34725.9, Diff: 0.0]
+   [Code Root Fixup: 0.1 ms]
+   [Code Root Migration: 0.1 ms]
+   [Clear CT: 0.1 ms]
+   [Other: 2.6 ms]
+      [Choose CSet: 0.0 ms]
+      [Ref Proc: 2.4 ms]
+      [Ref Enq: 0.0 ms]
+      [Free CSet: 0.1 ms]
+   [Eden: 280.0M(280.0M)->0.0B(282.0M) Survivors: 0.0B->2048.0K Heap: 361.6M(5632.0M)->83.3M(5632.0M)]
+ [Times: user=0.01 sys=0.00, real=0.01 secs] 
+2014-06-25T00:11:32.280+0000: 34.729: Total time for which application threads were stopped: 0.0072039 seconds
+2014-06-25T00:11:32.283+0000: 34.732: Total time for which application threads were stopped: 0.0017559 seconds
+2014-06-25T00:11:32.286+0000: 34.736: Total time for which application threads were stopped: 0.0002490 seconds
+2014-06-25T00:11:44.314+0000: 46.763: [GC pause (G1 Evacuation Pause) (young)
+Desired survivor size 18874368 bytes, new threshold 15 (max 15)
+- age   1:     366376 bytes,     366376 total
+, 0.0314581 secs]
+   [Parallel Time: 15.3 ms, GC Workers: 2]
+      [GC Worker Start (ms): Min: 46762.9, Avg: 46762.9, Max: 46762.9, Diff: 0.0]
+      [Ext Root Scanning (ms): Min: 2.7, Avg: 2.7, Max: 2.7, Diff: 0.0, Sum: 5.4]
+      [Update RS (ms): Min: 1.9, Avg: 2.3, Max: 2.8, Diff: 0.9, Sum: 4.7]
+         [Processed Buffers: Min: 6, Avg: 14.0, Max: 22, Diff: 16, Sum: 28]
+      [Scan RS (ms): Min: 0.1, Avg: 1.3, Max: 2.5, Diff: 2.4, Sum: 2.6]
+      [Code Root Scanning (ms): Min: 0.0, Avg: 0.2, Max: 0.4, Diff: 0.4, Sum: 0.4]
+      [Object Copy (ms): Min: 7.8, Avg: 8.7, Max: 9.6, Diff: 1.8, Sum: 17.4]
+      [Termination (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.0]
+      [GC Worker Other (ms): Min: 0.0, Avg: 0.0, Max: 0.0, Diff: 0.0, Sum: 0.0]
+      [GC Worker Total (ms): Min: 15.3, Avg: 15.3, Max: 15.3, Diff: 0.0, Sum: 30.6]
+      [GC Worker End (ms): Min: 46778.2, Avg: 46778.2, Max: 46778.2, Diff: 0.0]
+   [Code Root Fixup: 0.2 ms]
+   [Code Root Migration: 0.4 ms]
+   [Clear CT: 0.1 ms]
+   [Other: 15.5 ms]
+      [Choose CSet: 0.0 ms]
+      [Ref Proc: 15.1 ms]
+      [Ref Enq: 0.0 ms]
+      [Free CSet: 0.1 ms]
+   [Eden: 280.0M(280.0M)->0.0B(264.0M) Survivors: 2048.0K->16.0M Heap: 363.3M(5632.0M)->96.9M(5632.0M)]
+ [Times: user=0.02 sys=0.02, real=0.03 secs] 
+2014-06-25T00:11:44.345+0000: 46.795: Total time for which application threads were stopped: 0.0319694 seconds
+2014-06-25T00:11:44.361+0000: 46.810: Total time for which application threads were stopped: 0.0003691 seconds
+2014-06-25T00:11:44.362+0000: 46.812: Total time for which application threads were stopped: 0.0001987 seconds

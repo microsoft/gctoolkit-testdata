@@ -1,0 +1,702 @@
+0.849: [GC
+Desired survivor size 2097152 bytes, new threshold 7 (max 15)
+ 12288K->1648K(47104K), 0.0084652 secs]
+1.083: [GC
+Desired survivor size 2097152 bytes, new threshold 7 (max 15)
+ 8148K->1714K(47104K), 0.0063185 secs]
+1.090: [Full GC 1714K->1619K(47104K), 0.0509082 secs]
+1.143: [GC
+Desired survivor size 2097152 bytes, new threshold 7 (max 15)
+ 1747K->1619K(47104K), 0.0018929 secs]
+1.145: [Full GC 1619K->1619K(47104K), 0.0476721 secs]
+9.328: [GC
+Desired survivor size 2097152 bytes, new threshold 7 (max 15)
+ 13907K->4412K(47104K), 0.0211252 secs]
+12.183: [GC
+Desired survivor size 2097152 bytes, new threshold 7 (max 15)
+ 16692K->6441K(47104K), 0.0176531 secs]
+12.218: [GC
+Desired survivor size 2097152 bytes, new threshold 7 (max 15)
+ 18725K->6479K(47104K), 0.0113799 secs]
+12.242: [GC
+Desired survivor size 4128768 bytes, new threshold 6 (max 15)
+ 18739K->6498K(47104K), 0.0112898 secs]
+12.263: [GC
+Desired survivor size 3932160 bytes, new threshold 5 (max 15)
+ 18768K->6653K(60992K), 0.0086630 secs]
+12.298: [GC
+Desired survivor size 3997696 bytes, new threshold 4 (max 15)
+ 31182K->6586K(61184K), 0.0088154 secs]
+12.328: [GC
+Desired survivor size 4063232 bytes, new threshold 3 (max 15)
+ 31137K->6817K(85760K), 0.0037197 secs]
+12.402: [GC
+Desired survivor size 4128768 bytes, new threshold 2 (max 15)
+ 55835K->6666K(85824K), 0.0019449 secs]
+12.474: [GC
+Desired survivor size 4063232 bytes, new threshold 1 (max 15)
+ 55754K->7102K(115264K), 0.0035427 secs]
+12.583: [GC
+Desired survivor size 3997696 bytes, new threshold 1 (max 15)
+ 85681K->7151K(115328K), 0.0024543 secs]
+12.659: [GC
+Desired survivor size 3801088 bytes, new threshold 1 (max 15)
+ 85623K->7629K(162048K), 0.0026890 secs]
+12.817: [GC
+Desired survivor size 3604480 bytes, new threshold 1 (max 15)
+ 133348K->7707K(162240K), 0.0041435 secs]
+12.926: [GC
+Desired survivor size 3473408 bytes, new threshold 1 (max 15)
+ 133449K->8193K(237248K), 0.0036669 secs]
+13.172: [GC
+Desired survivor size 3538944 bytes, new threshold 1 (max 15)
+ 209358K->8847K(237376K), 0.0054354 secs]
+13.349: [GC
+Desired survivor size 3407872 bytes, new threshold 1 (max 15)
+ 210063K->7903K(291328K), 0.0032272 secs]
+13.628: [GC
+Desired survivor size 3473408 bytes, new threshold 1 (max 15)
+ 263146K->8984K(291392K), 0.0904270 secs]
+13.994: [GC
+Desired survivor size 3407872 bytes, new threshold 1 (max 15)
+ 264191K->8995K(291520K), 0.0039880 secs]
+14.192: [GC
+Desired survivor size 3932160 bytes, new threshold 1 (max 15)
+ 264383K->10511K(291520K), 0.0054905 secs]
+14.428: [GC
+Desired survivor size 4128768 bytes, new threshold 1 (max 15)
+ 265900K->10057K(290240K), 0.0058521 secs]
+14.639: [GC
+Desired survivor size 4456448 bytes, new threshold 1 (max 15)
+ 263993K->10490K(290048K), 0.0040876 secs]
+14.845: [GC
+Desired survivor size 4915200 bytes, new threshold 1 (max 15)
+ 264511K->11057K(289664K), 0.0035365 secs]
+15.060: [GC
+Desired survivor size 5046272 bytes, new threshold 1 (max 15)
+ 263589K->10621K(288640K), 0.0033765 secs]
+15.262: [GC
+Desired survivor size 5242880 bytes, new threshold 1 (max 15)
+ 263154K->10882K(289600K), 0.0041971 secs]
+15.470: [GC
+Desired survivor size 5046272 bytes, new threshold 1 (max 15)
+ 262770K->9979K(289792K), 0.0031966 secs]
+15.670: [GC
+Desired survivor size 4915200 bytes, new threshold 1 (max 15)
+ 261870K->10189K(289536K), 0.0030479 secs]
+15.869: [GC
+Desired survivor size 5111808 bytes, new threshold 1 (max 15)
+ 262249K->11145K(289664K), 0.0043740 secs]
+16.073: [GC
+Desired survivor size 5111808 bytes, new threshold 1 (max 15)
+ 263226K->10700K(289920K), 0.0033725 secs]
+16.270: [GC
+Desired survivor size 5111808 bytes, new threshold 1 (max 15)
+ 262852K->10810K(289920K), 0.0033455 secs]
+16.470: [GC
+Desired survivor size 5111808 bytes, new threshold 1 (max 15)
+ 262964K->10949K(289920K), 0.0032620 secs]
+16.675: [GC
+Desired survivor size 4980736 bytes, new threshold 1 (max 15)
+ 263109K->9891K(287232K), 0.0037430 secs]
+16.907: [GC
+Desired survivor size 4784128 bytes, new threshold 1 (max 15)
+ 262036K->10401K(289984K), 0.0039938 secs]
+17.125: [GC
+Desired survivor size 4718592 bytes, new threshold 1 (max 15)
+ 262717K->10086K(289792K), 0.0039598 secs]
+17.326: [GC
+Desired survivor size 4653056 bytes, new threshold 1 (max 15)
+ 262427K->11089K(290048K), 0.0047974 secs]
+17.556: [GC
+Desired survivor size 4587520 bytes, new threshold 1 (max 15)
+ 263727K->11058K(289984K), 0.0029805 secs]
+17.751: [GC
+Desired survivor size 4653056 bytes, new threshold 1 (max 15)
+ 263683K->11562K(290176K), 0.0040025 secs]
+17.952: [GC
+Desired survivor size 4849664 bytes, new threshold 1 (max 15)
+ 264429K->11870K(289472K), 0.0039485 secs]
+18.154: [GC
+Desired survivor size 4849664 bytes, new threshold 1 (max 15)
+ 264776K->11446K(290176K), 0.0031823 secs]
+18.373: [GC
+Desired survivor size 4718592 bytes, new threshold 1 (max 15)
+ 264097K->10546K(287808K), 0.0027162 secs]
+18.579: [GC
+Desired survivor size 4653056 bytes, new threshold 1 (max 15)
+ 263204K->10404K(290112K), 0.0026734 secs]
+18.783: [GC
+Desired survivor size 4587520 bytes, new threshold 1 (max 15)
+ 263113K->10545K(290048K), 0.0029030 secs]
+18.981: [GC
+Desired survivor size 4521984 bytes, new threshold 1 (max 15)
+ 263258K->10605K(290304K), 0.0028472 secs]
+19.182: [GC
+Desired survivor size 4390912 bytes, new threshold 1 (max 15)
+ 263644K->10638K(290240K), 0.0024604 secs]
+19.371: [GC
+Desired survivor size 4259840 bytes, new threshold 1 (max 15)
+ 263689K->11105K(290368K), 0.0031409 secs]
+19.574: [GC
+Desired survivor size 4128768 bytes, new threshold 1 (max 15)
+ 264471K->10976K(290304K), 0.0026762 secs]
+19.776: [GC
+Desired survivor size 4063232 bytes, new threshold 1 (max 15)
+ 264247K->10761K(290624K), 0.0033500 secs]
+19.994: [GC
+Desired survivor size 4063232 bytes, new threshold 1 (max 15)
+ 264441K->10828K(290560K), 0.0023212 secs]
+20.203: [GC
+Desired survivor size 4128768 bytes, new threshold 1 (max 15)
+ 264652K->10236K(290816K), 0.0027714 secs]
+20.410: [GC
+Desired survivor size 4194304 bytes, new threshold 1 (max 15)
+ 264291K->9936K(287936K), 0.0014382 secs]
+20.643: [GC
+Desired survivor size 4194304 bytes, new threshold 1 (max 15)
+ 264016K->10061K(290816K), 0.0027342 secs]
+20.910: [GC
+Desired survivor size 4128768 bytes, new threshold 1 (max 15)
+ 263892K->10631K(288192K), 0.0030717 secs]
+21.139: [GC
+Desired survivor size 3997696 bytes, new threshold 1 (max 15)
+ 264510K->10862K(290880K), 0.0029907 secs]
+21.372: [GC
+Desired survivor size 3866624 bytes, new threshold 1 (max 15)
+ 264835K->10931K(290752K), 0.0024705 secs]
+21.617: [GC
+Desired survivor size 3735552 bytes, new threshold 1 (max 15)
+ 264892K->11343K(290880K), 0.0033958 secs]
+21.855: [GC
+Desired survivor size 3670016 bytes, new threshold 1 (max 15)
+ 265662K->10688K(290752K), 0.0030227 secs]
+22.072: [GC
+Desired survivor size 3538944 bytes, new threshold 1 (max 15)
+ 265006K->11018K(291136K), 0.0041793 secs]
+22.282: [GC
+Desired survivor size 3538944 bytes, new threshold 1 (max 15)
+ 265866K->11760K(291072K), 0.0032206 secs]
+22.505: [GC
+Desired survivor size 3407872 bytes, new threshold 1 (max 15)
+ 266606K->11293K(291264K), 0.0024022 secs]
+22.715: [GC
+Desired survivor size 3407872 bytes, new threshold 1 (max 15)
+ 266523K->11844K(291328K), 0.0050455 secs]
+22.921: [GC
+Desired survivor size 3473408 bytes, new threshold 1 (max 15)
+ 267050K->12124K(291456K), 0.0036016 secs]
+23.152: [GC
+Desired survivor size 3342336 bytes, new threshold 1 (max 15)
+ 267459K->11769K(290240K), 0.0041424 secs]
+23.369: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ 267128K->11687K(291584K), 0.0035139 secs]
+23.573: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ 267220K->12141K(291456K), 0.0058609 secs]
+23.794: [GC
+Desired survivor size 3407872 bytes, new threshold 1 (max 15)
+ 267638K->12511K(291392K), 0.0038822 secs]
+24.010: [GC
+Desired survivor size 3276800 bytes, new threshold 1 (max 15)
+ 267918K->11702K(291584K), 0.0022899 secs]
+24.219: [GC
+Desired survivor size 3342336 bytes, new threshold 1 (max 15)
+ 267169K->12431K(291584K), 0.0027851 secs]
+24.418: [GC
+Desired survivor size 3342336 bytes, new threshold 1 (max 15)
+ 268039K->12207K(291648K), 0.0025269 secs]
+24.621: [GC
+Desired survivor size 3276800 bytes, new threshold 1 (max 15)
+ 267764K->12283K(291520K), 0.0025091 secs]
+24.823: [GC
+Desired survivor size 3276800 bytes, new threshold 1 (max 15)
+ 267880K->12387K(291584K), 0.0026336 secs]
+25.027: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ 267982K->12307K(291456K), 0.0026948 secs]
+25.228: [GC
+Desired survivor size 3276800 bytes, new threshold 1 (max 15)
+ 268049K->12974K(291584K), 0.0026946 secs]
+25.427: [GC
+Desired survivor size 3407872 bytes, new threshold 1 (max 15)
+ 268718K->13080K(291456K), 0.0031633 secs]
+25.645: [GC
+Desired survivor size 3342336 bytes, new threshold 1 (max 15)
+ 268555K->12297K(291584K), 0.0022148 secs]
+25.841: [GC
+Desired survivor size 3276800 bytes, new threshold 1 (max 15)
+ 267755K->12849K(291392K), 0.0029480 secs]
+26.052: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ 268350K->12727K(291520K), 0.0028489 secs]
+26.263: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ 268277K->12383K(291648K), 0.0020571 secs]
+26.462: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ 268161K->12580K(291712K), 0.0020960 secs]
+26.671: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ 268388K->13051K(291776K), 0.0025312 secs]
+26.869: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ 268964K->13183K(291776K), 0.0049027 secs]
+27.089: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ 269083K->12567K(291776K), 0.0023807 secs]
+27.291: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ 268491K->13324K(291776K), 0.0028832 secs]
+27.493: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ 269255K->13116K(291776K), 0.0024323 secs]
+27.707: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ 268934K->12599K(291776K), 0.0021079 secs]
+27.918: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ 268445K->12669K(291648K), 0.0027717 secs]
+28.128: [GC
+Desired survivor size 3080192 bytes, new threshold 1 (max 15)
+ 268530K->12768K(291712K), 0.0026434 secs]
+28.334: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ 268602K->12433K(291776K), 0.0027165 secs]
+28.545: [GC
+Desired survivor size 3080192 bytes, new threshold 1 (max 15)
+ 268424K->12630K(291840K), 0.0023016 secs]
+28.770: [GC
+Desired survivor size 3014656 bytes, new threshold 1 (max 15)
+ 268599K->12940K(291712K), 0.0022802 secs]
+28.984: [GC
+Desired survivor size 3014656 bytes, new threshold 1 (max 15)
+ 268958K->12631K(291776K), 0.0032164 secs]
+29.190: [GC
+Desired survivor size 2949120 bytes, new threshold 1 (max 15)
+ 268654K->12870K(291840K), 0.0022775 secs]
+29.401: [GC
+Desired survivor size 2949120 bytes, new threshold 1 (max 15)
+ 269113K->12641K(291904K), 0.0031704 secs]
+29.596: [GC
+Desired survivor size 2949120 bytes, new threshold 1 (max 15)
+ 268861K->12617K(292032K), 0.0020240 secs]
+29.808: [GC
+Desired survivor size 2949120 bytes, new threshold 1 (max 15)
+ 268988K->13341K(292032K), 0.0031448 secs]
+30.026: [GC
+Desired survivor size 2883584 bytes, new threshold 1 (max 15)
+ 269693K->13016K(291904K), 0.0026845 secs]
+30.231: [GC
+Desired survivor size 2818048 bytes, new threshold 1 (max 15)
+ 269375K->13139K(291968K), 0.0027182 secs]
+30.436: [GC
+Desired survivor size 2752512 bytes, new threshold 1 (max 15)
+ 269506K->13105K(291968K), 0.0024818 secs]
+30.637: [GC
+Desired survivor size 2752512 bytes, new threshold 1 (max 15)
+ 269675K->12847K(292032K), 0.0022721 secs]
+30.838: [GC
+Desired survivor size 2686976 bytes, new threshold 1 (max 15)
+ 269417K->13173K(292096K), 0.0022629 secs]
+31.041: [GC
+Desired survivor size 2752512 bytes, new threshold 1 (max 15)
+ 269941K->13776K(292160K), 0.0026875 secs]
+31.238: [GC
+Desired survivor size 2818048 bytes, new threshold 1 (max 15)
+ 270525K->13716K(292096K), 0.0034135 secs]
+31.442: [GC
+Desired survivor size 2949120 bytes, new threshold 1 (max 15)
+ 270333K->14051K(291968K), 0.0027897 secs]
+31.651: [GC
+Desired survivor size 3014656 bytes, new threshold 1 (max 15)
+ 270691K->13935K(291904K), 0.0040964 secs]
+31.859: [GC
+Desired survivor size 3014656 bytes, new threshold 1 (max 15)
+ 270190K->14051K(291968K), 0.0023923 secs]
+32.063: [GC
+Desired survivor size 2949120 bytes, new threshold 1 (max 15)
+ 270307K->14026K(291840K), 0.0032477 secs]
+32.266: [GC
+Desired survivor size 3014656 bytes, new threshold 1 (max 15)
+ 270251K->14366K(291904K), 0.0026780 secs]
+32.473: [GC
+Desired survivor size 3014656 bytes, new threshold 1 (max 15)
+ 270606K->13797K(291968K), 0.0022142 secs]
+32.667: [GC
+Desired survivor size 3080192 bytes, new threshold 1 (max 15)
+ 270017K->14476K(291520K), 0.0028203 secs]
+32.875: [GC
+Desired survivor size 3014656 bytes, new threshold 1 (max 15)
+ 270732K->14177K(291968K), 0.0030237 secs]
+33.074: [GC
+Desired survivor size 3014656 bytes, new threshold 1 (max 15)
+ 270342K->14371K(291904K), 0.0022593 secs]
+33.266: [GC
+Desired survivor size 2949120 bytes, new threshold 1 (max 15)
+ 270555K->14408K(291904K), 0.0026351 secs]
+33.499: [GC
+Desired survivor size 3014656 bytes, new threshold 1 (max 15)
+ 270656K->14697K(291904K), 0.0043717 secs]
+33.710: [GC
+Desired survivor size 3014656 bytes, new threshold 1 (max 15)
+ 270922K->14098K(291968K), 0.0026675 secs]
+33.911: [GC
+Desired survivor size 3014656 bytes, new threshold 1 (max 15)
+ 270326K->14788K(291968K), 0.0030190 secs]
+34.111: [GC
+Desired survivor size 3014656 bytes, new threshold 1 (max 15)
+ 271000K->14853K(291968K), 0.0030556 secs]
+34.316: [GC
+Desired survivor size 3014656 bytes, new threshold 1 (max 15)
+ 271099K->14811K(291968K), 0.0025898 secs]
+34.507: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ 271021K->15215K(291712K), 0.0032641 secs]
+34.703: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ 271173K->15290K(291520K), 0.0029320 secs]
+34.913: [GC
+Desired survivor size 3342336 bytes, new threshold 1 (max 15)
+ 271289K->15396K(291520K), 0.0033355 secs]
+35.119: [GC
+Desired survivor size 3342336 bytes, new threshold 1 (max 15)
+ 270921K->14537K(291648K), 0.0022606 secs]
+35.331: [GC
+Desired survivor size 3276800 bytes, new threshold 1 (max 15)
+ 270137K->14502K(291520K), 0.0023590 secs]
+35.539: [GC
+Desired survivor size 3407872 bytes, new threshold 1 (max 15)
+ 270118K->13857K(291584K), 0.0016386 secs]
+35.734: [GC
+Desired survivor size 3342336 bytes, new threshold 1 (max 15)
+ 269439K->14576K(291648K), 0.0022895 secs]
+35.935: [GC
+Desired survivor size 3342336 bytes, new threshold 1 (max 15)
+ 270022K->14336K(291584K), 0.0018696 secs]
+36.148: [GC
+Desired survivor size 3276800 bytes, new threshold 1 (max 15)
+ 269874K->14495K(291584K), 0.0022651 secs]
+36.364: [GC
+Desired survivor size 3276800 bytes, new threshold 1 (max 15)
+ 270110K->14265K(291584K), 0.0030596 secs]
+36.584: [GC
+Desired survivor size 3276800 bytes, new threshold 1 (max 15)
+ 269873K->14193K(291712K), 0.0019314 secs]
+36.783: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ 269829K->14525K(290112K), 0.0019747 secs]
+36.985: [GC
+Desired survivor size 3080192 bytes, new threshold 1 (max 15)
+ 270269K->14795K(291776K), 0.0019261 secs]
+37.192: [GC
+Desired survivor size 2949120 bytes, new threshold 1 (max 15)
+ 270632K->14846K(291648K), 0.0064430 secs]
+37.454: [GC
+Desired survivor size 2883584 bytes, new threshold 1 (max 15)
+ 270595K->14639K(291712K), 0.0030803 secs]
+37.657: [GC
+Desired survivor size 2883584 bytes, new threshold 1 (max 15)
+ 270701K->14730K(291648K), 0.0025923 secs]
+37.865: [GC
+Desired survivor size 2818048 bytes, new threshold 1 (max 15)
+ 270752K->14752K(292032K), 0.0019777 secs]
+38.060: [GC
+Desired survivor size 2752512 bytes, new threshold 1 (max 15)
+ 271143K->15101K(292032K), 0.0025262 secs]
+38.251: [GC
+Desired survivor size 2818048 bytes, new threshold 1 (max 15)
+ 271547K->15489K(292032K), 0.0030531 secs]
+38.455: [GC
+Desired survivor size 2752512 bytes, new threshold 1 (max 15)
+ 272007K->15180K(292096K), 0.0020649 secs]
+38.677: [GC
+Desired survivor size 2818048 bytes, new threshold 1 (max 15)
+ 271749K->14530K(292096K), 0.0017282 secs]
+38.881: [GC
+Desired survivor size 2752512 bytes, new threshold 1 (max 15)
+ 271142K->15287K(292160K), 0.0023207 secs]
+39.079: [GC
+Desired survivor size 2818048 bytes, new threshold 1 (max 15)
+ 271876K->15602K(292096K), 0.0024532 secs]
+39.287: [GC
+Desired survivor size 2752512 bytes, new threshold 1 (max 15)
+ 272233K->15344K(292160K), 0.0021291 secs]
+39.484: [GC
+Desired survivor size 2883584 bytes, new threshold 1 (max 15)
+ 271964K->15884K(291968K), 0.0027349 secs]
+39.684: [GC
+Desired survivor size 3080192 bytes, new threshold 1 (max 15)
+ 272395K->16054K(291904K), 0.0027506 secs]
+39.881: [GC
+Desired survivor size 3276800 bytes, new threshold 1 (max 15)
+ 272461K->16307K(291520K), 0.0030028 secs]
+40.111: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ 272048K->15160K(291712K), 0.0021937 secs]
+40.313: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ 270893K->15702K(291520K), 0.0026336 secs]
+40.513: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ 271462K->15839K(291648K), 0.0024751 secs]
+40.711: [GC
+Desired survivor size 3014656 bytes, new threshold 1 (max 15)
+ 271630K->15723K(291584K), 0.0023721 secs]
+40.909: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ 271672K->16242K(291712K), 0.0027832 secs]
+41.117: [GC
+Desired survivor size 3080192 bytes, new threshold 1 (max 15)
+ 272229K->16003K(291904K), 0.0026487 secs]
+41.307: [GC
+Desired survivor size 3276800 bytes, new threshold 1 (max 15)
+ 272035K->16572K(291648K), 0.0033053 secs]
+41.507: [GC
+Desired survivor size 3342336 bytes, new threshold 1 (max 15)
+ 272617K->16314K(291584K), 0.0027733 secs]
+41.733: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ 271930K->15878K(290496K), 0.0029476 secs]
+41.938: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ 271479K->15692K(291584K), 0.0028444 secs]
+42.128: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ 271367K->16231K(291584K), 0.0027859 secs]
+42.331: [GC
+Desired survivor size 3080192 bytes, new threshold 1 (max 15)
+ 271847K->15969K(291712K), 0.0021354 secs]
+42.536: [GC
+Desired survivor size 3014656 bytes, new threshold 1 (max 15)
+ 271777K->16061K(291712K), 0.0023070 secs]
+42.726: [GC
+Desired survivor size 3014656 bytes, new threshold 1 (max 15)
+ 271945K->16372K(291840K), 0.0025756 secs]
+42.922: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ 272484K->16788K(291840K), 0.0032661 secs]
+43.153: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ 272914K->15574K(291712K), 0.0023824 secs]
+43.349: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ 271425K->15825K(291776K), 0.0031886 secs]
+43.550: [GC
+Desired survivor size 3211264 bytes, new threshold 1 (max 15)
+ 271669K->15462K(291776K), 0.0019378 secs]
+43.746: [GC
+Desired survivor size 3145728 bytes, new threshold 1 (max 15)
+ 271273K->16018K(290560K), 0.0020830 secs]
+43.951: [GC
+Desired survivor size 3080192 bytes, new threshold 1 (max 15)
+ 271872K->15911K(291776K), 0.0028758 secs]
+44.145: [GC
+Desired survivor size 3014656 bytes, new threshold 1 (max 15)
+ 271824K->16090K(291712K), 0.0023850 secs]
+44.356: [GC
+Desired survivor size 3014656 bytes, new threshold 1 (max 15)
+ 271987K->15747K(291776K), 0.0020646 secs]
+44.559: [GC
+Desired survivor size 2949120 bytes, new threshold 1 (max 15)
+ 271769K->15933K(291776K), 0.0022127 secs]
+44.762: [GC
+Desired survivor size 2949120 bytes, new threshold 1 (max 15)
+ 271981K->16015K(291904K), 0.0023389 secs]
+44.967: [GC
+Desired survivor size 2883584 bytes, new threshold 1 (max 15)
+ 272265K->15936K(291904K), 0.0026710 secs]
+45.161: [GC
+Desired survivor size 2883584 bytes, new threshold 1 (max 15)
+ 272157K->15913K(291968K), 0.0017199 secs]
+45.369: [GC
+Desired survivor size 2818048 bytes, new threshold 1 (max 15)
+ 272296K->16104K(291968K), 0.0021442 secs]
+45.565: [GC
+Desired survivor size 2818048 bytes, new threshold 1 (max 15)
+ 272450K->16641K(292032K), 0.0030941 secs]
+45.775: [GC
+Desired survivor size 2818048 bytes, new threshold 1 (max 15)
+ 273061K->16218K(292032K), 0.0021882 secs]
+45.983: [GC
+Desired survivor size 2818048 bytes, new threshold 1 (max 15)
+ 272701K->16312K(292160K), 0.0020717 secs]
+46.177: [GC
+Desired survivor size 2686976 bytes, new threshold 1 (max 15)
+ 272909K->16766K(291136K), 0.0022576 secs]
+46.377: [GC
+Desired survivor size 2686976 bytes, new threshold 1 (max 15)
+ 273374K->16993K(292032K), 0.0021698 secs]
+46.576: [GC
+Desired survivor size 2555904 bytes, new threshold 1 (max 15)
+ 273631K->16841K(292032K), 0.0020818 secs]
+46.767: [GC
+Desired survivor size 2621440 bytes, new threshold 1 (max 15)
+ 273462K->17202K(292096K), 0.0026405 secs]
+46.979: [GC
+Desired survivor size 2621440 bytes, new threshold 1 (max 15)
+ 274027K->17039K(292160K), 0.0024944 secs]
+47.180: [GC
+Desired survivor size 2555904 bytes, new threshold 1 (max 15)
+ 273852K->16822K(292224K), 0.0021031 secs]
+47.385: [GC
+Desired survivor size 2490368 bytes, new threshold 1 (max 15)
+ 273810K->16906K(292288K), 0.0019206 secs]
+47.590: [GC
+Desired survivor size 2424832 bytes, new threshold 1 (max 15)
+ 273929K->17123K(292288K), 0.0024798 secs]
+47.798: [GC
+Desired survivor size 2424832 bytes, new threshold 1 (max 15)
+ 274292K->17071K(292352K), 0.0019852 secs]
+47.994: [GC
+Desired survivor size 2555904 bytes, new threshold 1 (max 15)
+ 274253K->17629K(292288K), 0.0027676 secs]
+48.200: [GC
+Desired survivor size 2686976 bytes, new threshold 1 (max 15)
+ 274775K->17722K(292288K), 0.0030301 secs]
+48.418: [GC
+Desired survivor size 2686976 bytes, new threshold 1 (max 15)
+ 274872K->17512K(292288K), 0.0028796 secs]
+48.612: [GC
+Desired survivor size 2686976 bytes, new threshold 1 (max 15)
+ 274362K->17544K(292288K), 0.0034356 secs]
+48.811: [GC
+Desired survivor size 2752512 bytes, new threshold 1 (max 15)
+ 274417K->17816K(292160K), 0.0024166 secs]
+49.017: [GC
+Desired survivor size 2818048 bytes, new threshold 1 (max 15)
+ 274552K->17897K(291904K), 0.0030280 secs]
+49.209: [GC
+Desired survivor size 3014656 bytes, new threshold 1 (max 15)
+ 274613K->18307K(291776K), 0.0028686 secs]
+49.412: [GC
+Desired survivor size 2949120 bytes, new threshold 1 (max 15)
+ 274563K->17617K(291968K), 0.0024093 secs]
+49.619: [GC
+Desired survivor size 2949120 bytes, new threshold 1 (max 15)
+ 273868K->17047K(291904K), 0.0020854 secs]
+49.831: [GC
+Desired survivor size 2949120 bytes, new threshold 1 (max 15)
+ 273358K->17246K(291968K), 0.0031156 secs]
+50.029: [GC
+Desired survivor size 2883584 bytes, new threshold 1 (max 15)
+ 273558K->17496K(291904K), 0.0020711 secs]
+50.226: [GC
+Desired survivor size 2818048 bytes, new threshold 1 (max 15)
+ 273871K->17520K(291968K), 0.0019484 secs]
+50.417: [GC
+Desired survivor size 2752512 bytes, new threshold 1 (max 15)
+ 273868K->17803K(291968K), 0.0023653 secs]
+50.644: [GC
+Desired survivor size 2818048 bytes, new threshold 1 (max 15)
+ 274367K->17146K(292032K), 0.0016894 secs]
+50.865: [GC
+Desired survivor size 2818048 bytes, new threshold 1 (max 15)
+ 273712K->17058K(292160K), 0.0041421 secs]
+51.076: [GC
+Desired survivor size 2818048 bytes, new threshold 1 (max 15)
+ 273657K->17224K(292160K), 0.0019225 secs]
+51.271: [GC
+Desired survivor size 2818048 bytes, new threshold 1 (max 15)
+ 273814K->17259K(292160K), 0.0017833 secs]
+51.461: [GC
+Desired survivor size 2752512 bytes, new threshold 1 (max 15)
+ 273850K->17904K(291328K), 0.0020725 secs]
+51.668: [GC
+Desired survivor size 2686976 bytes, new threshold 1 (max 15)
+ 274510K->17646K(292160K), 0.0019885 secs]
+51.885: [GC
+Desired survivor size 2752512 bytes, new threshold 1 (max 15)
+ 274342K->16788K(278016K), 0.0029250 secs]
+52.071: [GC
+Desired survivor size 2818048 bytes, new threshold 1 (max 15)
+ 261168K->16795K(266432K), 0.0018540 secs]
+52.246: [GC
+Desired survivor size 2752512 bytes, new threshold 1 (max 15)
+ 249666K->17335K(255936K), 0.0023477 secs]
+52.429: [GC
+Desired survivor size 2752512 bytes, new threshold 1 (max 15)
+ 239221K->16803K(244864K), 0.0023350 secs]
+52.593: [GC
+Desired survivor size 2752512 bytes, new threshold 1 (max 15)
+ 228149K->16817K(234880K), 0.0020781 secs]
+52.747: [GC
+Desired survivor size 2686976 bytes, new threshold 1 (max 15)
+ 218214K->17216K(225792K), 0.0022418 secs]
+52.899: [GC
+Desired survivor size 2621440 bytes, new threshold 1 (max 15)
+ 209113K->17223K(264128K), 0.0027296 secs]
+53.078: [GC
+Desired survivor size 2555904 bytes, new threshold 1 (max 15)
+ 247515K->17155K(253184K), 0.0025759 secs]
+53.256: [GC
+Desired survivor size 2490368 bytes, new threshold 1 (max 15)
+ 236606K->17033K(242688K), 0.0016624 secs]
+53.421: [GC
+Desired survivor size 2490368 bytes, new threshold 1 (max 15)
+ 226041K->16936K(232704K), 0.0026323 secs]
+53.573: [GC
+Desired survivor size 2359296 bytes, new threshold 1 (max 15)
+ 216168K->17267K(223616K), 0.0020067 secs]
+53.721: [GC
+Desired survivor size 2293760 bytes, new threshold 1 (max 15)
+ 207106K->17361K(214784K), 0.0019983 secs]
+53.866: [GC
+Desired survivor size 2228224 bytes, new threshold 1 (max 15)
+ 198346K->16997K(205952K), 0.0020282 secs]
+54.002: [GC
+Desired survivor size 2228224 bytes, new threshold 1 (max 15)
+ 189493K->17076K(198016K), 0.0024182 secs]
+54.131: [GC
+Desired survivor size 2097152 bytes, new threshold 1 (max 15)
+ 181583K->17401K(231232K), 0.0019982 secs]
+54.284: [GC
+Desired survivor size 2031616 bytes, new threshold 1 (max 15)
+ 214815K->17241K(270592K), 0.0020064 secs]
+54.475: [GC
+Desired survivor size 2031616 bytes, new threshold 1 (max 15)
+ 254297K->16932K(259008K), 0.0015947 secs]
+54.651: [GC
+Desired survivor size 1966080 bytes, new threshold 1 (max 15)
+ 242709K->17232K(248576K), 0.0024901 secs]
+54.816: [GC
+Desired survivor size 1900544 bytes, new threshold 1 (max 15)
+ 232290K->17407K(238656K), 0.0018410 secs]
+54.978: [GC
+Desired survivor size 1900544 bytes, new threshold 1 (max 15)
+ 222386K->17791K(229312K), 0.0020332 secs]
+55.140: [GC
+Desired survivor size 1900544 bytes, new threshold 1 (max 15)
+ 213118K->17190K(219520K), 0.0020111 secs]
+55.282: [GC
+Desired survivor size 1835008 bytes, new threshold 1 (max 15)
+ 203321K->17664K(211264K), 0.0021801 secs]
+55.421: [GC
+Desired survivor size 1769472 bytes, new threshold 1 (max 15)
+ 195100K->17388K(202752K), 0.0021450 secs]
+55.555: [GC
+Desired survivor size 1769472 bytes, new threshold 1 (max 15)
+ 186597K->17160K(194624K), 0.0017331 secs]
+55.679: [GC
+Desired survivor size 1703936 bytes, new threshold 1 (max 15)
+ 178502K->17471K(187392K), 0.0013830 secs]
+55.797: [GC
+Desired survivor size 1638400 bytes, new threshold 1 (max 15)
+ 171287K->17539K(180352K), 0.0015983 secs]
+55.920: [GC
+Desired survivor size 1638400 bytes, new threshold 1 (max 15)
+ 164283K->16900K(172992K), 0.0014612 secs]
+56.028: [GC
+Desired survivor size 1638400 bytes, new threshold 1 (max 15)
+ 156892K->17187K(166848K), 0.0016686 secs]
+56.137: [GC
+Desired survivor size 1638400 bytes, new threshold 1 (max 15)
+ 150807K->16857K(160384K), 0.0012690 secs]
+56.231: [GC
+Desired survivor size 1638400 bytes, new threshold 1 (max 15)
+ 144377K->17128K(154880K), 0.0016093 secs]
+59.263: [GC
+Desired survivor size 1638400 bytes, new threshold 1 (max 15)
+ 106884K->16905K(154688K), 0.0017350 secs]
+59.265: [Full GC 16905K->7651K(154688K), 0.0800810 secs]

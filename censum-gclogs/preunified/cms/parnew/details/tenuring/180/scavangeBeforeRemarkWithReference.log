@@ -1,0 +1,93 @@
+Java HotSpot(TM) 64-Bit Server VM (25.65-b01) for bsd-amd64 JRE (1.8.0_65-b17), built on Oct  6 2015 15:36:46 by "java_re" with gcc 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)
+Memory: 4k page, physical 16777216k(450864k free)
+
+/proc/meminfo:
+
+CommandLine flags: -XX:+CMSScavengeBeforeRemark -XX:InitialHeapSize=268435456 -XX:MaxHeapSize=4294967296 -XX:MaxNewSize=697933824 -XX:MaxTenuringThreshold=6 -XX:OldPLABSize=16 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+PrintReferenceGC -XX:+PrintTenuringDistribution -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC 
+2016-03-22T10:06:31.139-0100: 42.738: [GC (Allocation Failure) 2016-03-22T10:06:31.139-0100: 42.738: [ParNew2016-03-22T10:06:31.147-0100: 42.746: [SoftReference, 0 refs, 0.0000335 secs]2016-03-22T10:06:31.147-0100: 42.746: [WeakReference, 112 refs, 0.0000141 secs]2016-03-22T10:06:31.147-0100: 42.746: [FinalReference, 1360 refs, 0.0021070 secs]2016-03-22T10:06:31.149-0100: 42.748: [PhantomReference, 0 refs, 0 refs, 0.0000172 secs]2016-03-22T10:06:31.149-0100: 42.748: [JNI Weak Reference, 0.0000060 secs]
+Desired survivor size 4456448 bytes, new threshold 1 (max 6)
+- age   1:    8839960 bytes,    8839960 total
+: 69952K->8704K(78656K), 0.0101674 secs] 69952K->11333K(253440K), 0.0102495 secs] [Times: user=0.04 sys=0.01, real=0.01 secs] 
+2016-03-22T10:06:34.493-0100: 46.092: [GC (Allocation Failure) 2016-03-22T10:06:34.493-0100: 46.092: [ParNew2016-03-22T10:06:34.524-0100: 46.123: [SoftReference, 0 refs, 0.0000350 secs]2016-03-22T10:06:34.524-0100: 46.123: [WeakReference, 1 refs, 0.0000059 secs]2016-03-22T10:06:34.524-0100: 46.123: [FinalReference, 4 refs, 0.0000086 secs]2016-03-22T10:06:34.524-0100: 46.123: [PhantomReference, 0 refs, 0 refs, 0.0000051 secs]2016-03-22T10:06:34.524-0100: 46.123: [JNI Weak Reference, 0.0000040 secs]
+Desired survivor size 4456448 bytes, new threshold 1 (max 6)
+- age   1:    8643288 bytes,    8643288 total
+: 78656K->8704K(78656K), 0.0313077 secs] 81285K->20699K(253440K), 0.0313463 secs] [Times: user=0.11 sys=0.02, real=0.03 secs] 
+2016-03-22T10:06:35.159-0100: 46.758: [GC (Allocation Failure) 2016-03-22T10:06:35.159-0100: 46.758: [ParNew2016-03-22T10:06:35.174-0100: 46.773: [SoftReference, 0 refs, 0.0000296 secs]2016-03-22T10:06:35.174-0100: 46.773: [WeakReference, 4 refs, 0.0000069 secs]2016-03-22T10:06:35.174-0100: 46.773: [FinalReference, 3 refs, 0.0000084 secs]2016-03-22T10:06:35.174-0100: 46.773: [PhantomReference, 0 refs, 0 refs, 0.0000055 secs]2016-03-22T10:06:35.174-0100: 46.773: [JNI Weak Reference, 0.0000042 secs]
+Desired survivor size 4456448 bytes, new threshold 1 (max 6)
+- age   1:    8895192 bytes,    8895192 total
+: 78656K->8704K(78656K), 0.0153825 secs] 90651K->29252K(253440K), 0.0154273 secs] [Times: user=0.09 sys=0.00, real=0.02 secs] 
+2016-03-22T10:06:37.774-0100: 49.373: [GC (Allocation Failure) 2016-03-22T10:06:37.774-0100: 49.373: [ParNew2016-03-22T10:06:37.792-0100: 49.391: [SoftReference, 0 refs, 0.0000440 secs]2016-03-22T10:06:37.792-0100: 49.391: [WeakReference, 1 refs, 0.0000065 secs]2016-03-22T10:06:37.792-0100: 49.391: [FinalReference, 4 refs, 0.0000117 secs]2016-03-22T10:06:37.792-0100: 49.391: [PhantomReference, 0 refs, 0 refs, 0.0000054 secs]2016-03-22T10:06:37.792-0100: 49.391: [JNI Weak Reference, 0.0000045 secs]
+Desired survivor size 4456448 bytes, new threshold 1 (max 6)
+- age   1:    8902784 bytes,    8902784 total
+: 78656K->8704K(78656K), 0.0180193 secs] 99204K->38530K(253440K), 0.0180664 secs] [Times: user=0.10 sys=0.01, real=0.02 secs] 
+2016-03-22T10:06:38.659-0100: 50.259: [GC (Allocation Failure) 2016-03-22T10:06:38.659-0100: 50.259: [ParNew2016-03-22T10:06:38.680-0100: 50.280: [SoftReference, 0 refs, 0.0000308 secs]2016-03-22T10:06:38.680-0100: 50.280: [WeakReference, 1 refs, 0.0000060 secs]2016-03-22T10:06:38.681-0100: 50.280: [FinalReference, 4 refs, 0.0000099 secs]2016-03-22T10:06:38.681-0100: 50.280: [PhantomReference, 0 refs, 0 refs, 0.0000049 secs]2016-03-22T10:06:38.681-0100: 50.280: [JNI Weak Reference, 0.0000139 secs]
+Desired survivor size 4456448 bytes, new threshold 1 (max 6)
+- age   1:    8910152 bytes,    8910152 total
+: 78656K->8704K(78656K), 0.0211410 secs] 108482K->49998K(253440K), 0.0211925 secs] [Times: user=0.13 sys=0.01, real=0.03 secs] 
+2016-03-22T10:06:39.254-0100: 50.853: [GC (Allocation Failure) 2016-03-22T10:06:39.254-0100: 50.853: [ParNew2016-03-22T10:06:39.273-0100: 50.872: [SoftReference, 0 refs, 0.0000363 secs]2016-03-22T10:06:39.273-0100: 50.872: [WeakReference, 1 refs, 0.0000072 secs]2016-03-22T10:06:39.273-0100: 50.872: [FinalReference, 2 refs, 0.0000068 secs]2016-03-22T10:06:39.273-0100: 50.872: [PhantomReference, 0 refs, 0 refs, 0.0000051 secs]2016-03-22T10:06:39.273-0100: 50.872: [JNI Weak Reference, 0.0000040 secs]
+Desired survivor size 4456448 bytes, new threshold 1 (max 6)
+- age   1:    7663560 bytes,    7663560 total
+: 78656K->8692K(78656K), 0.0185896 secs] 119950K->58698K(253440K), 0.0186567 secs] [Times: user=0.11 sys=0.00, real=0.02 secs] 
+2016-03-22T10:06:40.085-0100: 51.684: [GC (Allocation Failure) 2016-03-22T10:06:40.085-0100: 51.684: [ParNew2016-03-22T10:06:40.105-0100: 51.704: [SoftReference, 0 refs, 0.0000377 secs]2016-03-22T10:06:40.105-0100: 51.704: [WeakReference, 1 refs, 0.0000079 secs]2016-03-22T10:06:40.105-0100: 51.704: [FinalReference, 2 refs, 0.0000068 secs]2016-03-22T10:06:40.105-0100: 51.704: [PhantomReference, 0 refs, 0 refs, 0.0000060 secs]2016-03-22T10:06:40.105-0100: 51.704: [JNI Weak Reference, 0.0000045 secs]
+Desired survivor size 4456448 bytes, new threshold 1 (max 6)
+- age   1:    5735256 bytes,    5735256 total
+: 78622K->7786K(78656K), 0.0197809 secs] 128628K->65136K(253440K), 0.0198255 secs] [Times: user=0.11 sys=0.00, real=0.02 secs] 
+2016-03-22T10:06:41.018-0100: 52.618: [GC (Allocation Failure) 2016-03-22T10:06:41.018-0100: 52.618: [ParNew2016-03-22T10:06:41.035-0100: 52.635: [SoftReference, 0 refs, 0.0000443 secs]2016-03-22T10:06:41.035-0100: 52.635: [WeakReference, 1 refs, 0.0000056 secs]2016-03-22T10:06:41.035-0100: 52.635: [FinalReference, 3 refs, 0.0000076 secs]2016-03-22T10:06:41.035-0100: 52.635: [PhantomReference, 0 refs, 0 refs, 0.0000048 secs]2016-03-22T10:06:41.035-0100: 52.635: [JNI Weak Reference, 0.0000036 secs]
+Desired survivor size 4456448 bytes, new threshold 1 (max 6)
+- age   1:    7970432 bytes,    7970432 total
+: 77738K->8704K(78656K), 0.0169375 secs] 135088K->72611K(253440K), 0.0169940 secs] [Times: user=0.12 sys=0.00, real=0.02 secs] 
+2016-03-22T10:06:41.761-0100: 53.360: [GC (Allocation Failure) 2016-03-22T10:06:41.761-0100: 53.360: [ParNew2016-03-22T10:06:41.779-0100: 53.379: [SoftReference, 0 refs, 0.0000561 secs]2016-03-22T10:06:41.779-0100: 53.379: [WeakReference, 1 refs, 0.0000087 secs]2016-03-22T10:06:41.779-0100: 53.379: [FinalReference, 3 refs, 0.0000085 secs]2016-03-22T10:06:41.779-0100: 53.379: [PhantomReference, 0 refs, 0 refs, 0.0000050 secs]2016-03-22T10:06:41.779-0100: 53.379: [JNI Weak Reference, 0.0000040 secs]
+Desired survivor size 4456448 bytes, new threshold 1 (max 6)
+- age   1:    6815488 bytes,    6815488 total
+: 78656K->8704K(78656K), 0.0188090 secs] 142563K->80314K(253440K), 0.0188545 secs] [Times: user=0.12 sys=0.01, real=0.01 secs] 
+2016-03-22T10:06:42.049-0100: 53.648: [GC (Allocation Failure) 2016-03-22T10:06:42.049-0100: 53.648: [ParNew2016-03-22T10:06:42.065-0100: 53.664: [SoftReference, 0 refs, 0.0000404 secs]2016-03-22T10:06:42.065-0100: 53.664: [WeakReference, 1 refs, 0.0000148 secs]2016-03-22T10:06:42.065-0100: 53.664: [FinalReference, 1 refs, 0.0000061 secs]2016-03-22T10:06:42.065-0100: 53.664: [PhantomReference, 0 refs, 0 refs, 0.0000052 secs]2016-03-22T10:06:42.065-0100: 53.664: [JNI Weak Reference, 0.0000038 secs]
+Desired survivor size 4456448 bytes, new threshold 1 (max 6)
+- age   1:    5854232 bytes,    5854232 total
+: 78656K->6835K(78656K), 0.0159310 secs] 150266K->84933K(253440K), 0.0159934 secs] [Times: user=0.10 sys=0.01, real=0.02 secs] 
+2016-03-22T10:06:42.335-0100: 53.934: [GC (Allocation Failure) 2016-03-22T10:06:42.335-0100: 53.934: [ParNew2016-03-22T10:06:42.350-0100: 53.949: [SoftReference, 0 refs, 0.0000509 secs]2016-03-22T10:06:42.350-0100: 53.949: [WeakReference, 1 refs, 0.0000066 secs]2016-03-22T10:06:42.350-0100: 53.949: [FinalReference, 2 refs, 0.0000064 secs]2016-03-22T10:06:42.350-0100: 53.949: [PhantomReference, 0 refs, 0 refs, 0.0000050 secs]2016-03-22T10:06:42.350-0100: 53.949: [JNI Weak Reference, 0.0000038 secs]
+Desired survivor size 4456448 bytes, new threshold 1 (max 6)
+- age   1:    5559232 bytes,    5559232 total
+: 76787K->7495K(78656K), 0.0153051 secs] 154885K->90888K(253440K), 0.0153664 secs] [Times: user=0.10 sys=0.00, real=0.02 secs] 
+2016-03-22T10:06:43.451-0100: 55.051: [GC (Allocation Failure) 2016-03-22T10:06:43.451-0100: 55.051: [ParNew2016-03-22T10:06:43.464-0100: 55.063: [SoftReference, 0 refs, 0.0000375 secs]2016-03-22T10:06:43.464-0100: 55.063: [WeakReference, 1 refs, 0.0000074 secs]2016-03-22T10:06:43.464-0100: 55.063: [FinalReference, 1 refs, 0.0000065 secs]2016-03-22T10:06:43.464-0100: 55.063: [PhantomReference, 0 refs, 0 refs, 0.0000050 secs]2016-03-22T10:06:43.464-0100: 55.063: [JNI Weak Reference, 0.0000042 secs]
+Desired survivor size 4456448 bytes, new threshold 6 (max 6)
+- age   1:    3135816 bytes,    3135816 total
+: 77414K->5570K(78656K), 0.0126209 secs] 160806K->93977K(253440K), 0.0126834 secs] [Times: user=0.08 sys=0.01, real=0.01 secs] 
+2016-03-22T10:06:43.464-0100: 55.064: [GC (CMS Initial Mark) [1 CMS-initial-mark: 88406K(174784K)] 95367K(253440K), 0.0015368 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+2016-03-22T10:06:43.466-0100: 55.065: [CMS-concurrent-mark-start]
+2016-03-22T10:06:43.527-0100: 55.127: [CMS-concurrent-mark: 0.060/0.061 secs] [Times: user=0.12 sys=0.00, real=0.06 secs] 
+2016-03-22T10:06:43.527-0100: 55.127: [CMS-concurrent-preclean-start]
+2016-03-22T10:06:43.527-0100: 55.127: [Preclean SoftReferences, 0.0000058 secs]2016-03-22T10:06:43.527-0100: 55.127: [Preclean WeakReferences, 0.0000103 secs]2016-03-22T10:06:43.527-0100: 55.127: [Preclean FinalReferences, 0.0000181 secs]2016-03-22T10:06:43.527-0100: 55.127: [Preclean PhantomReferences, 0.0000034 secs]2016-03-22T10:06:43.528-0100: 55.127: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2016-03-22T10:06:43.528-0100: 55.127: [CMS-concurrent-abortable-preclean-start]
+2016-03-22T10:06:43.654-0100: 55.254: [GC (Allocation Failure) 2016-03-22T10:06:43.654-0100: 55.254: [ParNew2016-03-22T10:06:43.662-0100: 55.261: [SoftReference, 0 refs, 0.0000281 secs]2016-03-22T10:06:43.662-0100: 55.261: [WeakReference, 1 refs, 0.0000057 secs]2016-03-22T10:06:43.662-0100: 55.261: [FinalReference, 2 refs, 0.0000050 secs]2016-03-22T10:06:43.662-0100: 55.261: [PhantomReference, 0 refs, 0 refs, 0.0000052 secs]2016-03-22T10:06:43.662-0100: 55.261: [JNI Weak Reference, 0.0000042 secs]
+Desired survivor size 4456448 bytes, new threshold 2 (max 6)
+- age   1:    2048760 bytes,    2048760 total
+- age   2:    2842128 bytes,    4890888 total
+: 75522K->6034K(78656K), 0.0077703 secs] 163929K->94441K(253440K), 0.0078182 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+2016-03-22T10:06:43.882-0100: 55.481: [GC (Allocation Failure) 2016-03-22T10:06:43.882-0100: 55.481: [ParNew2016-03-22T10:06:43.914-0100: 55.513: [SoftReference, 0 refs, 0.0000380 secs]2016-03-22T10:06:43.914-0100: 55.513: [WeakReference, 1 refs, 0.0000090 secs]2016-03-22T10:06:43.914-0100: 55.513: [FinalReference, 5 refs, 0.0000152 secs]2016-03-22T10:06:43.914-0100: 55.513: [PhantomReference, 0 refs, 0 refs, 0.0000097 secs]2016-03-22T10:06:43.914-0100: 55.513: [JNI Weak Reference, 0.0000064 secs]
+Desired survivor size 4456448 bytes, new threshold 1 (max 6)
+- age   1:    7572424 bytes,    7572424 total
+- age   2:    1312992 bytes,    8885416 total
+: 75986K->8704K(78656K), 0.0322435 secs] 164393K->103668K(253440K), 0.0322932 secs] [Times: user=0.15 sys=0.00, real=0.03 secs] 
+2016-03-22T10:06:43.914-0100: 55.514: [CMS-concurrent-abortable-preclean: 0.146/0.386 secs] [Times: user=0.56 sys=0.01, real=0.39 secs] 
+2016-03-22T10:06:43.915-0100: 55.514: [GC (CMS Final Remark) [YG occupancy: 10996 K (78656 K)]2016-03-22T10:06:43.915-0100: 55.514: [GC (CMS Final Remark) 2016-03-22T10:06:43.915-0100: 55.514: [ParNew2016-03-22T10:06:43.941-0100: 55.541: [SoftReference, 0 refs, 0.0000356 secs]2016-03-22T10:06:43.941-0100: 55.541: [WeakReference, 0 refs, 0.0000074 secs]2016-03-22T10:06:43.941-0100: 55.541: [FinalReference, 0 refs, 0.0000052 secs]2016-03-22T10:06:43.941-0100: 55.541: [PhantomReference, 0 refs, 0 refs, 0.0000057 secs]2016-03-22T10:06:43.941-0100: 55.541: [JNI Weak Reference, 0.0000046 secs]
+Desired survivor size 4456448 bytes, new threshold 6 (max 6)
+- age   1:       1944 bytes,       1944 total
+: 10996K->2817K(78656K), 0.0266604 secs] 105960K->106593K(253440K), 0.0267024 secs] [Times: user=0.09 sys=0.01, real=0.03 secs] 
+2016-03-22T10:06:43.942-0100: 55.541: [Rescan (parallel) , 0.0138474 secs]2016-03-22T10:06:43.955-0100: 55.555: [weak refs processing2016-03-22T10:06:43.955-0100: 55.555: [SoftReference, 0 refs, 0.0000058 secs]2016-03-22T10:06:43.955-0100: 55.555: [WeakReference, 0 refs, 0.0000041 secs]2016-03-22T10:06:43.955-0100: 55.555: [FinalReference, 107 refs, 0.0000863 secs]2016-03-22T10:06:43.956-0100: 55.555: [PhantomReference, 0 refs, 0 refs, 0.0000052 secs]2016-03-22T10:06:43.956-0100: 55.555: [JNI Weak Reference, 0.0000096 secs], 0.0001345 secs]2016-03-22T10:06:43.956-0100: 55.555: [class unloading, 0.0020383 secs]2016-03-22T10:06:43.958-0100: 55.557: [scrub symbol table, 0.0013535 secs]2016-03-22T10:06:43.959-0100: 55.558: [scrub string table, 0.0002820 secs][1 CMS-remark: 103776K(174784K)] 106593K(253440K), 0.0448437 secs] [Times: user=0.19 sys=0.01, real=0.05 secs] 
+2016-03-22T10:06:43.960-0100: 55.559: [CMS-concurrent-sweep-start]
+2016-03-22T10:06:44.016-0100: 55.615: [CMS-concurrent-sweep: 0.056/0.056 secs] [Times: user=0.21 sys=0.00, real=0.05 secs] 
+2016-03-22T10:06:44.016-0100: 55.615: [CMS-concurrent-reset-start]
+2016-03-22T10:06:44.040-0100: 55.639: [CMS-concurrent-reset: 0.024/0.024 secs] [Times: user=0.02 sys=0.02, real=0.03 secs] 
+2016-03-22T10:06:44.159-0100: 55.759: [GC (Allocation Failure) 2016-03-22T10:06:44.160-0100: 55.759: [ParNew2016-03-22T10:06:44.169-0100: 55.768: [SoftReference, 0 refs, 0.0000343 secs]2016-03-22T10:06:44.169-0100: 55.768: [WeakReference, 1 refs, 0.0000161 secs]2016-03-22T10:06:44.169-0100: 55.768: [FinalReference, 1 refs, 0.0000053 secs]2016-03-22T10:06:44.169-0100: 55.768: [PhantomReference, 0 refs, 0 refs, 0.0000058 secs]2016-03-22T10:06:44.169-0100: 55.768: [JNI Weak Reference, 0.0000038 secs]
+Desired survivor size 4456448 bytes, new threshold 1 (max 6)
+- age   1:    5223712 bytes,    5223712 total
+- age   2:       1280 bytes,    5224992 total
+: 72769K->6341K(78656K), 0.0092142 secs] 162010K->95581K(253440K), 0.0092569 secs] [Times: user=0.07 sys=0.00, real=0.01 secs] 
+Heap
+ par new generation   total 78656K, used 35390K [0x00000006c0000000, 0x00000006c5550000, 0x00000006e9990000)
+  eden space 69952K,  38% used [0x00000006c0000000, 0x00000006c1a0fbd8, 0x00000006c4450000)
+  from space 8704K, 100% used [0x00000006c4450000, 0x00000006c4cd0000, 0x00000006c4cd0000)
+  to   space 8704K,   0% used [0x00000006c4cd0000, 0x00000006c4cd0000, 0x00000006c5550000)
+ concurrent mark-sweep generation total 231212K, used 169920K [0x00000006e9990000, 0x00000006f7b5b000, 0x00000007c0000000)
+ Metaspace       used 11229K, capacity 11390K, committed 11648K, reserved 1058816K
+  class space    used 1251K, capacity 1310K, committed 1408K, reserved 1048576K
