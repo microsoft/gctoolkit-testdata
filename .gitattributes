@@ -1,5 +1,8 @@
 censum-gclogs/preunified/icms/details/tenuring/par.cms.wt.wd.ast.log filter=lfs diff=lfs merge=lfs -text
 censum-gclogs-rolling/rolling/jdk8/aagl_prd/gc.log filter=lfs diff=lfs merge=lfs -text
 censum-gclogs-rolling/rolling/jdk8/aaeo_complete.log filter=lfs diff=lfs merge=lfs -text
+censum-gclogs/preunified/g1gc/details/tenuring/10.44.100.32.attask-gclog-20170816-180512.log filter=lfs diff=lfs merge=lfs -text
+censum-gclogs/preunified/ps/details/tenuring/p_app_02_gc.log.zip filter=lfs diff=lfs merge=lfs -text
+censum-gclogs/preunified/g1gc/details/tenuring/adaptive_size/solargc_updated_one.log filter=lfs diff=lfs merge=lfs -text
 *.log filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
