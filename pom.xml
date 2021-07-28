@@ -3,14 +3,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.microsoft.censum</groupId>
-    <artifactId>censum-testdata</artifactId>
+    <groupId>com.microsoft.gctoolkit</groupId>
+    <artifactId>gctoolkit-testdata</artifactId>
     <version>1.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>Censum Test Data</name>
-    <description>Resources for testing Censum</description>
-    <url>https://github.com/Microsoft/censum-testdata</url>
+    <name>GCToolKit Test Data</name>
+    <description>Resources for testing GCToolKit</description>
+    <url>https://github.com/Microsoft/gctoolkit-testdata</url>
 
     <organization>
         <name>Microsoft Corporation</name>
@@ -26,9 +26,9 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:git@github.com:Microsoft/censum-testdata.git</connection>
-        <developerConnection>scm:git:git@github.com:Microsoft/censum-testdata.git</developerConnection>
-        <url>https://github.com/Microsoft/censum-testdata</url>
+        <connection>scm:git:git@github.com:Microsoft/gctoolkit-testdata.git</connection>
+        <developerConnection>scm:git:git@github.com:Microsoft/gctoolkit-testdata.git</developerConnection>
+        <url>https://github.com/Microsoft/gctoolkit-testdata</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -41,7 +41,7 @@
 
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/microsoft/censum-testdata/issues</url>
+        <url>https://github.com/microsoft/gctoolkit-testdata/issues</url>
     </issueManagement>
 
     <repositories>
@@ -61,40 +61,40 @@
     <distributionManagement>
         <repository>
             <id>github</id>
-            <url>https://maven.pkg.github.com/microsoft/censum-testdata</url>
+            <url>https://maven.pkg.github.com/microsoft/gctoolkit-testdata</url>
         </repository>
     </distributionManagement>
 
     <!--
     <modules>
-        <module>censum-gclogs</module>
-        <module>censum-gclogs-rolling</module>
-        <module>censum-zgc-logs</module>
+        <module>gctoolkit-gclogs</module>
+        <module>gctoolkit-gclogs-rolling</module>
+        <module>gctoolkit-zgc-logs</module>
     </modules>
     -->
 
     <dependencies>
         <dependency>
-            <groupId>com.microsoft.censum</groupId>
-            <artifactId>censum-gclogs</artifactId>
+            <groupId>com.microsoft.gctoolkit</groupId>
+            <artifactId>gctoolkit-gclogs</artifactId>
             <version>1.0.0</version>
             <type>zip</type>
         </dependency>
         <dependency>
-            <groupId>com.microsoft.censum</groupId>
-            <artifactId>censum-gclogs-rolling</artifactId>
+            <groupId>com.microsoft.gctoolkit</groupId>
+            <artifactId>gctoolkit-gclogs-rolling</artifactId>
             <version>1.0.0</version>
             <type>zip</type>
         </dependency>
         <dependency>
-            <groupId>com.microsoft.censum</groupId>
-            <artifactId>censum-shenandoah-logs</artifactId>
+            <groupId>com.microsoft.gctoolkit</groupId>
+            <artifactId>gctoolkit-shenandoah-logs</artifactId>
             <version>1.0.0</version>
             <type>zip</type>
         </dependency>
         <dependency>
-            <groupId>com.microsoft.censum</groupId>
-            <artifactId>censum-zgc-logs</artifactId>
+            <groupId>com.microsoft.gctoolkit</groupId>
+            <artifactId>gctoolkit-zgc-logs</artifactId>
             <version>1.0.0</version>
             <type>zip</type>
         </dependency>
