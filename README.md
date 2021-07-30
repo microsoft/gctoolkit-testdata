@@ -82,7 +82,7 @@ If one of the test data dependencies changes versions, then the pom file in the 
 # Build and Test
 Because the top-level pom file treats each set of logs as a dependency, each set of log files &mdash; gctoolkit-gclogs, gctoolkit-gclogs-rolling, 
 gctoolkit-shenandoah-logs, gctoolkit-zgc-logs &mdash; must be in its own package. About all one can do with these log files
-is release them to github packages. For each package, 
+is release them to GitHub packages. For each package, 
 
 `mvn package deploy`
 
