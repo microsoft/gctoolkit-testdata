@@ -1,13 +1,17 @@
 # gctoolkit-testdata
 
+**NOTE:** Please see the Contributing Section before cloning this repository for an important pre-requestite on Git LFS.
+
 # Introduction
 Test assets for [GCToolKit](https://github.com/microsoft/gctoolkit). These files are unlikely to change, other than an occasional
-addition. The child packages are deployed as zip files. 
+addition. The child packages are deployed as zip files.
 
 # Getting Started
+
 In the top-level pom file, you will see that the project has a dependency on several other test data projects, 
 each of which is contained in a subdirectory of the gctoolkit-testdata project.
 The pom file of the [gctoolkit](https://github.com/microsoft/gctoolkit) project contains the following dependency:
+
 ```xml
             <dependency>
                 <groupId>com.microsoft.gctoolkit</groupId>
@@ -17,9 +21,11 @@ The pom file of the [gctoolkit](https://github.com/microsoft/gctoolkit) project 
                 <scope>test</scope>
             </dependency>
 ```
+
 When the Maven test phase is run, the dependencies of gctoolkit-testdata are downloaded. The test data assets are downloaded as 
 zip files, which must then be unzipped to be used in the GCToolKitunit tests. This is done in the build with the
 maven-dependency-plugin:
+
 ```xml
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -70,19 +76,20 @@ maven-dependency-plugin:
             </plugin>
 
 ```
+
 If one of the test data dependencies changes versions, then the pom file in the GCToolKitproject will need to be updated.
 
 # Build and Test
 Because the top-level pom file treats each set of logs as a dependency, each set of log files &mdash; gctoolkit-gclogs, gctoolkit-gclogs-rolling, 
 gctoolkit-shenandoah-logs, gctoolkit-zgc-logs &mdash; must be in its own package. About all one can do with these log files
-is release them to github packages. For each package, 
+is release them to GitHub packages. For each package, 
 
 `mvn package deploy`
 
 # Contribute
 
 Please note that his project uses [Git Large File Storage (LFS)](https://git-lfs.github.com/) to store log files that exceed the 
-github file size limit. 
+GitHub file size limit. Please make sure you have this installed for your local system before working with the repository (including cloning it).
 
 ## Contributing
 
