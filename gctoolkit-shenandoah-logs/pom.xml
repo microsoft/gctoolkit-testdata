@@ -5,7 +5,7 @@
 
     <groupId>com.microsoft.gctoolkit</groupId>
     <artifactId>gctoolkit-shenandoah-logs</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
     <packaging>pom</packaging>
 
     <name>GCToolKitTest Assets: Shenandoah logs</name>

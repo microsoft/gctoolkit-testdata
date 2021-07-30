@@ -5,7 +5,7 @@
 
     <groupId>com.microsoft.gctoolkit</groupId>
     <artifactId>gctoolkit-gclogs</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
     <packaging>pom</packaging>
 
     <name>GCToolKit Test Assets: GC logs</name>
