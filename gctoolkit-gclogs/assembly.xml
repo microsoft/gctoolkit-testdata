@@ -8,7 +8,6 @@
         <fileSet>
             <directory>${project.basedir}</directory>
             <includes>
-                <include>LogDescriptions.md</include>
                 <include>preunified/**</include>
                 <include>streaming/**</include>
                 <include>unified/**</include>

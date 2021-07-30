@@ -8,7 +8,6 @@
         <fileSet>
             <directory>${project.basedir}</directory>
             <includes>
-                <include>LogDescriptions.md</include>
                 <include>rolling/**</include>
             </includes>
             <excludes>
