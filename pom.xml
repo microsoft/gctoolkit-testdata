@@ -5,7 +5,7 @@
 
     <groupId>com.microsoft.gctoolkit</groupId>
     <artifactId>gctoolkit-testdata</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>GCToolKit Test Data</name>
@@ -65,41 +65,11 @@
         </repository>
     </distributionManagement>
 
-    <!--
     <modules>
         <module>gctoolkit-gclogs</module>
         <module>gctoolkit-gclogs-rolling</module>
+        <module>gctoolkit-shenandoah-logs</module>
         <module>gctoolkit-zgc-logs</module>
     </modules>
-    -->
-
-    <dependencies>
-        <dependency>
-            <groupId>com.microsoft.gctoolkit</groupId>
-            <artifactId>gctoolkit-gclogs</artifactId>
-            <version>1.0.1</version>
-            <type>zip</type>
-        </dependency>
-        <dependency>
-            <groupId>com.microsoft.gctoolkit</groupId>
-            <artifactId>gctoolkit-gclogs-rolling</artifactId>
-            <version>1.0.1</version>
-            <type>zip</type>
-        </dependency>
-        <dependency>
-            <groupId>com.microsoft.gctoolkit</groupId>
-            <artifactId>gctoolkit-shenandoah-logs</artifactId>
-            <version>1.0.1</version>
-            <type>zip</type>
-        </dependency>
-        <dependency>
-            <groupId>com.microsoft.gctoolkit</groupId>
-            <artifactId>gctoolkit-zgc-logs</artifactId>
-            <version>1.0.1</version>
-            <type>zip</type>
-        </dependency>
-
-    </dependencies>
-
 
 </project>
