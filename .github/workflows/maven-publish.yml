@@ -25,28 +25,8 @@ jobs:
         server-id: github # Value of the distributionManagement/repository/id field of the pom.xml
         settings-path: ${{ github.workspace }} # location for the settings.xml file
 
-    - name: Deploy gctoolkit-gclogs
-      run: mvn -B deploy --file gctoolkit-gclogs/pom.xml --settings $GITHUB_WORKSPACE/settings.xml
-      env:
-        GITHUB_TOKEN: ${{ github.token }}
-      
-    - name: Deploy gctoolkit-gclogs-rolling
-      run: mvn -B deploy --file gctoolkit-gclogs-rolling/pom.xml --settings $GITHUB_WORKSPACE/settings.xml
-      env:
-        GITHUB_TOKEN: ${{ github.token }}
-      
-    - name: Deploy gctoolkit-zgc-logs
-      run: mvn -B deploy --file gctoolkit-zgc-logs/pom.xml --settings $GITHUB_WORKSPACE/settings.xml
-      env:
-        GITHUB_TOKEN: ${{ github.token }}
-      
-    - name: Deploy gctoolkit-shenandoah-logs
-      run: mvn -B deploy --file gctoolkit-shenandoah-logs/pom.xml --settings $GITHUB_WORKSPACE/settings.xml
-      env:
-        GITHUB_TOKEN: ${{ github.token }}
-
-    - name: Deploy top-level pom
+    - name: Deploy gctoolkit-testdata
       run: mvn -B deploy --file pom.xml --settings $GITHUB_WORKSPACE/settings.xml
       env:
         GITHUB_TOKEN: ${{ github.token }}
-        
+      
