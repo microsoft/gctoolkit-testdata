@@ -3,67 +3,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.microsoft.gctoolkit</groupId>
+    <parent>
+        <groupId>com.microsoft.gctoolkit</groupId>
+        <artifactId>gctoolkit-testdata</artifactId>
+        <version>1.0.2-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
     <artifactId>gctoolkit-zgc-logs</artifactId>
-    <version>1.0.1</version>
     <packaging>pom</packaging>
-
-    <name>GCToolKitTest Assets: ZGC logs</name>
-    <description>ZGC logs for testing GCToolKit</description>
-
-
-    <organization>
-        <name>Microsoft Corporation</name>
-        <url>http://microsoft.com</url>
-    </organization>
-
-    <licenses>
-        <license>
-            <name>MIT License</name>
-            <url>http://opensource.org/licenses/MIT</url>
-            <distribution>repo</distribution>
-        </license>
-    </licenses>
-
-    <scm>
-        <connection>scm:git:git@github.com:Microsoft/gctoolkit-testdata.git</connection>
-        <developerConnection>scm:git:git@github.com:Microsoft/gctoolkit-testdata.git</developerConnection>
-        <url>https://github.com/Microsoft/gctoolkit-testdata</url>
-      <tag>HEAD</tag>
-  </scm>
-
-    <developers>
-        <developer>
-            <id>microsoft</id>
-            <name>Microsoft Corporation</name>
-        </developer>
-    </developers>
-
-    <issueManagement>
-        <system>GitHub</system>
-        <url>https://github.com/microsoft/gctoolkit-testdata/issues</url>
-    </issueManagement>
-
-    <repositories>
-        <repository>
-            <id>central</id>
-            <url>https://repo1.maven.org/maven2</url>
-        </repository>
-        <repository>
-            <id>github</id>
-            <url>https://maven.pkg.github.com/microsoft/*</url>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
-
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <url>https://maven.pkg.github.com/microsoft/gctoolkit-testdata</url>
-        </repository>
-    </distributionManagement>
 
     <build>
         <plugins>
