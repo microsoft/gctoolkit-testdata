@@ -20,9 +20,6 @@ jobs:
         uses: actions/checkout@v2
         with:
           lfs: true
-      
-      - name: Checkout LFS objects
-        run: git lfs checkout
 
       - name: Configure Git user
         run: |
@@ -30,12 +27,12 @@ jobs:
           git config user.name "GitHub Actions"
           
       - name: Prepare the release
-        run: mvn -B release:prepare -DpushChanges=false --settings $GITHUB_WORKSPACE/settings.xml
+        run: mvn -B release:prepare -DpushChanges=false
         env:
          GITHUB_TOKEN: ${{ github.token }}
 
       - name: Perform the release
-        run: mvn -B release:perform -DlocalCheckout=true -Darguments="-DskipTests -Dmaven.javadoc.skip=true"  --settings $GITHUB_WORKSPACE/settings.xml
+        run: mvn -B release:perform -DlocalCheckout=true -Darguments="-DskipTests -Dmaven.javadoc.skip=true"
         env:
           GITHUB_TOKEN: ${{ github.token }}
 
