@@ -1,16 +1,33 @@
 # gctoolkit-testdata
 
-**NOTE:** Please see the Contributing Section before cloning this repository for an important pre-requestite on Git LFS.
-
 # Introduction
 Test assets for [GCToolKit](https://github.com/microsoft/gctoolkit). These files are unlikely to change, other than an occasional
 addition. The child packages are deployed as zip files.
 
+---
+NOTE
+
+This project relies on [Git Large File Storage (LFS)](https://git-lfs.github.com/) to store log files that 
+exceed the GitHub file size limit. Please make sure you have this installed for your local system before working 
+with this repository (including cloning it).
+
+---
+
 # Getting Started
 
-In the top-level pom file, you will see that the project has a dependency on several other test data projects, 
-each of which is contained in a subdirectory of the gctoolkit-testdata project.
-The pom file of the [gctoolkit](https://github.com/microsoft/gctoolkit) project contains the following dependency:
+This test data is used by [gctoolkit](https://github.com/microsoft/gctoolkit). To build gctoolkit, you need to
+[authenticate to GitHub packages with a personal access token (PAT)](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-apache-maven-registry#authenticating-with-a-personal-access-token). 
+If your organization uses Single Sign-On (SSO), also follow the directions under [Authorizing a personal access token for use with SAML single sign-on](https://docs.github.com/en/github/authenticating-to-github/authenticating-with-saml-single-sign-on/authorizing-a-personal-access-token-for-use-with-saml-single-sign-on).
+You must also add github as a server in your `~/.m2/settings.xml` file. Replace USERNAME with your GitHub user name and TOKEN with your PAT.
+```xml
+    <server>
+      <id>github</id>
+      <username>USERNAME</username>
+      <password>TOKEN</password>
+    </server>
+```
+
+The [gctoolkit pom file](https://github.com/microsoft/gctoolkit/blob/main/pom.xml) contains the following dependency:
 
 ```xml
             <dependency>
@@ -22,9 +39,8 @@ The pom file of the [gctoolkit](https://github.com/microsoft/gctoolkit) project 
             </dependency>
 ```
 
-When the Maven test phase is run, the dependencies of gctoolkit-testdata are downloaded. The test data assets are downloaded as 
-zip files, which must then be unzipped to be used in the GCToolKitunit tests. This is done in the build with the
-maven-dependency-plugin:
+When the Maven test phase is run, the test data assets are downloaded as zip files, which are then unzipped and used in the GCToolKit unit tests. 
+This is done in the GCToolKit build with the maven-dependency-plugin:
 
 ```xml
             <plugin>
@@ -77,19 +93,13 @@ maven-dependency-plugin:
 
 ```
 
-If one of the test data dependencies changes versions, then the pom file in the GCToolKitproject will need to be updated.
-
 # Build and Test
-Because the top-level pom file treats each set of logs as a dependency, each set of log files &mdash; gctoolkit-gclogs, gctoolkit-gclogs-rolling, 
-gctoolkit-shenandoah-logs, gctoolkit-zgc-logs &mdash; must be in its own package. About all one can do with these log files
-is release them to GitHub packages. For each package, 
+About all one can do with these log files is release them to GitHub packages, or install a local copy. 
+A GitHub action has been created to deploy the assets to GitHub packages. 
 
-`mvn package deploy`
+If you choose to clone this repository, please note that it relies on [Git Large File Storage (LFS)](https://git-lfs.github.com/). 
 
 # Contribute
-
-Please note that his project uses [Git Large File Storage (LFS)](https://git-lfs.github.com/) to store log files that exceed the 
-GitHub file size limit. Please make sure you have this installed for your local system before working with the repository (including cloning it).
 
 ## Contributing
 
