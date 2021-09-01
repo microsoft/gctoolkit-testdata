@@ -99,6 +99,8 @@ A GitHub action has been created to deploy the assets to GitHub packages.
 
 If you choose to clone this repository, please note that it relies on [Git Large File Storage (LFS)](https://git-lfs.github.com/). 
 
+Consider cloning with a `--depth=1` to reduce the size. This will only clone the last commit.
+
 # Contribute
 
 ## Contributing
