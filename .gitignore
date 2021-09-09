@@ -23,3 +23,7 @@ out/
 
 # vi
 **/*.swp
+
+# VS Code
+**/*.settings/
+**/.project
