@@ -5,7 +5,7 @@
 
     <groupId>com.microsoft.gctoolkit</groupId>
     <artifactId>gctoolkit-testdata</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.3</version>
     <packaging>pom</packaging>
 
     <name>GCToolKit Test Data</name>
@@ -29,7 +29,7 @@
         <connection>scm:git:git@github.com:Microsoft/gctoolkit-testdata.git</connection>
         <developerConnection>scm:git:git@github.com:Microsoft/gctoolkit-testdata.git</developerConnection>
         <url>https://github.com/Microsoft/gctoolkit-testdata</url>
-        <tag>HEAD</tag>
+        <tag>gctoolkit-testdata-1.0.3</tag>
     </scm>
 
     <developers>
