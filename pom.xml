@@ -65,11 +65,61 @@
         </repository>
     </distributionManagement>
 
-    <modules>
-        <module>gctoolkit-gclogs</module>
-        <module>gctoolkit-gclogs-rolling</module>
-        <module>gctoolkit-shenandoah-logs</module>
-        <module>gctoolkit-zgc-logs</module>
-    </modules>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>3.3.0</version>
+                <configuration>
+                    <descriptors>assembly.xml</descriptors>
+                    <finalName>gctoolkit-testdata</finalName>
+                    <appendAssemblyId>false</appendAssemblyId>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.jreleaser</groupId>
+                <artifactId>jreleaser-maven-plugin</artifactId>
+                <version>0.6.0</version>
+                <configuration>
+                  <jreleaser>
+                    <files>
+                        <artifacts>
+                            <artifact>
+                                <path>${project.build.directory}/</path>
+                            </artifact>
+                        </artifacts>
+                    </files>
+                    <release>
+                      <github>
+                        <owner>microsoft</owner>
+                        <name>gctoolkit-testdata</name>
+                        <overwrite>true</overwrite>
+                      </github>
+                    </release>
+                    <distributions>
+                      <app>
+                        <artifacts>
+                          <artifact>
+                            <path>
+                              ${app.distribution.directory}/${project.artifactId}-${project.version}.zip
+                            </path>
+                          </artifact>
+                        </artifacts>
+                      </app>
+                    </distributions>
+                  </jreleaser>
+                </configuration>
+              </plugin>
+        </plugins>
+    </build>
 
 </project>
