@@ -101,9 +101,17 @@ This is done in the GCToolKit build with the maven-dependency-plugin:
 About all one can do with these log files is release them to GitHub packages, or install a local copy.
 A GitHub action has been created to deploy the assets to GitHub packages.
 
-If you choose to clone this repository, please note that it relies on [Git Large File Storage (LFS)](https://git-lfs.github.com/).
+If you choose to clone this repository, please note that it relies on [Git Large File Storage (LFS)](https://git-lfs.github.com/). 
 
 Consider cloning with a `--depth=1` to reduce the size. This will only clone the last commit.
+Make sure you have `git-lfs` installed, and then perform the following commands after a successful `git clone`.
+
+```bash
+cd gctoolkit-data
+git reset --hard
+git lfs install
+git lfs pull
+```
 
 ## Contribute
 
