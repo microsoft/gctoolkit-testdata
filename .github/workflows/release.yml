@@ -30,27 +30,25 @@ jobs:
           key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
           restore-keys: |
             ${{ runner.os }}-maven-
-          
+
       - name: Remove SNAPSHOT version
-        run: ./mvnw -B versions:set -DremoveSnapshot
+        run: |
+          ./mvnw -B versions:set -DremoveSnapshot
+          ./mvnw verify
 
-      - name: Build the release
-        run: ./mvnw -B package
-
-      - name: Commit and tag changes
+      - name: Commit and tag version change
         run : |
           release_version=$(./mvnw help:evaluate -Dexpression=project.version -q -DforceStdout)
           git add pom.xml 
           git commit -m "Release for $release_version"
-          git tag $release_version
-          git push --tags
+          git push
 
       - name: Publish the release
         env:
           JRELEASER_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           export  MAVEN_OPTS="-Xmx3g -XX:MaxMetaspaceSize=512m"
-          ./mvnw -B jreleaser:release
+          ./mvnw -B package jreleaser:release
 
       - name: Move to next snapshot version
         run: |

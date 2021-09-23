@@ -2,6 +2,7 @@
 owner = "brunoborges"
 name  = "gctoolkit-testdata"
 releaseName = "{{projectVersion}}"
+tagName  = "{{projectVersion}}"
 overwrite = true
 updateSections = ["ASSETS", "TITLE", "BODY"]
 files = true
