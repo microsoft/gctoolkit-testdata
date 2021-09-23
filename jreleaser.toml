@@ -1,0 +1,19 @@
+[release.github]
+owner = "brunoborges"
+name  = "gctoolkit-testdata"
+releaseName = "{{projectVersion}}"
+overwrite = true
+updateSections = ["ASSETS", "TITLE", "BODY"]
+files = true
+artifacts = true
+checksums = true
+signatures = false
+
+[release.github.commitAuthor]
+name = "jreleaserbot"
+email = "jreleaser@kordamp.org"
+
+[files]
+  artifacts = [
+    { path = "target/gctoolkit-testdata.zip" }
+  ]

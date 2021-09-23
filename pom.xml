@@ -10,7 +10,7 @@
 
     <name>GCToolKit Test Data</name>
     <description>Resources for testing GCToolKit</description>
-    <url>https://github.com/Microsoft/gctoolkit-testdata</url>
+    <url>https://github.com/brunoborges/gctoolkit-testdata</url>
 
     <organization>
         <name>Microsoft Corporation</name>
@@ -26,9 +26,9 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:git@github.com:Microsoft/gctoolkit-testdata.git</connection>
-        <developerConnection>scm:git:git@github.com:Microsoft/gctoolkit-testdata.git</developerConnection>
-        <url>https://github.com/Microsoft/gctoolkit-testdata</url>
+        <connection>scm:git:git@github.com:brunoborges/gctoolkit-testdata.git</connection>
+        <developerConnection>scm:git:git@github.com:brunoborges/gctoolkit-testdata.git</developerConnection>
+        <url>https://github.com/brunoborges/gctoolkit-testdata</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -43,27 +43,6 @@
         <system>GitHub</system>
         <url>https://github.com/microsoft/gctoolkit-testdata/issues</url>
     </issueManagement>
-
-    <repositories>
-        <repository>
-            <id>central</id>
-            <url>https://repo1.maven.org/maven2</url>
-        </repository>
-        <repository>
-            <id>github</id>
-            <url>https://maven.pkg.github.com/microsoft/*</url>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
-
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <url>https://maven.pkg.github.com/microsoft/gctoolkit-testdata</url>
-        </repository>
-    </distributionManagement>
 
     <build>
         <plugins>
@@ -90,33 +69,7 @@
                 <artifactId>jreleaser-maven-plugin</artifactId>
                 <version>0.6.0</version>
                 <configuration>
-                  <jreleaser>
-                    <files>
-                        <artifacts>
-                            <artifact>
-                                <path>${project.build.directory}/</path>
-                            </artifact>
-                        </artifacts>
-                    </files>
-                    <release>
-                      <github>
-                        <owner>microsoft</owner>
-                        <name>gctoolkit-testdata</name>
-                        <overwrite>true</overwrite>
-                      </github>
-                    </release>
-                    <distributions>
-                      <app>
-                        <artifacts>
-                          <artifact>
-                            <path>
-                              ${app.distribution.directory}/${project.artifactId}-${project.version}.zip
-                            </path>
-                          </artifact>
-                        </artifacts>
-                      </app>
-                    </distributions>
-                  </jreleaser>
+                  <configFile>jreleaser.toml</configFile>
                 </configuration>
               </plugin>
         </plugins>
