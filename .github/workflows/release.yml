@@ -46,16 +46,20 @@ jobs:
         run : |
           release_version=$(./mvnw help:evaluate -Dexpression=project.version -q -DforceStdout)
           git add pom.xml 
-          git commit -m 'Release $release_version'
+          git commit -m "Release for $release_version"
           git tag $release_version
+          git push --tags
+
+      - name: Publish the release
+        run: |
+          export  MAVEN_OPTS="-Xmx3g -XX:MaxMetaspaceSize=512m"
+          ./mvnw -B jreleaser:release
 
       - name: Move to next snapshot version
         run: |
           ./mvnw -B versions:set -DnextSnapshot
+          release_version=$(./mvnw help:evaluate -Dexpression=project.version -q -DforceStdout)
           git add pom.xml
-          git commit -m 'Release $release_version'
-
-      - name: Push tag and next version to branch
-        run: |
-          git push --tags
+          git commit -m "Bump to next version $release_version"
           git push --all
+
