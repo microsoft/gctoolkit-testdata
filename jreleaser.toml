@@ -14,7 +14,5 @@ signatures = false
 name = "jreleaserbot"
 email = "jreleaser@kordamp.org"
 
-[files]
-  artifacts = [
-    { path = "target/gctoolkit-testdata.zip" }
-  ]
+[[files.globs]]
+pattern = "target/gctoolkit-testdata-*.zip"
