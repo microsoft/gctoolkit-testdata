@@ -3,8 +3,7 @@
 
 name: Maven Package
 
-on:
-  workflow_dispatch:
+on: workflow_dispatch
 
 jobs:
   build:
@@ -15,10 +14,11 @@ jobs:
       packages: write
 
     steps:
-      - name: Checkout github repo (+ download lfs dependencies)
+      - name: Checkout repository
         uses: actions/checkout@v2
         with:
           lfs: true
+
       - name: Checkout LFS objects
         run: git lfs pull
 
@@ -27,18 +27,27 @@ jobs:
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
           
-      - name: Prepare the release
-        run: ./mvnw -B release:prepare -DpushChanges=false
-        env:
-         GITHUB_TOKEN: ${{ github.token }}
+      - name: Remove SNAPSHOT version
+        run: ./mvnw -B versions:set -DremoveSnapshot
+        # env:
+        # GITHUB_TOKEN: ${{ github.token }}
 
-      - name: Perform the release
-        run: ./mvnw -B release:perform -DlocalCheckout=true -Darguments="-DskipTests -Dmaven.javadoc.skip=true assembly:assembly"
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
+      - name: Build the release
+        run: ./mvnw -B package
 
-      - name: Bump pom version
-        run : git push
+      - name: Commit and tag changes
+        run : |
+          release_version=$(./mvnw help:evaluate -Dexpression=project.version -q -DforceStdout)
+          git add pom.xml 
+          git commit -m 'Release $release_version'
+          git tag $release_version
 
-      - name: Push tags
-        run: git push --tags      
+      - name: Move to next snapshot version
+        run: |
+          ./mvnw -B versions:set -DnextSnapshot
+          git add pom.xml
+          git commit -m 'Release $release_version'
+
+      - name: Push tag and next version to branch
+        run: |
+          git push --tags --all
