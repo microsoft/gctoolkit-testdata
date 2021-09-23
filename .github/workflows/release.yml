@@ -50,4 +50,5 @@ jobs:
 
       - name: Push tag and next version to branch
         run: |
-          git push --tags --all
+          git push --tags
+          git push --all
