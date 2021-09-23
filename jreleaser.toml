@@ -1,0 +1,18 @@
+[release.github]
+owner = "microsoft"
+name  = "gctoolkit-testdata"
+releaseName = "{{projectVersion}}"
+tagName  = "{{projectVersion}}"
+overwrite = true
+updateSections = ["ASSETS", "TITLE", "BODY"]
+files = true
+artifacts = true
+checksums = true
+signatures = false
+
+[release.github.commitAuthor]
+name = "jreleaserbot"
+email = "jreleaser@kordamp.org"
+
+[[files.globs]]
+pattern = "target/gctoolkit-testdata-*.zip"

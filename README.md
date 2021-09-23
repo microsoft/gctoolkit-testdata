@@ -2,8 +2,8 @@
 
 ## Introduction
 
-Test assets for [GCToolKit](https://github.com/microsoft/gctoolkit). These files are unlikely to change, other than an occasional
-addition. The child packages are deployed as zip files.
+Test assets for [GCToolKit](https://github.com/microsoft/gctoolkit). This collection of files is unlikely to change other than an occasional
+addition.
 
 ---
 NOTE
@@ -16,92 +16,13 @@ with this repository (including cloning it).
 
 ## Getting Started
 
-This test data is used by [gctoolkit](https://github.com/microsoft/gctoolkit). To build gctoolkit, you need to
-[authenticate to GitHub packages with a personal access token (PAT)](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-apache-maven-registry#authenticating-with-a-personal-access-token).
+This test data is used by [gctoolkit](https://github.com/microsoft/gctoolkit).
 
-If your organization uses Single Sign-On (SSO), also follow the directions under [Authorizing a personal access token for use with SAML single sign-on](https://docs.github.com/en/github/authenticating-to-github/authenticating-with-saml-single-sign-on/authorizing-a-personal-access-token-for-use-with-saml-single-sign-on).
-You must also add github as a server in your `~/.m2/settings.xml` file. Replace USERNAME with your GitHub user name and TOKEN with your PAT.
+When the Maven test phase is run in GCToolkit, the test data assets are downloaded as a zip file, which is then unzipped and used in the GCToolKit unit tests.
 
-```xml
-    <server>
-      <id>github</id>
-      <username>USERNAME</username>
-      <password>TOKEN</password>
-    </server>
-```
+## Cloning the Repository
 
-The [gctoolkit pom file](https://github.com/microsoft/gctoolkit/blob/main/pom.xml) contains the following dependency:
-
-```xml
-            <dependency>
-                <groupId>com.microsoft.gctoolkit</groupId>
-                <artifactId>gctoolkit-testdata</artifactId>
-                <version>1.0.2</version>
-                <type>zip</type>
-                <scope>test</scope>
-            </dependency>
-```
-
-When the Maven test phase is run, the test data assets are downloaded as zip files, which are then unzipped and used in the GCToolKit unit tests.
-This is done in the GCToolKit build with the maven-dependency-plugin:
-
-```xml
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-dependency-plugin</artifactId>
-                <version>3.1.1</version>
-                <inherited>false</inherited>
-                <executions>
-                    <execution>
-                        <id>download-test-logs</id>
-                        <phase>process-test-resources</phase>
-                        <goals>
-                            <goal>unpack</goal>
-                        </goals>
-                        <configuration>
-                            <skip>${skipUnpack}</skip>
-                            <artifactItems>
-                                <artifactItem>
-                                    <groupId>com.microsoft.gctoolkit</groupId>
-                                    <artifactId>gctoolkit-gclogs</artifactId>
-                                    <version>1.0.2</version>
-                                    <type>zip</type>
-                                </artifactItem>
-                                <artifactItem>
-                                    <groupId>com.microsoft.gctoolkit</groupId>
-                                    <artifactId>gctoolkit-gclogs-rolling</artifactId>
-                                    <version>1.0.2</version>
-                                    <type>zip</type>
-                                </artifactItem>
-                                <artifactItem>
-                                    <groupId>com.microsoft.gctoolkit</groupId>
-                                    <artifactId>gctoolkit-shenandoah-logs</artifactId>
-                                    <version>1.0.2</version>
-                                    <type>zip</type>
-                                </artifactItem>
-                                <artifactItem>
-                                    <groupId>com.microsoft.gctoolkit</groupId>
-                                    <artifactId>gctoolkit-zgc-logs</artifactId>
-                                    <version>1.0.2</version>
-                                    <type>zip</type>
-                                </artifactItem>
-                            </artifactItems>
-                            <includes>**/*</includes>
-                            <outputDirectory>${project.basedir}/gclogs
-                            </outputDirectory>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-
-```
-
-## Build and Test
-
-About all one can do with these log files is release them to GitHub packages, or install a local copy.
-A GitHub action has been created to deploy the assets to GitHub packages.
-
-If you choose to clone this repository, please note that it relies on [Git Large File Storage (LFS)](https://git-lfs.github.com/). 
+To add test artifacts (GC logs) to this repository you should first clone it. *WARNING* Please note that it relies on [Git Large File Storage (LFS)](https://git-lfs.github.com/). 
 
 Consider cloning with a `--depth=1` to reduce the size. This will only clone the last commit.
 Make sure you have `git-lfs` installed, and then perform the following commands after a successful `git clone`.
@@ -112,6 +33,11 @@ git reset --hard
 git lfs install
 git lfs pull
 ```
+## Adding Test Data
+
+The GC logs sit in directories who's path helps identify and categorize the data contained in the log. For example, the gc1gc_details_adaptivesizing_reset.log is a JDK 8 G1GC log that contains adaptive sizing and RSet information. It resides in the gclogs/preunified/details/adaptivesize/rset directory.
+This convention should be used when adding a new GC log. Additionally, please choose a name that annonimizes the source of the data and ensure that the log file contains no data that would allow one to trace it back to its source.
+
 
 ## Contributing
 

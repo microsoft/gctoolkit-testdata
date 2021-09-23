@@ -1,0 +1,59 @@
+# This workflow will build a package using Maven and then publish it to GitHub packages when a release is created
+# For more information see: https://github.com/actions/setup-java/blob/main/docs/advanced-usage.md#apache-maven-with-a-settings-path
+
+name: Release GCToolkit Test Data
+
+on: workflow_dispatch
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          lfs: true
+
+      - name: Configure Git user
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions"
+
+      - name: Cache local Maven repository
+        uses: actions/cache@v2
+        with:
+          path: ~/.m2/repository
+          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
+          restore-keys: |
+            ${{ runner.os }}-maven-
+
+      - name: Remove SNAPSHOT version
+        run: |
+          ./mvnw -B versions:set -DremoveSnapshot
+          ./mvnw verify
+
+      - name: Commit and tag version change
+        run : |
+          release_version=$(./mvnw help:evaluate -Dexpression=project.version -q -DforceStdout)
+          git add pom.xml 
+          git commit -m "Release for $release_version"
+          git push
+
+      - name: Publish the release
+        env:
+          JRELEASER_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          export  MAVEN_OPTS="-Xmx3g -XX:MaxMetaspaceSize=512m"
+          ./mvnw -B package jreleaser:release
+
+      - name: Move to next snapshot version
+        run: |
+          ./mvnw -B versions:set -DnextSnapshot
+          release_version=$(./mvnw help:evaluate -Dexpression=project.version -q -DforceStdout)
+          git add pom.xml
+          git commit -m "Bump to next version $release_version"
+          git push

@@ -10,7 +10,7 @@
 
     <name>GCToolKit Test Data</name>
     <description>Resources for testing GCToolKit</description>
-    <url>https://github.com/Microsoft/gctoolkit-testdata</url>
+    <url>https://github.com/microsoft/gctoolkit-testdata</url>
 
     <organization>
         <name>Microsoft Corporation</name>
@@ -26,9 +26,9 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:git@github.com:Microsoft/gctoolkit-testdata.git</connection>
-        <developerConnection>scm:git:git@github.com:Microsoft/gctoolkit-testdata.git</developerConnection>
-        <url>https://github.com/Microsoft/gctoolkit-testdata</url>
+        <connection>scm:git:git@github.com:microsoft/gctoolkit-testdata.git</connection>
+        <developerConnection>scm:git:git@github.com:microsoft/gctoolkit-testdata.git</developerConnection>
+        <url>https://github.com/microsoft/gctoolkit-testdata</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -44,32 +44,34 @@
         <url>https://github.com/microsoft/gctoolkit-testdata/issues</url>
     </issueManagement>
 
-    <repositories>
-        <repository>
-            <id>central</id>
-            <url>https://repo1.maven.org/maven2</url>
-        </repository>
-        <repository>
-            <id>github</id>
-            <url>https://maven.pkg.github.com/microsoft/*</url>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
-
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <url>https://maven.pkg.github.com/microsoft/gctoolkit-testdata</url>
-        </repository>
-    </distributionManagement>
-
-    <modules>
-        <module>gctoolkit-gclogs</module>
-        <module>gctoolkit-gclogs-rolling</module>
-        <module>gctoolkit-shenandoah-logs</module>
-        <module>gctoolkit-zgc-logs</module>
-    </modules>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>3.3.0</version>
+                <configuration>
+                    <descriptors>assembly.xml</descriptors>
+                    <appendAssemblyId>false</appendAssemblyId>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.jreleaser</groupId>
+                <artifactId>jreleaser-maven-plugin</artifactId>
+                <version>0.6.0</version>
+                <configuration>
+                  <configFile>jreleaser.toml</configFile>
+                </configuration>
+              </plugin>
+        </plugins>
+    </build>
 
 </project>
