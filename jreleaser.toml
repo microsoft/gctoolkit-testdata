@@ -1,5 +1,5 @@
 [release.github]
-owner = "brunoborges"
+owner = "microsoft"
 name  = "gctoolkit-testdata"
 releaseName = "{{projectVersion}}"
 tagName  = "{{projectVersion}}"
