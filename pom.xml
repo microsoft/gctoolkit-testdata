@@ -5,12 +5,12 @@
 
     <groupId>com.microsoft.gctoolkit</groupId>
     <artifactId>gctoolkit-testdata</artifactId>
-    <version>1.0.4-SNAPSHOT</version>
+    <version>1.0.3-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>GCToolKit Test Data</name>
     <description>Resources for testing GCToolKit</description>
-    <url>https://github.com/brunoborges/gctoolkit-testdata</url>
+    <url>https://github.com/microsoft/gctoolkit-testdata</url>
 
     <organization>
         <name>Microsoft Corporation</name>
@@ -26,9 +26,9 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:git@github.com:brunoborges/gctoolkit-testdata.git</connection>
-        <developerConnection>scm:git:git@github.com:brunoborges/gctoolkit-testdata.git</developerConnection>
-        <url>https://github.com/brunoborges/gctoolkit-testdata</url>
+        <connection>scm:git:git@github.com:microsoft/gctoolkit-testdata.git</connection>
+        <developerConnection>scm:git:git@github.com:microsoft/gctoolkit-testdata.git</developerConnection>
+        <url>https://github.com/microsoft/gctoolkit-testdata</url>
         <tag>HEAD</tag>
     </scm>
 
