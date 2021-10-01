@@ -5,7 +5,7 @@
 
     <groupId>com.microsoft.gctoolkit</groupId>
     <artifactId>gctoolkit-testdata</artifactId>
-    <version>1.0.4-SNAPSHOT</version>
+    <version>1.0.4</version>
     <packaging>pom</packaging>
 
     <name>GCToolKit Test Data</name>
