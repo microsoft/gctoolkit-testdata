@@ -1,0 +1,88 @@
+[2022-11-10T03:37:29.443-0800][info][gc,heap] Heap region size: 2M
+[2022-11-10T03:37:29.508-0800][info][gc     ] Using G1
+[2022-11-10T03:37:29.508-0800][info][gc,heap,coops] Heap address: 0x0000000600000000, size: 8192 MB, Compressed Oops mode: Zero based, Oop shift amount: 3
+[2022-11-10T03:37:32.125-0800][info][gc,start     ] GC(0) Pause Young (Normal) (G1 Evacuation Pause)
+[2022-11-10T03:37:32.126-0800][info][gc,task      ] GC(0) Using 4 workers of 4 for evacuation
+[2022-11-10T03:37:32.126-0800][debug][gc,age       ] GC(0) Desired survivor size 7340032 bytes, new threshold 15 (max threshold 15)
+[2022-11-10T03:37:32.144-0800][debug][gc,ref       ] GC(0) Skipped phase1 of Reference Processing due to unavailable references
+[2022-11-10T03:37:32.145-0800][trace][gc,age       ] GC(0) Age table with threshold 15 (max threshold 15)
+[2022-11-10T03:37:32.145-0800][trace][gc,age       ] GC(0) - age   1:   14636872 bytes,   14636872 total
+[2022-11-10T03:37:32.146-0800][info ][gc,phases    ] GC(0)   Pre Evacuate Collection Set: 0.1ms
+[2022-11-10T03:37:32.146-0800][info ][gc,phases    ] GC(0)   Evacuate Collection Set: 17.5ms
+[2022-11-10T03:37:32.146-0800][info ][gc,phases    ] GC(0)   Post Evacuate Collection Set: 1.5ms
+[2022-11-10T03:37:32.146-0800][debug][gc,phases,ref] GC(0)     Reference Processing: 0.8ms
+[2022-11-10T03:37:32.146-0800][debug][gc,phases,ref] GC(0)       Reconsider SoftReferences: 0.3ms
+[2022-11-10T03:37:32.146-0800][debug][gc,phases,ref] GC(0)         SoftRef (ms):             skipped
+[2022-11-10T03:37:32.146-0800][debug][gc,phases,ref] GC(0)       Notify Soft/WeakReferences: 0.1ms
+[2022-11-10T03:37:32.146-0800][debug][gc,phases,ref] GC(0)         SoftRef (ms):             Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2022-11-10T03:37:32.146-0800][debug][gc,phases,ref] GC(0)         WeakRef (ms):             Min:  0.1, Avg:  0.1, Max:  0.1, Diff:  0.0, Sum:  0.1, Workers: 1
+[2022-11-10T03:37:32.146-0800][debug][gc,phases,ref] GC(0)         FinalRef (ms):            Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2022-11-10T03:37:32.146-0800][debug][gc,phases,ref] GC(0)         Total (ms):               Min:  0.1, Avg:  0.1, Max:  0.1, Diff:  0.0, Sum:  0.1, Workers: 1
+[2022-11-10T03:37:32.146-0800][debug][gc,phases,ref] GC(0)       Notify and keep alive finalizable: 0.1ms
+[2022-11-10T03:37:32.146-0800][debug][gc,phases,ref] GC(0)         Balance queues: 0.0ms
+[2022-11-10T03:37:32.146-0800][debug][gc,phases,ref] GC(0)         FinalRef (ms):            Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.1, Workers: 4
+[2022-11-10T03:37:32.146-0800][debug][gc,phases,ref] GC(0)       Notify PhantomReferences: 0.3ms
+[2022-11-10T03:37:32.146-0800][debug][gc,phases,ref] GC(0)         Balance queues: 0.0ms
+[2022-11-10T03:37:32.146-0800][debug][gc,phases,ref] GC(0)         PhantomRef (ms):          Min:  0.2, Avg:  0.2, Max:  0.2, Diff:  0.0, Sum:  0.4, Workers: 2
+[2022-11-10T03:37:32.146-0800][debug][gc,phases,ref] GC(0)       SoftReference:
+[2022-11-10T03:37:32.146-0800][debug][gc,phases,ref] GC(0)         Discovered: 0
+[2022-11-10T03:37:32.146-0800][debug][gc,phases,ref] GC(0)         Cleared: 0
+[2022-11-10T03:37:32.146-0800][debug][gc,phases,ref] GC(0)       WeakReference:
+[2022-11-10T03:37:32.146-0800][debug][gc,phases,ref] GC(0)         Discovered: 357
+[2022-11-10T03:37:32.146-0800][debug][gc,phases,ref] GC(0)         Cleared: 247
+[2022-11-10T03:37:32.146-0800][debug][gc,phases,ref] GC(0)       FinalReference:
+[2022-11-10T03:37:32.146-0800][debug][gc,phases,ref] GC(0)         Discovered: 15
+[2022-11-10T03:37:32.146-0800][debug][gc,phases,ref] GC(0)         Cleared: 0
+[2022-11-10T03:37:32.146-0800][debug][gc,phases,ref] GC(0)       PhantomReference:
+[2022-11-10T03:37:32.146-0800][debug][gc,phases,ref] GC(0)         Discovered: 1827
+[2022-11-10T03:37:32.146-0800][debug][gc,phases,ref] GC(0)         Cleared: 1756
+[2022-11-10T03:37:32.146-0800][info ][gc,phases    ] GC(0)   Other: 2.0ms
+[2022-11-10T03:37:32.146-0800][info ][gc,heap      ] GC(0) Eden regions: 51->0(44)
+[2022-11-10T03:37:32.146-0800][info ][gc,heap      ] GC(0) Survivor regions: 0->7(7)
+[2022-11-10T03:37:32.146-0800][info ][gc,heap      ] GC(0) Old regions: 0->7
+[2022-11-10T03:37:32.146-0800][info ][gc,heap      ] GC(0) Humongous regions: 7->7
+[2022-11-10T03:37:32.146-0800][info ][gc,metaspace ] GC(0) Metaspace: 14539K->14539K(1062912K)
+[2022-11-10T03:37:32.146-0800][info ][gc           ] GC(0) Pause Young (Normal) (G1 Evacuation Pause) 116M->40M(2048M) 21.861ms
+[2022-11-10T03:37:32.146-0800][info ][gc,cpu       ] GC(0) User=0.05s Sys=0.02s Real=0.02s
+[2022-11-10T03:37:33.973-0800][info ][gc,start     ] GC(1) Pause Young (Concurrent Start) (Metadata GC Threshold)
+[2022-11-10T03:37:33.973-0800][info ][gc,task      ] GC(1) Using 4 workers of 4 for evacuation
+[2022-11-10T03:37:33.973-0800][debug][gc,age       ] GC(1) Desired survivor size 7340032 bytes, new threshold 1 (max threshold 15)
+[2022-11-10T03:37:33.992-0800][debug][gc,ref       ] GC(1) Skipped phase1 of Reference Processing due to unavailable references
+[2022-11-10T03:37:33.992-0800][trace][gc,age       ] GC(1) Age table with threshold 1 (max threshold 15)
+[2022-11-10T03:37:33.992-0800][trace][gc,age       ] GC(1) - age   1:    1678440 bytes,    1678440 total
+[2022-11-10T03:37:33.992-0800][info ][gc,phases    ] GC(1)   Pre Evacuate Collection Set: 0.0ms
+[2022-11-10T03:37:33.992-0800][info ][gc,phases    ] GC(1)   Evacuate Collection Set: 18.4ms
+[2022-11-10T03:37:33.992-0800][info ][gc,phases    ] GC(1)   Post Evacuate Collection Set: 0.6ms
+[2022-11-10T03:37:33.992-0800][debug][gc,phases,ref] GC(1)     Reference Processing: 0.1ms
+[2022-11-10T03:37:33.992-0800][debug][gc,phases,ref] GC(1)       Reconsider SoftReferences: 0.0ms
+[2022-11-10T03:37:33.992-0800][debug][gc,phases,ref] GC(1)         SoftRef (ms):             skipped
+[2022-11-10T03:37:33.992-0800][debug][gc,phases,ref] GC(1)       Notify Soft/WeakReferences: 0.0ms
+[2022-11-10T03:37:33.992-0800][debug][gc,phases,ref] GC(1)         SoftRef (ms):             Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2022-11-10T03:37:33.992-0800][debug][gc,phases,ref] GC(1)         WeakRef (ms):             Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2022-11-10T03:37:33.992-0800][debug][gc,phases,ref] GC(1)         FinalRef (ms):            Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2022-11-10T03:37:33.992-0800][debug][gc,phases,ref] GC(1)         Total (ms):               Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2022-11-10T03:37:33.992-0800][debug][gc,phases,ref] GC(1)       Notify and keep alive finalizable: 0.0ms
+[2022-11-10T03:37:33.992-0800][debug][gc,phases,ref] GC(1)         Balance queues: 0.0ms
+[2022-11-10T03:37:33.992-0800][debug][gc,phases,ref] GC(1)         FinalRef (ms):            Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[2022-11-10T03:37:33.992-0800][debug][gc,phases,ref] GC(1)       Notify PhantomReferences: 0.0ms
+[2022-11-10T03:37:33.992-0800][debug][gc,phases,ref] GC(1)         PhantomRef (ms):          Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2022-11-10T03:37:33.992-0800][debug][gc,phases,ref] GC(1)       SoftReference:
+[2022-11-10T03:37:33.992-0800][debug][gc,phases,ref] GC(1)         Discovered: 0
+[2022-11-10T03:37:33.992-0800][debug][gc,phases,ref] GC(1)         Cleared: 0
+[2022-11-10T03:37:33.992-0800][debug][gc,phases,ref] GC(1)       WeakReference:
+[2022-11-10T03:37:33.993-0800][debug][gc,phases,ref] GC(1)         Discovered: 176
+[2022-11-10T03:37:33.993-0800][debug][gc,phases,ref] GC(1)         Cleared: 76
+[2022-11-10T03:37:33.993-0800][debug][gc,phases,ref] GC(1)       FinalReference:
+[2022-11-10T03:37:33.993-0800][debug][gc,phases,ref] GC(1)         Discovered: 6
+[2022-11-10T03:37:33.993-0800][debug][gc,phases,ref] GC(1)         Cleared: 0
+[2022-11-10T03:37:33.993-0800][debug][gc,phases,ref] GC(1)       PhantomReference:
+[2022-11-10T03:37:33.993-0800][debug][gc,phases,ref] GC(1)         Discovered: 60
+[2022-11-10T03:37:33.993-0800][debug][gc,phases,ref] GC(1)         Cleared: 9
+[2022-11-10T03:37:33.993-0800][info ][gc,phases    ] GC(1)   Other: 0.6ms
+[2022-11-10T03:37:33.993-0800][info ][gc,heap      ] GC(1) Eden regions: 32->0(50)
+[2022-11-10T03:37:33.993-0800][info ][gc,heap      ] GC(1) Survivor regions: 7->1(7)
+[2022-11-10T03:37:33.993-0800][info ][gc,heap      ] GC(1) Old regions: 7->14
+[2022-11-10T03:37:33.993-0800][info ][gc,heap      ] GC(1) Humongous regions: 7->7
+[2022-11-10T03:37:33.993-0800][info ][gc,metaspace ] GC(1) Metaspace: 20938K->20938K(1069056K)
+[2022-11-10T03:37:33.993-0800][info ][gc           ] GC(1) Pause Young (Concurrent Start) (Metadata GC Threshold) 104M->42M(2048M) 20.246ms
+[2022-11-10T03:37:33.993-0800][info ][gc,cpu       ] GC(1) User=0.02s Sys=0.02s Real=0.02s
