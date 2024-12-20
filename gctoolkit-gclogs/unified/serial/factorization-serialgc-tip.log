@@ -1,0 +1,915 @@
+[0.021s][info][gc,init] CardTable entry size: 512
+[0.021s][debug][gc,heap] Minimum heap 2097152  Initial heap 33554432  Maximum heap 2147483648
+[0.021s][info ][gc,heap] 1: Minimum young 1048576  Initial young 16777216  Maximum young 2147418112
+[0.021s][info ][gc,heap] Minimum old 1048576  Initial old 16777216  Maximum old 2147483648
+[0.022s][info ][gc     ] Using Serial
+[0.022s][info ][gc     ] Serial collector GC overhead ergonomics enabled. SerialGCOverheadTarget: 5 GCOverheadWindowDurationMins: 5
+[0.022s][debug][gc,heap,coops] Protected page at the reserved heap base: 0x0000120000000000 / 2097152 bytes
+[0.022s][debug][gc,heap,coops] Heap address: 0x0000120000200000, size: 4096 MB, Compressed Oops mode: Non-zero disjoint base: 0x0000120000000000, Oop shift amount: 3
+[0.063s][info ][gc,init      ] Version: 24-internal-adhoc.saint.jdk (slowdebug)
+[0.063s][info ][gc,init      ] CPUs: 20 total, 2 available
+[0.063s][info ][gc,init      ] Memory: 2048M
+[0.063s][info ][gc,init      ] Large Page Support: Disabled
+[0.063s][info ][gc,init      ] NUMA Support: Disabled
+[0.063s][info ][gc,init      ] Compressed Oops: Enabled (Non-zero disjoint base)
+[0.063s][info ][gc,init      ] Heap Min Capacity: 2M
+[0.063s][info ][gc,init      ] Heap Initial Capacity: 32M
+[0.063s][info ][gc,init      ] Heap Max Capacity: 2G
+[0.063s][info ][gc,init      ] Pre-touch: Disabled
+[0.092s][info ][gc,metaspace ] CDS archive(s) mapped at: [0x00007f0467000000-0x00007f0467e5b000-0x00007f0467e5b000), size 15052800, SharedBaseAddress: 0x00007f0467000000, ArchiveRelocationMode: 1.
+[0.092s][info ][gc,metaspace ] Compressed class space mapped at: 0x00007f0468000000-0x00007f04a8000000, reserved size: 1073741824
+[0.092s][info ][gc,metaspace ] Narrow klass base: 0x00007f0467000000, Narrow klass shift: 0, Narrow klass range: 0x100000000
+[0.643s][info ][gc,start     ] GC(0) Pause Full (System.gc())
+[0.643s][debug][gc,heap      ] GC(0) Heap before GC invocations=0 (full 0):
+[0.643s][debug][gc,heap      ] GC(0)  def new generation   total 10944K, used 3371K [0x0000120000200000, 0x0000120001200000, 0x00001200801f0000)
+[0.643s][debug][gc,heap      ] GC(0)   eden space 5504K,  61% used [0x0000120000200000, 0x000012000054afd8, 0x0000120000760000)
+[0.643s][debug][gc,heap      ] GC(0)   from space 5440K,   0% used [0x0000120000760000, 0x0000120000760000, 0x0000120000cb0000)
+[0.643s][debug][gc,heap      ] GC(0)   to   space 5440K,   0% used [0x0000120000cb0000, 0x0000120000cb0000, 0x0000120001200000)
+[0.643s][debug][gc,heap      ] GC(0)  tenured generation   total 16384K, used 1154K [0x00001200801f0000, 0x00001200811f0000, 0x0000120100200000)
+[0.643s][debug][gc,heap      ] GC(0)    the space 16384K,   7% used [0x00001200801f0000, 0x0000120080310b58, 0x00001200811f0000)
+[0.643s][debug][gc,heap      ] GC(0)  Metaspace       used 362K, committed 512K, reserved 1114112K
+[0.643s][debug][gc,heap      ] GC(0)   class space    used 62K, committed 128K, reserved 1048576K
+[0.644s][debug][gc,tlab      ] GC(0) TLAB totals: thrds: 5  refills: 30 max: 26 slow allocs: 5 max 5 waste: 14.1% gc: 477464B max: 112584B slow: 3952B max: 3952B
+[0.644s][info ][gc,phases,start] GC(0) Phase 1: Mark live objects
+[0.713s][debug][gc,phases,start] GC(0) Reference Processing
+[0.713s][debug][gc,ref         ] GC(0) ReferenceProcessor::execute queues: 1, RefProcThreadModel::Single, marks_oops_alive: false
+[0.713s][debug][gc,ref         ] GC(0) Skipped KeepAliveFinalRefsPhase of Reference Processing: no references
+[0.713s][debug][gc,ref         ] GC(0) ReferenceProcessor::execute queues: 1, RefProcThreadModel::Single, marks_oops_alive: false
+[0.713s][debug][gc,phases,ref  ] GC(0) Reference Processing: 0.2ms
+[0.713s][debug][gc,phases,ref  ] GC(0)   Notify Soft/WeakReferences: 0.1ms
+[0.713s][debug][gc,phases,ref  ] GC(0)     SoftRef: 0.0ms
+[0.713s][debug][gc,phases,ref  ] GC(0)     WeakRef: 0.1ms
+[0.713s][debug][gc,phases,ref  ] GC(0)     FinalRef: 0.0ms
+[0.713s][debug][gc,phases,ref  ] GC(0)     Total: 0.1ms
+[0.713s][debug][gc,phases,ref  ] GC(0)   Notify and keep alive finalizable: 0.0ms
+[0.713s][debug][gc,phases,ref  ] GC(0)     FinalRef: skipped
+[0.713s][debug][gc,phases,ref  ] GC(0)   Notify PhantomReferences: 0.0ms
+[0.713s][debug][gc,phases,ref  ] GC(0)     PhantomRef: 0.0ms
+[0.714s][debug][gc,phases,ref  ] GC(0)   SoftReference Discovered: 0, Dropped: 0, Processed: 0
+[0.714s][debug][gc,phases,ref  ] GC(0)   WeakReference Discovered: 69, Dropped: 9, Processed: 60
+[0.714s][debug][gc,phases,ref  ] GC(0)   FinalReference Discovered: 0, Dropped: 0, Processed: 0
+[0.714s][debug][gc,phases,ref  ] GC(0)   PhantomReference Discovered: 21, Dropped: 4, Processed: 17
+[0.714s][debug][gc,phases      ] GC(0) Reference Processing 0.277ms
+[0.714s][debug][gc,phases,start] GC(0) Weak Processing
+[0.714s][debug][gc,phases      ] GC(0) Weak Processing 0.069ms
+[0.714s][debug][gc,phases,start] GC(0) Class Unloading
+[0.714s][debug][gc,phases,start] GC(0) ClassLoaderData
+[0.714s][debug][gc,phases      ] GC(0) ClassLoaderData 0.007ms
+[0.714s][debug][gc,phases,start] GC(0) Trigger cleanups
+[0.714s][debug][gc,phases      ] GC(0) Trigger cleanups 0.003ms
+[0.714s][debug][gc,phases,start] GC(0) Purge Unlinked NMethods
+[0.714s][debug][gc,phases      ] GC(0) Purge Unlinked NMethods 0.007ms
+[0.714s][debug][gc,phases,start] GC(0) Unregister NMethods
+[0.714s][debug][gc,phases      ] GC(0) Unregister NMethods 0.118ms
+[0.714s][debug][gc,phases,start] GC(0) Free Code Blobs
+[0.714s][debug][gc,phases      ] GC(0) Free Code Blobs 0.004ms
+[0.714s][debug][gc,phases      ] GC(0) Class Unloading 0.261ms
+[0.714s][debug][gc,phases,start] GC(0) Report Object Count
+[0.714s][debug][gc,phases      ] GC(0) Report Object Count 0.004ms
+[0.714s][info ][gc,phases      ] GC(0) Phase 1: Mark live objects 70.209ms
+[0.714s][info ][gc,phases,start] GC(0) Phase 2: Compute new object addresses
+[0.728s][info ][gc,phases      ] GC(0) Phase 2: Compute new object addresses 14.503ms
+[0.728s][info ][gc,phases,start] GC(0) Phase 3: Adjust pointers
+[0.765s][info ][gc,phases      ] GC(0) Phase 3: Adjust pointers 36.619ms
+[0.765s][info ][gc,phases,start] GC(0) Phase 4: Move objects
+[0.770s][info ][gc,phases      ] GC(0) Phase 4: Move objects 5.136ms
+[0.773s][debug][gc,ergo,heap   ] GC(0) New generation size 16384K->16448K [eden=5568K,survivor=5440K]
+[0.773s][info ][gc,heap        ] GC(0) DefNew: 3371K(10944K)->0K(11008K) Eden: 3371K(5504K)->0K(5568K) From: 0K(5440K)->0K(5440K)
+[0.773s][info ][gc,heap        ] GC(0) Tenured: 1154K(16384K)->2099K(16384K)
+[0.773s][info ][gc,metaspace   ] GC(0) Metaspace: 362K(512K)->362K(512K) NonClass: 300K(384K)->300K(384K) Class: 62K(128K)->62K(128K)
+[0.773s][debug][gc,heap        ] GC(0) Heap after GC invocations=1 (full 1):
+[0.773s][debug][gc,heap        ] GC(0)  def new generation   total 11008K, used 0K [0x0000120000200000, 0x0000120001210000, 0x00001200801f0000)
+[0.773s][debug][gc,heap        ] GC(0)   eden space 5568K,   0% used [0x0000120000200000, 0x0000120000200000, 0x0000120000770000)
+[0.773s][debug][gc,heap        ] GC(0)   from space 5440K,   0% used [0x0000120000770000, 0x0000120000770000, 0x0000120000cc0000)
+[0.773s][debug][gc,heap        ] GC(0)   to   space 5440K,   0% used [0x0000120000cc0000, 0x0000120000cc0000, 0x0000120001210000)
+[0.773s][debug][gc,heap        ] GC(0)  tenured generation   total 16384K, used 2099K [0x00001200801f0000, 0x00001200811f0000, 0x0000120100200000)
+[0.773s][debug][gc,heap        ] GC(0)    the space 16384K,  12% used [0x00001200801f0000, 0x00001200803fcd30, 0x00001200811f0000)
+[0.773s][debug][gc,heap        ] GC(0)  Metaspace       used 362K, committed 512K, reserved 1114112K
+[0.773s][debug][gc,heap        ] GC(0)   class space    used 62K, committed 128K, reserved 1048576K
+[0.773s][info ][gc             ] GC(0) Pause Full (System.gc()) 4M->2M(26M) 130.148ms
+[0.773s][info ][gc,cpu         ] GC(0) User=0.13s Sys=0.00s Real=0.12s
+[0.773s][info ][safepoint      ] Safepoint "SerialGCCollect", Time since last: 477036488 ns, Reaching safepoint: 34173 ns, At safepoint: 130196669 ns, Total: 130230842 ns
+[0.774s][info ][gc,start       ] GC(1) Pause Full (System.gc())
+[0.774s][debug][gc,heap        ] GC(1) Heap before GC invocations=1 (full 1):
+[0.774s][debug][gc,heap        ] GC(1)  def new generation   total 11008K, used 111K [0x0000120000200000, 0x0000120001210000, 0x00001200801f0000)
+[0.774s][debug][gc,heap        ] GC(1)   eden space 5568K,   2% used [0x0000120000200000, 0x000012000021bdc0, 0x0000120000770000)
+[0.774s][debug][gc,heap        ] GC(1)   from space 5440K,   0% used [0x0000120000770000, 0x0000120000770000, 0x0000120000cc0000)
+[0.774s][debug][gc,heap        ] GC(1)   to   space 5440K,   0% used [0x0000120000cc0000, 0x0000120000cc0000, 0x0000120001210000)
+[0.774s][debug][gc,heap        ] GC(1)  tenured generation   total 16384K, used 2099K [0x00001200801f0000, 0x00001200811f0000, 0x0000120100200000)
+[0.774s][debug][gc,heap        ] GC(1)    the space 16384K,  12% used [0x00001200801f0000, 0x00001200803fcd30, 0x00001200811f0000)
+[0.774s][debug][gc,heap        ] GC(1)  Metaspace       used 362K, committed 512K, reserved 1114112K
+[0.774s][debug][gc,heap        ] GC(1)   class space    used 62K, committed 128K, reserved 1048576K
+[0.774s][debug][gc,tlab        ] GC(1) TLAB totals: thrds: 2  refills: 2 max: 1 slow allocs: 0 max 0 waste: 95.7% gc: 109216B max: 55824B slow: 0B max: 0B
+[0.774s][info ][gc,phases,start] GC(1) Phase 1: Mark live objects
+[0.811s][debug][gc,phases,start] GC(1) Reference Processing
+[0.811s][debug][gc,ref         ] GC(1) ReferenceProcessor::execute queues: 1, RefProcThreadModel::Single, marks_oops_alive: false
+[0.811s][debug][gc,ref         ] GC(1) Skipped KeepAliveFinalRefsPhase of Reference Processing: no references
+[0.811s][debug][gc,ref         ] GC(1) ReferenceProcessor::execute queues: 1, RefProcThreadModel::Single, marks_oops_alive: false
+[0.811s][debug][gc,phases,ref  ] GC(1) Reference Processing: 0.1ms
+[0.811s][debug][gc,phases,ref  ] GC(1)   Notify Soft/WeakReferences: 0.1ms
+[0.811s][debug][gc,phases,ref  ] GC(1)     SoftRef: 0.0ms
+[0.811s][debug][gc,phases,ref  ] GC(1)     WeakRef: 0.0ms
+[0.811s][debug][gc,phases,ref  ] GC(1)     FinalRef: 0.0ms
+[0.811s][debug][gc,phases,ref  ] GC(1)     Total: 0.0ms
+[0.811s][debug][gc,phases,ref  ] GC(1)   Notify and keep alive finalizable: 0.0ms
+[0.811s][debug][gc,phases,ref  ] GC(1)     FinalRef: skipped
+[0.811s][debug][gc,phases,ref  ] GC(1)   Notify PhantomReferences: 0.0ms
+[0.811s][debug][gc,phases,ref  ] GC(1)     PhantomRef: 0.0ms
+[0.811s][debug][gc,phases,ref  ] GC(1)   SoftReference Discovered: 0, Dropped: 0, Processed: 0
+[0.811s][debug][gc,phases,ref  ] GC(1)   WeakReference Discovered: 9, Dropped: 9, Processed: 0
+[0.811s][debug][gc,phases,ref  ] GC(1)   FinalReference Discovered: 0, Dropped: 0, Processed: 0
+[0.811s][debug][gc,phases,ref  ] GC(1)   PhantomReference Discovered: 4, Dropped: 4, Processed: 0
+[0.811s][debug][gc,phases      ] GC(1) Reference Processing 0.156ms
+[0.811s][debug][gc,phases,start] GC(1) Weak Processing
+[0.811s][debug][gc,phases      ] GC(1) Weak Processing 0.071ms
+[0.811s][debug][gc,phases,start] GC(1) Class Unloading
+[0.811s][debug][gc,phases,start] GC(1) ClassLoaderData
+[0.811s][debug][gc,phases      ] GC(1) ClassLoaderData 0.007ms
+[0.811s][debug][gc,phases,start] GC(1) Trigger cleanups
+[0.811s][debug][gc,phases      ] GC(1) Trigger cleanups 0.003ms
+[0.811s][debug][gc,phases,start] GC(1) Purge Unlinked NMethods
+[0.811s][debug][gc,phases      ] GC(1) Purge Unlinked NMethods 0.004ms
+[0.811s][debug][gc,phases,start] GC(1) Unregister NMethods
+[0.811s][debug][gc,phases      ] GC(1) Unregister NMethods 0.117ms
+[0.811s][debug][gc,phases,start] GC(1) Free Code Blobs
+[0.811s][debug][gc,phases      ] GC(1) Free Code Blobs 0.004ms
+[0.811s][debug][gc,phases      ] GC(1) Class Unloading 0.234ms
+[0.811s][debug][gc,phases,start] GC(1) Report Object Count
+[0.811s][debug][gc,phases      ] GC(1) Report Object Count 0.004ms
+[0.811s][info ][gc,phases      ] GC(1) Phase 1: Mark live objects 36.902ms
+[0.811s][info ][gc,phases,start] GC(1) Phase 2: Compute new object addresses
+[0.822s][info ][gc,phases      ] GC(1) Phase 2: Compute new object addresses 10.583ms
+[0.822s][info ][gc,phases,start] GC(1) Phase 3: Adjust pointers
+[0.858s][info ][gc,phases      ] GC(1) Phase 3: Adjust pointers 36.168ms
+[0.858s][info ][gc,phases,start] GC(1) Phase 4: Move objects
+[0.858s][info ][gc,phases      ] GC(1) Phase 4: Move objects 0.035ms
+[0.859s][debug][gc,ergo        ] GC(1) Adaptive Heap Sizing: Computing GC overhead from 0.080s window with pause time=0.080000s
+[0.859s][info ][gc,ergo        ] GC(1) Adaptive Heap Sizing: GC Overhead: 100. User=0.090000s Sys=0.000000s Real=0.080000s, Time since last GC=0.090000s
+[0.859s][info ][gc,ergo,heap   ] GC(1) Adaptive Heap Sizing: Target sizes: eden: 1046528K. survivor: 2048K. tenured: 4198K. max eden size: 2088857K.
+[0.859s][info ][gc,ergo,heap   ] GC(1) Adaptive Heap Sizing: Target sizes adjusted for available memory: eden: 1046528K. survivor: 2048K. tenured: 4224K. max eden size: 2088832K. available memory: 2039840K.
+[0.859s][debug][gc,ergo,heap   ] GC(1) Adaptive Heap Sizing: Expanding young gen by 1058996224 bytes (desired new size is 1075838976).
+[1.571s][debug][gc,ergo,heap   ] GC(1) Adaptive Heap Sizing: New generation size 16448K->1050624K [eden=1046528K,survivor=2048K]
+[1.571s][debug][gc,heap,ergo   ] Adaptive Heap Sizing:     shrinking tenured:  capacity_after_gc: 16384.0K  target_size: 4224.0K  used_after_gc: 2099.4K
+[1.572s][info ][gc,heap        ] GC(1) DefNew: 111K(11008K)->0K(1048576K) Eden: 111K(5568K)->0K(1046528K) From: 0K(5440K)->0K(2048K)
+[1.572s][info ][gc,heap        ] GC(1) Tenured: 2099K(16384K)->2099K(4224K)
+[1.572s][info ][gc,metaspace   ] GC(1) Metaspace: 362K(512K)->362K(512K) NonClass: 300K(384K)->300K(384K) Class: 62K(128K)->62K(128K)
+[1.572s][debug][gc,heap        ] GC(1) Heap after GC invocations=2 (full 2):
+[1.572s][debug][gc,heap        ] GC(1)  def new generation   total 1048576K, used 0K [0x0000120000200000, 0x0000120040400000, 0x00001200801f0000)
+[1.572s][debug][gc,heap        ] GC(1)   eden space 1046528K,   0% used [0x0000120000200000, 0x0000120000200000, 0x0000120040000000)
+[1.572s][debug][gc,heap        ] GC(1)   from space 2048K,   0% used [0x0000120040000000, 0x0000120040000000, 0x0000120040200000)
+[1.572s][debug][gc,heap        ] GC(1)   to   space 2048K,   0% used [0x0000120040200000, 0x0000120040200000, 0x0000120040400000)
+[1.572s][debug][gc,heap        ] GC(1)  tenured generation   total 4224K, used 2099K [0x00001200801f0000, 0x0000120080610000, 0x0000120100200000)
+[1.572s][debug][gc,heap        ] GC(1)    the space 4224K,  49% used [0x00001200801f0000, 0x00001200803fcdb0, 0x0000120080610000)
+[1.572s][debug][gc,heap        ] GC(1)  Metaspace       used 362K, committed 512K, reserved 1114112K
+[1.572s][debug][gc,heap        ] GC(1)   class space    used 62K, committed 128K, reserved 1048576K
+[1.572s][info ][gc             ] GC(1) Pause Full (System.gc()) 2M->2M(1028M) 797.829ms
+[1.572s][info ][gc,cpu         ] GC(1) User=0.59s Sys=0.21s Real=0.79s
+[1.572s][info ][safepoint      ] Safepoint "SerialGCCollect", Time since last: 920439 ns, Reaching safepoint: 73341 ns, At safepoint: 797875202 ns, Total: 797948543 ns
+[20.682s][info ][gc,start       ] GC(2) Pause Young (Allocation Failure)
+[20.682s][debug][gc,heap        ] GC(2) Heap before GC invocations=2 (full 2):
+[20.682s][debug][gc,heap        ] GC(2)  def new generation   total 1048576K, used 1046528K [0x0000120000200000, 0x0000120040400000, 0x00001200801f0000)
+[20.682s][debug][gc,heap        ] GC(2)   eden space 1046528K, 100% used [0x0000120000200000, 0x0000120040000000, 0x0000120040000000)
+[20.682s][debug][gc,heap        ] GC(2)   from space 2048K,   0% used [0x0000120040000000, 0x0000120040000000, 0x0000120040200000)
+[20.682s][debug][gc,heap        ] GC(2)   to   space 2048K,   0% used [0x0000120040200000, 0x0000120040200000, 0x0000120040400000)
+[20.682s][debug][gc,heap        ] GC(2)  tenured generation   total 4224K, used 2099K [0x00001200801f0000, 0x0000120080610000, 0x0000120100200000)
+[20.682s][debug][gc,heap        ] GC(2)    the space 4224K,  49% used [0x00001200801f0000, 0x00001200803fcdb0, 0x0000120080610000)
+[20.682s][debug][gc,heap        ] GC(2)  Metaspace       used 390K, committed 576K, reserved 1114112K
+[20.682s][debug][gc,heap        ] GC(2)   class space    used 68K, committed 128K, reserved 1048576K
+[20.693s][debug][gc,tlab        ] GC(2) TLAB totals: thrds: 3  refills: 101 max: 50 slow allocs: 0 max 0 waste:  1.8% gc: 19584504B max: 10716264B slow: 2368B max: 1200B
+[20.699s][debug][gc,ref         ] GC(2) ReferenceProcessor::execute queues: 1, RefProcThreadModel::Single, marks_oops_alive: false
+[20.699s][debug][gc,ref         ] GC(2) Skipped KeepAliveFinalRefsPhase of Reference Processing: no references
+[20.699s][debug][gc,ref         ] GC(2) ReferenceProcessor::execute queues: 1, RefProcThreadModel::Single, marks_oops_alive: false
+[20.699s][debug][gc,phases,ref  ] GC(2) Reference Processing: 0.2ms
+[20.699s][debug][gc,phases,ref  ] GC(2)   Notify Soft/WeakReferences: 0.1ms
+[20.699s][debug][gc,phases,ref  ] GC(2)     SoftRef: 0.0ms
+[20.699s][debug][gc,phases,ref  ] GC(2)     WeakRef: 0.0ms
+[20.699s][debug][gc,phases,ref  ] GC(2)     FinalRef: 0.0ms
+[20.699s][debug][gc,phases,ref  ] GC(2)     Total: 0.0ms
+[20.699s][debug][gc,phases,ref  ] GC(2)   Notify and keep alive finalizable: 0.0ms
+[20.699s][debug][gc,phases,ref  ] GC(2)     FinalRef: skipped
+[20.699s][debug][gc,phases,ref  ] GC(2)   Notify PhantomReferences: 0.0ms
+[20.699s][debug][gc,phases,ref  ] GC(2)     PhantomRef: 0.0ms
+[20.699s][debug][gc,phases,ref  ] GC(2)   SoftReference Discovered: 0, Dropped: 0, Processed: 0
+[20.699s][debug][gc,phases,ref  ] GC(2)   WeakReference Discovered: 28, Dropped: 18, Processed: 10
+[20.699s][debug][gc,phases,ref  ] GC(2)   FinalReference Discovered: 0, Dropped: 0, Processed: 0
+[20.699s][debug][gc,phases,ref  ] GC(2)   PhantomReference Discovered: 1, Dropped: 0, Processed: 1
+[20.947s][debug][gc,age         ] GC(2) Desired survivor size 1048576 bytes, new threshold 15 (max threshold 15)
+[20.947s][info ][gc,heap        ] GC(2) DefNew: 1046528K(1048576K)->26K(1048576K) Eden: 1046528K(1046528K)->0K(1046528K) From: 0K(2048K)->26K(2048K)
+[20.947s][info ][gc,heap        ] GC(2) Tenured: 2099K(4224K)->2099K(4224K)
+[20.947s][info ][gc,metaspace   ] GC(2) Metaspace: 390K(576K)->390K(576K) NonClass: 321K(448K)->321K(448K) Class: 68K(128K)->68K(128K)
+[20.947s][debug][gc,heap        ] GC(2) Heap after GC invocations=3 (full 2):
+[20.947s][debug][gc,heap        ] GC(2)  def new generation   total 1048576K, used 26K [0x0000120000200000, 0x0000120040400000, 0x00001200801f0000)
+[20.947s][debug][gc,heap        ] GC(2)   eden space 1046528K,   0% used [0x0000120000200000, 0x0000120000200000, 0x0000120040000000)
+[20.947s][debug][gc,heap        ] GC(2)   from space 2048K,   1% used [0x0000120040200000, 0x00001200402068b0, 0x0000120040400000)
+[20.947s][debug][gc,heap        ] GC(2)   to   space 2048K,   0% used [0x0000120040000000, 0x0000120040000000, 0x0000120040200000)
+[20.947s][debug][gc,heap        ] GC(2)  tenured generation   total 4224K, used 2099K [0x00001200801f0000, 0x0000120080610000, 0x0000120100200000)
+[20.947s][debug][gc,heap        ] GC(2)    the space 4224K,  49% used [0x00001200801f0000, 0x00001200803fcdb0, 0x0000120080610000)
+[20.947s][debug][gc,heap        ] GC(2)  Metaspace       used 390K, committed 576K, reserved 1114112K
+[20.947s][debug][gc,heap        ] GC(2)   class space    used 68K, committed 128K, reserved 1048576K
+[20.947s][info ][gc             ] GC(2) Pause Young (Allocation Failure) 1024M->2M(1028M) 264.637ms
+[20.947s][info ][gc,cpu         ] GC(2) User=0.27s Sys=0.00s Real=0.26s
+[20.947s][info ][safepoint      ] Safepoint "SerialCollectForAllocation", Time since last: 19109967274 ns, Reaching safepoint: 38663 ns, At safepoint: 264693508 ns, Total: 264732171 ns
+[40.268s][info ][gc,start       ] GC(3) Pause Young (Allocation Failure)
+[40.268s][debug][gc,heap        ] GC(3) Heap before GC invocations=3 (full 2):
+[40.268s][debug][gc,heap        ] GC(3)  def new generation   total 1048576K, used 1046554K [0x0000120000200000, 0x0000120040400000, 0x00001200801f0000)
+[40.268s][debug][gc,heap        ] GC(3)   eden space 1046528K, 100% used [0x0000120000200000, 0x0000120040000000, 0x0000120040000000)
+[40.268s][debug][gc,heap        ] GC(3)   from space 2048K,   1% used [0x0000120040200000, 0x00001200402068b0, 0x0000120040400000)
+[40.268s][debug][gc,heap        ] GC(3)   to   space 2048K,   0% used [0x0000120040000000, 0x0000120040000000, 0x0000120040200000)
+[40.268s][debug][gc,heap        ] GC(3)  tenured generation   total 4224K, used 2099K [0x00001200801f0000, 0x0000120080610000, 0x0000120100200000)
+[40.269s][debug][gc,heap        ] GC(3)    the space 4224K,  49% used [0x00001200801f0000, 0x00001200803fcdb0, 0x0000120080610000)
+[40.269s][debug][gc,heap        ] GC(3)  Metaspace       used 390K, committed 576K, reserved 1114112K
+[40.269s][debug][gc,heap        ] GC(3)   class space    used 68K, committed 128K, reserved 1048576K
+[40.271s][debug][gc,tlab        ] GC(3) TLAB totals: thrds: 3  refills: 102 max: 51 slow allocs: 0 max 0 waste:  0.7% gc: 7144280B max: 6965568B slow: 2432B max: 1256B
+[40.274s][debug][gc,ref         ] GC(3) ReferenceProcessor::execute queues: 1, RefProcThreadModel::Single, marks_oops_alive: false
+[40.274s][debug][gc,ref         ] GC(3) Skipped KeepAliveFinalRefsPhase of Reference Processing: no references
+[40.274s][debug][gc,ref         ] GC(3) Skipped PhantomRefsPhase of Reference Processing: no references
+[40.274s][debug][gc,phases,ref  ] GC(3) Reference Processing: 0.1ms
+[40.274s][debug][gc,phases,ref  ] GC(3)   Notify Soft/WeakReferences: 0.1ms
+[40.274s][debug][gc,phases,ref  ] GC(3)     SoftRef: 0.0ms
+[40.274s][debug][gc,phases,ref  ] GC(3)     WeakRef: 0.0ms
+[40.274s][debug][gc,phases,ref  ] GC(3)     FinalRef: 0.0ms
+[40.274s][debug][gc,phases,ref  ] GC(3)     Total: 0.0ms
+[40.274s][debug][gc,phases,ref  ] GC(3)   Notify and keep alive finalizable: 0.0ms
+[40.274s][debug][gc,phases,ref  ] GC(3)     FinalRef: skipped
+[40.274s][debug][gc,phases,ref  ] GC(3)   Notify PhantomReferences: 0.0ms
+[40.274s][debug][gc,phases,ref  ] GC(3)     PhantomRef: skipped
+[40.274s][debug][gc,phases,ref  ] GC(3)   SoftReference Discovered: 0, Dropped: 0, Processed: 0
+[40.274s][debug][gc,phases,ref  ] GC(3)   WeakReference Discovered: 18, Dropped: 18, Processed: 0
+[40.274s][debug][gc,phases,ref  ] GC(3)   FinalReference Discovered: 0, Dropped: 0, Processed: 0
+[40.274s][debug][gc,phases,ref  ] GC(3)   PhantomReference Discovered: 0, Dropped: 0, Processed: 0
+[40.522s][debug][gc,age         ] GC(3) Desired survivor size 1048576 bytes, new threshold 15 (max threshold 15)
+[40.522s][debug][gc,ergo        ] GC(3) Adaptive Heap Sizing: Computing GC overhead from 39.740s window with pause time=0.330000s
+[40.522s][info ][gc,ergo        ] GC(3) Adaptive Heap Sizing: GC Overhead: 0. User=0.250000s Sys=0.000000s Real=0.250000s, Time since last GC=19.570000s
+[40.522s][info ][gc,heap        ] GC(3) DefNew: 1046554K(1048576K)->26K(1048576K) Eden: 1046528K(1046528K)->0K(1046528K) From: 26K(2048K)->26K(2048K)
+[40.522s][info ][gc,heap        ] GC(3) Tenured: 2099K(4224K)->2099K(4224K)
+[40.522s][info ][gc,metaspace   ] GC(3) Metaspace: 390K(576K)->390K(576K) NonClass: 321K(448K)->321K(448K) Class: 68K(128K)->68K(128K)
+[40.522s][debug][gc,heap        ] GC(3) Heap after GC invocations=4 (full 2):
+[40.522s][debug][gc,heap        ] GC(3)  def new generation   total 1048576K, used 26K [0x0000120000200000, 0x0000120040400000, 0x00001200801f0000)
+[40.522s][debug][gc,heap        ] GC(3)   eden space 1046528K,   0% used [0x0000120000200000, 0x0000120000200000, 0x0000120040000000)
+[40.522s][debug][gc,heap        ] GC(3)   from space 2048K,   1% used [0x0000120040000000, 0x0000120040006850, 0x0000120040200000)
+[40.522s][debug][gc,heap        ] GC(3)   to   space 2048K,   0% used [0x0000120040200000, 0x0000120040200000, 0x0000120040400000)
+[40.522s][debug][gc,heap        ] GC(3)  tenured generation   total 4224K, used 2099K [0x00001200801f0000, 0x0000120080610000, 0x0000120100200000)
+[40.522s][debug][gc,heap        ] GC(3)    the space 4224K,  49% used [0x00001200801f0000, 0x00001200803fcdb0, 0x0000120080610000)
+[40.522s][debug][gc,heap        ] GC(3)  Metaspace       used 390K, committed 576K, reserved 1114112K
+[40.522s][debug][gc,heap        ] GC(3)   class space    used 68K, committed 128K, reserved 1048576K
+[40.522s][info ][gc             ] GC(3) Pause Young (Allocation Failure) 1024M->2M(1028M) 253.541ms
+[40.522s][info ][gc,cpu         ] GC(3) User=0.25s Sys=0.00s Real=0.25s
+[40.522s][info ][safepoint      ] Safepoint "SerialCollectForAllocation", Time since last: 19321546329 ns, Reaching safepoint: 61625 ns, At safepoint: 253595398 ns, Total: 253657023 ns
+[59.818s][info ][gc,start       ] GC(4) Pause Young (Allocation Failure)
+[59.818s][debug][gc,heap        ] GC(4) Heap before GC invocations=4 (full 2):
+[59.818s][debug][gc,heap        ] GC(4)  def new generation   total 1048576K, used 1046554K [0x0000120000200000, 0x0000120040400000, 0x00001200801f0000)
+[59.818s][debug][gc,heap        ] GC(4)   eden space 1046528K, 100% used [0x0000120000200000, 0x0000120040000000, 0x0000120040000000)
+[59.818s][debug][gc,heap        ] GC(4)   from space 2048K,   1% used [0x0000120040000000, 0x0000120040006850, 0x0000120040200000)
+[59.818s][debug][gc,heap        ] GC(4)   to   space 2048K,   0% used [0x0000120040200000, 0x0000120040200000, 0x0000120040400000)
+[59.818s][debug][gc,heap        ] GC(4)  tenured generation   total 4224K, used 2099K [0x00001200801f0000, 0x0000120080610000, 0x0000120100200000)
+[59.818s][debug][gc,heap        ] GC(4)    the space 4224K,  49% used [0x00001200801f0000, 0x00001200803fcdb0, 0x0000120080610000)
+[59.818s][debug][gc,heap        ] GC(4)  Metaspace       used 390K, committed 576K, reserved 1114112K
+[59.818s][debug][gc,heap        ] GC(4)   class space    used 68K, committed 128K, reserved 1048576K
+[59.823s][debug][gc,tlab        ] GC(4) TLAB totals: thrds: 2  refills: 101 max: 51 slow allocs: 0 max 0 waste:  0.7% gc: 7857672B max: 7857672B slow: 2568B max: 1376B
+[59.826s][debug][gc,ref         ] GC(4) ReferenceProcessor::execute queues: 1, RefProcThreadModel::Single, marks_oops_alive: false
+[59.826s][debug][gc,ref         ] GC(4) Skipped KeepAliveFinalRefsPhase of Reference Processing: no references
+[59.826s][debug][gc,ref         ] GC(4) Skipped PhantomRefsPhase of Reference Processing: no references
+[59.826s][debug][gc,phases,ref  ] GC(4) Reference Processing: 0.1ms
+[59.826s][debug][gc,phases,ref  ] GC(4)   Notify Soft/WeakReferences: 0.1ms
+[59.826s][debug][gc,phases,ref  ] GC(4)     SoftRef: 0.0ms
+[59.826s][debug][gc,phases,ref  ] GC(4)     WeakRef: 0.0ms
+[59.826s][debug][gc,phases,ref  ] GC(4)     FinalRef: 0.0ms
+[59.826s][debug][gc,phases,ref  ] GC(4)     Total: 0.0ms
+[59.826s][debug][gc,phases,ref  ] GC(4)   Notify and keep alive finalizable: 0.0ms
+[59.826s][debug][gc,phases,ref  ] GC(4)     FinalRef: skipped
+[59.826s][debug][gc,phases,ref  ] GC(4)   Notify PhantomReferences: 0.0ms
+[59.826s][debug][gc,phases,ref  ] GC(4)     PhantomRef: skipped
+[59.826s][debug][gc,phases,ref  ] GC(4)   SoftReference Discovered: 9, Dropped: 5, Processed: 4
+[59.826s][debug][gc,phases,ref  ] GC(4)   WeakReference Discovered: 19, Dropped: 19, Processed: 0
+[59.826s][debug][gc,phases,ref  ] GC(4)   FinalReference Discovered: 0, Dropped: 0, Processed: 0
+[59.826s][debug][gc,phases,ref  ] GC(4)   PhantomReference Discovered: 0, Dropped: 0, Processed: 0
+[60.072s][debug][gc,age         ] GC(4) Desired survivor size 1048576 bytes, new threshold 15 (max threshold 15)
+[60.072s][debug][gc,ergo        ] GC(4) Adaptive Heap Sizing: Computing GC overhead from 59.290s window with pause time=0.580000s
+[60.072s][info ][gc,ergo        ] GC(4) Adaptive Heap Sizing: GC Overhead: 0. User=0.250000s Sys=0.000000s Real=0.250000s, Time since last GC=19.550000s
+[60.072s][info ][gc,heap        ] GC(4) DefNew: 1046554K(1048576K)->24K(1048576K) Eden: 1046528K(1046528K)->0K(1046528K) From: 26K(2048K)->24K(2048K)
+[60.072s][info ][gc,heap        ] GC(4) Tenured: 2099K(4224K)->2099K(4224K)
+[60.072s][info ][gc,metaspace   ] GC(4) Metaspace: 390K(576K)->390K(576K) NonClass: 321K(448K)->321K(448K) Class: 68K(128K)->68K(128K)
+[60.072s][debug][gc,heap        ] GC(4) Heap after GC invocations=5 (full 2):
+[60.072s][debug][gc,heap        ] GC(4)  def new generation   total 1048576K, used 24K [0x0000120000200000, 0x0000120040400000, 0x00001200801f0000)
+[60.072s][debug][gc,heap        ] GC(4)   eden space 1046528K,   0% used [0x0000120000200000, 0x0000120000200000, 0x0000120040000000)
+[60.072s][debug][gc,heap        ] GC(4)   from space 2048K,   1% used [0x0000120040200000, 0x0000120040206368, 0x0000120040400000)
+[60.072s][debug][gc,heap        ] GC(4)   to   space 2048K,   0% used [0x0000120040000000, 0x0000120040000000, 0x0000120040200000)
+[60.072s][debug][gc,heap        ] GC(4)  tenured generation   total 4224K, used 2099K [0x00001200801f0000, 0x0000120080610000, 0x0000120100200000)
+[60.072s][debug][gc,heap        ] GC(4)    the space 4224K,  49% used [0x00001200801f0000, 0x00001200803fcdb0, 0x0000120080610000)
+[60.072s][debug][gc,heap        ] GC(4)  Metaspace       used 390K, committed 576K, reserved 1114112K
+[60.072s][debug][gc,heap        ] GC(4)   class space    used 68K, committed 128K, reserved 1048576K
+[60.072s][info ][gc             ] GC(4) Pause Young (Allocation Failure) 1024M->2M(1028M) 254.032ms
+[60.072s][info ][gc,cpu         ] GC(4) User=0.25s Sys=0.00s Real=0.25s
+[60.072s][info ][safepoint      ] Safepoint "SerialCollectForAllocation", Time since last: 19296224358 ns, Reaching safepoint: 38494 ns, At safepoint: 254087422 ns, Total: 254125916 ns
+[79.386s][info ][gc,start       ] GC(5) Pause Young (Allocation Failure)
+[79.386s][debug][gc,heap        ] GC(5) Heap before GC invocations=5 (full 2):
+[79.386s][debug][gc,heap        ] GC(5)  def new generation   total 1048576K, used 1046552K [0x0000120000200000, 0x0000120040400000, 0x00001200801f0000)
+[79.386s][debug][gc,heap        ] GC(5)   eden space 1046528K, 100% used [0x0000120000200000, 0x0000120040000000, 0x0000120040000000)
+[79.386s][debug][gc,heap        ] GC(5)   from space 2048K,   1% used [0x0000120040200000, 0x0000120040206368, 0x0000120040400000)
+[79.386s][debug][gc,heap        ] GC(5)   to   space 2048K,   0% used [0x0000120040000000, 0x0000120040000000, 0x0000120040200000)
+[79.386s][debug][gc,heap        ] GC(5)  tenured generation   total 4224K, used 2099K [0x00001200801f0000, 0x0000120080610000, 0x0000120100200000)
+[79.386s][debug][gc,heap        ] GC(5)    the space 4224K,  49% used [0x00001200801f0000, 0x00001200803fcdb0, 0x0000120080610000)
+[79.386s][debug][gc,heap        ] GC(5)  Metaspace       used 390K, committed 576K, reserved 1114112K
+[79.386s][debug][gc,heap        ] GC(5)   class space    used 68K, committed 128K, reserved 1048576K
+[79.391s][debug][gc,tlab        ] GC(5) TLAB totals: thrds: 2  refills: 101 max: 51 slow allocs: 0 max 0 waste:  0.5% gc: 5717968B max: 5717968B slow: 2752B max: 1408B
+[79.399s][debug][gc,ref         ] GC(5) ReferenceProcessor::execute queues: 1, RefProcThreadModel::Single, marks_oops_alive: false
+[79.400s][debug][gc,ref         ] GC(5) Skipped KeepAliveFinalRefsPhase of Reference Processing: no references
+[79.400s][debug][gc,ref         ] GC(5) Skipped PhantomRefsPhase of Reference Processing: no references
+[79.400s][debug][gc,phases,ref  ] GC(5) Reference Processing: 0.4ms
+[79.400s][debug][gc,phases,ref  ] GC(5)   Notify Soft/WeakReferences: 0.3ms
+[79.400s][debug][gc,phases,ref  ] GC(5)     SoftRef: 0.0ms
+[79.400s][debug][gc,phases,ref  ] GC(5)     WeakRef: 0.1ms
+[79.400s][debug][gc,phases,ref  ] GC(5)     FinalRef: 0.0ms
+[79.400s][debug][gc,phases,ref  ] GC(5)     Total: 0.1ms
+[79.400s][debug][gc,phases,ref  ] GC(5)   Notify and keep alive finalizable: 0.0ms
+[79.400s][debug][gc,phases,ref  ] GC(5)     FinalRef: skipped
+[79.400s][debug][gc,phases,ref  ] GC(5)   Notify PhantomReferences: 0.0ms
+[79.400s][debug][gc,phases,ref  ] GC(5)     PhantomRef: skipped
+[79.400s][debug][gc,phases,ref  ] GC(5)   SoftReference Discovered: 5, Dropped: 5, Processed: 0
+[79.400s][debug][gc,phases,ref  ] GC(5)   WeakReference Discovered: 19, Dropped: 19, Processed: 0
+[79.400s][debug][gc,phases,ref  ] GC(5)   FinalReference Discovered: 0, Dropped: 0, Processed: 0
+[79.400s][debug][gc,phases,ref  ] GC(5)   PhantomReference Discovered: 0, Dropped: 0, Processed: 0
+[79.669s][debug][gc,age         ] GC(5) Desired survivor size 1048576 bytes, new threshold 15 (max threshold 15)
+[79.669s][debug][gc,ergo        ] GC(5) Adaptive Heap Sizing: Computing GC overhead from 78.890s window with pause time=0.860000s
+[79.669s][info ][gc,ergo        ] GC(5) Adaptive Heap Sizing: GC Overhead: 1. User=0.280000s Sys=0.000000s Real=0.280000s, Time since last GC=19.600000s
+[79.669s][info ][gc,heap        ] GC(5) DefNew: 1046552K(1048576K)->24K(1048576K) Eden: 1046528K(1046528K)->0K(1046528K) From: 24K(2048K)->24K(2048K)
+[79.669s][info ][gc,heap        ] GC(5) Tenured: 2099K(4224K)->2099K(4224K)
+[79.669s][info ][gc,metaspace   ] GC(5) Metaspace: 390K(576K)->390K(576K) NonClass: 321K(448K)->321K(448K) Class: 68K(128K)->68K(128K)
+[79.669s][debug][gc,heap        ] GC(5) Heap after GC invocations=6 (full 2):
+[79.669s][debug][gc,heap        ] GC(5)  def new generation   total 1048576K, used 24K [0x0000120000200000, 0x0000120040400000, 0x00001200801f0000)
+[79.669s][debug][gc,heap        ] GC(5)   eden space 1046528K,   0% used [0x0000120000200000, 0x0000120000200000, 0x0000120040000000)
+[79.669s][debug][gc,heap        ] GC(5)   from space 2048K,   1% used [0x0000120040000000, 0x00001200400063e8, 0x0000120040200000)
+[79.669s][debug][gc,heap        ] GC(5)   to   space 2048K,   0% used [0x0000120040200000, 0x0000120040200000, 0x0000120040400000)
+[79.669s][debug][gc,heap        ] GC(5)  tenured generation   total 4224K, used 2099K [0x00001200801f0000, 0x0000120080610000, 0x0000120100200000)
+[79.669s][debug][gc,heap        ] GC(5)    the space 4224K,  49% used [0x00001200801f0000, 0x00001200803fcdb0, 0x0000120080610000)
+[79.669s][debug][gc,heap        ] GC(5)  Metaspace       used 390K, committed 576K, reserved 1114112K
+[79.669s][debug][gc,heap        ] GC(5)   class space    used 68K, committed 128K, reserved 1048576K
+[79.669s][info ][gc             ] GC(5) Pause Young (Allocation Failure) 1024M->2M(1028M) 283.407ms
+[79.669s][info ][gc,cpu         ] GC(5) User=0.28s Sys=0.00s Real=0.28s
+[79.669s][info ][safepoint      ] Safepoint "SerialCollectForAllocation", Time since last: 19313453437 ns, Reaching safepoint: 61743 ns, At safepoint: 283461754 ns, Total: 283523497 ns
+[98.993s][info ][gc,start       ] GC(6) Pause Young (Allocation Failure)
+[98.993s][debug][gc,heap        ] GC(6) Heap before GC invocations=6 (full 2):
+[98.993s][debug][gc,heap        ] GC(6)  def new generation   total 1048576K, used 1046552K [0x0000120000200000, 0x0000120040400000, 0x00001200801f0000)
+[98.993s][debug][gc,heap        ] GC(6)   eden space 1046528K, 100% used [0x0000120000200000, 0x0000120040000000, 0x0000120040000000)
+[98.993s][debug][gc,heap        ] GC(6)   from space 2048K,   1% used [0x0000120040000000, 0x00001200400063e8, 0x0000120040200000)
+[98.993s][debug][gc,heap        ] GC(6)   to   space 2048K,   0% used [0x0000120040200000, 0x0000120040200000, 0x0000120040400000)
+[98.993s][debug][gc,heap        ] GC(6)  tenured generation   total 4224K, used 2099K [0x00001200801f0000, 0x0000120080610000, 0x0000120100200000)
+[98.993s][debug][gc,heap        ] GC(6)    the space 4224K,  49% used [0x00001200801f0000, 0x00001200803fcdb0, 0x0000120080610000)
+[98.993s][debug][gc,heap        ] GC(6)  Metaspace       used 390K, committed 576K, reserved 1114112K
+[98.993s][debug][gc,heap        ] GC(6)   class space    used 68K, committed 128K, reserved 1048576K
+[98.995s][debug][gc,tlab        ] GC(6) TLAB totals: thrds: 3  refills: 102 max: 51 slow allocs: 0 max 0 waste:  0.5% gc: 5152552B max: 4527616B slow: 2720B max: 1368B
+[98.997s][debug][gc,ref         ] GC(6) ReferenceProcessor::execute queues: 1, RefProcThreadModel::Single, marks_oops_alive: false
+[98.998s][debug][gc,ref         ] GC(6) Skipped KeepAliveFinalRefsPhase of Reference Processing: no references
+[98.998s][debug][gc,ref         ] GC(6) Skipped PhantomRefsPhase of Reference Processing: no references
+[98.998s][debug][gc,phases,ref  ] GC(6) Reference Processing: 0.1ms
+[98.998s][debug][gc,phases,ref  ] GC(6)   Notify Soft/WeakReferences: 0.1ms
+[98.998s][debug][gc,phases,ref  ] GC(6)     SoftRef: 0.0ms
+[98.998s][debug][gc,phases,ref  ] GC(6)     WeakRef: 0.0ms
+[98.998s][debug][gc,phases,ref  ] GC(6)     FinalRef: 0.0ms
+[98.998s][debug][gc,phases,ref  ] GC(6)     Total: 0.0ms
+[98.998s][debug][gc,phases,ref  ] GC(6)   Notify and keep alive finalizable: 0.0ms
+[98.998s][debug][gc,phases,ref  ] GC(6)     FinalRef: skipped
+[98.998s][debug][gc,phases,ref  ] GC(6)   Notify PhantomReferences: 0.0ms
+[98.998s][debug][gc,phases,ref  ] GC(6)     PhantomRef: skipped
+[98.998s][debug][gc,phases,ref  ] GC(6)   SoftReference Discovered: 5, Dropped: 5, Processed: 0
+[98.998s][debug][gc,phases,ref  ] GC(6)   WeakReference Discovered: 19, Dropped: 19, Processed: 0
+[98.998s][debug][gc,phases,ref  ] GC(6)   FinalReference Discovered: 0, Dropped: 0, Processed: 0
+[98.998s][debug][gc,phases,ref  ] GC(6)   PhantomReference Discovered: 0, Dropped: 0, Processed: 0
+[99.244s][debug][gc,age         ] GC(6) Desired survivor size 1048576 bytes, new threshold 15 (max threshold 15)
+[99.244s][debug][gc,ergo        ] GC(6) Adaptive Heap Sizing: Computing GC overhead from 98.470s window with pause time=1.120000s
+[99.244s][info ][gc,ergo        ] GC(6) Adaptive Heap Sizing: GC Overhead: 1. User=0.250000s Sys=0.000000s Real=0.260000s, Time since last GC=19.580000s
+[99.244s][info ][gc,heap        ] GC(6) DefNew: 1046552K(1048576K)->24K(1048576K) Eden: 1046528K(1046528K)->0K(1046528K) From: 24K(2048K)->24K(2048K)
+[99.244s][info ][gc,heap        ] GC(6) Tenured: 2099K(4224K)->2099K(4224K)
+[99.244s][info ][gc,metaspace   ] GC(6) Metaspace: 390K(576K)->390K(576K) NonClass: 321K(448K)->321K(448K) Class: 68K(128K)->68K(128K)
+[99.244s][debug][gc,heap        ] GC(6) Heap after GC invocations=7 (full 2):
+[99.244s][debug][gc,heap        ] GC(6)  def new generation   total 1048576K, used 24K [0x0000120000200000, 0x0000120040400000, 0x00001200801f0000)
+[99.244s][debug][gc,heap        ] GC(6)   eden space 1046528K,   0% used [0x0000120000200000, 0x0000120000200000, 0x0000120040000000)
+[99.244s][debug][gc,heap        ] GC(6)   from space 2048K,   1% used [0x0000120040200000, 0x0000120040206368, 0x0000120040400000)
+[99.244s][debug][gc,heap        ] GC(6)   to   space 2048K,   0% used [0x0000120040000000, 0x0000120040000000, 0x0000120040200000)
+[99.244s][debug][gc,heap        ] GC(6)  tenured generation   total 4224K, used 2099K [0x00001200801f0000, 0x0000120080610000, 0x0000120100200000)
+[99.245s][debug][gc,heap        ] GC(6)    the space 4224K,  49% used [0x00001200801f0000, 0x00001200803fcdb0, 0x0000120080610000)
+[99.245s][debug][gc,heap        ] GC(6)  Metaspace       used 390K, committed 576K, reserved 1114112K
+[99.245s][debug][gc,heap        ] GC(6)   class space    used 68K, committed 128K, reserved 1048576K
+[99.245s][info ][gc             ] GC(6) Pause Young (Allocation Failure) 1024M->2M(1028M) 251.994ms
+[99.245s][info ][gc,cpu         ] GC(6) User=0.25s Sys=0.00s Real=0.26s
+[99.245s][info ][safepoint      ] Safepoint "SerialCollectForAllocation", Time since last: 19323258549 ns, Reaching safepoint: 39993 ns, At safepoint: 252049654 ns, Total: 252089647 ns
+[118.577s][info ][gc,start       ] GC(7) Pause Young (Allocation Failure)
+[118.579s][debug][gc,heap        ] GC(7) Heap before GC invocations=7 (full 2):
+[118.579s][debug][gc,heap        ] GC(7)  def new generation   total 1048576K, used 1046552K [0x0000120000200000, 0x0000120040400000, 0x00001200801f0000)
+[118.579s][debug][gc,heap        ] GC(7)   eden space 1046528K, 100% used [0x0000120000200000, 0x0000120040000000, 0x0000120040000000)
+[118.579s][debug][gc,heap        ] GC(7)   from space 2048K,   1% used [0x0000120040200000, 0x0000120040206368, 0x0000120040400000)
+[118.579s][debug][gc,heap        ] GC(7)   to   space 2048K,   0% used [0x0000120040000000, 0x0000120040000000, 0x0000120040200000)
+[118.579s][debug][gc,heap        ] GC(7)  tenured generation   total 4224K, used 2099K [0x00001200801f0000, 0x0000120080610000, 0x0000120100200000)
+[118.579s][debug][gc,heap        ] GC(7)    the space 4224K,  49% used [0x00001200801f0000, 0x00001200803fcdb0, 0x0000120080610000)
+[118.579s][debug][gc,heap        ] GC(7)  Metaspace       used 390K, committed 576K, reserved 1114112K
+[118.579s][debug][gc,heap        ] GC(7)   class space    used 68K, committed 128K, reserved 1048576K
+[118.582s][debug][gc,tlab        ] GC(7) TLAB totals: thrds: 2  refills: 101 max: 51 slow allocs: 0 max 0 waste:  0.4% gc: 4800560B max: 4800560B slow: 2800B max: 1400B
+[118.585s][debug][gc,ref         ] GC(7) ReferenceProcessor::execute queues: 1, RefProcThreadModel::Single, marks_oops_alive: false
+[118.585s][debug][gc,ref         ] GC(7) Skipped KeepAliveFinalRefsPhase of Reference Processing: no references
+[118.585s][debug][gc,ref         ] GC(7) Skipped PhantomRefsPhase of Reference Processing: no references
+[118.585s][debug][gc,phases,ref  ] GC(7) Reference Processing: 0.1ms
+[118.585s][debug][gc,phases,ref  ] GC(7)   Notify Soft/WeakReferences: 0.1ms
+[118.585s][debug][gc,phases,ref  ] GC(7)     SoftRef: 0.0ms
+[118.585s][debug][gc,phases,ref  ] GC(7)     WeakRef: 0.0ms
+[118.585s][debug][gc,phases,ref  ] GC(7)     FinalRef: 0.0ms
+[118.585s][debug][gc,phases,ref  ] GC(7)     Total: 0.0ms
+[118.585s][debug][gc,phases,ref  ] GC(7)   Notify and keep alive finalizable: 0.0ms
+[118.585s][debug][gc,phases,ref  ] GC(7)     FinalRef: skipped
+[118.585s][debug][gc,phases,ref  ] GC(7)   Notify PhantomReferences: 0.0ms
+[118.585s][debug][gc,phases,ref  ] GC(7)     PhantomRef: skipped
+[118.585s][debug][gc,phases,ref  ] GC(7)   SoftReference Discovered: 5, Dropped: 5, Processed: 0
+[118.585s][debug][gc,phases,ref  ] GC(7)   WeakReference Discovered: 19, Dropped: 19, Processed: 0
+[118.585s][debug][gc,phases,ref  ] GC(7)   FinalReference Discovered: 0, Dropped: 0, Processed: 0
+[118.585s][debug][gc,phases,ref  ] GC(7)   PhantomReference Discovered: 0, Dropped: 0, Processed: 0
+[118.832s][debug][gc,age         ] GC(7) Desired survivor size 1048576 bytes, new threshold 15 (max threshold 15)
+[118.832s][debug][gc,ergo        ] GC(7) Adaptive Heap Sizing: Computing GC overhead from 118.050s window with pause time=1.370000s
+[118.832s][info ][gc,ergo        ] GC(7) Adaptive Heap Sizing: GC Overhead: 1. User=0.250000s Sys=0.000000s Real=0.250000s, Time since last GC=19.580000s
+[118.832s][info ][gc,heap        ] GC(7) DefNew: 1046552K(1048576K)->24K(1048576K) Eden: 1046528K(1046528K)->0K(1046528K) From: 24K(2048K)->24K(2048K)
+[118.832s][info ][gc,heap        ] GC(7) Tenured: 2099K(4224K)->2099K(4224K)
+[118.832s][info ][gc,metaspace   ] GC(7) Metaspace: 390K(576K)->390K(576K) NonClass: 321K(448K)->321K(448K) Class: 68K(128K)->68K(128K)
+[118.832s][debug][gc,heap        ] GC(7) Heap after GC invocations=8 (full 2):
+[118.832s][debug][gc,heap        ] GC(7)  def new generation   total 1048576K, used 24K [0x0000120000200000, 0x0000120040400000, 0x00001200801f0000)
+[118.832s][debug][gc,heap        ] GC(7)   eden space 1046528K,   0% used [0x0000120000200000, 0x0000120000200000, 0x0000120040000000)
+[118.832s][debug][gc,heap        ] GC(7)   from space 2048K,   1% used [0x0000120040000000, 0x00001200400063a8, 0x0000120040200000)
+[118.832s][debug][gc,heap        ] GC(7)   to   space 2048K,   0% used [0x0000120040200000, 0x0000120040200000, 0x0000120040400000)
+[118.832s][debug][gc,heap        ] GC(7)  tenured generation   total 4224K, used 2099K [0x00001200801f0000, 0x0000120080610000, 0x0000120100200000)
+[118.832s][debug][gc,heap        ] GC(7)    the space 4224K,  49% used [0x00001200801f0000, 0x00001200803fcdb0, 0x0000120080610000)
+[118.832s][debug][gc,heap        ] GC(7)  Metaspace       used 390K, committed 576K, reserved 1114112K
+[118.832s][debug][gc,heap        ] GC(7)   class space    used 68K, committed 128K, reserved 1048576K
+[118.832s][info ][gc             ] GC(7) Pause Young (Allocation Failure) 1024M->2M(1028M) 254.701ms
+[118.832s][info ][gc,cpu         ] GC(7) User=0.25s Sys=0.00s Real=0.25s
+[118.832s][info ][safepoint      ] Safepoint "SerialCollectForAllocation", Time since last: 19332673228 ns, Reaching safepoint: 67585 ns, At safepoint: 254754961 ns, Total: 254822546 ns
+[124.762s][info ][gc,start       ] GC(8) Pause Full (System.gc())
+[124.762s][debug][gc,heap        ] GC(8) Heap before GC invocations=8 (full 2):
+[124.762s][debug][gc,heap        ] GC(8)  def new generation   total 1048576K, used 333273K [0x0000120000200000, 0x0000120040400000, 0x00001200801f0000)
+[124.762s][debug][gc,heap        ] GC(8)   eden space 1046528K,  31% used [0x0000120000200000, 0x0000120014770420, 0x0000120040000000)
+[124.762s][debug][gc,heap        ] GC(8)   from space 2048K,   1% used [0x0000120040000000, 0x00001200400063a8, 0x0000120040200000)
+[124.762s][debug][gc,heap        ] GC(8)   to   space 2048K,   0% used [0x0000120040200000, 0x0000120040200000, 0x0000120040400000)
+[124.762s][debug][gc,heap        ] GC(8)  tenured generation   total 4224K, used 2099K [0x00001200801f0000, 0x0000120080610000, 0x0000120100200000)
+[124.762s][debug][gc,heap        ] GC(8)    the space 4224K,  49% used [0x00001200801f0000, 0x00001200803fcdb0, 0x0000120080610000)
+[124.763s][debug][gc,heap        ] GC(8)  Metaspace       used 390K, committed 576K, reserved 1114112K
+[124.763s][debug][gc,heap        ] GC(8)   class space    used 68K, committed 128K, reserved 1048576K
+[124.769s][debug][gc,tlab        ] GC(8) TLAB totals: thrds: 2  refills: 32 max: 16 slow allocs: 0 max 0 waste:  4.5% gc: 15263560B max: 7892272B slow: 808B max: 408B
+[124.769s][info ][gc,phases,start] GC(8) Phase 1: Mark live objects
+[124.804s][debug][gc,phases,start] GC(8) Reference Processing
+[124.804s][debug][gc,ref         ] GC(8) ReferenceProcessor::execute queues: 1, RefProcThreadModel::Single, marks_oops_alive: false
+[124.804s][debug][gc,ref         ] GC(8) Skipped KeepAliveFinalRefsPhase of Reference Processing: no references
+[124.804s][debug][gc,ref         ] GC(8) ReferenceProcessor::execute queues: 1, RefProcThreadModel::Single, marks_oops_alive: false
+[124.804s][debug][gc,phases,ref  ] GC(8) Reference Processing: 0.2ms
+[124.804s][debug][gc,phases,ref  ] GC(8)   Notify Soft/WeakReferences: 0.2ms
+[124.804s][debug][gc,phases,ref  ] GC(8)     SoftRef: 0.1ms
+[124.804s][debug][gc,phases,ref  ] GC(8)     WeakRef: 0.1ms
+[124.804s][debug][gc,phases,ref  ] GC(8)     FinalRef: 0.0ms
+[124.804s][debug][gc,phases,ref  ] GC(8)     Total: 0.1ms
+[124.804s][debug][gc,phases,ref  ] GC(8)   Notify and keep alive finalizable: 0.0ms
+[124.804s][debug][gc,phases,ref  ] GC(8)     FinalRef: skipped
+[124.804s][debug][gc,phases,ref  ] GC(8)   Notify PhantomReferences: 0.0ms
+[124.804s][debug][gc,phases,ref  ] GC(8)     PhantomRef: 0.0ms
+[124.804s][debug][gc,phases,ref  ] GC(8)   SoftReference Discovered: 63, Dropped: 28, Processed: 35
+[124.804s][debug][gc,phases,ref  ] GC(8)   WeakReference Discovered: 40, Dropped: 33, Processed: 7
+[124.804s][debug][gc,phases,ref  ] GC(8)   FinalReference Discovered: 0, Dropped: 0, Processed: 0
+[124.804s][debug][gc,phases,ref  ] GC(8)   PhantomReference Discovered: 4, Dropped: 4, Processed: 0
+[124.804s][debug][gc,phases      ] GC(8) Reference Processing 0.308ms
+[124.804s][debug][gc,phases,start] GC(8) Weak Processing
+[124.805s][debug][gc,phases      ] GC(8) Weak Processing 0.080ms
+[124.805s][debug][gc,phases,start] GC(8) Class Unloading
+[124.805s][debug][gc,phases,start] GC(8) ClassLoaderData
+[124.805s][debug][gc,phases      ] GC(8) ClassLoaderData 0.270ms
+[124.805s][debug][gc,phases,start] GC(8) Trigger cleanups
+[124.805s][debug][gc,phases      ] GC(8) Trigger cleanups 0.010ms
+[124.805s][debug][gc,phases,start] GC(8) Purge Unlinked NMethods
+[124.805s][debug][gc,phases      ] GC(8) Purge Unlinked NMethods 0.005ms
+[124.805s][debug][gc,phases,start] GC(8) Unregister NMethods
+[124.805s][debug][gc,phases      ] GC(8) Unregister NMethods 0.118ms
+[124.805s][debug][gc,phases,start] GC(8) Free Code Blobs
+[124.805s][debug][gc,phases      ] GC(8) Free Code Blobs 0.004ms
+[124.806s][debug][gc,phases      ] GC(8) Class Unloading 1.807ms
+[124.806s][debug][gc,phases,start] GC(8) Report Object Count
+[124.806s][debug][gc,phases      ] GC(8) Report Object Count 0.004ms
+[124.806s][info ][gc,phases      ] GC(8) Phase 1: Mark live objects 37.575ms
+[124.806s][info ][gc,phases,start] GC(8) Phase 2: Compute new object addresses
+[126.188s][info ][gc,phases      ] GC(8) Phase 2: Compute new object addresses 1381.796ms
+[126.188s][info ][gc,phases,start] GC(8) Phase 3: Adjust pointers
+[126.223s][info ][gc,phases      ] GC(8) Phase 3: Adjust pointers 34.940ms
+[126.223s][info ][gc,phases,start] GC(8) Phase 4: Move objects
+[126.302s][info ][gc,phases      ] GC(8) Phase 4: Move objects 78.612ms
+[126.302s][debug][gc,ergo        ] GC(8) Adaptive Heap Sizing: Computing GC overhead from 125.530s window with pause time=2.910000s
+[126.302s][info ][gc,ergo        ] GC(8) Adaptive Heap Sizing: GC Overhead: 2. User=1.540000s Sys=0.000000s Real=1.540000s, Time since last GC=125.450000s
+[126.302s][info ][gc,ergo,heap   ] GC(8) Adaptive Heap Sizing: Target sizes: eden: 942080K. survivor: 2048K. tenured: 4234K. max eden size: 2088821K.
+[126.302s][info ][gc,ergo,heap   ] GC(8) Adaptive Heap Sizing: Target sizes adjusted for available memory: eden: 942080K. survivor: 2048K. tenured: 4288K. max eden size: 2088768K. available memory: 1014136K.
+[126.302s][debug][gc,ergo,heap   ] GC(8) Adaptive Heap Sizing: Shrinking young gen by 106954752 bytes (desired new size is 968884224).
+[126.529s][debug][gc,ergo,heap   ] GC(8) Adaptive Heap Sizing: New generation size 1050624K->946176K [eden=942080K,survivor=2048K]
+[126.529s][debug][gc,heap,ergo   ] Adaptive Heap Sizing:     expanding tenured:  target_size: 4288.0K  expand_bytes:   64.0K (success = 1)
+[126.529s][info ][gc,heap        ] GC(8) DefNew: 333273K(1048576K)->0K(944128K) Eden: 333249K(1046528K)->0K(942080K) From: 24K(2048K)->0K(2048K)
+[126.529s][info ][gc,heap        ] GC(8) Tenured: 2099K(4224K)->2117K(4288K)
+[126.529s][info ][gc,metaspace   ] GC(8) Metaspace: 390K(576K)->353K(576K) NonClass: 321K(448K)->295K(448K) Class: 68K(128K)->58K(128K)
+[126.529s][debug][gc,heap        ] GC(8) Heap after GC invocations=9 (full 3):
+[126.529s][debug][gc,heap        ] GC(8)  def new generation   total 944128K, used 0K [0x0000120000200000, 0x0000120039e00000, 0x00001200801f0000)
+[126.529s][debug][gc,heap        ] GC(8)   eden space 942080K,   0% used [0x0000120000200000, 0x0000120000200000, 0x0000120039a00000)
+[126.529s][debug][gc,heap        ] GC(8)   from space 2048K,   0% used [0x0000120039a00000, 0x0000120039a00000, 0x0000120039c00000)
+[126.529s][debug][gc,heap        ] GC(8)   to   space 2048K,   0% used [0x0000120039c00000, 0x0000120039c00000, 0x0000120039e00000)
+[126.529s][debug][gc,heap        ] GC(8)  tenured generation   total 4288K, used 2117K [0x00001200801f0000, 0x0000120080620000, 0x0000120100200000)
+[126.529s][debug][gc,heap        ] GC(8)    the space 4288K,  49% used [0x00001200801f0000, 0x0000120080401528, 0x0000120080620000)
+[126.529s][debug][gc,heap        ] GC(8)  Metaspace       used 353K, committed 576K, reserved 1114112K
+[126.529s][debug][gc,heap        ] GC(8)   class space    used 58K, committed 128K, reserved 1048576K
+[126.530s][info ][gc             ] GC(8) Pause Full (System.gc()) 327M->2M(926M) 1767.228ms
+[126.530s][info ][gc,cpu         ] GC(8) User=1.76s Sys=0.01s Real=1.76s
+[126.530s][info ][safepoint      ] Safepoint "SerialGCCollect", Time since last: 5930169539 ns, Reaching safepoint: 38684 ns, At safepoint: 1767288309 ns, Total: 1767326993 ns
+[126.747s][info ][gc,start       ] GC(9) Pause Full (System.gc())
+[126.747s][debug][gc,heap        ] GC(9) Heap before GC invocations=9 (full 3):
+[126.747s][debug][gc,heap        ] GC(9)  def new generation   total 944128K, used 18749K [0x0000120000200000, 0x0000120039e00000, 0x00001200801f0000)
+[126.747s][debug][gc,heap        ] GC(9)   eden space 942080K,   1% used [0x0000120000200000, 0x000012000144f550, 0x0000120039a00000)
+[126.747s][debug][gc,heap        ] GC(9)   from space 2048K,   0% used [0x0000120039a00000, 0x0000120039a00000, 0x0000120039c00000)
+[126.747s][debug][gc,heap        ] GC(9)   to   space 2048K,   0% used [0x0000120039c00000, 0x0000120039c00000, 0x0000120039e00000)
+[126.747s][debug][gc,heap        ] GC(9)  tenured generation   total 4288K, used 2117K [0x00001200801f0000, 0x0000120080620000, 0x0000120100200000)
+[126.747s][debug][gc,heap        ] GC(9)    the space 4288K,  49% used [0x00001200801f0000, 0x0000120080401528, 0x0000120080620000)
+[126.747s][debug][gc,heap        ] GC(9)  Metaspace       used 353K, committed 576K, reserved 1114112K
+[126.747s][debug][gc,heap        ] GC(9)   class space    used 58K, committed 128K, reserved 1048576K
+[126.751s][debug][gc,tlab        ] GC(9) TLAB totals: thrds: 2  refills: 2 max: 1 slow allocs: 0 max 0 waste: 44.3% gc: 8500968B max: 4295368B slow: 0B max: 0B
+[126.751s][info ][gc,phases,start] GC(9) Phase 1: Mark live objects
+[126.786s][debug][gc,phases,start] GC(9) Reference Processing
+[126.786s][debug][gc,ref         ] GC(9) ReferenceProcessor::execute queues: 1, RefProcThreadModel::Single, marks_oops_alive: false
+[126.786s][debug][gc,ref         ] GC(9) Skipped KeepAliveFinalRefsPhase of Reference Processing: no references
+[126.786s][debug][gc,ref         ] GC(9) ReferenceProcessor::execute queues: 1, RefProcThreadModel::Single, marks_oops_alive: false
+[126.786s][debug][gc,phases,ref  ] GC(9) Reference Processing: 0.1ms
+[126.786s][debug][gc,phases,ref  ] GC(9)   Notify Soft/WeakReferences: 0.1ms
+[126.786s][debug][gc,phases,ref  ] GC(9)     SoftRef: 0.0ms
+[126.786s][debug][gc,phases,ref  ] GC(9)     WeakRef: 0.0ms
+[126.786s][debug][gc,phases,ref  ] GC(9)     FinalRef: 0.0ms
+[126.786s][debug][gc,phases,ref  ] GC(9)     Total: 0.0ms
+[126.786s][debug][gc,phases,ref  ] GC(9)   Notify and keep alive finalizable: 0.0ms
+[126.786s][debug][gc,phases,ref  ] GC(9)     FinalRef: skipped
+[126.786s][debug][gc,phases,ref  ] GC(9)   Notify PhantomReferences: 0.0ms
+[126.786s][debug][gc,phases,ref  ] GC(9)     PhantomRef: 0.0ms
+[126.786s][debug][gc,phases,ref  ] GC(9)   SoftReference Discovered: 0, Dropped: 0, Processed: 0
+[126.786s][debug][gc,phases,ref  ] GC(9)   WeakReference Discovered: 23, Dropped: 23, Processed: 0
+[126.786s][debug][gc,phases,ref  ] GC(9)   FinalReference Discovered: 0, Dropped: 0, Processed: 0
+[126.786s][debug][gc,phases,ref  ] GC(9)   PhantomReference Discovered: 4, Dropped: 4, Processed: 0
+[126.786s][debug][gc,phases      ] GC(9) Reference Processing 0.206ms
+[126.786s][debug][gc,phases,start] GC(9) Weak Processing
+[126.786s][debug][gc,phases      ] GC(9) Weak Processing 0.072ms
+[126.786s][debug][gc,phases,start] GC(9) Class Unloading
+[126.786s][debug][gc,phases,start] GC(9) ClassLoaderData
+[126.786s][debug][gc,phases      ] GC(9) ClassLoaderData 0.008ms
+[126.786s][debug][gc,phases,start] GC(9) Trigger cleanups
+[126.786s][debug][gc,phases      ] GC(9) Trigger cleanups 0.004ms
+[126.786s][debug][gc,phases,start] GC(9) Purge Unlinked NMethods
+[126.786s][debug][gc,phases      ] GC(9) Purge Unlinked NMethods 0.005ms
+[126.786s][debug][gc,phases,start] GC(9) Unregister NMethods
+[126.786s][debug][gc,phases      ] GC(9) Unregister NMethods 0.118ms
+[126.786s][debug][gc,phases,start] GC(9) Free Code Blobs
+[126.786s][debug][gc,phases      ] GC(9) Free Code Blobs 0.004ms
+[126.786s][debug][gc,phases      ] GC(9) Class Unloading 0.269ms
+[126.786s][debug][gc,phases,start] GC(9) Report Object Count
+[126.786s][debug][gc,phases      ] GC(9) Report Object Count 0.004ms
+[126.786s][info ][gc,phases      ] GC(9) Phase 1: Mark live objects 35.149ms
+[126.786s][info ][gc,phases,start] GC(9) Phase 2: Compute new object addresses
+[126.842s][info ][gc,phases      ] GC(9) Phase 2: Compute new object addresses 55.453ms
+[126.842s][info ][gc,phases,start] GC(9) Phase 3: Adjust pointers
+[126.887s][info ][gc,phases      ] GC(9) Phase 3: Adjust pointers 44.786ms
+[126.887s][info ][gc,phases,start] GC(9) Phase 4: Move objects
+[126.898s][info ][gc,phases      ] GC(9) Phase 4: Move objects 11.291ms
+[126.899s][debug][gc,ergo        ] GC(9) Adaptive Heap Sizing: Computing GC overhead from 126.120s window with pause time=3.060000s
+[126.899s][info ][gc,ergo        ] GC(9) Adaptive Heap Sizing: GC Overhead: 2. User=0.150000s Sys=0.000000s Real=0.150000s, Time since last GC=0.590000s
+[126.899s][info ][gc,ergo,heap   ] GC(9) Adaptive Heap Sizing: Target sizes: eden: 847872K. survivor: 2048K. tenured: 4044K. max eden size: 2089011K.
+[126.899s][info ][gc,ergo,heap   ] GC(9) Adaptive Heap Sizing: Target sizes adjusted for available memory: eden: 847872K. survivor: 2048K. tenured: 4096K. max eden size: 2088960K. available memory: 1118864K.
+[126.899s][debug][gc,ergo,heap   ] GC(9) Adaptive Heap Sizing: Shrinking young gen by 96468992 bytes (desired new size is 872415232).
+[127.103s][debug][gc,ergo,heap   ] GC(9) Adaptive Heap Sizing: New generation size 946176K->851968K [eden=847872K,survivor=2048K]
+[127.103s][debug][gc,heap,ergo   ] Adaptive Heap Sizing:     shrinking tenured:  capacity_after_gc: 4288.0K  target_size: 4096.0K  used_after_gc: 2022.3K
+[127.103s][info ][gc,heap        ] GC(9) DefNew: 18749K(944128K)->0K(849920K) Eden: 18749K(942080K)->0K(847872K) From: 0K(2048K)->0K(2048K)
+[127.103s][info ][gc,heap        ] GC(9) Tenured: 2117K(4288K)->2022K(4096K)
+[127.103s][info ][gc,metaspace   ] GC(9) Metaspace: 353K(576K)->353K(576K) NonClass: 295K(448K)->295K(448K) Class: 58K(128K)->58K(128K)
+[127.103s][debug][gc,heap        ] GC(9) Heap after GC invocations=10 (full 4):
+[127.103s][debug][gc,heap        ] GC(9)  def new generation   total 849920K, used 0K [0x0000120000200000, 0x0000120034200000, 0x00001200801f0000)
+[127.103s][debug][gc,heap        ] GC(9)   eden space 847872K,   0% used [0x0000120000200000, 0x0000120000200000, 0x0000120033e00000)
+[127.103s][debug][gc,heap        ] GC(9)   from space 2048K,   0% used [0x0000120033e00000, 0x0000120033e00000, 0x0000120034000000)
+[127.103s][debug][gc,heap        ] GC(9)   to   space 2048K,   0% used [0x0000120034000000, 0x0000120034000000, 0x0000120034200000)
+[127.103s][debug][gc,heap        ] GC(9)  tenured generation   total 4096K, used 2022K [0x00001200801f0000, 0x00001200805f0000, 0x0000120100200000)
+[127.103s][debug][gc,heap        ] GC(9)    the space 4096K,  49% used [0x00001200801f0000, 0x00001200803e9940, 0x00001200805f0000)
+[127.103s][debug][gc,heap        ] GC(9)  Metaspace       used 353K, committed 576K, reserved 1114112K
+[127.103s][debug][gc,heap        ] GC(9)   class space    used 58K, committed 128K, reserved 1048576K
+[127.103s][info ][gc             ] GC(9) Pause Full (System.gc()) 20M->1M(834M) 356.127ms
+[127.103s][info ][gc,cpu         ] GC(9) User=0.35s Sys=0.01s Real=0.36s
+[127.103s][info ][safepoint      ] Safepoint "SerialGCCollect", Time since last: 217107379 ns, Reaching safepoint: 34634 ns, At safepoint: 356178163 ns, Total: 356212797 ns
+[142.822s][info ][gc,start       ] GC(10) Pause Young (Allocation Failure)
+[142.822s][debug][gc,heap        ] GC(10) Heap before GC invocations=10 (full 4):
+[142.822s][debug][gc,heap        ] GC(10)  def new generation   total 849920K, used 847872K [0x0000120000200000, 0x0000120034200000, 0x00001200801f0000)
+[142.822s][debug][gc,heap        ] GC(10)   eden space 847872K, 100% used [0x0000120000200000, 0x0000120033e00000, 0x0000120033e00000)
+[142.822s][debug][gc,heap        ] GC(10)   from space 2048K,   0% used [0x0000120033e00000, 0x0000120033e00000, 0x0000120034000000)
+[142.822s][debug][gc,heap        ] GC(10)   to   space 2048K,   0% used [0x0000120034000000, 0x0000120034000000, 0x0000120034200000)
+[142.822s][debug][gc,heap        ] GC(10)  tenured generation   total 4096K, used 2022K [0x00001200801f0000, 0x00001200805f0000, 0x0000120100200000)
+[142.822s][debug][gc,heap        ] GC(10)    the space 4096K,  49% used [0x00001200801f0000, 0x00001200803e9940, 0x00001200805f0000)
+[142.822s][debug][gc,heap        ] GC(10)  Metaspace       used 353K, committed 576K, reserved 1114112K
+[142.822s][debug][gc,heap        ] GC(10)   class space    used 58K, committed 128K, reserved 1048576K
+[142.826s][debug][gc,tlab        ] GC(10) TLAB totals: thrds: 3  refills: 102 max: 51 slow allocs: 0 max 0 waste:  0.4% gc: 3711344B max: 2384304B slow: 2488B max: 1312B
+[142.829s][debug][gc,ref         ] GC(10) Skipped SoftWeakFinalRefsPhase of Reference Processing: no references
+[142.830s][debug][gc,ref         ] GC(10) Skipped KeepAliveFinalRefsPhase of Reference Processing: no references
+[142.830s][debug][gc,ref         ] GC(10) Skipped PhantomRefsPhase of Reference Processing: no references
+[142.830s][debug][gc,phases,ref  ] GC(10) Reference Processing: 0.1ms
+[142.830s][debug][gc,phases,ref  ] GC(10)   Notify Soft/WeakReferences: 0.0ms
+[142.830s][debug][gc,phases,ref  ] GC(10)     SoftRef: skipped
+[142.830s][debug][gc,phases,ref  ] GC(10)     WeakRef: skipped
+[142.830s][debug][gc,phases,ref  ] GC(10)     FinalRef: skipped
+[142.830s][debug][gc,phases,ref  ] GC(10)     Total: skipped
+[142.830s][debug][gc,phases,ref  ] GC(10)   Notify and keep alive finalizable: 0.0ms
+[142.830s][debug][gc,phases,ref  ] GC(10)     FinalRef: skipped
+[142.830s][debug][gc,phases,ref  ] GC(10)   Notify PhantomReferences: 0.0ms
+[142.830s][debug][gc,phases,ref  ] GC(10)     PhantomRef: skipped
+[142.830s][debug][gc,phases,ref  ] GC(10)   SoftReference Discovered: 0, Dropped: 0, Processed: 0
+[142.830s][debug][gc,phases,ref  ] GC(10)   WeakReference Discovered: 0, Dropped: 0, Processed: 0
+[142.830s][debug][gc,phases,ref  ] GC(10)   FinalReference Discovered: 0, Dropped: 0, Processed: 0
+[142.830s][debug][gc,phases,ref  ] GC(10)   PhantomReference Discovered: 0, Dropped: 0, Processed: 0
+[143.068s][debug][gc,age         ] GC(10) Desired survivor size 1048576 bytes, new threshold 15 (max threshold 15)
+[143.068s][debug][gc,ergo        ] GC(10) Adaptive Heap Sizing: Computing GC overhead from 142.290s window with pause time=3.300000s
+[143.068s][info ][gc,ergo        ] GC(10) Adaptive Heap Sizing: GC Overhead: 2. User=0.250000s Sys=0.000000s Real=0.240000s, Time since last GC=24.240000s
+[143.068s][info ][gc,heap        ] GC(10) DefNew: 847872K(849920K)->0K(849920K) Eden: 847872K(847872K)->0K(847872K) From: 0K(2048K)->0K(2048K)
+[143.068s][info ][gc,heap        ] GC(10) Tenured: 2022K(4096K)->2022K(4096K)
+[143.068s][info ][gc,metaspace   ] GC(10) Metaspace: 353K(576K)->353K(576K) NonClass: 295K(448K)->295K(448K) Class: 58K(128K)->58K(128K)
+[143.068s][debug][gc,heap        ] GC(10) Heap after GC invocations=11 (full 4):
+[143.068s][debug][gc,heap        ] GC(10)  def new generation   total 849920K, used 0K [0x0000120000200000, 0x0000120034200000, 0x00001200801f0000)
+[143.068s][debug][gc,heap        ] GC(10)   eden space 847872K,   0% used [0x0000120000200000, 0x0000120000200000, 0x0000120033e00000)
+[143.068s][debug][gc,heap        ] GC(10)   from space 2048K,   0% used [0x0000120034000000, 0x00001200340001a0, 0x0000120034200000)
+[143.068s][debug][gc,heap        ] GC(10)   to   space 2048K,   0% used [0x0000120033e00000, 0x0000120033e00000, 0x0000120034000000)
+[143.068s][debug][gc,heap        ] GC(10)  tenured generation   total 4096K, used 2022K [0x00001200801f0000, 0x00001200805f0000, 0x0000120100200000)
+[143.068s][debug][gc,heap        ] GC(10)    the space 4096K,  49% used [0x00001200801f0000, 0x00001200803e9940, 0x00001200805f0000)
+[143.068s][debug][gc,heap        ] GC(10)  Metaspace       used 353K, committed 576K, reserved 1114112K
+[143.068s][debug][gc,heap        ] GC(10)   class space    used 58K, committed 128K, reserved 1048576K
+[143.068s][info ][gc             ] GC(10) Pause Young (Allocation Failure) 829M->1M(834M) 246.441ms
+[143.068s][info ][gc,cpu         ] GC(10) User=0.25s Sys=0.00s Real=0.24s
+[143.068s][info ][safepoint      ] Safepoint "SerialCollectForAllocation", Time since last: 15719068978 ns, Reaching safepoint: 63228 ns, At safepoint: 246495517 ns, Total: 246558745 ns
+[158.872s][info ][gc,start       ] GC(11) Pause Young (Allocation Failure)
+[158.872s][debug][gc,heap        ] GC(11) Heap before GC invocations=11 (full 4):
+[158.872s][debug][gc,heap        ] GC(11)  def new generation   total 849920K, used 847872K [0x0000120000200000, 0x0000120034200000, 0x00001200801f0000)
+[158.872s][debug][gc,heap        ] GC(11)   eden space 847872K, 100% used [0x0000120000200000, 0x0000120033e00000, 0x0000120033e00000)
+[158.872s][debug][gc,heap        ] GC(11)   from space 2048K,   0% used [0x0000120034000000, 0x00001200340001a0, 0x0000120034200000)
+[158.872s][debug][gc,heap        ] GC(11)   to   space 2048K,   0% used [0x0000120033e00000, 0x0000120033e00000, 0x0000120034000000)
+[158.872s][debug][gc,heap        ] GC(11)  tenured generation   total 4096K, used 2022K [0x00001200801f0000, 0x00001200805f0000, 0x0000120100200000)
+[158.872s][debug][gc,heap        ] GC(11)    the space 4096K,  49% used [0x00001200801f0000, 0x00001200803e9940, 0x00001200805f0000)
+[158.872s][debug][gc,heap        ] GC(11)  Metaspace       used 353K, committed 576K, reserved 1114112K
+[158.872s][debug][gc,heap        ] GC(11)   class space    used 58K, committed 128K, reserved 1048576K
+[158.872s][debug][gc,tlab        ] GC(11) TLAB totals: thrds: 2  refills: 101 max: 51 slow allocs: 0 max 0 waste:  0.0% gc: 385256B max: 385256B slow: 2720B max: 1440B
+[158.876s][debug][gc,ref         ] GC(11) Skipped SoftWeakFinalRefsPhase of Reference Processing: no references
+[158.876s][debug][gc,ref         ] GC(11) Skipped KeepAliveFinalRefsPhase of Reference Processing: no references
+[158.876s][debug][gc,ref         ] GC(11) Skipped PhantomRefsPhase of Reference Processing: no references
+[158.876s][debug][gc,phases,ref  ] GC(11) Reference Processing: 0.1ms
+[158.876s][debug][gc,phases,ref  ] GC(11)   Notify Soft/WeakReferences: 0.1ms
+[158.876s][debug][gc,phases,ref  ] GC(11)     SoftRef: skipped
+[158.876s][debug][gc,phases,ref  ] GC(11)     WeakRef: skipped
+[158.876s][debug][gc,phases,ref  ] GC(11)     FinalRef: skipped
+[158.876s][debug][gc,phases,ref  ] GC(11)     Total: skipped
+[158.876s][debug][gc,phases,ref  ] GC(11)   Notify and keep alive finalizable: 0.0ms
+[158.876s][debug][gc,phases,ref  ] GC(11)     FinalRef: skipped
+[158.876s][debug][gc,phases,ref  ] GC(11)   Notify PhantomReferences: 0.0ms
+[158.876s][debug][gc,phases,ref  ] GC(11)     PhantomRef: skipped
+[158.876s][debug][gc,phases,ref  ] GC(11)   SoftReference Discovered: 0, Dropped: 0, Processed: 0
+[158.876s][debug][gc,phases,ref  ] GC(11)   WeakReference Discovered: 0, Dropped: 0, Processed: 0
+[158.876s][debug][gc,phases,ref  ] GC(11)   FinalReference Discovered: 0, Dropped: 0, Processed: 0
+[158.876s][debug][gc,phases,ref  ] GC(11)   PhantomReference Discovered: 0, Dropped: 0, Processed: 0
+[159.100s][debug][gc,age         ] GC(11) Desired survivor size 1048576 bytes, new threshold 15 (max threshold 15)
+[159.100s][debug][gc,ergo        ] GC(11) Adaptive Heap Sizing: Computing GC overhead from 158.320s window with pause time=3.530000s
+[159.100s][info ][gc,ergo        ] GC(11) Adaptive Heap Sizing: GC Overhead: 2. User=0.230000s Sys=0.000000s Real=0.230000s, Time since last GC=16.030000s
+[159.100s][info ][gc,heap        ] GC(11) DefNew: 847872K(849920K)->0K(849920K) Eden: 847872K(847872K)->0K(847872K) From: 0K(2048K)->0K(2048K)
+[159.100s][info ][gc,heap        ] GC(11) Tenured: 2022K(4096K)->2022K(4096K)
+[159.100s][info ][gc,metaspace   ] GC(11) Metaspace: 353K(576K)->353K(576K) NonClass: 295K(448K)->295K(448K) Class: 58K(128K)->58K(128K)
+[159.100s][debug][gc,heap        ] GC(11) Heap after GC invocations=12 (full 4):
+[159.100s][debug][gc,heap        ] GC(11)  def new generation   total 849920K, used 0K [0x0000120000200000, 0x0000120034200000, 0x00001200801f0000)
+[159.100s][debug][gc,heap        ] GC(11)   eden space 847872K,   0% used [0x0000120000200000, 0x0000120000200000, 0x0000120033e00000)
+[159.100s][debug][gc,heap        ] GC(11)   from space 2048K,   0% used [0x0000120033e00000, 0x0000120033e00150, 0x0000120034000000)
+[159.100s][debug][gc,heap        ] GC(11)   to   space 2048K,   0% used [0x0000120034000000, 0x0000120034000000, 0x0000120034200000)
+[159.100s][debug][gc,heap        ] GC(11)  tenured generation   total 4096K, used 2022K [0x00001200801f0000, 0x00001200805f0000, 0x0000120100200000)
+[159.100s][debug][gc,heap        ] GC(11)    the space 4096K,  49% used [0x00001200801f0000, 0x00001200803e9940, 0x00001200805f0000)
+[159.100s][debug][gc,heap        ] GC(11)  Metaspace       used 353K, committed 576K, reserved 1114112K
+[159.100s][debug][gc,heap        ] GC(11)   class space    used 58K, committed 128K, reserved 1048576K
+[159.100s][info ][gc             ] GC(11) Pause Young (Allocation Failure) 829M->1M(834M) 228.278ms
+[159.100s][info ][gc,cpu         ] GC(11) User=0.23s Sys=0.00s Real=0.23s
+[159.100s][info ][safepoint      ] Safepoint "SerialCollectForAllocation", Time since last: 15803266222 ns, Reaching safepoint: 39226 ns, At safepoint: 228332341 ns, Total: 228371567 ns
+[174.894s][info ][gc,start       ] GC(12) Pause Young (Allocation Failure)
+[174.894s][debug][gc,heap        ] GC(12) Heap before GC invocations=12 (full 4):
+[174.894s][debug][gc,heap        ] GC(12)  def new generation   total 849920K, used 847872K [0x0000120000200000, 0x0000120034200000, 0x00001200801f0000)
+[174.894s][debug][gc,heap        ] GC(12)   eden space 847872K, 100% used [0x0000120000200000, 0x0000120033e00000, 0x0000120033e00000)
+[174.894s][debug][gc,heap        ] GC(12)   from space 2048K,   0% used [0x0000120033e00000, 0x0000120033e00150, 0x0000120034000000)
+[174.894s][debug][gc,heap        ] GC(12)   to   space 2048K,   0% used [0x0000120034000000, 0x0000120034000000, 0x0000120034200000)
+[174.894s][debug][gc,heap        ] GC(12)  tenured generation   total 4096K, used 2022K [0x00001200801f0000, 0x00001200805f0000, 0x0000120100200000)
+[174.894s][debug][gc,heap        ] GC(12)    the space 4096K,  49% used [0x00001200801f0000, 0x00001200803e9940, 0x00001200805f0000)
+[174.894s][debug][gc,heap        ] GC(12)  Metaspace       used 353K, committed 576K, reserved 1114112K
+[174.894s][debug][gc,heap        ] GC(12)   class space    used 58K, committed 128K, reserved 1048576K
+[174.895s][debug][gc,tlab        ] GC(12) TLAB totals: thrds: 2  refills: 101 max: 51 slow allocs: 0 max 0 waste:  0.0% gc: 387448B max: 387448B slow: 2584B max: 1328B
+[174.899s][debug][gc,ref         ] GC(12) Skipped SoftWeakFinalRefsPhase of Reference Processing: no references
+[174.899s][debug][gc,ref         ] GC(12) Skipped KeepAliveFinalRefsPhase of Reference Processing: no references
+[174.899s][debug][gc,ref         ] GC(12) Skipped PhantomRefsPhase of Reference Processing: no references
+[174.899s][debug][gc,phases,ref  ] GC(12) Reference Processing: 0.1ms
+[174.899s][debug][gc,phases,ref  ] GC(12)   Notify Soft/WeakReferences: 0.0ms
+[174.899s][debug][gc,phases,ref  ] GC(12)     SoftRef: skipped
+[174.899s][debug][gc,phases,ref  ] GC(12)     WeakRef: skipped
+[174.899s][debug][gc,phases,ref  ] GC(12)     FinalRef: skipped
+[174.899s][debug][gc,phases,ref  ] GC(12)     Total: skipped
+[174.899s][debug][gc,phases,ref  ] GC(12)   Notify and keep alive finalizable: 0.0ms
+[174.899s][debug][gc,phases,ref  ] GC(12)     FinalRef: skipped
+[174.899s][debug][gc,phases,ref  ] GC(12)   Notify PhantomReferences: 0.0ms
+[174.899s][debug][gc,phases,ref  ] GC(12)     PhantomRef: skipped
+[174.899s][debug][gc,phases,ref  ] GC(12)   SoftReference Discovered: 0, Dropped: 0, Processed: 0
+[174.899s][debug][gc,phases,ref  ] GC(12)   WeakReference Discovered: 0, Dropped: 0, Processed: 0
+[174.899s][debug][gc,phases,ref  ] GC(12)   FinalReference Discovered: 0, Dropped: 0, Processed: 0
+[174.899s][debug][gc,phases,ref  ] GC(12)   PhantomReference Discovered: 0, Dropped: 0, Processed: 0
+[175.142s][debug][gc,age         ] GC(12) Desired survivor size 1048576 bytes, new threshold 15 (max threshold 15)
+[175.142s][debug][gc,ergo        ] GC(12) Adaptive Heap Sizing: Computing GC overhead from 174.360s window with pause time=3.770000s
+[175.142s][info ][gc,ergo        ] GC(12) Adaptive Heap Sizing: GC Overhead: 2. User=0.250000s Sys=0.000000s Real=0.240000s, Time since last GC=16.040000s
+[175.142s][info ][gc,heap        ] GC(12) DefNew: 847872K(849920K)->0K(849920K) Eden: 847872K(847872K)->0K(847872K) From: 0K(2048K)->0K(2048K)
+[175.142s][info ][gc,heap        ] GC(12) Tenured: 2022K(4096K)->2022K(4096K)
+[175.142s][info ][gc,metaspace   ] GC(12) Metaspace: 353K(576K)->353K(576K) NonClass: 295K(448K)->295K(448K) Class: 58K(128K)->58K(128K)
+[175.142s][debug][gc,heap        ] GC(12) Heap after GC invocations=13 (full 4):
+[175.142s][debug][gc,heap        ] GC(12)  def new generation   total 849920K, used 0K [0x0000120000200000, 0x0000120034200000, 0x00001200801f0000)
+[175.142s][debug][gc,heap        ] GC(12)   eden space 847872K,   0% used [0x0000120000200000, 0x0000120000200000, 0x0000120033e00000)
+[175.142s][debug][gc,heap        ] GC(12)   from space 2048K,   0% used [0x0000120034000000, 0x00001200340001c8, 0x0000120034200000)
+[175.142s][debug][gc,heap        ] GC(12)   to   space 2048K,   0% used [0x0000120033e00000, 0x0000120033e00000, 0x0000120034000000)
+[175.142s][debug][gc,heap        ] GC(12)  tenured generation   total 4096K, used 2022K [0x00001200801f0000, 0x00001200805f0000, 0x0000120100200000)
+[175.142s][debug][gc,heap        ] GC(12)    the space 4096K,  49% used [0x00001200801f0000, 0x00001200803e9940, 0x00001200805f0000)
+[175.142s][debug][gc,heap        ] GC(12)  Metaspace       used 353K, committed 576K, reserved 1114112K
+[175.142s][debug][gc,heap        ] GC(12)   class space    used 58K, committed 128K, reserved 1048576K
+[175.142s][info ][gc             ] GC(12) Pause Young (Allocation Failure) 829M->1M(834M) 247.829ms
+[175.142s][info ][gc,cpu         ] GC(12) User=0.25s Sys=0.00s Real=0.24s
+[175.142s][info ][safepoint      ] Safepoint "SerialCollectForAllocation", Time since last: 15793717788 ns, Reaching safepoint: 76872 ns, At safepoint: 247883322 ns, Total: 247960194 ns
+[191.073s][info ][gc,start       ] GC(13) Pause Young (Allocation Failure)
+[191.073s][debug][gc,heap        ] GC(13) Heap before GC invocations=13 (full 4):
+[191.073s][debug][gc,heap        ] GC(13)  def new generation   total 849920K, used 847872K [0x0000120000200000, 0x0000120034200000, 0x00001200801f0000)
+[191.073s][debug][gc,heap        ] GC(13)   eden space 847872K, 100% used [0x0000120000200000, 0x0000120033e00000, 0x0000120033e00000)
+[191.073s][debug][gc,heap        ] GC(13)   from space 2048K,   0% used [0x0000120034000000, 0x00001200340001c8, 0x0000120034200000)
+[191.073s][debug][gc,heap        ] GC(13)   to   space 2048K,   0% used [0x0000120033e00000, 0x0000120033e00000, 0x0000120034000000)
+[191.073s][debug][gc,heap        ] GC(13)  tenured generation   total 4096K, used 2022K [0x00001200801f0000, 0x00001200805f0000, 0x0000120100200000)
+[191.073s][debug][gc,heap        ] GC(13)    the space 4096K,  49% used [0x00001200801f0000, 0x00001200803e9940, 0x00001200805f0000)
+[191.073s][debug][gc,heap        ] GC(13)  Metaspace       used 353K, committed 576K, reserved 1114112K
+[191.073s][debug][gc,heap        ] GC(13)   class space    used 58K, committed 128K, reserved 1048576K
+[191.074s][debug][gc,tlab        ] GC(13) TLAB totals: thrds: 2  refills: 101 max: 51 slow allocs: 0 max 0 waste:  0.1% gc: 754192B max: 754192B slow: 2464B max: 1272B
+[191.078s][debug][gc,ref         ] GC(13) Skipped SoftWeakFinalRefsPhase of Reference Processing: no references
+[191.078s][debug][gc,ref         ] GC(13) Skipped KeepAliveFinalRefsPhase of Reference Processing: no references
+[191.078s][debug][gc,ref         ] GC(13) Skipped PhantomRefsPhase of Reference Processing: no references
+[191.078s][debug][gc,phases,ref  ] GC(13) Reference Processing: 0.0ms
+[191.078s][debug][gc,phases,ref  ] GC(13)   Notify Soft/WeakReferences: 0.0ms
+[191.078s][debug][gc,phases,ref  ] GC(13)     SoftRef: skipped
+[191.078s][debug][gc,phases,ref  ] GC(13)     WeakRef: skipped
+[191.078s][debug][gc,phases,ref  ] GC(13)     FinalRef: skipped
+[191.078s][debug][gc,phases,ref  ] GC(13)     Total: skipped
+[191.078s][debug][gc,phases,ref  ] GC(13)   Notify and keep alive finalizable: 0.0ms
+[191.078s][debug][gc,phases,ref  ] GC(13)     FinalRef: skipped
+[191.078s][debug][gc,phases,ref  ] GC(13)   Notify PhantomReferences: 0.0ms
+[191.078s][debug][gc,phases,ref  ] GC(13)     PhantomRef: skipped
+[191.078s][debug][gc,phases,ref  ] GC(13)   SoftReference Discovered: 0, Dropped: 0, Processed: 0
+[191.078s][debug][gc,phases,ref  ] GC(13)   WeakReference Discovered: 0, Dropped: 0, Processed: 0
+[191.078s][debug][gc,phases,ref  ] GC(13)   FinalReference Discovered: 0, Dropped: 0, Processed: 0
+[191.078s][debug][gc,phases,ref  ] GC(13)   PhantomReference Discovered: 0, Dropped: 0, Processed: 0
+[191.289s][debug][gc,age         ] GC(13) Desired survivor size 1048576 bytes, new threshold 15 (max threshold 15)
+[191.289s][debug][gc,ergo        ] GC(13) Adaptive Heap Sizing: Computing GC overhead from 190.510s window with pause time=3.990000s
+[191.289s][info ][gc,ergo        ] GC(13) Adaptive Heap Sizing: GC Overhead: 2. User=0.220000s Sys=0.000000s Real=0.220000s, Time since last GC=16.150000s
+[191.289s][info ][gc,heap        ] GC(13) DefNew: 847872K(849920K)->0K(849920K) Eden: 847872K(847872K)->0K(847872K) From: 0K(2048K)->0K(2048K)
+[191.289s][info ][gc,heap        ] GC(13) Tenured: 2022K(4096K)->2022K(4096K)
+[191.289s][info ][gc,metaspace   ] GC(13) Metaspace: 353K(576K)->353K(576K) NonClass: 295K(448K)->295K(448K) Class: 58K(128K)->58K(128K)
+[191.289s][debug][gc,heap        ] GC(13) Heap after GC invocations=14 (full 4):
+[191.289s][debug][gc,heap        ] GC(13)  def new generation   total 849920K, used 0K [0x0000120000200000, 0x0000120034200000, 0x00001200801f0000)
+[191.289s][debug][gc,heap        ] GC(13)   eden space 847872K,   0% used [0x0000120000200000, 0x0000120000200000, 0x0000120033e00000)
+[191.289s][debug][gc,heap        ] GC(13)   from space 2048K,   0% used [0x0000120033e00000, 0x0000120033e001a8, 0x0000120034000000)
+[191.289s][debug][gc,heap        ] GC(13)   to   space 2048K,   0% used [0x0000120034000000, 0x0000120034000000, 0x0000120034200000)
+[191.289s][debug][gc,heap        ] GC(13)  tenured generation   total 4096K, used 2022K [0x00001200801f0000, 0x00001200805f0000, 0x0000120100200000)
+[191.289s][debug][gc,heap        ] GC(13)    the space 4096K,  49% used [0x00001200801f0000, 0x00001200803e9940, 0x00001200805f0000)
+[191.289s][debug][gc,heap        ] GC(13)  Metaspace       used 353K, committed 576K, reserved 1114112K
+[191.289s][debug][gc,heap        ] GC(13)   class space    used 58K, committed 128K, reserved 1048576K
+[191.289s][info ][gc             ] GC(13) Pause Young (Allocation Failure) 829M->1M(834M) 216.085ms
+[191.289s][info ][gc,cpu         ] GC(13) User=0.22s Sys=0.00s Real=0.22s
+[191.289s][info ][safepoint      ] Safepoint "SerialCollectForAllocation", Time since last: 15931310027 ns, Reaching safepoint: 58499 ns, At safepoint: 216142286 ns, Total: 216200785 ns
+[207.414s][info ][gc,start       ] GC(14) Pause Young (Allocation Failure)
+[207.414s][debug][gc,heap        ] GC(14) Heap before GC invocations=14 (full 4):
+[207.414s][debug][gc,heap        ] GC(14)  def new generation   total 849920K, used 847872K [0x0000120000200000, 0x0000120034200000, 0x00001200801f0000)
+[207.414s][debug][gc,heap        ] GC(14)   eden space 847872K, 100% used [0x0000120000200000, 0x0000120033e00000, 0x0000120033e00000)
+[207.414s][debug][gc,heap        ] GC(14)   from space 2048K,   0% used [0x0000120033e00000, 0x0000120033e001a8, 0x0000120034000000)
+[207.414s][debug][gc,heap        ] GC(14)   to   space 2048K,   0% used [0x0000120034000000, 0x0000120034000000, 0x0000120034200000)
+[207.415s][debug][gc,heap        ] GC(14)  tenured generation   total 4096K, used 2022K [0x00001200801f0000, 0x00001200805f0000, 0x0000120100200000)
+[207.415s][debug][gc,heap        ] GC(14)    the space 4096K,  49% used [0x00001200801f0000, 0x00001200803e9940, 0x00001200805f0000)
+[207.415s][debug][gc,heap        ] GC(14)  Metaspace       used 353K, committed 576K, reserved 1114112K
+[207.415s][debug][gc,heap        ] GC(14)   class space    used 58K, committed 128K, reserved 1048576K
+[207.416s][debug][gc,tlab        ] GC(14) TLAB totals: thrds: 3  refills: 101 max: 50 slow allocs: 0 max 0 waste:  0.2% gc: 1586896B max: 1549800B slow: 2456B max: 1312B
+[207.419s][debug][gc,ref         ] GC(14) Skipped SoftWeakFinalRefsPhase of Reference Processing: no references
+[207.419s][debug][gc,ref         ] GC(14) Skipped KeepAliveFinalRefsPhase of Reference Processing: no references
+[207.419s][debug][gc,ref         ] GC(14) Skipped PhantomRefsPhase of Reference Processing: no references
+[207.419s][debug][gc,phases,ref  ] GC(14) Reference Processing: 0.0ms
+[207.419s][debug][gc,phases,ref  ] GC(14)   Notify Soft/WeakReferences: 0.0ms
+[207.419s][debug][gc,phases,ref  ] GC(14)     SoftRef: skipped
+[207.419s][debug][gc,phases,ref  ] GC(14)     WeakRef: skipped
+[207.419s][debug][gc,phases,ref  ] GC(14)     FinalRef: skipped
+[207.419s][debug][gc,phases,ref  ] GC(14)     Total: skipped
+[207.419s][debug][gc,phases,ref  ] GC(14)   Notify and keep alive finalizable: 0.0ms
+[207.419s][debug][gc,phases,ref  ] GC(14)     FinalRef: skipped
+[207.419s][debug][gc,phases,ref  ] GC(14)   Notify PhantomReferences: 0.0ms
+[207.419s][debug][gc,phases,ref  ] GC(14)     PhantomRef: skipped
+[207.419s][debug][gc,phases,ref  ] GC(14)   SoftReference Discovered: 0, Dropped: 0, Processed: 0
+[207.419s][debug][gc,phases,ref  ] GC(14)   WeakReference Discovered: 0, Dropped: 0, Processed: 0
+[207.419s][debug][gc,phases,ref  ] GC(14)   FinalReference Discovered: 0, Dropped: 0, Processed: 0
+[207.419s][debug][gc,phases,ref  ] GC(14)   PhantomReference Discovered: 0, Dropped: 0, Processed: 0
+[207.625s][debug][gc,age         ] GC(14) Desired survivor size 1048576 bytes, new threshold 15 (max threshold 15)
+[207.625s][debug][gc,ergo        ] GC(14) Adaptive Heap Sizing: Computing GC overhead from 206.850s window with pause time=4.200000s
+[207.625s][info ][gc,ergo        ] GC(14) Adaptive Heap Sizing: GC Overhead: 2. User=0.220000s Sys=0.000000s Real=0.210000s, Time since last GC=16.340000s
+[207.625s][info ][gc,heap        ] GC(14) DefNew: 847872K(849920K)->0K(849920K) Eden: 847872K(847872K)->0K(847872K) From: 0K(2048K)->0K(2048K)
+[207.625s][info ][gc,heap        ] GC(14) Tenured: 2022K(4096K)->2022K(4096K)
+[207.625s][info ][gc,metaspace   ] GC(14) Metaspace: 353K(576K)->353K(576K) NonClass: 295K(448K)->295K(448K) Class: 58K(128K)->58K(128K)
+[207.625s][debug][gc,heap        ] GC(14) Heap after GC invocations=15 (full 4):
+[207.625s][debug][gc,heap        ] GC(14)  def new generation   total 849920K, used 0K [0x0000120000200000, 0x0000120034200000, 0x00001200801f0000)
+[207.625s][debug][gc,heap        ] GC(14)   eden space 847872K,   0% used [0x0000120000200000, 0x0000120000200000, 0x0000120033e00000)
+[207.625s][debug][gc,heap        ] GC(14)   from space 2048K,   0% used [0x0000120034000000, 0x0000120034000140, 0x0000120034200000)
+[207.625s][debug][gc,heap        ] GC(14)   to   space 2048K,   0% used [0x0000120033e00000, 0x0000120033e00000, 0x0000120034000000)
+[207.625s][debug][gc,heap        ] GC(14)  tenured generation   total 4096K, used 2022K [0x00001200801f0000, 0x00001200805f0000, 0x0000120100200000)
+[207.625s][debug][gc,heap        ] GC(14)    the space 4096K,  49% used [0x00001200801f0000, 0x00001200803e9940, 0x00001200805f0000)
+[207.625s][debug][gc,heap        ] GC(14)  Metaspace       used 353K, committed 576K, reserved 1114112K
+[207.625s][debug][gc,heap        ] GC(14)   class space    used 58K, committed 128K, reserved 1048576K
+[207.625s][info ][gc             ] GC(14) Pause Young (Allocation Failure) 829M->1M(834M) 210.935ms
+[207.625s][info ][gc,cpu         ] GC(14) User=0.22s Sys=0.00s Real=0.21s
+[207.625s][info ][safepoint      ] Safepoint "SerialCollectForAllocation", Time since last: 16124927864 ns, Reaching safepoint: 62375 ns, At safepoint: 210997825 ns, Total: 211060200 ns
+[223.853s][info ][gc,start       ] GC(15) Pause Young (Allocation Failure)
+[223.853s][debug][gc,heap        ] GC(15) Heap before GC invocations=15 (full 4):
+[223.853s][debug][gc,heap        ] GC(15)  def new generation   total 849920K, used 847872K [0x0000120000200000, 0x0000120034200000, 0x00001200801f0000)
+[223.854s][debug][gc,heap        ] GC(15)   eden space 847872K, 100% used [0x0000120000200000, 0x0000120033e00000, 0x0000120033e00000)
+[223.854s][debug][gc,heap        ] GC(15)   from space 2048K,   0% used [0x0000120034000000, 0x0000120034000140, 0x0000120034200000)
+[223.854s][debug][gc,heap        ] GC(15)   to   space 2048K,   0% used [0x0000120033e00000, 0x0000120033e00000, 0x0000120034000000)
+[223.854s][debug][gc,heap        ] GC(15)  tenured generation   total 4096K, used 2022K [0x00001200801f0000, 0x00001200805f0000, 0x0000120100200000)
+[223.854s][debug][gc,heap        ] GC(15)    the space 4096K,  49% used [0x00001200801f0000, 0x00001200803e9940, 0x00001200805f0000)
+[223.854s][debug][gc,heap        ] GC(15)  Metaspace       used 353K, committed 576K, reserved 1114112K
+[223.854s][debug][gc,heap        ] GC(15)   class space    used 58K, committed 128K, reserved 1048576K
+[223.854s][debug][gc,tlab        ] GC(15) TLAB totals: thrds: 2  refills: 101 max: 51 slow allocs: 0 max 0 waste:  0.1% gc: 517552B max: 517552B slow: 2416B max: 1256B
+[223.855s][debug][gc,ref         ] GC(15) Skipped SoftWeakFinalRefsPhase of Reference Processing: no references
+[223.855s][debug][gc,ref         ] GC(15) Skipped KeepAliveFinalRefsPhase of Reference Processing: no references
+[223.855s][debug][gc,ref         ] GC(15) Skipped PhantomRefsPhase of Reference Processing: no references
+[223.855s][debug][gc,phases,ref  ] GC(15) Reference Processing: 0.0ms
+[223.855s][debug][gc,phases,ref  ] GC(15)   Notify Soft/WeakReferences: 0.0ms
+[223.855s][debug][gc,phases,ref  ] GC(15)     SoftRef: skipped
+[223.855s][debug][gc,phases,ref  ] GC(15)     WeakRef: skipped
+[223.855s][debug][gc,phases,ref  ] GC(15)     FinalRef: skipped
+[223.855s][debug][gc,phases,ref  ] GC(15)     Total: skipped
+[223.855s][debug][gc,phases,ref  ] GC(15)   Notify and keep alive finalizable: 0.0ms
+[223.855s][debug][gc,phases,ref  ] GC(15)     FinalRef: skipped
+[223.855s][debug][gc,phases,ref  ] GC(15)   Notify PhantomReferences: 0.0ms
+[223.855s][debug][gc,phases,ref  ] GC(15)     PhantomRef: skipped
+[223.855s][debug][gc,phases,ref  ] GC(15)   SoftReference Discovered: 0, Dropped: 0, Processed: 0
+[223.855s][debug][gc,phases,ref  ] GC(15)   WeakReference Discovered: 0, Dropped: 0, Processed: 0
+[223.855s][debug][gc,phases,ref  ] GC(15)   FinalReference Discovered: 0, Dropped: 0, Processed: 0
+[223.855s][debug][gc,phases,ref  ] GC(15)   PhantomReference Discovered: 0, Dropped: 0, Processed: 0
+[224.063s][debug][gc,age         ] GC(15) Desired survivor size 1048576 bytes, new threshold 15 (max threshold 15)
+[224.063s][debug][gc,ergo        ] GC(15) Adaptive Heap Sizing: Computing GC overhead from 223.290s window with pause time=4.420000s
+[224.063s][info ][gc,ergo        ] GC(15) Adaptive Heap Sizing: GC Overhead: 1. User=0.210000s Sys=0.000000s Real=0.220000s, Time since last GC=16.440000s
+[224.063s][info ][gc,heap        ] GC(15) DefNew: 847872K(849920K)->0K(849920K) Eden: 847872K(847872K)->0K(847872K) From: 0K(2048K)->0K(2048K)
+[224.063s][info ][gc,heap        ] GC(15) Tenured: 2022K(4096K)->2022K(4096K)
+[224.063s][info ][gc,metaspace   ] GC(15) Metaspace: 353K(576K)->353K(576K) NonClass: 295K(448K)->295K(448K) Class: 58K(128K)->58K(128K)
+[224.063s][debug][gc,heap        ] GC(15) Heap after GC invocations=16 (full 4):
+[224.063s][debug][gc,heap        ] GC(15)  def new generation   total 849920K, used 0K [0x0000120000200000, 0x0000120034200000, 0x00001200801f0000)
+[224.063s][debug][gc,heap        ] GC(15)   eden space 847872K,   0% used [0x0000120000200000, 0x0000120000200000, 0x0000120033e00000)
+[224.063s][debug][gc,heap        ] GC(15)   from space 2048K,   0% used [0x0000120033e00000, 0x0000120033e00130, 0x0000120034000000)
+[224.063s][debug][gc,heap        ] GC(15)   to   space 2048K,   0% used [0x0000120034000000, 0x0000120034000000, 0x0000120034200000)
+[224.063s][debug][gc,heap        ] GC(15)  tenured generation   total 4096K, used 2022K [0x00001200801f0000, 0x00001200805f0000, 0x0000120100200000)
+[224.063s][debug][gc,heap        ] GC(15)    the space 4096K,  49% used [0x00001200801f0000, 0x00001200803e9940, 0x00001200805f0000)
+[224.063s][debug][gc,heap        ] GC(15)  Metaspace       used 353K, committed 576K, reserved 1114112K
+[224.063s][debug][gc,heap        ] GC(15)   class space    used 58K, committed 128K, reserved 1048576K
+[224.063s][info ][gc             ] GC(15) Pause Young (Allocation Failure) 829M->1M(834M) 209.539ms
+[224.063s][info ][gc,cpu         ] GC(15) User=0.21s Sys=0.00s Real=0.22s
+[224.063s][info ][safepoint      ] Safepoint "SerialCollectForAllocation", Time since last: 16228012488 ns, Reaching safepoint: 38887 ns, At safepoint: 209601045 ns, Total: 209639932 ns
+[240.299s][info ][gc,start       ] GC(16) Pause Young (Allocation Failure)
+[240.299s][debug][gc,heap        ] GC(16) Heap before GC invocations=16 (full 4):
+[240.299s][debug][gc,heap        ] GC(16)  def new generation   total 849920K, used 847872K [0x0000120000200000, 0x0000120034200000, 0x00001200801f0000)
+[240.299s][debug][gc,heap        ] GC(16)   eden space 847872K, 100% used [0x0000120000200000, 0x0000120033e00000, 0x0000120033e00000)
+[240.299s][debug][gc,heap        ] GC(16)   from space 2048K,   0% used [0x0000120033e00000, 0x0000120033e00130, 0x0000120034000000)
+[240.299s][debug][gc,heap        ] GC(16)   to   space 2048K,   0% used [0x0000120034000000, 0x0000120034000000, 0x0000120034200000)
+[240.299s][debug][gc,heap        ] GC(16)  tenured generation   total 4096K, used 2022K [0x00001200801f0000, 0x00001200805f0000, 0x0000120100200000)
+[240.299s][debug][gc,heap        ] GC(16)    the space 4096K,  49% used [0x00001200801f0000, 0x00001200803e9940, 0x00001200805f0000)
+[240.299s][debug][gc,heap        ] GC(16)  Metaspace       used 353K, committed 576K, reserved 1114112K
+[240.299s][debug][gc,heap        ] GC(16)   class space    used 58K, committed 128K, reserved 1048576K
+[240.303s][debug][gc,tlab        ] GC(16) TLAB totals: thrds: 2  refills: 101 max: 51 slow allocs: 0 max 0 waste:  0.7% gc: 5915848B max: 5915848B slow: 2912B max: 1504B
+[240.304s][debug][gc,ref         ] GC(16) Skipped SoftWeakFinalRefsPhase of Reference Processing: no references
+[240.304s][debug][gc,ref         ] GC(16) Skipped KeepAliveFinalRefsPhase of Reference Processing: no references
+[240.304s][debug][gc,ref         ] GC(16) Skipped PhantomRefsPhase of Reference Processing: no references
+[240.304s][debug][gc,phases,ref  ] GC(16) Reference Processing: 0.0ms
+[240.304s][debug][gc,phases,ref  ] GC(16)   Notify Soft/WeakReferences: 0.0ms
+[240.304s][debug][gc,phases,ref  ] GC(16)     SoftRef: skipped
+[240.304s][debug][gc,phases,ref  ] GC(16)     WeakRef: skipped
+[240.304s][debug][gc,phases,ref  ] GC(16)     FinalRef: skipped
+[240.304s][debug][gc,phases,ref  ] GC(16)     Total: skipped
+[240.304s][debug][gc,phases,ref  ] GC(16)   Notify and keep alive finalizable: 0.0ms
+[240.304s][debug][gc,phases,ref  ] GC(16)     FinalRef: skipped
+[240.304s][debug][gc,phases,ref  ] GC(16)   Notify PhantomReferences: 0.0ms
+[240.304s][debug][gc,phases,ref  ] GC(16)     PhantomRef: skipped
+[240.304s][debug][gc,phases,ref  ] GC(16)   SoftReference Discovered: 0, Dropped: 0, Processed: 0
+[240.304s][debug][gc,phases,ref  ] GC(16)   WeakReference Discovered: 0, Dropped: 0, Processed: 0
+[240.304s][debug][gc,phases,ref  ] GC(16)   FinalReference Discovered: 0, Dropped: 0, Processed: 0
+[240.304s][debug][gc,phases,ref  ] GC(16)   PhantomReference Discovered: 0, Dropped: 0, Processed: 0
+[240.513s][debug][gc,age         ] GC(16) Desired survivor size 1048576 bytes, new threshold 15 (max threshold 15)
+[240.513s][debug][gc,ergo        ] GC(16) Adaptive Heap Sizing: Computing GC overhead from 239.730s window with pause time=4.630000s
+[240.513s][info ][gc,ergo        ] GC(16) Adaptive Heap Sizing: GC Overhead: 1. User=0.220000s Sys=0.000000s Real=0.210000s, Time since last GC=16.440000s
+[240.513s][info ][gc,heap        ] GC(16) DefNew: 847872K(849920K)->0K(849920K) Eden: 847872K(847872K)->0K(847872K) From: 0K(2048K)->0K(2048K)
+[240.513s][info ][gc,heap        ] GC(16) Tenured: 2022K(4096K)->2022K(4096K)
+[240.513s][info ][gc,metaspace   ] GC(16) Metaspace: 353K(576K)->353K(576K) NonClass: 295K(448K)->295K(448K) Class: 58K(128K)->58K(128K)
+[240.513s][debug][gc,heap        ] GC(16) Heap after GC invocations=17 (full 4):
+[240.513s][debug][gc,heap        ] GC(16)  def new generation   total 849920K, used 0K [0x0000120000200000, 0x0000120034200000, 0x00001200801f0000)
+[240.513s][debug][gc,heap        ] GC(16)   eden space 847872K,   0% used [0x0000120000200000, 0x0000120000200000, 0x0000120033e00000)
+[240.513s][debug][gc,heap        ] GC(16)   from space 2048K,   0% used [0x0000120034000000, 0x0000120034000170, 0x0000120034200000)
+[240.513s][debug][gc,heap        ] GC(16)   to   space 2048K,   0% used [0x0000120033e00000, 0x0000120033e00000, 0x0000120034000000)
+[240.513s][debug][gc,heap        ] GC(16)  tenured generation   total 4096K, used 2022K [0x00001200801f0000, 0x00001200805f0000, 0x0000120100200000)
+[240.513s][debug][gc,heap        ] GC(16)    the space 4096K,  49% used [0x00001200801f0000, 0x00001200803e9940, 0x00001200805f0000)
+[240.513s][debug][gc,heap        ] GC(16)  Metaspace       used 353K, committed 576K, reserved 1114112K
+[240.513s][debug][gc,heap        ] GC(16)   class space    used 58K, committed 128K, reserved 1048576K
+[240.513s][info ][gc             ] GC(16) Pause Young (Allocation Failure) 829M->1M(834M) 214.446ms
+[240.513s][info ][gc,cpu         ] GC(16) User=0.22s Sys=0.00s Real=0.21s
+[240.513s][info ][safepoint      ] Safepoint "SerialCollectForAllocation", Time since last: 16235750001 ns, Reaching safepoint: 56710 ns, At safepoint: 214510481 ns, Total: 214567191 ns
